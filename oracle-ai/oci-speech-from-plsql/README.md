@@ -14,6 +14,15 @@ Speech is the awkward worked example, because it is asynchronous **and indirect*
 | 4 | `GET` the job's output folder, **listed** | the name of an object |
 | 5 | `GET` that object | the JSON you wanted |
 
+
+## The scripts
+
+| | |
+|---|---|
+| [`00_check.sql`](00_check.sql) | **READ-ONLY.** Credential, host ACE, wallet ACE. Empty here means start at `../dbms-cloud-on-prem/` |
+| [`01_pipeline_pkg.sql`](01_pipeline_pkg.sql) | The whole round trip: upload, create job, poll, list the output folder, fetch, parse |
+| [`02_schedule.sql`](02_schedule.sql) | The collector job, and the query that tells you it is missing |
+
 ## Four things that cost time
 
 **`ORA-40441` on every job.** The create-job reply runs well over a thousand

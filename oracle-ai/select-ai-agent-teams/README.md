@@ -14,6 +14,16 @@ Measured on a five-turn script, with a non-reasoning model:
 The reasoning model fixed the invented figures and **none of the sequencing**, at
 roughly twice the latency.
 
+
+## The scripts
+
+| | |
+|---|---|
+| [`00_inspect.sql`](00_inspect.sql) | **READ-ONLY.** Tools, tasks, teams, the `AGENT$` profiles, and the task-history view |
+| [`01_one_tool.sql`](01_one_tool.sql) | One tool, with the every-turn instruction |
+| [`02_current_prompt.sql`](02_current_prompt.sql) | Reading what the user really typed, with the count check |
+| [`03_task_and_team.sql`](03_task_and_team.sql) | The task and team, with routing already moved out |
+
 ## The three findings
 
 **The model paraphrases its own tool arguments.** Given a full sentence it called the

@@ -18,6 +18,18 @@ becomes a query instead of somebody's recollection.
 Training is the easy half. **Three of these five have no accuracy at all**, and that
 is where the design lives.
 
+
+## The scripts
+
+| | |
+|---|---|
+| [`00_registry.sql`](00_registry.sql) | `AI_COMPONENT` and `MODEL_CANDIDATE`: keeping the losers is the point |
+| [`01_classification.sql`](01_classification.sql) | Five candidates, selected on balanced accuracy |
+| [`02_clustering.sql`](02_clustering.sql) | Seven candidates, selected on mean cluster probability |
+| [`03_anomaly_oneclass.sql`](03_anomaly_oneclass.sql) | `CLASSIFICATION` with a null target, and the measurement trap |
+| [`04_timeseries_scope.sql`](04_timeseries_scope.sql) | The 32,767 ceiling, the partition map, the fallback |
+| [`05_association.sql`](05_association.sql) | Apriori, and recommending by joining the rules |
+
 ## One line worth searching for
 
 Anomaly detection is `CLASSIFICATION` with no target:
