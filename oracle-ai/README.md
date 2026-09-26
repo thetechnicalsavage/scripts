@@ -12,6 +12,7 @@ Database 26ai Enterprise Edition in a container, September 2026.
 | [`oci-speech-from-plsql/`](oci-speech-from-plsql/) | Driving an OCI AI service with `SEND_REQUEST` |
 | [`oml-bakeoff/`](oml-bakeoff/) | Five mining functions, five selection metrics |
 | [`select-ai-agent-teams/`](select-ai-agent-teams/) | Where the routing belongs |
+| [`ords-mcp-server/`](ords-mcp-server/) | An AI client talking to your own database over MCP |
 
 **Start with [`dbms-cloud-on-prem/00_diagnose.sql`](dbms-cloud-on-prem/00_diagnose.sql).**
 Every other directory assumes `DBMS_CLOUD` is already working, and on a non-Autonomous

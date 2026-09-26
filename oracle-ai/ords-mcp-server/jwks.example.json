@@ -1,0 +1,12 @@
+{
+  "keys": [
+    {
+      "kty": "RSA",
+      "use": "sig",
+      "alg": "RS256",
+      "kid": "ords-mcp-demo-key",
+      "n": "nv888qVGru40u8tQ1sB6ACvdu3SesN8bxrzy7teaDpawzlZ7u4j0OFF_RmHCuaXlR4oRD1PonYClJYKwZyw9r8ChvDfFOnc_rDRoWj-C9DJq0VltTPWpSfY3oNE5SIaAmg1hcQhUM4vWNRa6tc9_xtVBlv-_VB-mAKo1cgCSIHZnisejgV4YlNRQJJokab2pqJrrdizVHraFVE6FmgPyEKci4FMbSRrHQvkgEqSxMWmTCBkqv3LNLMiEoV2rXEbqYor6v4jX2QBg6YinGYX5nw8m2CCzotmndkXh-dvjIFM0gn4-mZG8nK4Wd5EjRADJhaj9WuiMMPt9OYkvjrdmsQ",
+      "e": "AQAB"
+    }
+  ]
+}
