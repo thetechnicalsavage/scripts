@@ -1,0 +1,13 @@
+utc,profile,stage,set,run,questions,executed,correct,accuracy_pct,median_generate_ms
+2026-09-27T16:19:40Z,NL2SQL_LAB_AI,S0_baseline,question,1,22,17,4,18.2,3289
+2026-09-27T16:21:47Z,NL2SQL_LAB_AI,S1_comments,question,1,22,20,17,77.3,3374
+2026-09-27T16:24:00Z,NL2SQL_LAB_AI,S2_annotations,question,1,22,22,18,81.8,3861
+2026-09-27T16:26:47Z,NL2SQL_LAB_AI,S3_constraints,question,1,22,22,19,86.4,3725
+2026-09-27T16:28:59Z,NL2SQL_LAB_AI,S4_object_list,question,1,22,22,19,86.4,7562
+2026-09-27T16:32:56Z,NL2SQL_LAB_AI,S5_views,question,1,22,14,13,59.1,5532
+2026-09-27T16:35:38Z,NL2SQL_LAB_AI,S5b_views_replace,question,1,22,21,18,81.8,4352
+2026-09-27T16:38:03Z,NL2SQL_LAB_AI,S5c_view_vocabulary,question,1,22,21,19,86.4,4339
+2026-09-27T16:40:14Z,NL2SQL_LAB_AI,S5c_view_vocabulary,paraphrase,1,22,21,15,68.2,5090
+2026-09-27T16:43:39Z,NL2SQL_LAB_AI,S6_feedback,question,1,22,22,21,95.5,4114
+2026-09-27T16:45:44Z,NL2SQL_LAB_AI,S6_feedback,paraphrase,1,22,22,19,86.4,4734
+2026-09-27T16:50:30Z,NL2SQL_LAB_AUTO,S7_automated,question,1,22,18,16,72.7,5611

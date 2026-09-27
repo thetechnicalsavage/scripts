@@ -1,0 +1,204 @@
+{
+ "version": "v1.2",
+ "notes": [
+  "Each question has one or more gold SQL statements. A generated answer is correct when its result set matches ANY gold result (see eval_nl2sql.py for the comparison rule).",
+  "Alternative golds exist only where a code and a name are equally valid answers (e.g. category code ELEC vs name Electronics).",
+  "Business rules the golds encode: revenue = SUM(ORD_LN.NET_AMT) of orders with STS_CD='C'; FY2025 = 01-APR-2025..31-MAR-2026; online = CHNL_CD in ('WB','MP'); customer region = CUST_MST.RGN_CD of the ordering customer; order counts include every status unless one is named; gross margin = NET_AMT - QTY*UNIT_COST.",
+  "The paraphrase of each question is used only to test whether feedback generalises to wording it has never seen.",
+  "Q01 and Q02 also accept an active-customers-only count, since 'customers we have' can reasonably mean active ones.",
+  "v1.1: Q13 and Q21 also accept channel names (Store/Web/Marketplace) as well as codes, added after the semantic views returned names. Every stage was re-graded with v1.1 golds by rescore.py from the stored SQL, so all stages are scored identically.",
+  "v1.2 (after adversarial review): Q09 asks to RANK, so it is marked ordered and its golds carry ORDER BY; an answer must return the product lines in revenue order. All stages were re-graded with v1.2."
+ ],
+ "questions": [
+  {
+   "id": "Q01",
+   "question": "How many customers do we have?",
+   "paraphrase": "What is our total customer count?",
+   "gold": [
+    "select count(*) from cust_mst",
+    "select count(*) from cust_mst where actv_flg = 'Y'"
+   ]
+  },
+  {
+   "id": "Q02",
+   "question": "How many customers are in the South region?",
+   "paraphrase": "Count the customers located in the southern region.",
+   "gold": [
+    "select count(*) from cust_mst where rgn_cd = 'S'",
+    "select count(*) from cust_mst where rgn_cd = 'S' and actv_flg = 'Y'"
+   ]
+  },
+  {
+   "id": "Q03",
+   "question": "What was our total revenue in calendar year 2025?",
+   "paraphrase": "How much did we earn in sales between January and December 2025?",
+   "gold": [
+    "select sum(l.net_amt) from ord_hdr h join ord_ln l on l.ord_no = h.ord_no where h.sts_cd = 'C' and h.ord_dt >= date '2025-01-01' and h.ord_dt < date '2026-01-01'"
+   ]
+  },
+  {
+   "id": "Q04",
+   "question": "Show total revenue by product category for fiscal year 2025.",
+   "paraphrase": "Break down FY2025 sales by product category.",
+   "gold": [
+    "select k.cat_desc, sum(l.net_amt) from ord_hdr h join ord_ln l on l.ord_no = h.ord_no join prd_mst p on p.prd_id = l.prd_id join cat_lkp k on k.cat_cd = p.cat_cd where h.sts_cd = 'C' and h.ord_dt >= date '2025-04-01' and h.ord_dt < date '2026-04-01' group by k.cat_desc",
+    "select p.cat_cd, sum(l.net_amt) from ord_hdr h join ord_ln l on l.ord_no = h.ord_no join prd_mst p on p.prd_id = l.prd_id where h.sts_cd = 'C' and h.ord_dt >= date '2025-04-01' and h.ord_dt < date '2026-04-01' group by p.cat_cd"
+   ]
+  },
+  {
+   "id": "Q05",
+   "question": "Which 5 products generated the most revenue in calendar year 2025?",
+   "paraphrase": "List our five best-selling products by sales value for 2025.",
+   "gold": [
+    "select p.prd_desc, sum(l.net_amt) r from ord_hdr h join ord_ln l on l.ord_no = h.ord_no join prd_mst p on p.prd_id = l.prd_id where h.sts_cd = 'C' and h.ord_dt >= date '2025-01-01' and h.ord_dt < date '2026-01-01' group by p.prd_desc order by r desc fetch first 5 rows only",
+    "select l.prd_id, sum(l.net_amt) r from ord_hdr h join ord_ln l on l.ord_no = h.ord_no where h.sts_cd = 'C' and h.ord_dt >= date '2025-01-01' and h.ord_dt < date '2026-01-01' group by l.prd_id order by r desc fetch first 5 rows only"
+   ]
+  },
+  {
+   "id": "Q06",
+   "question": "How many orders were cancelled in fiscal year 2024?",
+   "paraphrase": "What was the number of cancelled orders during FY2024?",
+   "gold": [
+    "select count(*) from ord_hdr where sts_cd = 'X' and ord_dt >= date '2024-04-01' and ord_dt < date '2025-04-01'"
+   ]
+  },
+  {
+   "id": "Q07",
+   "question": "What was the average order value of online orders in calendar year 2025?",
+   "paraphrase": "For 2025, what did an average online order come to?",
+   "gold": [
+    "select avg(t) from (select h.ord_no, sum(l.net_amt) t from ord_hdr h join ord_ln l on l.ord_no = h.ord_no where h.sts_cd = 'C' and h.chnl_cd in ('WB', 'MP') and h.ord_dt >= date '2025-01-01' and h.ord_dt < date '2026-01-01' group by h.ord_no)"
+   ]
+  },
+  {
+   "id": "Q08",
+   "question": "Show revenue by customer region for fiscal year 2025.",
+   "paraphrase": "How did FY2025 sales split across our customer regions?",
+   "gold": [
+    "select r.rgn_nm, sum(l.net_amt) from ord_hdr h join ord_ln l on l.ord_no = h.ord_no join cust_mst c on c.cust_no = h.cust_no join rgn_mst r on r.rgn_cd = c.rgn_cd where h.sts_cd = 'C' and h.ord_dt >= date '2025-04-01' and h.ord_dt < date '2026-04-01' group by r.rgn_nm",
+    "select c.rgn_cd, sum(l.net_amt) from ord_hdr h join ord_ln l on l.ord_no = h.ord_no join cust_mst c on c.cust_no = h.cust_no where h.sts_cd = 'C' and h.ord_dt >= date '2025-04-01' and h.ord_dt < date '2026-04-01' group by c.rgn_cd"
+   ]
+  },
+  {
+   "id": "Q09",
+   "question": "Rank the product lines by booked revenue for fiscal year 2024.",
+   "paraphrase": "Order our product lines from highest to lowest booked sales in FY2024.",
+   "gold": [
+    "select k.cat_desc, sum(l.net_amt) from ord_hdr h join ord_ln l on l.ord_no = h.ord_no join prd_mst p on p.prd_id = l.prd_id join cat_lkp k on k.cat_cd = p.cat_cd where h.sts_cd = 'C' and h.ord_dt >= date '2024-04-01' and h.ord_dt < date '2025-04-01' group by k.cat_desc order by sum(l.net_amt) desc",
+    "select p.cat_cd, sum(l.net_amt) from ord_hdr h join ord_ln l on l.ord_no = h.ord_no join prd_mst p on p.prd_id = l.prd_id where h.sts_cd = 'C' and h.ord_dt >= date '2024-04-01' and h.ord_dt < date '2025-04-01' group by p.cat_cd order by sum(l.net_amt) desc"
+   ],
+   "ordered": true
+  },
+  {
+   "id": "Q10",
+   "question": "What was the gross margin by product category in calendar year 2025?",
+   "paraphrase": "Show 2025 gross profit for each product category.",
+   "gold": [
+    "select k.cat_desc, sum(l.net_amt - l.qty * p.unit_cost) from ord_hdr h join ord_ln l on l.ord_no = h.ord_no join prd_mst p on p.prd_id = l.prd_id join cat_lkp k on k.cat_cd = p.cat_cd where h.sts_cd = 'C' and h.ord_dt >= date '2025-01-01' and h.ord_dt < date '2026-01-01' group by k.cat_desc",
+    "select p.cat_cd, sum(l.net_amt - l.qty * p.unit_cost) from ord_hdr h join ord_ln l on l.ord_no = h.ord_no join prd_mst p on p.prd_id = l.prd_id where h.sts_cd = 'C' and h.ord_dt >= date '2025-01-01' and h.ord_dt < date '2026-01-01' group by p.cat_cd"
+   ]
+  },
+  {
+   "id": "Q11",
+   "question": "How many wholesale customers placed at least one completed order in March 2026?",
+   "paraphrase": "In March 2026, how many of our wholesale accounts had a completed order?",
+   "gold": [
+    "select count(distinct h.cust_no) from ord_hdr h join cust_mst c on c.cust_no = h.cust_no where c.seg_cd = 'W' and h.sts_cd = 'C' and h.ord_dt >= date '2026-03-01' and h.ord_dt < date '2026-04-01'"
+   ]
+  },
+  {
+   "id": "Q12",
+   "question": "Who were the top 3 customers by revenue in the West region in fiscal year 2025?",
+   "paraphrase": "Name the three biggest West-region customers by FY2025 sales.",
+   "gold": [
+    "select c.cust_nm, sum(l.net_amt) r from ord_hdr h join ord_ln l on l.ord_no = h.ord_no join cust_mst c on c.cust_no = h.cust_no where c.rgn_cd = 'W' and h.sts_cd = 'C' and h.ord_dt >= date '2025-04-01' and h.ord_dt < date '2026-04-01' group by c.cust_nm order by r desc fetch first 3 rows only",
+    "select h.cust_no, sum(l.net_amt) r from ord_hdr h join ord_ln l on l.ord_no = h.ord_no join cust_mst c on c.cust_no = h.cust_no where c.rgn_cd = 'W' and h.sts_cd = 'C' and h.ord_dt >= date '2025-04-01' and h.ord_dt < date '2026-04-01' group by h.cust_no order by r desc fetch first 3 rows only"
+   ]
+  },
+  {
+   "id": "Q13",
+   "question": "What percentage of orders were returned in calendar year 2025 for each sales channel? Round to one decimal place.",
+   "paraphrase": "By sales channel, what share of 2025 orders came back as returns, as a percentage to one decimal?",
+   "gold": [
+    "select chnl_cd, round(100 * sum(case when sts_cd = 'R' then 1 else 0 end) / count(*), 1) from ord_hdr where ord_dt >= date '2025-01-01' and ord_dt < date '2026-01-01' group by chnl_cd",
+    "select decode(chnl_cd, 'ST', 'Store', 'WB', 'Web', 'MP', 'Marketplace'), round(100 * sum(case when sts_cd = 'R' then 1 else 0 end) / count(*), 1) from ord_hdr where ord_dt >= date '2025-01-01' and ord_dt < date '2026-01-01' group by chnl_cd"
+   ]
+  },
+  {
+   "id": "Q14",
+   "question": "What was the total revenue for the first quarter of fiscal year 2025?",
+   "paraphrase": "How much revenue did we book in Q1 of FY2025?",
+   "gold": [
+    "select sum(l.net_amt) from ord_hdr h join ord_ln l on l.ord_no = h.ord_no where h.sts_cd = 'C' and h.ord_dt >= date '2025-04-01' and h.ord_dt < date '2025-07-01'"
+   ]
+  },
+  {
+   "id": "Q15",
+   "question": "How many customers who joined in 2025 have never placed an order?",
+   "paraphrase": "Of the customers who signed up during 2025, how many have not ordered anything yet?",
+   "gold": [
+    "select count(*) from cust_mst c where c.join_dt >= date '2025-01-01' and c.join_dt < date '2026-01-01' and not exists (select 1 from ord_hdr h where h.cust_no = c.cust_no)"
+   ]
+  },
+  {
+   "id": "Q16",
+   "question": "How many Electronics units did we sell in calendar year 2025?",
+   "paraphrase": "What quantity of electronics items was sold in 2025?",
+   "gold": [
+    "select sum(l.qty) from ord_hdr h join ord_ln l on l.ord_no = h.ord_no join prd_mst p on p.prd_id = l.prd_id where p.cat_cd = 'ELEC' and h.sts_cd = 'C' and h.ord_dt >= date '2025-01-01' and h.ord_dt < date '2026-01-01'"
+   ]
+  },
+  {
+   "id": "Q17",
+   "question": "Which region had the most marketplace orders in calendar year 2025?",
+   "paraphrase": "In 2025, which customer region placed the highest number of marketplace orders?",
+   "gold": [
+    "select r.rgn_nm from ord_hdr h join cust_mst c on c.cust_no = h.cust_no join rgn_mst r on r.rgn_cd = c.rgn_cd where h.chnl_cd = 'MP' and h.ord_dt >= date '2025-01-01' and h.ord_dt < date '2026-01-01' group by r.rgn_nm order by count(*) desc fetch first 1 row only",
+    "select c.rgn_cd from ord_hdr h join cust_mst c on c.cust_no = h.cust_no where h.chnl_cd = 'MP' and h.ord_dt >= date '2025-01-01' and h.ord_dt < date '2026-01-01' group by c.rgn_cd order by count(*) desc fetch first 1 row only"
+   ]
+  },
+  {
+   "id": "Q18",
+   "question": "What was the average discount percentage on completed order lines in fiscal year 2025?",
+   "paraphrase": "On completed order lines in FY2025, what discount percent did we give on average?",
+   "gold": [
+    "select avg(l.disc_pct) from ord_hdr h join ord_ln l on l.ord_no = h.ord_no where h.sts_cd = 'C' and h.ord_dt >= date '2025-04-01' and h.ord_dt < date '2026-04-01'"
+   ]
+  },
+  {
+   "id": "Q19",
+   "question": "Which regions beat their sales target in fiscal year 2025?",
+   "paraphrase": "List the regions whose FY2025 revenue exceeded target.",
+   "gold": [
+    "select r.rgn_nm from rgn_mst r join sls_tgt t on t.rgn_cd = r.rgn_cd and t.fisc_yr = 'FY2025' where t.tgt_amt < (select sum(l.net_amt) from ord_hdr h join ord_ln l on l.ord_no = h.ord_no join cust_mst c on c.cust_no = h.cust_no where c.rgn_cd = r.rgn_cd and h.sts_cd = 'C' and h.ord_dt >= date '2025-04-01' and h.ord_dt < date '2026-04-01')",
+    "select t.rgn_cd from sls_tgt t where t.fisc_yr = 'FY2025' and t.tgt_amt < (select sum(l.net_amt) from ord_hdr h join ord_ln l on l.ord_no = h.ord_no join cust_mst c on c.cust_no = h.cust_no where c.rgn_cd = t.rgn_cd and h.sts_cd = 'C' and h.ord_dt >= date '2025-04-01' and h.ord_dt < date '2026-04-01')"
+   ]
+  },
+  {
+   "id": "Q20",
+   "question": "What was the total revenue in March 2026?",
+   "paraphrase": "How much revenue did we make during the month of March 2026?",
+   "gold": [
+    "select sum(l.net_amt) from ord_hdr h join ord_ln l on l.ord_no = h.ord_no where h.sts_cd = 'C' and h.ord_dt >= date '2026-03-01' and h.ord_dt < date '2026-04-01'"
+   ]
+  },
+  {
+   "id": "Q21",
+   "question": "How much revenue did each sales channel generate in fiscal year 2025?",
+   "paraphrase": "Split FY2025 revenue by sales channel.",
+   "gold": [
+    "select h.chnl_cd, sum(l.net_amt) from ord_hdr h join ord_ln l on l.ord_no = h.ord_no where h.sts_cd = 'C' and h.ord_dt >= date '2025-04-01' and h.ord_dt < date '2026-04-01' group by h.chnl_cd",
+    "select decode(h.chnl_cd, 'ST', 'Store', 'WB', 'Web', 'MP', 'Marketplace'), sum(l.net_amt) from ord_hdr h join ord_ln l on l.ord_no = h.ord_no where h.sts_cd = 'C' and h.ord_dt >= date '2025-04-01' and h.ord_dt < date '2026-04-01' group by h.chnl_cd"
+   ]
+  },
+  {
+   "id": "Q22",
+   "question": "Which 5 customers grew their revenue the most from fiscal year 2024 to fiscal year 2025?",
+   "paraphrase": "Show the five customers with the largest increase in sales from FY2024 to FY2025.",
+   "gold": [
+    "select c.cust_nm, sum(case when h.ord_dt >= date '2025-04-01' then l.net_amt else 0 end) - sum(case when h.ord_dt < date '2025-04-01' then l.net_amt else 0 end) g from ord_hdr h join ord_ln l on l.ord_no = h.ord_no join cust_mst c on c.cust_no = h.cust_no where h.sts_cd = 'C' and h.ord_dt >= date '2024-04-01' and h.ord_dt < date '2026-04-01' group by c.cust_nm order by g desc fetch first 5 rows only",
+    "select h.cust_no, sum(case when h.ord_dt >= date '2025-04-01' then l.net_amt else 0 end) - sum(case when h.ord_dt < date '2025-04-01' then l.net_amt else 0 end) g from ord_hdr h join ord_ln l on l.ord_no = h.ord_no where h.sts_cd = 'C' and h.ord_dt >= date '2024-04-01' and h.ord_dt < date '2026-04-01' group by h.cust_no order by g desc fetch first 5 rows only"
+   ]
+  }
+ ]
+}

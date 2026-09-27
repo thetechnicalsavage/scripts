@@ -1,0 +1,13 @@
+stage,set,published_pct,exact_numbers_pct,exact_columns_pct,first_gold_pct,strict_pct
+S0_baseline,question,24.2,24.2,19.7,24.2,19.7
+S1_comments,question,75.8,75.8,63.6,75.8,63.6
+S2_annotations,question,86.4,86.4,63.6,86.4,63.6
+S3_constraints,question,86.4,86.4,65.2,86.4,65.2
+S4_object_list,question,86.4,86.4,68.2,86.4,68.2
+S5_views,question,59.1,59.1,54.5,50.0,45.5
+S5b_views_replace,question,86.4,86.4,72.7,78.8,65.2
+S5c_view_vocabulary,question,86.4,86.4,68.2,80.3,62.1
+S5c_view_vocabulary,paraphrase,80.3,80.3,66.7,72.7,59.1
+S6_feedback,question,97.0,97.0,84.8,87.9,75.8
+S6_feedback,paraphrase,92.4,92.4,77.3,87.9,72.7
+S7_automated,question,69.7,69.7,68.2,57.6,57.6

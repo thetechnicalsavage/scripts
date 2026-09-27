@@ -1,0 +1,3 @@
+stage,set,published_pct,exact_numbers_pct,exact_columns_pct,first_gold_pct,strict_pct
+X_csv_unset,question,86.4,86.4,68.2,78.8,60.6
+X_csv_true,question,90.9,90.9,72.7,81.8,63.6

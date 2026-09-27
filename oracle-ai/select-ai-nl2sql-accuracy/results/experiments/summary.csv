@@ -1,0 +1,7 @@
+utc,profile,stage,set,run,questions,executed,correct,accuracy_pct,median_generate_ms
+2026-09-27T15:07:27Z,NL2SQL_LAB_CSV_UNSET,X_csv_unset,question,1,22,21,18,81.8,3593
+2026-09-27T15:07:27Z,NL2SQL_LAB_CSV_UNSET,X_csv_unset,question,2,22,21,19,86.4,3468
+2026-09-27T15:07:27Z,NL2SQL_LAB_CSV_UNSET,X_csv_unset,question,3,22,22,20,90.9,3901
+2026-09-27T15:12:39Z,NL2SQL_LAB_CSV_TRUE,X_csv_true,question,1,22,21,20,90.9,3437
+2026-09-27T15:12:39Z,NL2SQL_LAB_CSV_TRUE,X_csv_true,question,2,22,22,20,90.9,3242
+2026-09-27T15:12:39Z,NL2SQL_LAB_CSV_TRUE,X_csv_true,question,3,22,21,20,90.9,3430
