@@ -1,6 +1,7 @@
--- v1.0 | 04_smoke_test.sql | READ-ONLY against your database
+-- v1.1 | 04_smoke_test.sql | READ-ONLY against your database
+-- v1.1 2026-09-27: "four" prerequisites is now "five", matching the corrected README.
 --
--- Proves the whole outbound path in one call. If this returns 200, all four
+-- Proves the whole outbound path in one call. If this returns 200, all five
 -- prerequisites are satisfied. If it fails, run 00_diagnose.sql: the first
 -- check that comes back empty is the reason.
 --
@@ -21,7 +22,7 @@ begin
   l_code := dbms_cloud.get_response_status_code(l_resp);
   dbms_output.put_line('HTTP '||l_code);
   if l_code between 200 and 299 then
-    dbms_output.put_line('All four prerequisites are satisfied.');
+    dbms_output.put_line('All five prerequisites are satisfied.');
   else
     dbms_output.put_line('Reached the endpoint but it refused. The database '||
                          'side is working; this is an authorization or URL '||

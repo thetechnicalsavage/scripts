@@ -6,7 +6,7 @@ Database 26ai Enterprise Edition in a container, September 2026.
 
 | | |
 |---|---|
-| [`dbms-cloud-on-prem/`](dbms-cloud-on-prem/) | Why `SELECT AI` fails on your own database, and the four prerequisites |
+| [`dbms-cloud-on-prem/`](dbms-cloud-on-prem/) | Why `SELECT AI` fails on your own database, and the five prerequisites |
 | [`onnx-embeddings-vector-search/`](onnx-embeddings-vector-search/) | Two vector patterns, and how to choose |
 | [`select-ai-nl2sql/`](select-ai-nl2sql/) | The profile, and the row-level security underneath |
 | [`oci-speech-from-plsql/`](oci-speech-from-plsql/) | Driving an OCI AI service with `SEND_REQUEST` |

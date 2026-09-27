@@ -1,9 +1,9 @@
 # ONNX embeddings and AI Vector Search
 
 The embedding model is a database object. `VECTOR_EMBEDDING(MY_MODEL USING txt AS data)`
-is a SQL expression that runs in the same process as the query calling it, so the text
-never leaves, there is no key to rotate, and the vector can sit beside the row it
-describes.
+is a SQL expression that runs inside the database, as part of the SQL statement that
+calls it, so the text never leaves, there is no key to rotate, and the vector can sit
+beside the row it describes.
 
 There are **two patterns**, for two genuinely different shapes of problem. Picking the
 wrong one produces an application nobody wants to use.
@@ -20,7 +20,7 @@ wrong one produces an application nobody wants to use.
 | Right when | someone uploads documents | the text comes from data you already own |
 
 **The decision rule: if there is no file, there is no reason for a file-management
-screen.** And the consequence people miss is at query time — pattern B can rank on
+screen.** And the consequence people miss is at query time: pattern B can rank on
 distance and filter on `line_type` or price in the same statement. A document index
 cannot.
 
@@ -29,7 +29,8 @@ cannot.
 | | |
 |---|---|
 | [`00_check.sql`](00_check.sql) | **READ-ONLY.** Is the model there, how many dimensions, what indexes exist |
-| [`01_grants.sql`](01_grants.sql) | `DBMS_VECTOR` grants, and `EXECUTE` on the model |
+| [`01_grants.sql`](01_grants.sql) | `SELECT ON MINING MODEL` for a model in another schema, and the optional `DBMS_VECTOR` grants |
+| [`02_load_model.sql`](02_load_model.sql) | Load Oracle's prebuilt `all_MiniLM_L12_v2`, the way Oracle documents it |
 | [`03_vector_column.sql`](03_vector_column.sql) | Pattern B: the table and the embedding `UPDATE` |
 | [`04_search_with_fallback.sql`](04_search_with_fallback.sql) | Approximate search with an exact fallback |
 | [`05_index_admin.sql`](05_index_admin.sql) | Pattern A: whitelist the index name, chunks per document |
@@ -47,18 +48,25 @@ matching chunks, and something has to sweep chunk groups whose source file is go
 **`PLS-00231`.** A package-private function cannot be called from inside a SQL statement,
 so dictionary lookups get resolved into locals first.
 
-## What is not here
+## Loading the model
 
-**Loading the ONNX model.** The model on the instance these came from was loaded by hand
-and the artefacts are gone, so the load procedure is not documented here rather than
-guessed at. Everything in these scripts is the state of a database where it had already
-been done.
+**The model on the instance measured is Oracle's prebuilt augmented `all_MiniLM_L12_v2`.**
+Its `MODEL_SIZE` is 133,322,334 bytes, the same as the `.onnx` file in Oracle's zip.
+The zip comes from Oracle's
+[Import Pretrained Models in ONNX Format](https://docs.oracle.com/en/database/oracle/oracle-database/26/vecse/import-pretrained-models-onnx-format-vector-generation-database.html)
+page. [`02_load_model.sql`](02_load_model.sql) is Oracle's documented load procedure,
+written out.
 
 ## Prerequisites
 
-Pattern B needs only `DBMS_VECTOR` and `DBMS_VECTOR_CHAIN` granted to the calling schema.
-Pattern A additionally needs `DBMS_CLOUD` enabled, which on a non-Autonomous database is
-[four separate prerequisites](../dbms-cloud-on-prem/).
+Pattern B uses only the SQL functions `VECTOR_EMBEDDING` and `VECTOR_DISTANCE`, so it
+needs no package grant. If the model lives in another schema, the caller needs
+`SELECT` on it (`GRANT SELECT ON MINING MODEL`). A mining model has no `EXECUTE`
+privilege. On the instance measured, the application schema held only that grant on
+the model and embedded all 33 rows of its table with it. Pattern A additionally needs
+`DBMS_CLOUD` enabled, which on a non-Autonomous database is
+[five separate prerequisites](../dbms-cloud-on-prem/).
 
 Written against Oracle AI Database 26ai Enterprise Edition in a container, measured
-2026-09-21. Model `ALL_MINILM_L12_V2`, 384 dimensions.
+2026-09-21. Model `ALL_MINILM_L12_V2`, 384 dimensions. Model size and grants re-checked
+2026-09-27.

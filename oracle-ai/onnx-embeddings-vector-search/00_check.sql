@@ -1,4 +1,5 @@
--- v1.0 | 00_check.sql | READ-ONLY
+-- v1.1 | 00_check.sql | READ-ONLY
+-- v1.1 2026-09-27: the size alias is mib, since model_size/1024/1024 is MiB.
 -- Is the ONNX embedding model there, what does it produce, and what vector
 -- indexes exist? Run as the schema that will call the vector operators.
 
@@ -6,7 +7,7 @@ set pagesize 200 linesize 150 feedback off
 
 prompt === the model ===
 select model_name, mining_function, algorithm,
-       round(model_size/1024/1024, 1) as mb
+       round(model_size/1024/1024, 1) as mib
   from user_mining_models
  where algorithm = 'ONNX'
  order by model_name;

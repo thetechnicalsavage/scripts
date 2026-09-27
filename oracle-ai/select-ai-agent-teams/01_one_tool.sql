@@ -1,4 +1,7 @@
--- v1.0 | 01_one_tool.sql | CHANGES STATE
+-- v1.1 | 01_one_tool.sql | CHANGES STATE
+-- v1.1 2026-09-27: header note only. A later six-turn run of this design still
+--       misfired, so the billing chat it came from no longer runs the agent loop.
+--       See README.md. SQL unchanged.
 --
 -- ONE tool, called on every turn.
 --

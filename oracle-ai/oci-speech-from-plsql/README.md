@@ -49,4 +49,4 @@ the collector at the same time as the submitter.
   provenance of every transcript is visible later
 
 Needs `DBMS_CLOUD`, which on a non-Autonomous database is
-[four separate prerequisites](../dbms-cloud-on-prem/).
+[five separate prerequisites](../dbms-cloud-on-prem/).

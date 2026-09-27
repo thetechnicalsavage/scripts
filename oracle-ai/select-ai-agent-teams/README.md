@@ -38,6 +38,14 @@ same instant both have one and nothing in the view separates them.
 what happens next and returns the facts plus a suggested wording. The agent's only job
 is putting it into English, which it does reliably, and the fast model is enough.
 
+**Update, 2026-09-27.** A later six-turn scripted run of the one-tool design still
+misfired. The agent called the tool with the single word `Hi`, looked up a phone
+number it had invented, fed its own previous reply back in, and fed the framework's
+tool envelope back in too. Two turns failed inside `DBMS_CLOUD_AI_AGENT`, and turns
+took between 6 and 108 seconds each. So the billing chat this came from no longer runs
+the agent loop. PL/SQL routes, and one Select AI call words the answer. The team stays
+registered.
+
 ## The part that makes it defensible
 
 The identity gate never depended on the model. The summary and detail code reads the
