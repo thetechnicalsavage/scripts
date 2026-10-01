@@ -1,0 +1,464 @@
+{
+ "version": "1.0",
+ "n": 50,
+ "n_en": 25,
+ "n_ar": 25,
+ "window_chars": [
+  400,
+  1000,
+  2000
+ ],
+ "texts_sha256": "9dbe880f19549886186de594e4acfc016be151cfdf145c36df8de8cbfd23b089",
+ "passages": [
+  {
+   "pid": "en-01",
+   "lang": "en",
+   "source": "gulf/GLF-001-EN-annual-leave-and-public-holidays-policy.txt",
+   "source_sha256": "634fd4f3b66f26b48ed3c00442075ff8c044f020f87400732433c23726a110d4",
+   "start": 0,
+   "chars": 388,
+   "text": "## 1. Purpose and scope\nThis policy sets out the annual leave and public holiday entitlements of employees of Meridian Systems Gulf FZ-LLC. It applies to the head office in Dubai, United Arab Emirates, and to the branches in Riyadh, Kingdom of Saudi Arabia, and Doha, State of Qatar. An employee's entitlement follows the work location named in the employment contract, not the employee's"
+  },
+  {
+   "pid": "en-02",
+   "lang": "en",
+   "source": "india/HRP-034-health-safety-emergency-policy.txt",
+   "source_sha256": "a355be4203639962e857d4994e8fe9a9a1071b4a7594af188c693bfb28617dd1",
+   "start": 2992,
+   "chars": 992,
+   "text": "misses matter and are actively encouraged to be reported**; they are the cheapest source of prevention.\n- Any unsafe condition: a damaged floor or cable, a failed light, a blocked exit, a faulty electrical fitting, a water leak near electrical equipment.\n- Any security incident affecting personal safety.\n\nWorkplace Services investigates every reported incident and publishes the corrective action. Reporting is never penalised.\n\n## 7. Ergonomics\n- Every workstation is set up to an ergonomic standard, with an adjustable chair, monitor riser and keyboard placement guidance.\n- New joiners complete an ergonomic self-assessment in the first week. Remote workers complete the same assessment for the home workstation.\n- An employee reporting discomfort receives an individual assessment by the occupational health adviser within 10 working days, and the recommended equipment is provided.\n\n## 8. Personal safety, transport and late working\n- Access is controlled by card at every entry point."
+  },
+  {
+   "pid": "en-03",
+   "lang": "en",
+   "source": "india/HRP-011-variable-pay-bonus-policy.txt",
+   "source_sha256": "ca80c84bc51713a6b2a8a44ebee021edde69606453c6aaacebd797cc026142b9",
+   "start": 523,
+   "chars": 1996,
+   "text": "the company and the individual perform exactly at plan. It is stated in the appointment letter and in every revised compensation letter.\n\n## 3. How the payout is calculated\n**Payout = Variable pay target x Company performance multiplier x Individual performance factor x Eligibility proportion**\n\n### Company performance multiplier\nSet once a year by the Board after the audited results, based on revenue, operating margin and client satisfaction against plan. The multiplier ranges from **0 to 1.50**. A multiplier below 0.60 requires the Board to record its reasons; a multiplier above 1.25 requires Compensation Committee approval.\n\n| Company performance against plan | Multiplier |\n| Below 85 per cent of plan | 0.00 to 0.50 |\n| 85 to 94 per cent of plan | 0.60 to 0.85 |\n| 95 to 104 per cent of plan | 0.90 to 1.10 |\n| 105 to 114 per cent of plan | 1.15 to 1.30 |\n| 115 per cent of plan and above | 1.35 to 1.50 |\n\n### Individual performance factor\n| Performance rating | Factor |\n| Exceptional | 1.30 |\n| Exceeds expectations | 1.15 |\n| Meets expectations | 1.00 |\n| Partially meets expectations | 0.60 |\n| Does not meet expectations | 0.00 |\n\n### Worked example\nAn employee in grade G4 with a fixed pay of INR 18,00,000 has a variable target of 10 per cent, that is INR 1,80,000. The company multiplier for the year is 1.10 and the employee is rated Exceeds expectations, a factor of 1.15. The employee worked the full year, so the eligibility proportion is 1.00.\n\nPayout = 1,80,000 x 1.10 x 1.15 x 1.00 = **INR 2,27,700**, before tax.\n\n## 4. Eligibility proportion\n- An employee who worked the full performance year has an eligibility proportion of 1.00.\n- An employee who joined during the year is eligible on a pro-rata basis for completed months, provided they joined on or before **30 September** of the performance year. An employee joining after that date is not eligible for that year.\n- Days of Leave Without Pay and sabbatical are excluded from the completed months.\n- Maternity,"
+  },
+  {
+   "pid": "en-04",
+   "lang": "en",
+   "source": "gulf/GLF-E03-EN-learning-sponsorship-and-arabic-language-classes.txt",
+   "source_sha256": "2d6213512424075d853da94c9eeebbf41844bc29a5c5ab4b4e9c7a66569cb777",
+   "start": 947,
+   "chars": 399,
+   "text": "7,800** in KSA and **QAR 7,600** in Qatar. Joiners receive the budget pro-rated by the completed months remaining in the year. The budget covers course fees, exam fees and required course materials. Travel to a course outside the home city needs separate approval under GLF-011.\n\n## 3. Professional certifications\n- Meridian pays the exam fee for the **first attempt**. A second attempt is paid only"
+  },
+  {
+   "pid": "en-05",
+   "lang": "en",
+   "source": "gulf/GLF-E01-EN-remote-work-from-another-gcc-country.txt",
+   "source_sha256": "fa068aff826e9a369376e0ea5cb0d14729d492957cf613cb62e24da12eaab246",
+   "start": 5101,
+   "chars": 996,
+   "text": "cover abroad follows GLF-007, so check the provider network of your plan tier before travelling.\n\n## 7. Requests, approvals and records\n- Submit the request in MyMeridian > Time and Attendance > Remote Work Abroad at least **10 working days** before the first day.\n- The reporting manager approves first, then Country HR. Tax Gulf also approves where section 4 requires it. Each approver responds within **3 working days**.\n- A request with shorter notice is accepted only for a family emergency, with the approval of the Country HR Head, and for no more than **5 working days** per stay.\n- The employee confirms the actual days worked abroad in MyMeridian within **3 working days** of returning.\n\nRemote work abroad without approval is treated as unauthorised absence. Days beyond an approved limit are converted to annual leave and, where no leave balance remains, to unpaid leave.\n\n## 8. Related documents\n- GLF-001 Annual Leave and Public Holidays\n- GLF-005 Residence Visa, Emirates ID, Iqama"
+  },
+  {
+   "pid": "en-06",
+   "lang": "en",
+   "source": "india/HRP-029-moonlighting-dual-employment.txt",
+   "source_sha256": "8bc6adb038639405f0b7d232d10f8c03febd3f8d485a71a4524a1c40d230036c",
+   "start": 2573,
+   "chars": 1998,
+   "text": "needs approval\nManaging personal investments; letting out a residential property; personal creative work with no connection to Meridian's business; participation in a sport or an arts activity, including where prize money is earned; and unpaid volunteering. No declaration is required for these.\n\n## 5. How Meridian detects dual employment\nMeridian applies these checks, and employees should be aware of them:\n- The **Universal Account Number** in the Provident Fund records shows contributions from two employers in the same month. HR Operations reviews the exception report quarterly.\n- Form 26AS and the Annual Information Statement show tax deducted at source by two employers, which surfaces during the payroll tax reconciliation.\n- Background verification at the time of joining, and periodic re-verification for employees with access to sensitive client environments.\n- Client contractual audits, where a client requires confirmation that named personnel are exclusively deployed.\n\nMeridian does **not** monitor employees' personal devices, personal social media accounts or personal bank accounts for this purpose.\n\n## 6. What happens on detection\n- HR Operations raises the exception with the employee and asks for an explanation within 7 days. There are innocent explanations, most commonly a previous employer's delayed final contribution, and these are resolved without further action.\n- Where the employee confirms an undeclared engagement that would have been approved, and the disclosure is prompt and complete, the outcome is normally a written warning and a requirement to regularise or cease the engagement.\n- Where there is undeclared **dual employment**, or an engagement with a competitor or a client, or the use of Meridian assets or confidential information, the matter is treated as major misconduct under HRP-028 and normally results in termination.\n- Where client confidential information has been exposed, the client is notified in line with the contract and HRP-033.\n\n##"
+  },
+  {
+   "pid": "en-07",
+   "lang": "en",
+   "source": "india/HRP-009-salary-advance-loan-policy.txt",
+   "source_sha256": "4c35017eb0bbc0ac0516a97ea768d2943885c1328c1003044762272234f6a2e7",
+   "start": 3332,
+   "chars": 398,
+   "text": "the amount and the preferred number of instalments.\n- Attach supporting documents where the facility requires them.\n- The system validates eligibility automatically and will reject the request at submission if an advance is already outstanding, if the employee is unconfirmed, or if the 40 per cent deduction ceiling would be breached.\n- Approved advances are disbursed to the employee's registered"
+  },
+  {
+   "pid": "en-08",
+   "lang": "en",
+   "source": "india/HRP-026-whistleblower-policy.txt",
+   "source_sha256": "dfa818ae1cf28fbcdbd78dd43030a61441b72943bc5ec2c9a20a6f95b3ca6b5a",
+   "start": 4286,
+   "chars": 999,
+   "text": "from the consequences of their own participation in the wrongdoing, although self-reporting is taken into account as a mitigating factor.\n\n## 8. Deliberately false reports\nA report made in good faith that is not substantiated attracts no action whatsoever. A report that the investigator concludes was **knowingly false and made to harm another person** is misconduct under HRP-028. The bar for this finding is deliberately high, and it requires the Audit Committee's concurrence.\n\n## 9. Oversight and reporting\nThe Compliance Officer reports to the Audit Committee every quarter with the number of reports received by category, the status of each investigation, the outcomes and any themes requiring management action. The existence of the vigil mechanism and the fact that no person has been denied access to the Audit Committee are disclosed in the Directors' Report each year.\n\n## 10. Record retention\nCase records are retained for **8 years** from closure, in a restricted repository accessible"
+  },
+  {
+   "pid": "en-09",
+   "lang": "en",
+   "source": "india/ESS-001-apply-cancel-leave.txt",
+   "source_sha256": "7f9ebc71b05210ca27f6c43920ff49cc2a6b3c23eb789a744583ca9ed3d9d039",
+   "start": 324,
+   "chars": 1999,
+   "text": "> Leave Balance**. The screen shows, for each leave type:\n\n| Column | Meaning |\n| Opening balance | The balance carried into the current leave year on 01 January |\n| Accrued | Credited so far this year. Earned Leave accrues 1.5 days at the end of each completed month |\n| Availed | Days taken and approved so far |\n| Pending | Days in requests that are submitted but not yet approved. **These are already held against your balance** |\n| Available | What you can apply for today |\n| Projected 31 Dec | The balance you will hold at year end if you take no further leave, with the lapse amount shown in red |\n\nThe **Pending** column is the most common source of confusion. A request awaiting approval reduces what you can apply for, so that two overlapping requests cannot both be approved.\n\n## 3. Applying for leave\n- Go to **MyMeridian > Time and Attendance > Leave Request > New Request**.\n- Select the **leave type**. Only the types you are eligible for appear. Earned Leave does not appear during probation, per HRP-001.\n- Select the **from** and **to** dates. Weekly offs and holidays inside the range are excluded automatically and are not deducted.\n- For a **half day**, select the same date in both fields and then choose First Half or Second Half.\n- Enter the **reason**. One line is enough for Casual and Earned Leave. For Sick Leave of 3 or more days, attach the medical certificate here.\n- Nominate a **backup contact**, the colleague covering your work.\n- Review the summary and select **Submit**.\n\nThe request goes to your reporting manager. You receive an email and an in-app notification at submission and again at the decision.\n\n### Notice requirements\n| Duration | Advance notice |\n| Up to 3 consecutive days | 3 working days |\n| 4 or more consecutive days | 15 calendar days |\n\nMyMeridian warns you if you are inside the notice window but does not block the request. The manager sees the same warning.\n\n## 4. Amending a request\nA request can be amended only while it is **Pending**."
+  },
+  {
+   "pid": "en-10",
+   "lang": "en",
+   "source": "india/HRP-014-esop-policy.txt",
+   "source_sha256": "b530a8fb2a1a2fb62a75b4434df313259f7ebd027ed64e37386efec8936097ba",
+   "start": 1193,
+   "chars": 399,
+   "text": "30 days, failing which the grant lapses |\n| Records | Held by the company secretary in the statutory register of employee stock options |\n\n## 4. Vesting\nOptions vest over **four years from the date of grant**, with a **one-year cliff**:\n\n| Anniversary of grant | Cumulative vesting |\n| Year 1 | 25 per cent |\n| Year 2 | 50 per cent |\n| Year 3 | 75 per cent |\n| Year 4 | 100 per cent |\n\nNothing vests"
+  },
+  {
+   "pid": "en-11",
+   "lang": "en",
+   "source": "india/HRP-033-information-security-confidentiality.txt",
+   "source_sha256": "dc87b435e991d218a53bfe5c7854d87b25fd794dcb121b014ec8f0c5130461f7",
+   "start": 163,
+   "chars": 982,
+   "text": "classified, handled, and protected, and what every employee must do. The information security management system is certified to **ISO/IEC 27001**.\n\n## 2. Information classification\n| Classification | Definition | Handling |\n| Public | Approved for release outside Meridian | No restriction |\n| Internal | Ordinary business information | Share within Meridian on a need-to-know basis; do not post externally |\n| Confidential | Client data, personal data, source code, commercial terms, unpublished financials | Encrypt in transit and at rest; access on a named basis; no personal devices beyond the BYOD limits in HRP-031 |\n| Restricted | Credentials, cryptographic keys, security architecture, data subject to a client's highest tier, material non-public information | Named individual access with dual authorisation; no copying; no printing; access logged and reviewed monthly |\n\nEvery document, repository and dataset must carry a classification. Where none is marked, treat it as"
+  },
+  {
+   "pid": "en-12",
+   "lang": "en",
+   "source": "india/HRP-010-compensation-salary-review-policy.txt",
+   "source_sha256": "d25ea18339a2f45d8f03f3373d4663b4a8746cc3277279991ff7a79855f909bc",
+   "start": 355,
+   "chars": 1998,
+   "text": "|\n| G3 to G4 | Senior Engineer, Technical Lead, Senior Analyst | Individual contributor, experienced |\n| G5 to G6 | Manager, Senior Manager, Architect | People or technical leadership |\n| G7 to G8 | Director, Senior Director, Principal Architect | Function or large programme leadership |\n| G9 and above | Vice President and above | Business unit leadership |\n\nThe grade determines salary range, variable pay target, travel entitlement, insurance sum insured and stock eligibility. Grade is not the same as designation; two employees with the same designation may sit in different grades.\n\n## 3. Components of fixed pay\n| Component | Basis | Notes |\n| Basic salary | 40 per cent of fixed pay | Drives Provident Fund, gratuity and leave encashment |\n| House Rent Allowance | 50 per cent of Basic for Tier A cities, 40 per cent elsewhere | Tax exemption under section 10(13A) subject to rent proof |\n| Flexible Benefit Plan | Balancing amount | Allocated by the employee among the components in HRP-016 |\n| Employer Provident Fund | 12 per cent of Basic, subject to the statutory wage ceiling | Part of cost to company, not of take-home pay |\n| Gratuity provision | 4.81 per cent of Basic | Part of cost to company, payable on eligibility under HRP-012 |\n\nCost to company is the sum of fixed pay, the employer's statutory contributions, the gratuity provision, the insurance premium and the variable pay target at 100 per cent.\n\n## 4. Salary ranges\nTotal Rewards maintains a salary range for each grade and each job family, expressed as a minimum, a midpoint and a maximum. Ranges are benchmarked annually against the Indian technology services market using two external survey sources, and are approved by the Compensation Committee before the start of the review cycle.\n\nThe midpoint represents the market median for a fully proficient performer in that grade. A new hire is normally offered between the minimum and the midpoint. Positioning above the midpoint requires the approval of the function"
+  },
+  {
+   "pid": "en-13",
+   "lang": "en",
+   "source": "gulf/GLF-E05-EN-employee-housing-loan-policy.txt",
+   "source_sha256": "afcf47ac06637aec1b7b92d6bb341a7a0abe882b312f0e7b1da754097757f4a9",
+   "start": 1673,
+   "chars": 397,
+   "text": "**QAR 140,000** in Qatar, subject to the two limits above.\n\n## 4. Cost and repayment\n- Meridian charges no interest, profit or fee on the loan.\n- The loan is repaid by equal monthly payroll deductions over up to **60 months** for G3 to G6, or up to **84 months** for G7 and above.\n- The monthly instalment may not exceed **15 per cent** of monthly gross salary. Where the labour law of the country"
+  },
+  {
+   "pid": "en-14",
+   "lang": "en",
+   "source": "gulf/GLF-007-EN-gulf-group-medical-insurance-policy.txt",
+   "source_sha256": "8f0f3cb55cc9581f86e8d208a383ed2f1c55b9ac60e6f54c26ad3c0c61c0cc0a",
+   "start": 1926,
+   "chars": 998,
+   "text": "All GCC countries | Worldwide, excluding the USA and Canada |\n| Hospital room | Shared room | Private room | Private room with companion bed |\n| Outpatient co-payment | 20 per cent, capped at 50 per visit | 10 per cent, capped at 50 per visit | Nil |\n| Pharmacy co-payment | 10 per cent | Nil | Nil |\n| Maternity limit per pregnancy | 15,000 | 25,000 | 40,000 |\n| Dental, per member per year | 1,000 | 3,000 | 6,000 |\n| Optical, per member every 2 years | Not covered | 1,000 | 2,500 |\n| Reimbursement outside the network | 80 per cent of customary charges | 90 per cent of customary charges | 100 per cent of customary charges |\n\nInpatient treatment at a network hospital carries no co-payment in any category. Emergency treatment is covered in any country the employee visits, within the category annual limit, for stays of up to 30 days per trip.\n\n## 4. Dependants\nDependant cover follows the employee's plan category. What the company pays for depends on the country of employment:\n\n| Country |"
+  },
+  {
+   "pid": "en-15",
+   "lang": "en",
+   "source": "india/MSS-001-approving-leave-timesheets-expenses.txt",
+   "source_sha256": "3be9e7d4c6c11865fb9bfc2107cb0a21d08b6f0997665c718eb5ac7e0eec946d",
+   "start": 947,
+   "chars": 1999,
+   "text": "days from submission | Locks at 14 days; the employee needs an AskHR ticket to reopen |\n| Expense claim | 3 working days | Escalates to your manager at 7 working days |\n| Salary advance | 2 working days | Escalates to the HR Business Partner |\n| Confirmation review | Due 15 days before probation ends | The employee is confirmed automatically if no decision is recorded within 15 days of the probation end date |\n\n## 4. What you are certifying\nApproval is not an acknowledgement. When you approve you are confirming, on the record:\n\n- **Leave**: the absence is workable, the cover is arranged, and you have no reason to doubt the stated purpose.\n- **Timesheet**: the hours and the project allocation reflect work actually performed. Timesheets drive client invoicing, so an inaccurate approval can mean an incorrect invoice to a client.\n- **Expense claim**: the expense was incurred for Meridian business, it is within the entitlement or you have approved the exception, and the business purpose is genuine.\n- **Salary advance**: you are aware of the request. You are not assessing the employee's personal circumstances and you should not ask about them. Eligibility is checked by the system and by HR.\n\nApproving without looking is the single most common control failure found in the internal audit of expenses.\n\n## 5. Handling leave requests\n- Check the team calendar at **MyMeridian > Manager > Team Calendar** before deciding, to see overlapping absence.\n- You may decline a request, but you must give a reason, and for a restricted holiday under HRP-006 you must offer an alternative date.\n- You may **not** decline Sick Leave, or emergency Casual Leave, on business grounds.\n- If you want the employee to change the dates, use **Return for amendment** rather than Reject. Rejecting makes the employee start again and loses the history.\n- A request that breaches the notice period in HRP-001 shows a flag. You can still approve it; the flag records that you were aware.\n\n## 6. Handling expense"
+  },
+  {
+   "pid": "en-16",
+   "lang": "en",
+   "source": "india/HRP-035-recruitment-ijp-bgv-policy.txt",
+   "source_sha256": "d251c8644c7d89c573c7d7d09dbda055575897d544594328b6250f06c356da25",
+   "start": 1229,
+   "chars": 396,
+   "text": "- A performance rating of **Meets expectations or above** in the most recent cycle.\n- No active Performance Improvement Plan and no live disciplinary proceeding.\n- Not serving a notice period.\n\nThe eligibility conditions may be waived by the Head of HR where the move is in the company's interest, for example to redeploy an employee whose project has ended.\n\n### How the internal process works\n-"
+  },
+  {
+   "pid": "en-17",
+   "lang": "en",
+   "source": "india/HRP-023-conflict-of-interest-policy.txt",
+   "source_sha256": "83e3991b0164499a167627ce9ee15efd12ddff18e3daf9a77c22a98f5d1aeb34",
+   "start": 2668,
+   "chars": 997,
+   "text": "papers, and this is minuted.\n- **Reassignment of the reporting line**, so that no employee appraises or sets the pay of a relative or a person with whom they have a close personal relationship. Meridian does not prohibit relatives working in the company; it prohibits one being in the other's reporting line.\n- **Ring-fencing of information**, where the employee is excluded from a specific data set or system.\n- **Divestment**, where a financial holding cannot be reconciled with the role.\n- **Declining the outside role**, where it cannot be managed.\n\nThe mitigation is recorded against the declaration and reviewed annually.\n\n## 6. Outside engagements that are generally permitted\nWith prior written approval, and where they do not compete with Meridian, do not use Meridian time, assets or confidential information, and do not create a reputational risk:\n\n- Teaching, guest lecturing and examining at an educational institution.\n- Writing and publishing books, articles and technical papers.\n-"
+  },
+  {
+   "pid": "en-18",
+   "lang": "en",
+   "source": "india/HRP-022-code-of-business-conduct.txt",
+   "source_sha256": "6681fb7d043f2d7c7e1a82e6c528ba868711d55d2a8aa7a7423396000648bdaa",
+   "start": 2433,
+   "chars": 1997,
+   "text": "influence, or could reasonably appear to influence, a decision taken for Meridian. Conflicts are not in themselves wrong; **failing to disclose them is**. HRP-023 sets out the full disclosure requirements.\n\n## 5. Insider trading\nEmployees who have unpublished price-sensitive information about Meridian, a client or any listed company, obtained through their work, must not deal in those securities and must not pass the information to anyone else, including family.\n\n- Designated persons, as defined in the insider trading code, are subject to a **trading window** that closes from the end of each quarter until 48 hours after the results are published.\n- Pre-clearance from the Compliance Officer is required for any trade above INR 10,00,000 by a designated person.\n- A contra trade within 6 months of a previous trade is prohibited for designated persons.\n\nThese rules give effect to the SEBI (Prohibition of Insider Trading) Regulations 2015.\n\n## 6. Accurate books and records\nEvery entry in a Meridian system is a business record. Do not:\n- Record time against a project on which you did not work.\n- Submit an expense you did not incur, or an inflated amount.\n- Sign off a test, a review or a control that you did not actually perform.\n- Backdate a document, or create a document after the fact and present it as contemporaneous.\n- Pass a client deliverable as complete when known defects remain undisclosed.\n\n## 7. Use of company assets\nCompany laptops, networks, software licences, access cards and consumables are provided for business use. Incidental personal use of email and the internet is permitted within HRP-031. Assets must not be used for a personal business, for an outside engagement, or to store personal media libraries.\n\n## 8. Political activity\nEmployees are free to participate in political activity in their personal capacity, in their own time and at their own cost. Meridian does not make political contributions of any kind. An employee must not use the Meridian name,"
+  },
+  {
+   "pid": "en-19",
+   "lang": "en",
+   "source": "india/HRP-020-relocation-transfer-policy.txt",
+   "source_sha256": "a060b5fb22431fba49f6773e5875c530dca88acd6d71c4a4865362e0f93353ca",
+   "start": 3202,
+   "chars": 398,
+   "text": "- Transfer of the employment record, payroll and statutory registrations to the new location, at no cost to the employee.\n- 7 days of temporary accommodation.\n- Introductions to the empanelled relocation vendor at corporate rates, payable by the employee.\n\nNo lump sum, goods transit or brokerage assistance is payable.\n\n## 7. School admission support\nFor employees in grade G5 and above relocating"
+  },
+  {
+   "pid": "en-20",
+   "lang": "en",
+   "source": "india/ESS-003-update-personal-bank-nominee.txt",
+   "source_sha256": "cf3feaaed82423ba08f1ad32ec8eb53ee9fadf571cb1c5ea0e75d9769b98d594",
+   "start": 2525,
+   "chars": 997,
+   "text": "the payment file for the month is prepared from the 21st. There is no exception to this, so plan a bank change around it.\n\n## 5. Dependants and insurance enrolment\nGo to **MyMeridian > My Profile > Dependants**. You may add or change dependants only:\n- During the **April enrolment window**, or\n- Within **30 days of a qualifying life event**: marriage, the birth or adoption of a child, divorce, or the death of a dependant.\n\nOutside these windows the insurer will not accept the addition, and Meridian cannot override it. A newborn added on day 31 is not covered until the next April window, so add the child as soon as the birth is registered.\n\nParents or parents-in-law may be enrolled at your own cost, as described in HRP-013. You choose one set, not both, and the choice holds for the policy year.\n\n## 6. Nominations\nThere are **three separate nominations** and they are not interchangeable. People frequently assume one covers all three.\n\n| Nomination | Governing form | Where | Who can be"
+  },
+  {
+   "pid": "en-21",
+   "lang": "en",
+   "source": "india/ESS-004-askhr-ticket-guide.txt",
+   "source_sha256": "c2c24f69e3dfb318d6cd32ca1a5f03e88267293e9086b813c69ec3902f86bdb3",
+   "start": 2933,
+   "chars": 1994,
+   "text": "to stall. Check your tickets if you have not heard back; the request may be waiting on a document from you.\n\n## 6. Writing a ticket that gets resolved quickly\n- Say what you need, not only what is wrong. \"Please correct my Earned Leave balance from 11 to 13 days\" is faster than \"my leave balance is wrong\".\n- Give the specifics: dates, amounts, a reference number, the name of the screen.\n- Attach the evidence in the first message: the payslip, the rejection notice, the certificate.\n- One issue per ticket. Two unrelated issues in one ticket means one of them gets lost.\n- State the deadline if there is one, and why.\n\n## 7. Reopening and escalating\n- A Resolved ticket can be reopened within **7 days** from the ticket screen. After 7 days it closes and you must raise a new ticket referencing the old one.\n- Escalation path, using the Escalate button on the ticket:\n\n| Level | Goes to | Use when |\n| L1 | HR Services team lead | The SLA has been breached |\n| L2 | HR Operations manager | L1 has not responded within 2 working days |\n| L3 | Head of HR Shared Services | L2 has not responded within 3 working days |\n\nEscalation does not restart the SLA clock and it does not count against you in any way.\n\n## 8. What does not belong in AskHR\n- A complaint of sexual harassment. Go to the Internal Committee under HRP-024.\n- A whistleblower concern about fraud, bribery or a legal breach. Use the channels in HRP-026.\n- An IT fault, a system outage or an access problem. Raise it with the IT service desk.\n- A grievance about your manager or an appraisal rating. Use the grievance procedure in HRP-028, although you may raise the Stage 2 grievance through AskHR.\n\n## 9. Related documents\n- HRP-024 Prevention of Sexual Harassment at the Workplace Policy\n- HRP-026 Whistleblower and Protected Disclosure Policy\n- HRP-028 Disciplinary Action, Misconduct and Grievance Policy\n- HRP-032 Data Privacy and Personal Data Protection Policy\n- ESS-001 Employee Self Service: Applying for and Cancelling"
+  },
+  {
+   "pid": "en-22",
+   "lang": "en",
+   "source": "india/HRP-019-conveyance-mileage-policy.txt",
+   "source_sha256": "409014a643ab72e6006bca318842a4b33ef42350675b4cade5871e54fb22c154",
+   "start": 2631,
+   "chars": 395,
+   "text": "the function head's approval, recorded on the claim, and is expected to be rare. Employees in client-facing roles with a structurally high travel need may be granted a standing higher ceiling by the business unit head, reviewed every 6 months.\n\n## 7. Claiming\n- Submit in **MyMeridian > Expenses > New Claim**, category Local Conveyance, within **30 days** of the journey.\n- For a mileage claim,"
+  },
+  {
+   "pid": "en-23",
+   "lang": "en",
+   "source": "gulf/GLF-011-EN-business-travel-and-per-diem-within.txt",
+   "source_sha256": "fadcd14d44e434f0e4c27f62753d21a3d87167d8ed7b55b58c3514693f2926da",
+   "start": 1332,
+   "chars": 998,
+   "text": "and ground travel\n| Grade band | Scheduled flight time under 2 hours 30 minutes | Scheduled flight time of 2 hours 30 minutes or more |\n| G1 to G6 | Economy | Economy |\n| G7 and above | Economy | Business |\n\n- One checked bag of up to 30 kg is covered. Excess baggage for equipment needs prior approval from the manager.\n- Airport transfers by taxi or ride-hailing app are reimbursed at actual cost, up to AED 150, SAR 150 or QAR 150 per one-way transfer, or the equivalent in local currency elsewhere in the GCC.\n- An employee who uses a private car for business travel within the same country is paid a mileage rate of **AED 1.20 per km** in the UAE, **SAR 1.10 per km** in Saudi Arabia and **QAR 1.20 per km** in Qatar. Cross-border road travel needs the function head's approval.\n- No employee may self-drive more than **400 km** in one day, or drive between 23:00 and 05:00, on company business.\n\n## 4. Hotel limits and per diem rates\nHotel limits are per night, including taxes and breakfast."
+  },
+  {
+   "pid": "en-24",
+   "lang": "en",
+   "source": "india/HRP-015-employee-referral-policy.txt",
+   "source_sha256": "fb94868916ed3ba0d7b03c965a3fc5dccfe3af5c7e6b5cdf39c53d014d492133",
+   "start": 1151,
+   "chars": 1999,
+   "text": "payroll after the milestone is reached. The referrer must be on the rolls of Meridian and not serving notice on each milestone date. If the referrer leaves before the 180-day milestone, the second instalment is not paid.\n\n## 4. How to refer\n- Submit the referral in **MyMeridian > Careers > Refer a Candidate**, against a specific open requisition.\n- Attach the candidate's resume and confirm that the candidate has consented to the submission.\n- A referral is valid for **12 months** from the date of submission, against any requisition.\n- Where two employees refer the same candidate, the **earlier submission** in MyMeridian wins. Verbal claims are not entertained.\n- A candidate already in the Talent Acquisition database, whether from a direct application, a prior referral or an agency submission, within the preceding 12 months, is not eligible for a referral bonus. MyMeridian performs this check automatically at submission and tells the referrer immediately.\n\n## 5. Who cannot claim a referral bonus\n- Members of the Talent Acquisition team, at any grade.\n- The hiring manager for the position, and anyone in the interview panel for that candidate.\n- Employees in grade G8 and above, for whom building the talent pipeline is part of the role.\n- Any employee referring a **relative**, as defined in HRP-023. The referral is still welcome and will be processed, but no bonus is payable and the relationship must be declared at the point of referral.\n- Employees on notice period at the time the referral is submitted.\n\n## 6. Conflict of interest\nA referrer must not participate in the interview, the evaluation or the offer decision for the candidate they referred. A referrer who is in the reporting line of the hiring manager must declare this at the point of referral so that Talent Acquisition can arrange an independent panel.\n\nReferring a candidate with whom the referrer has a financial relationship, for example a business partner or a person to whom the referrer owes money, must be"
+  },
+  {
+   "pid": "en-25",
+   "lang": "en",
+   "source": "india/HRP-006-holiday-calendar-policy.txt",
+   "source_sha256": "f021dcbc2cdf187ce7d26787327f7be2663ad369b1dadbd1e72f36049f660940",
+   "start": 810,
+   "chars": 396,
+   "text": "2026 - all locations\n| Date | Day | Occasion |\n| 01 Jan 2026 | Thursday | New Year's Day |\n| 26 Jan 2026 | Monday | Republic Day |\n| 03 Mar 2026 | Tuesday | Holi |\n| 15 Aug 2026 | Saturday | Independence Day |\n| 02 Oct 2026 | Friday | Gandhi Jayanti |\n| 08 Nov 2026 | Sunday | Diwali (Deepavali) |\n| 25 Dec 2026 | Friday | Christmas Day |\n\n## 4. Location-specific fixed holidays 2026\n| Location |"
+  },
+  {
+   "pid": "ar-01",
+   "lang": "ar",
+   "source": "gulf/GLF-A06-AR-staff-majlis-charter.txt",
+   "source_sha256": "0fa470343608af1b34163b3be2e7e2761092550395213090242143839c0ce6bc",
+   "start": 0,
+   "chars": 397,
+   "text": "## ١. التسمية والغرض\nيُسمى هذا الكيان «مجلس الموظفين»، ويُشار إليه في هذا الميثاق بـ«المجلس». وهو هيئة استشارية تمثل الموظفين أمام الإدارة العليا في ميريديان سيستمز الخليج، وتنقل آراءهم ومقترحاتهم بشأن بيئة العمل والرفاه والأنشطة الاجتماعية وسياسات الموارد البشرية قبل اعتمادها. وتستلهم فكرة المجلس تقليد المجالس الخليجية القائم على الحوار المفتوح والتشاور.\n\nويختص المجلس بما يلي:\n- إبداء الرأي في"
+  },
+  {
+   "pid": "ar-02",
+   "lang": "ar",
+   "source": "gulf/GLF-007-AR-gulf-group-medical-insurance-policy.txt",
+   "source_sha256": "741dca76ba8dd790b05304c9e9ccf8a0cd3cbe3d2ece639e34c0528f780c45fe",
+   "start": 2973,
+   "chars": 994,
+   "text": "|\n| السعودية (الرياض) | على نفقة الشركة | جميع الأبناء المؤهلين | دون 25 سنة، لغير المتزوجين |\n| قطر (الدوحة) | على نفقة الشركة | جميع الأبناء المؤهلين | دون 18 سنة، أو دون 21 سنة للمتفرغين للدراسة |\n\n- يجب أن يحمل المُعال تصريح إقامة على كفالة الموظف في دولة العمل.\n- في الإمارات، يجوز تسجيل الابن الرابع فما بعده في الوثيقة الجماعية على نفقة الموظف، ويُخصم القسط من الراتب على 12 قسطاً شهرياً متساوياً.\n- لا يُغطّى الوالدان على نفقة الشركة. ويجوز للموظف في دبي أو الدوحة تسجيل أحد والديه ممن يحمل تصريح إقامة على كفالته، على نفقة الموظف. ولا يتوفر هذا الخيار في السعودية.\n- يُغطّى المولود الجديد من تاريخ الولادة إذا سُجِّل خلال **30 يوماً** من تاريخ الولادة. وبعد انقضاء 30 يوماً تبدأ التغطية من تاريخ التسجيل فقط.\n\n## 5. التسجيل والتعديلات\n- تبدأ التغطية من تاريخ الالتحاق بالعمل، بما في ذلك فترة التجربة. وتصدر بطاقات التأمين خلال 5 أيام عمل من الالتحاق أو من استلام تصريح الإقامة، أيهما لاحق.\n- يُضاف المُعالون عند الالتحاق، أو خلال 30 يوماً من وقوع حدث حياتي مؤهل: الزواج، أو الولادة، أو"
+  },
+  {
+   "pid": "ar-03",
+   "lang": "ar",
+   "source": "gulf/GLF-009-AR-probation-notice-period-and-resignation-policy.txt",
+   "source_sha256": "025d1f01fb79131e48d312c804ec236917d9c8cc21c74196f0a3dc94494e0f10",
+   "start": 554,
+   "chars": 1998,
+   "text": "G5 فما فوق | ٣ أشهر | ٩٠ يوماً | ٣ أشهر |\n| النقل من كيان آخر تابع لميريديان | لا توجد | لا توجد | لا توجد |\n\n- يجوز تمديد فترة التجربة **مرة واحدة** للدرجات G5 فما فوق فقط، بحيث لا يتجاوز مجموعها ٦ أشهر في الإمارات وقطر، أو ١٨٠ يوماً في السعودية. ويجب تأكيد التمديد كتابياً قبل تاريخ الانتهاء الأصلي.\n- في السعودية، لا تُحتسب أيام الإجازة المرضية وعطلتا عيد الفطر وعيد الأضحى ضمن فترة التجربة، فيتأخر تاريخ انتهائها بعدد الأيام نفسه.\n- يستكمل المدير مراجعة التثبيت في MyMeridian قبل **١٠ أيام عمل** على الأقل من انتهاء فترة التجربة. وإذا لم يُسجَّل أي قرار حتى تاريخ الانتهاء، يُثبَّت الموظف اعتباراً من التاريخ الأصلي.\n- تسري تغطية التأمين الطبي الجماعي وفق السياسة GLF-007 من تاريخ الالتحاق، بما في ذلك فترة التجربة.\n\n## ٣. إنهاء الخدمة خلال فترة التجربة\n| الحالة | الإمارات (دبي) | السعودية (الرياض) | قطر (الدوحة) |\n| إنهاء الشركة للخدمة | إشعار كتابي مدته ١٤ يوماً | إشعار كتابي مدته ٧ أيام | إشعار كتابي مدته ٧ أيام |\n| استقالة الموظف للالتحاق بصاحب عمل آخر في الدولة نفسها | شهر واحد (١) | ٧ أيام | شهر واحد (١) |\n| استقالة الموظف لمغادرة الدولة | ١٤ يوماً | ٧ أيام | ١٤ يوماً |\n\n- قبل إنهاء الخدمة بسبب الأداء، يجب أن يكون المدير قد أبلغ الموظف بأوجه القصور كتابياً مرة واحدة على الأقل.\n- إذا استقال موظف في الإمارات خلال فترة التجربة للالتحاق بصاحب عمل آخر في الإمارات، تطالب الشركة صاحب العمل الجديد بتكاليف التوظيف والتأشيرة التي تحملتها، بحد أقصى **١٠٬٠٠٠ درهم إماراتي**. ولا يُخصم أي مبلغ من المستحقات النهائية للموظف لهذا السبب.\n\n## ٤. فترة الإشعار بعد التثبيت\n| الدرجة الوظيفية | الإمارات (دبي) | السعودية (الرياض)، الموظف / الشركة | قطر (الدوحة) |\n| من G1 إلى G4 | ٣٠ يوماً | ٣٠ يوماً / ٦٠ يوماً | شهر واحد (١)، أو شهران (٢) بعد إتمام سنتين (٢) من الخدمة |\n| من G5 إلى G6 | ٦٠ يوماً | ٦٠ يوماً / ٦٠ يوماً | شهران (٢) |\n| G7 فما فوق | ٩٠ يوماً | ٩٠ يوماً / ٩٠ يوماً | شهران (٢) |\n\n- في الإمارات وقطر تسري فترة الإشعار ذاتها على الموظف وعلى الشركة. وفي السعودية تمنح الشركة إشعاراً لا يقل عن ٦٠ يوماً في جميع الأحوال.\n- تُحتسب فترة الإشعار بالأيام التقويمية، اعتباراً من اليوم التالي"
+  },
+  {
+   "pid": "ar-04",
+   "lang": "ar",
+   "source": "gulf/GLF-A02-AR-eid-al-adha-holiday-circular.txt",
+   "source_sha256": "5fc40fdc957a2d7e849de5ab07d72644282803b618e1fd84c1bee68eb0a97069",
+   "start": 1909,
+   "chars": 393,
+   "text": "مستوى خدمة على مدار الساعة.\n\n- يُنشر جدول المناوبة يوم **الخميس 14 مايو 2026**، وتُقدَّم طلبات تبديل المناوبات في موعد أقصاه **الخميس 21 مايو 2026**.\n- لا يُكلَّف الموظف بالعمل أكثر من **يومين** من أيام العطلة، إلا إذا تطوّع لذلك كتابةً.\n- يُمنح الموظف عن كل يوم عمل فعلي خلال العطلة يوم راحة بديلاً، إضافة إلى بدل مناوبة العيد المبين أدناه. ويُستخدم يوم الراحة البديل في موعد أقصاه **31 يوليو"
+  },
+  {
+   "pid": "ar-05",
+   "lang": "ar",
+   "source": "gulf/GLF-002-AR-end-of-service-gratuity-policy-gulf.txt",
+   "source_sha256": "7be9dce736d05d2a6c23fbc848c282aaeb224dc2fa474eba30a10f239ccb9c23",
+   "start": 1103,
+   "chars": 997,
+   "text": "المحتسبة أيام الإجازة غير المدفوعة التي تزيد على **٢٠ يوماً في سنة الإجازات**. أما الإجازة السنوية المدفوعة والإجازة المرضية وإجازة الحج فتُحتسب كاملة.\n- يساوي الأجر اليومي لأغراض المكافأة أجرَ المكافأة الشهري مقسوماً على **٣٠**.\n\n| موقع العمل | أجر المكافأة | الحد الأقصى الإجمالي |\n| المقر الرئيسي في دبي (الإمارات) | آخر راتب أساسي | ٢٤ شهراً من الراتب الأساسي |\n| فرع الرياض (السعودية) | آخر راتب أساسي مضافاً إليه بدل السكن | لا يوجد حد أقصى |\n| فرع الدوحة (قطر) | آخر راتب أساسي | لا يوجد حد أقصى |\n\nلا تدخل البدلات الأخرى، مثل بدل المواصلات والهاتف المتحرك والتعليم والحوافز والعمولات، في أجر المكافأة.\n\n## ٣. المقر الرئيسي في دبي (الإمارات)\n| فترة الخدمة | المكافأة عن كل سنة ضمن الفترة |\n| السنوات من ١ إلى ٥ | أجر ٢١ يوماً من الراتب الأساسي |\n| كل سنة بعد السنة الخامسة | أجر ٣٠ يوماً من الراتب الأساسي |\n\nيُصرف المبلغ نفسه سواء انتهت الخدمة بالاستقالة، أو بإنهاء ميريديان للعقد، أو بانتهاء مدة العقد محدد المدة.\n\nمثال تطبيقي: موظف راتبه الأساسي الشهري **١٢٬٠٠٠ درهم إماراتي** يترك العمل"
+  },
+  {
+   "pid": "ar-06",
+   "lang": "ar",
+   "source": "gulf/GLF-010-AR-overtime-weekend-and-shift-rules.txt",
+   "source_sha256": "88079d68eebabba35303da89c2c7eec80381ac8d1e35519fb8b3577a6e2c9926",
+   "start": 310,
+   "chars": 1997,
+   "text": "قطر).\n\nهذه سياسة داخلية للشركة. وإذا منح قانون العمل في بلد التوظيف الموظفَ استحقاقاً أفضل مما تنص عليه هذه السياسة، يُطبَّق الاستحقاق الأفضل ويُعدَّل كشف الرواتب تبعاً لذلك.\n\n## ٢. أسبوع العمل وأيام الراحة الأسبوعية\n| الموقع | أيام العمل | أيام الراحة الأسبوعية | ساعات العمل المعتادة | ساعات الدوام |\n| دبي، الإمارات | من الاثنين إلى الجمعة | السبت والأحد | ٨ ساعات يومياً، ٤٠ ساعة أسبوعياً | من ٠٩:٠٠ إلى ١٨:٠٠ |\n| الرياض، السعودية | من الأحد إلى الخميس | الجمعة والسبت | ٨ ساعات يومياً، ٤٠ ساعة أسبوعياً | من ٠٨:٠٠ إلى ١٧:٠٠ |\n| الدوحة، قطر | من الأحد إلى الخميس | الجمعة والسبت | ٨ ساعات يومياً، ٤٠ ساعة أسبوعياً | من ٠٧:٣٠ إلى ١٦:٣٠ |\n\nتشمل ساعات الدوام استراحة غير مدفوعة الأجر لتناول الطعام مدتها ٦٠ دقيقة. وفي دبي تُمدَّد استراحة يوم الجمعة إلى **٩٠ دقيقة**، من الساعة ١٢:١٥ إلى الساعة ١٣:٤٥، لإتاحة الوقت لأداء صلاة الجمعة، ويُعوَّض الوقت الإضافي البالغ ٣٠ دقيقة بمرونة خلال الأسبوع نفسه.\n\nخلال شهر رمضان المبارك، تُخفَّض ساعات العمل اليومية في المواقع الثلاثة إلى **٦ ساعات**، أي ٣٠ ساعة أسبوعياً، دون أي تخفيض في الراتب. ويعلن رئيس كل موقع مواعيد الدوام في رمضان قبل بداية الشهر بـ ٧ أيام على الأقل.\n\n## ٣. الأهلية لأجر العمل الإضافي\n- يُصرف أجر العمل الإضافي للموظفين في الدرجات من **G1 إلى G4**.\n- لا يتقاضى الموظفون في الدرجة **G5 فما فوق** أجراً عن العمل الإضافي. وعند تكليفهم بالعمل في يوم الراحة الأسبوعية أو في عطلة رسمية، يستحقون **إجازة تعويضية**: يوماً كاملاً عن كل يوم عمل كامل، أو نصف يوم عن العمل لمدة ٤ ساعات أو أكثر. ويجب استخدام الإجازة التعويضية خلال **٩٠ يوماً** من تاريخ استحقاقها، ولا تُصرف نقداً في أي حال.\n- يجب أن يعتمد المدير المباشر العمل الإضافي في نظام MyMeridian قبل أدائه. ولا يُسمح بالاعتماد بأثر رجعي إلا في حالة حادث تشغيلي مُعلَن في بيئة الإنتاج، ومن رئيس الإدارة فقط.\n- خلال شهر رمضان، تُحتسب الساعات التي تتجاوز يوم العمل الرمضاني البالغ ٦ ساعات عملاً إضافياً.\n\n## ٤. معدلات أجر العمل الإضافي\nيُحتسب أجر العمل الإضافي على أساس أجر الساعة الأساسي، وهو الراتب الأساسي الشهري مقسوماً على ٣٠ ثم على ٨. ولا تدخل بدلات السكن والمواصلات وغيرها من البدلات في"
+  },
+  {
+   "pid": "ar-07",
+   "lang": "ar",
+   "source": "gulf/GLF-006-AR-wage-protection-system-and-payroll-calendar.txt",
+   "source_sha256": "4839d2abd69887ee00cea68823aefaf6e915c9c6c4489d07578baa1fe2dd0d8b",
+   "start": 1942,
+   "chars": 399,
+   "text": "في كشف رواتب الشهر التالي مع المتأخرات.\n\n## ٤. عطلات نهاية الأسبوع والعطلات الرسمية والأعياد\nعطلة نهاية الأسبوع المعتمدة لأغراض الرواتب هي **السبت والأحد** في الإمارات، و**الجمعة والسبت** في المملكة العربية السعودية وقطر. وإذا صادف موعد صرف الراتب عطلة نهاية الأسبوع أو عطلة رسمية، يُودَع الراتب في يوم العمل السابق له.\n\nوإذا كان من المتوقع أن يبدأ عيد الفطر أو عيد الأضحى بين اليوم ٢٠ واليوم الأخير"
+  },
+  {
+   "pid": "ar-08",
+   "lang": "ar",
+   "source": "gulf/GLF-003-AR-ramadan-working-hours-and-religious-leave.txt",
+   "source_sha256": "547b60098b7db63c44d8785f961485dbf46b2d059e02b8705f8f5f4878499fa8",
+   "start": 3579,
+   "chars": 999,
+   "text": "الفريق الواحد في موسم الحج نفسه **١٠٪** من أعضائه. وإذا زادت الطلبات على هذا الحد، تُعطى الأولوية أولاً للموظفين الذين لم يسبق لهم أداء فريضة الحج، ثم للأسبق في تقديم الطلب.\n- يجب تحميل ما يثبت السفر لأداء الحج خلال ١٤ يوماً من العودة، وإلا تُحوَّل الإجازة إلى إجازة سنوية.\n\n## ٦. العمرة والمناسبات الدينية الأخرى\n- يجوز للموظف الحصول على إجازة دون أجر لا تزيد على **٥ أيام عمل** مرة واحدة في كل سنة إجازات لأداء العمرة، أو استخدام إجازته السنوية لهذا الغرض.\n- يحصل الموظفون من أتباع الديانات الأخرى على **يومين من إجازة المناسبات الدينية مدفوعة الأجر** في كل سنة إجازات للاحتفال بأعياد ديانتهم، مثل عيد الميلاد وعيد الفصح وديوالي وفيساك. ويجب تقديم الطلب قبل **١٤ يوماً** على الأقل. ولا تُرحَّل هذه الأيام ولا يُصرف بدلها نقداً.\n- تتوفر مصليات في المكاتب الثلاثة، ولا يلزم تسجيل الاستراحات القصيرة لأداء الصلوات اليومية في MyMeridian.\n\n## ٧. الصحة والرفاهية خلال الصيام\n- لا يجوز للمديرين سؤال الموظفين عما إذا كانوا صائمين، ولا معاملتهم معاملة مختلفة بسبب ذلك.\n- يستخدم الموظف الذي يمرض خلال رمضان"
+  },
+  {
+   "pid": "ar-09",
+   "lang": "ar",
+   "source": "gulf/GLF-008-AR-maternity-paternity-and-nursing-breaks-policy.txt",
+   "source_sha256": "832e2d43301f1863fd15a6420aa4be6b7e018aa77fdd97cc4f079ceaec9beb9e",
+   "start": 1317,
+   "chars": 1994,
+   "text": "للولادة. وتحصل الموظفة التي تقل خدمتها عن ذلك على الحد الأدنى النظامي في دولة العمل، وتؤكد عمليات الموارد البشرية - الخليج عدد الأيام بدقة كتابياً.\n\n## ٣. دعم إضافي للأمومة\n| الحالة | الاستحقاق |\n| مرض ناتج عن الحمل أو الوضع | حتى ٣٠ يوماً إضافياً بأجر كامل بموجب شهادة طبية، ثم حتى ٤٥ يوماً دون أجر |\n| ولادة طفل من ذوي الإعاقة أو مصاب بمرض خطير | ٣٠ يوماً إضافياً بأجر كامل، قابلة للتمديد ٣٠ يوماً دون أجر |\n| ولادة جنين ميت بعد ٢٤ أسبوعاً من الحمل | إجازة أمومة كاملة وفق البند ٢ |\n| إجهاض قبل ٢٤ أسبوعاً من الحمل | ٢١ يوماً تقويمياً بأجر كامل |\n| الولاية الشرعية (الكفالة) على طفل دون سنتين (٢)، للراعي الأساسي | ٦٠ يوماً تقويمياً بأجر كامل |\n\nتُحتسب إجازة الأمومة خدمةً متصلة لأغراض مكافأة نهاية الخدمة واستحقاق الإجازة السنوية والمراجعة السنوية للرواتب. ولا يجوز توجيه إشعار بإنهاء الخدمة إلى أي موظفة خلال إجازة الأمومة، وتعود الموظفة إلى الوظيفة ذاتها أو إلى وظيفة من الدرجة والأجر نفسيهما.\n\n## ٤. إجازة الأبوة\n| الدولة | إجازة الأبوة المدفوعة | المدة المتاحة لأخذها |\n| الإمارات (دبي) | ١٠ أيام عمل | خلال ٦ أشهر من الولادة |\n| السعودية (الرياض) | ٧ أيام عمل، يقع ٣ منها على الأقل خلال ٧ أيام من الولادة | خلال ٦٠ يوماً من الولادة |\n| قطر (الدوحة) | ٥ أيام عمل | خلال ٣ أشهر من الولادة |\n\n- إجازة الأبوة بأجر كامل، ويجوز أخذها على دفعتين (٢) كحد أقصى. ولا تُحتسب أيام الراحة الأسبوعية والعطلات الرسمية الواقعة ضمن الدفعة.\n- يحصل الراعي الثانوي لطفل دون سنتين (٢) بموجب الولاية الشرعية (الكفالة) على استحقاق إجازة الأبوة المقرر في دولة العمل.\n- تسقط إجازة الأبوة غير المستخدمة بانتهاء المدة المتاحة، ولا تُرحَّل ولا يُصرف مقابلها نقداً.\n\n## ٥. فترات الرضاعة\nبعد العودة إلى العمل، يحق للموظفة المرضع فترة رضاعة مدفوعة الأجر مدتها **ساعة واحدة (٦٠ دقيقة) في كل يوم عمل**. ويجوز لها أخذها ساعة متصلة أو على فترتين مدة كل منهما ٣٠ دقيقة. ويستمر هذا الحق حتى يبلغ الطفل العمر المبيَّن أدناه.\n\n| الدولة | فترة الرضاعة في يوم العمل | حتى يبلغ الطفل |\n| الإمارات (دبي) | ساعة واحدة (٦٠ دقيقة) | ١٨ شهراً |\n| السعودية (الرياض) | ساعة واحدة (٦٠ دقيقة) | ٢٤ شهراً |\n| قطر (الدوحة) | ساعة واحدة (٦٠"
+  },
+  {
+   "pid": "ar-10",
+   "lang": "ar",
+   "source": "gulf/GLF-A04-AR-dress-code-workplace-etiquette.txt",
+   "source_sha256": "9af49dd0f1211ccb3fccf2386cc4082227589efd197938efb7028f63625de41a",
+   "start": 2634,
+   "chars": 398,
+   "text": "بدلاً من البدل النقدي.\n- تُعلَّق البطاقة التعريفية بشكل ظاهر طوال الوجود في المكتب. ويكون استبدال البطاقة المفقودة أول مرة مجاناً، ثم برسوم **١٠٠** بالعملة المحلية عن كل استبدال لاحق تُقتطع من الراتب.\n\n## ٥. آداب التعامل في بيئة العمل\n- **التحية**: يُبدأ بالسلام، ولا تُمد اليد للمصافحة مع الجنس الآخر ما لم يبادر الطرف الآخر بذلك، ويُحترم امتناع أي زميل عن المصافحة دون تعليق.\n- **المواعيد**: تبدأ"
+  },
+  {
+   "pid": "ar-11",
+   "lang": "ar",
+   "source": "gulf/GLF-A01-AR-ramadan-working-hours-circular.txt",
+   "source_sha256": "64d8c83f900522e18fecd16ed6f666531061eba6c459d8a5298255130aafeac1",
+   "start": 2916,
+   "chars": 997,
+   "text": "من رمضان |\n| دبي | يومان | ٣ أيام |\n| الرياض | يوم واحد | يومان |\n| الدوحة | يوم واحد | يومان |\n\n- تبدأ العشر الأواخر، لأغراض هذا التعميم، يوم **الثلاثاء ١٠ مارس ٢٠٢٦**.\n- تُحدَّد أيام العمل عن بُعد بالاتفاق مع المدير المباشر، وتُسجَّل في MyMeridian قبل نهاية الأسبوع السابق.\n- لا يشمل العمل عن بُعد الأدوار التي تتطلب حضوراً فعلياً، مثل الاستقبال وخدمات المكاتب ومراقبة غرف الخوادم.\n\n## ٥. الاجتماعات والمناسبات المجتمعية\n- لا تُعقد اجتماعات داخلية بعد الساعة **١٣:٠٠** بالتوقيت المحلي لكل مكتب، ولا تُحدَّد اجتماعات مع العملاء بعد الساعة **١٤:٠٠** إلا للضرورة وبموافقة مدير الإدارة.\n- تقيم الشركة إفطاراً جماعياً في كل مكتب، ويجوز لكل موظف اصطحاب مرافق واحد من أفراد أسرته، وفق المواعيد التالية.\n\n| المكتب | موعد إفطار الشركة | آخر موعد للتسجيل عبر MyMeridian |\n| دبي | الخميس ٥ مارس ٢٠٢٦ | الخميس ٢٦ فبراير ٢٠٢٦ |\n| الرياض | الأربعاء ١١ مارس ٢٠٢٦ | الأربعاء ٤ مارس ٢٠٢٦ |\n| الدوحة | الثلاثاء ١٠ مارس ٢٠٢٦ | الثلاثاء ٣ مارس ٢٠٢٦ |\n\n- تُصرف قسيمة مشتريات رمضانية للموظفين في الدرجات من G1 إلى G3،"
+  },
+  {
+   "pid": "ar-12",
+   "lang": "ar",
+   "source": "gulf/GLF-011-AR-business-travel-and-per-diem-within.txt",
+   "source_sha256": "f220760a66fb8a7e5251a847e8b3ab724d89b7122965da7b5e7f66746b74e862",
+   "start": 2309,
+   "chars": 1999,
+   "text": "الواحدة شاملةً الضرائب ووجبة الإفطار. والبدل اليومي مبلغ ثابت يغطي الوجبات والتنقل المحلي داخل المدينة وغسيل الملابس والمصروفات النثرية. ويُحدَّد كلاهما بعملة بلد الوجهة.\n\n| الوجهة | حد الفندق للدرجات من G1 إلى G6 | حد الفندق للدرجة G7 فما فوق | البدل اليومي للدرجات من G1 إلى G6 | البدل اليومي للدرجة G7 فما فوق |\n| دبي | 650 درهماً | 900 درهم | 250 درهماً | 350 درهماً |\n| أبوظبي | 600 درهم | 850 درهماً | 250 درهماً | 350 درهماً |\n| الرياض | 700 ريال سعودي | 950 ريالاً سعودياً | 250 ريالاً سعودياً | 350 ريالاً سعودياً |\n| جدة | 650 ريالاً سعودياً | 900 ريال سعودي | 230 ريالاً سعودياً | 320 ريالاً سعودياً |\n| الدوحة | 650 ريالاً قطرياً | 900 ريال قطري | 250 ريالاً قطرياً | 350 ريالاً قطرياً |\n| المنامة | 65 ديناراً بحرينياً | 90 ديناراً بحرينياً | 25 ديناراً بحرينياً | 35 ديناراً بحرينياً |\n| مدينة الكويت | 55 ديناراً كويتياً | 75 ديناراً كويتياً | 20 ديناراً كويتياً | 28 ديناراً كويتياً |\n| مسقط | 60 ريالاً عُمانياً | 85 ريالاً عُمانياً | 24 ريالاً عُمانياً | 32 ريالاً عُمانياً |\n\nتُطبَّق على أي مدينة أخرى معدلات أقرب مدينة مدرجة في الجدول داخل البلد نفسه. ويتطلب الفندق الذي تتجاوز تكلفته الحد الأقصى موافقة رئيس الإدارة قبل الحجز، كما في فترات المعارض الكبرى، وإلا يتحمل الموظف الفرق.\n\n## 5. طريقة احتساب البدل اليومي\n- يُصرف البدل اليومي بنسبة **100%** عن كل يوم تقويمي كامل يقضيه الموظف خارج موقع عمله الأساسي.\n- يُصرف البدل عن يوم المغادرة ويوم العودة بنسبة **75%** لكل منهما.\n- تستحق الرحلة التي تُنجز في اليوم نفسه دون مبيت وتستغرق أكثر من **6 ساعات** نسبة **50%** من البدل اليومي المقرر للوجهة.\n- إذا وفّر العميل أو منظم الفعالية وجبة، يُخفَّض البدل اليومي لذلك اليوم بنسبة **20%** عن وجبة الغداء و**30%** عن وجبة العشاء.\n- اعتباراً من **الليلة 22 المتتالية** في الوجهة نفسها، يُخفَّض البدل اليومي إلى **70%**، ويحجز مكتب السفر شقة فندقية مخدومة.\n- لا يتطلب البدل اليومي تقديم إيصالات. أما تذاكر الطيران والفنادق والتأشيرات وتنقلات المطار فتُعوَّض مقابل إيصالات وضمن الحدود الواردة في هذه السياسة.\n- يُصرف للموظف في الدرجات من G1 إلى G4 الذي يسافر في يوم الراحة الأسبوعية بطلب"
+  },
+  {
+   "pid": "ar-13",
+   "lang": "ar",
+   "source": "gulf/GLF-A03-AR-gratuity-pension-faq-gcc-nationals.txt",
+   "source_sha256": "62c69496e1cdd3a0077f808d1ef5e833cbeec2536fc9be577f66e0e261d564b3",
+   "start": 4328,
+   "chars": 399,
+   "text": "بعد عودته. وإذا تجاوزت الإجازة ذلك، تتواصل معك إدارة الرواتب لترتيب السداد وفق قواعد الهيئة.\n- **استقلت خلال فترة التجربة، فماذا يحدث؟** لا تستحق مكافأة الخدمة التكميلية لأنك لم تكمل 12 شهراً، أما الاشتراكات المسددة فتبقى في حسابك لدى الجهة التقاعدية وفق قواعدها.\n- **نُقلت من دبي إلى الرياض أو الدوحة، فهل تنقطع خدمتي؟** لا. تُحتسب خدمتك في مكاتب الشركة الثلاثة مدة واحدة متصلة لأغراض مكافأة الخدمة"
+  },
+  {
+   "pid": "ar-14",
+   "lang": "ar",
+   "source": "gulf/GLF-A05-AR-emergency-evacuation-dubai-office.txt",
+   "source_sha256": "0b177fb53efcdd725915abd2bce28ebbd80e536e24d608cdfabff44752e71ab6",
+   "start": 1541,
+   "chars": 999,
+   "text": "الإخلاء عند انطلاق الإنذار\n- إذا اكتشفت حريقاً قبل انطلاق الإنذار، فاضغط أقرب زر إنذار يدوي، ولا تحاول الإطفاء إلا إذا كان الحريق صغيراً وكنت مدرباً على ذلك. وتتوفر **6 طفايات** في كل طابق، منها طفايات ثاني أكسيد الكربون المخصصة للأجهزة الكهربائية.\n- عند انطلاق الإنذار، توقف عن العمل فوراً، واترك متعلقاتك الشخصية، ولا تعُد لجلب أي شيء.\n- لا تستخدم المصاعد مطلقاً، واستخدم أقرب مخرج: **الدرج أ** في الجهة الشمالية أو **الدرج ب** في الجهة الجنوبية.\n- اتبع تعليمات مراقب الطابق، وأغلق الأبواب خلفك دون قفلها.\n- توجّه إلى **نقطة التجمع 1** في الساحة الشرقية لمواقف السيارات. وإذا تجاوزت درجة الحرارة الخارجية **45 درجة مئوية** أو كانت هناك عاصفة رملية، يوجّه رئيس المراقبين الجميع إلى **نقطة التجمع 2** المظللة في الجهة الجنوبية من المبنى.\n- المستهدف إخلاء الطابقين بالكامل خلال **4 دقائق** من انطلاق الإنذار، واستكمال التفقد بالأسماء خلال **10 دقائق**.\n- يُعتمد في التفقد على كشف الحضور المستخرج من نظام بطاقات الدخول، ويطبع موظف الاستقبال قائمة الزوار المسجلين في ذلك اليوم.\n- لا يعود أحد إلى المبنى"
+  },
+  {
+   "pid": "ar-15",
+   "lang": "ar",
+   "source": "gulf/GLF-012-AR-national-talent-programme.txt",
+   "source_sha256": "38995df20187635f727cb19ab5e047bfa5b9eeb162bcd741a68de577d5ab05a9",
+   "start": 1067,
+   "chars": 1995,
+   "text": "يوماً** من الخدمة.\n- يُقاس مستوى التقدم في آخر يوم من كل ربع سنة، ويُرفع به تقرير إلى اللجنة التنفيذية للخليج.\n\n## ٣. استقطاب المواهب الوطنية\n- يُعلَن عن كل وظيفة شاغرة في الدرجات من **G1 إلى G6** للمرشحين المواطنين حصراً في المرحلة الأولى: لمدة **١٤ يوماً** في الرياض، و**١٠ أيام** في دبي، و**٧ أيام** في الدوحة. وبعد انقضاء هذه المدة تُفتح الوظيفة لجميع المرشحين.\n- إذا تقدم مرشح مواطن مؤهل، يجب أن تضم القائمة النهائية للمرشحين مرشحاً مواطناً واحداً على الأقل.\n- تُصدَر عروض العمل للمرشحين المواطنين خلال ٥ أيام عمل من تاريخ المقابلة النهائية.\n- تبلغ مكافأة إحالة الموظفين عند تعيين مرشح مواطن **٦٬٠٠٠ درهم** في دبي، و**٦٬٠٠٠ ريال سعودي** في الرياض، و**٦٬٠٠٠ ريال قطري** في الدوحة، وتُصرف بعد أن يُكمل الموظف الجديد فترة التجربة البالغة **٦ أشهر**.\n\n## ٤. برنامج ميريديان لقادة المستقبل من الخريجين\nيمتد برنامج الخريجين **١٨ شهراً**، ويتألف من ثلاث دورات تناوبية مدة كل منها ٦ أشهر في مجالات الهندسة والاستشارات وعمليات الخدمة. وتبدأ كل دفعة في ٠١ سبتمبر، ويُفتح باب التقديم في ٠١ فبراير.\n\n| البند | دبي، الإمارات | الرياض، السعودية | الدوحة، قطر |\n| عدد المقبولين سنوياً | ١٢ خريجاً | ١٠ خريجين | ٥ خريجين |\n| الراتب الإجمالي الشهري خلال البرنامج | ١٦٬٠٠٠ درهم | ١٤٬٠٠٠ ريال سعودي | ١٥٬٠٠٠ ريال قطري |\n| الدرجة عند إتمام البرنامج بنجاح | G4 | G4 | G4 |\n\nشروط الأهلية:\n- أن يحمل المتقدم جنسية بلد موقع التوظيف.\n- أن يكون قد حصل على درجة البكالوريوس خلال آخر **٣ سنوات**.\n- ألا يقل معدله التراكمي عن **٣٫٠ من ٤٫٠** أو ما يعادله.\n\nيُثبَّت الخريج الذي يحصل على **٧٠٪** أو أكثر في التقييم النهائي في وظيفة دائمة بالدرجة G4. ويجوز للخريج الذي يحصل على نتيجة أقل إعادة الدورة التناوبية الأخيرة مرة واحدة.\n\n## ٥. دعم تطوير الموظفين المواطنين\n| وجه الدعم | التفاصيل |\n| المرشد | مرشد في الدرجة G7 فما فوق، يُعيَّن خلال ١٠ أيام عمل من تاريخ الالتحاق |\n| وقت الإرشاد | ساعتان شهرياً على الأقل خلال أول ١٢ شهراً |\n| خطة التطوير الفردية | يُتفق عليها مع المدير خلال ٦٠ يوماً من تاريخ الالتحاق |\n| الشهادات المهنية | حتى ١٥٬٠٠٠ درهم أو ١٥٬٠٠٠ ريال سعودي أو ١٥٬٠٠٠ ريال قطري لكل موظف في السنة الميلادية |\n|"
+  },
+  {
+   "pid": "ar-16",
+   "lang": "ar",
+   "source": "gulf/GLF-004-AR-housing-transport-and-allowances-policy.txt",
+   "source_sha256": "554454f1f965658faba1f00aba6629a45f30ed2e8b73811f54b4543f0bd39ada",
+   "start": 595,
+   "chars": 399,
+   "text": "وهي ليست مبالغ مستردة مقابل مصروفات، ولذلك لا يلزم تقديم إيصالات ما لم ينص أحد الأقسام على خلاف ذلك.\n\n## ٢. بدل السكن\n| فئة الدرجة | الإمارات (درهم إماراتي شهريًا) | السعودية (ريال سعودي شهريًا) | قطر (ريال قطري شهريًا) |\n| G1 إلى G2 | ٤٬٥٠٠ | ٣٬٨٠٠ | ٤٬٢٠٠ |\n| G3 إلى G4 | ٧٬٠٠٠ | ٥٬٨٠٠ | ٦٬٥٠٠ |\n| G5 إلى G6 | ١٠٬٥٠٠ | ٨٬٥٠٠ | ٩٬٨٠٠ |\n| G7 إلى G8 | ١٥٬٠٠٠ | ١٢٬٥٠٠ | ١٤٬٠٠٠ |\n| G9 فما فوق | ٢٢٬٠٠٠"
+  },
+  {
+   "pid": "ar-17",
+   "lang": "ar",
+   "source": "gulf/GLF-001-AR-annual-leave-and-public-holidays-policy.txt",
+   "source_sha256": "2dd0b2b16c0bcdcb0f3742ecbb45e69e74aaf0e2336632098ffa4af08258f39c",
+   "start": 1351,
+   "chars": 997,
+   "text": "لا تُخصم من الرصيد العطلة الرسمية التي تقع خلال إجازة سنوية معتمدة. وفي الدوحة، لا تُحتسب أيام الراحة الأسبوعية والعطلات الرسمية أيام عمل في أي حال.\n\n## 3. ترحيل الرصيد والصرف النقدي\n| موقع العمل | الحد الأقصى للترحيل | آخر موعد لاستخدام الأيام المرحّلة | الصرف النقدي أثناء الخدمة |\n| المقر الرئيسي في دبي (الإمارات) | 15 يوماً تقويمياً | 31 مارس | حتى 10 أيام في سنة الإجازات |\n| فرع الرياض (السعودية) | 10 أيام تقويمية | 31 مارس | غير مسموح |\n| فرع الدوحة (قطر) | 10 أيام عمل | 31 مارس | حتى 5 أيام في سنة الإجازات |\n\n- يسقط أي رصيد يتجاوز حد الترحيل في 31 ديسمبر. وتسقط كذلك الأيام المرحّلة التي لم تُستخدم بحلول 31 مارس، ما لم يكن المدير قد رفض الإجازة كتابياً لأسباب تتعلق بالعمل، وفي هذه الحالة تمدد عمليات الموارد البشرية المهلة حتى 30 يونيو.\n- يُقدَّم طلب الصرف النقدي أثناء الخدمة عبر MyMeridian في الفترة من 01 إلى 15 ديسمبر، ويُصرف مع راتب ديسمبر على أساس الأجر الأساسي اليومي، وهو الراتب الأساسي الشهري مقسوماً على 30.\n- عند انتهاء الخدمة، يُصرف الرصيد المستحق غير المستخدم مع التسوية"
+  },
+  {
+   "pid": "ar-18",
+   "lang": "ar",
+   "source": "gulf/GLF-005-AR-residence-visa-emirates-id-iqama-and.txt",
+   "source_sha256": "0f1b06925f2ae164710b29a9f5cb56bc4ba0ce7fb0a91af02335f46ea511bd9b",
+   "start": 1695,
+   "chars": 1993,
+   "text": "العلاقات الحكومية عن فقدان جواز السفر خلال **24 ساعة**.\n- أن يُحدّث بياناته الشخصية في نظام MyMeridian باستمرار، لأن فريق العلاقات الحكومية يعتمد عليها في جميع المعاملات الحكومية.\n- ألا يعمل لدى أي جهة أخرى طوال مدة كفالة ميريديان له، ما لم يُعتمد له تصريح عمل ثانوي مسبقًا.\n\n## 4. مواعيد التجديد والإلغاء\n| الإجراء | الإمارات | السعودية | قطر |\n| بدء فريق العلاقات الحكومية إجراءات التجديد قبل انتهاء الصلاحية | 60 يومًا | 90 يومًا | 45 يومًا |\n| إرسال تذكير إلى الموظف في MyMeridian | قبل 75 يومًا من انتهاء الصلاحية | قبل 105 أيام من انتهاء الصلاحية | قبل 60 يومًا من انتهاء الصلاحية |\n| إنجاز الإلغاء أو تأشيرة الخروج النهائي بعد آخر يوم عمل | خلال 5 أيام عمل | خلال 7 أيام عمل | خلال 7 أيام عمل |\n\nلا يجوز للموظف أن يخطط لإجازة خارج البلد تزيد على **14 يومًا متتاليًا** خلال فترة التجديد دون الاتفاق عليها مسبقًا مع فريق العلاقات الحكومية. وإذا انتهت صلاحية الإقامة بسبب تأخر من فريق العلاقات الحكومية، تتحمل ميريديان المسؤولية، بما في ذلك أي غرامات. أما الغرامة الناتجة عن تغيّب الموظف عن موعد محجوز دون عذر مقبول فيتحملها الموظف.\n\n## 5. كفالة المُعالين\nيجوز للزوج أو الزوجة والأبناء الالتحاق بالموظف بموجب إقامة عائلية. ففي الإمارات وقطر يكون الموظف هو كفيل أسرته، وفي المملكة العربية السعودية يُسجَّل المُعالون على إقامة الموظف. وفي جميع الحالات يتولى فريق العلاقات الحكومية إعداد الطلبات وتقديمها.\n\n| فئة الدرجة | المُعالون الذين تدفع ميريديان رسوم إقامتهم | الدعم في حال عدم التغطية |\n| G1 إلى G2 | لا أحد | سلفة معفاة من الفوائد تصل إلى 5,000 درهم إماراتي أو 5,000 ريال سعودي أو 5,000 ريال قطري، تُسترد على 10 أشهر |\n| G3 إلى G4 | الزوج أو الزوجة وما يصل إلى 2 من الأبناء | الأبناء الإضافيون على نفقة الموظف |\n| G5 إلى G6 | الزوج أو الزوجة وما يصل إلى 3 من الأبناء | الأبناء الإضافيون على نفقة الموظف |\n| G7 فما فوق | الزوج أو الزوجة وما يصل إلى 4 من الأبناء | الأبناء الإضافيون على نفقة الموظف |\n\nوبالتفصيل: للموظف في **الدرجة G3 أو G4** تدفع ميريديان رسوم إقامة الزوج أو الزوجة و**2 من الأبناء** كحد أقصى، وللموظف في **الدرجة G5 أو G6** الزوج أو الزوجة و**3 من الأبناء** كحد أقصى،"
+  },
+  {
+   "pid": "ar-19",
+   "lang": "ar",
+   "source": "gulf/GLF-A06-AR-staff-majlis-charter.txt",
+   "source_sha256": "0fa470343608af1b34163b3be2e7e2761092550395213090242143839c0ce6bc",
+   "start": 4021,
+   "chars": 398,
+   "text": "والامتثال.\n- يلتزم الأعضاء بسرية الحالات الفردية التي يطلعون عليها، ولا يناقشون حالة موظف بعينه إلا بموافقته الكتابية.\n\n## ٧. انتهاء العضوية وتعديل الميثاق\n- تنتهي العضوية بالاستقالة من المجلس، أو انتهاء الخدمة في الشركة، أو الترقية إلى الدرجة G7 فما فوق، أو الغياب عن **٣ اجتماعات متتالية** دون عذر مقبول، أو صدور إنذار كتابي بحق العضو.\n- يُعدَّل هذا الميثاق بموافقة ثلثي الأعضاء المصوّتين واعتماد"
+  },
+  {
+   "pid": "ar-20",
+   "lang": "ar",
+   "source": "gulf/GLF-007-AR-gulf-group-medical-insurance-policy.txt",
+   "source_sha256": "741dca76ba8dd790b05304c9e9ccf8a0cd3cbe3d2ece639e34c0528f780c45fe",
+   "start": 2793,
+   "chars": 995,
+   "text": "العمل:\n\n| الدولة | الزوج أو الزوجة | الأبناء على نفقة الشركة | الحد العمري للأبناء |\n| الإمارات (دبي) | على نفقة الشركة | حتى 3 أبناء | دون 21 سنة، أو دون 25 سنة للمتفرغين للدراسة |\n| السعودية (الرياض) | على نفقة الشركة | جميع الأبناء المؤهلين | دون 25 سنة، لغير المتزوجين |\n| قطر (الدوحة) | على نفقة الشركة | جميع الأبناء المؤهلين | دون 18 سنة، أو دون 21 سنة للمتفرغين للدراسة |\n\n- يجب أن يحمل المُعال تصريح إقامة على كفالة الموظف في دولة العمل.\n- في الإمارات، يجوز تسجيل الابن الرابع فما بعده في الوثيقة الجماعية على نفقة الموظف، ويُخصم القسط من الراتب على 12 قسطاً شهرياً متساوياً.\n- لا يُغطّى الوالدان على نفقة الشركة. ويجوز للموظف في دبي أو الدوحة تسجيل أحد والديه ممن يحمل تصريح إقامة على كفالته، على نفقة الموظف. ولا يتوفر هذا الخيار في السعودية.\n- يُغطّى المولود الجديد من تاريخ الولادة إذا سُجِّل خلال **30 يوماً** من تاريخ الولادة. وبعد انقضاء 30 يوماً تبدأ التغطية من تاريخ التسجيل فقط.\n\n## 5. التسجيل والتعديلات\n- تبدأ التغطية من تاريخ الالتحاق بالعمل، بما في ذلك فترة التجربة. وتصدر"
+  },
+  {
+   "pid": "ar-21",
+   "lang": "ar",
+   "source": "gulf/GLF-009-AR-probation-notice-period-and-resignation-policy.txt",
+   "source_sha256": "025d1f01fb79131e48d312c804ec236917d9c8cc21c74196f0a3dc94494e0f10",
+   "start": 214,
+   "chars": 1997,
+   "text": "فيها سياسة خاصة بالشركة، وتُدرَج في كل عقد عمل. وإذا اشترط قانون العمل في دولة العمل مدة أطول أو منح الموظف حقاً أفضل، يُطبَّق القانون. ويخضع موظفو الهند للسياستين HRP-036 وHRP-040، لا لهذه السياسة.\n\n## ٢. فترة التجربة\n| الدرجة الوظيفية | الإمارات (دبي) | السعودية (الرياض) | قطر (الدوحة) |\n| من G1 إلى G4 | ٦ أشهر | ١٨٠ يوماً | ٦ أشهر |\n| G5 فما فوق | ٣ أشهر | ٩٠ يوماً | ٣ أشهر |\n| النقل من كيان آخر تابع لميريديان | لا توجد | لا توجد | لا توجد |\n\n- يجوز تمديد فترة التجربة **مرة واحدة** للدرجات G5 فما فوق فقط، بحيث لا يتجاوز مجموعها ٦ أشهر في الإمارات وقطر، أو ١٨٠ يوماً في السعودية. ويجب تأكيد التمديد كتابياً قبل تاريخ الانتهاء الأصلي.\n- في السعودية، لا تُحتسب أيام الإجازة المرضية وعطلتا عيد الفطر وعيد الأضحى ضمن فترة التجربة، فيتأخر تاريخ انتهائها بعدد الأيام نفسه.\n- يستكمل المدير مراجعة التثبيت في MyMeridian قبل **١٠ أيام عمل** على الأقل من انتهاء فترة التجربة. وإذا لم يُسجَّل أي قرار حتى تاريخ الانتهاء، يُثبَّت الموظف اعتباراً من التاريخ الأصلي.\n- تسري تغطية التأمين الطبي الجماعي وفق السياسة GLF-007 من تاريخ الالتحاق، بما في ذلك فترة التجربة.\n\n## ٣. إنهاء الخدمة خلال فترة التجربة\n| الحالة | الإمارات (دبي) | السعودية (الرياض) | قطر (الدوحة) |\n| إنهاء الشركة للخدمة | إشعار كتابي مدته ١٤ يوماً | إشعار كتابي مدته ٧ أيام | إشعار كتابي مدته ٧ أيام |\n| استقالة الموظف للالتحاق بصاحب عمل آخر في الدولة نفسها | شهر واحد (١) | ٧ أيام | شهر واحد (١) |\n| استقالة الموظف لمغادرة الدولة | ١٤ يوماً | ٧ أيام | ١٤ يوماً |\n\n- قبل إنهاء الخدمة بسبب الأداء، يجب أن يكون المدير قد أبلغ الموظف بأوجه القصور كتابياً مرة واحدة على الأقل.\n- إذا استقال موظف في الإمارات خلال فترة التجربة للالتحاق بصاحب عمل آخر في الإمارات، تطالب الشركة صاحب العمل الجديد بتكاليف التوظيف والتأشيرة التي تحملتها، بحد أقصى **١٠٬٠٠٠ درهم إماراتي**. ولا يُخصم أي مبلغ من المستحقات النهائية للموظف لهذا السبب.\n\n## ٤. فترة الإشعار بعد التثبيت\n| الدرجة الوظيفية | الإمارات (دبي) | السعودية (الرياض)، الموظف / الشركة | قطر (الدوحة) |\n| من G1 إلى G4 | ٣٠ يوماً | ٣٠ يوماً / ٦٠ يوماً | شهر واحد (١)، أو شهران (٢) بعد إتمام سنتين"
+  },
+  {
+   "pid": "ar-22",
+   "lang": "ar",
+   "source": "gulf/GLF-A02-AR-eid-al-adha-holiday-circular.txt",
+   "source_sha256": "5fc40fdc957a2d7e849de5ab07d72644282803b618e1fd84c1bee68eb0a97069",
+   "start": 31,
+   "chars": 397,
+   "text": "صادر بتاريخ **الأحد 10 مايو 2026**.\n\nبمناسبة قرب حلول يوم عرفة وعيد الأضحى المبارك، تتقدم إدارة الموارد البشرية - الخليج إلى جميع الزملاء وأسرهم بأصدق التهاني، سائلين الله أن يعيده على الجميع بالخير والبركة. ويحدد هذا التعميم مواعيد العطلة في كل مكتب، وترتيبات العمل للموظفين المكلفين بالمناوبة، وموعد صرف الرواتب، وضوابط الإجازات والسفر خلال فترة العيد.\n\nتستند المواعيد الواردة في هذا التعميم إلى"
+  },
+  {
+   "pid": "ar-23",
+   "lang": "ar",
+   "source": "gulf/GLF-002-AR-end-of-service-gratuity-policy-gulf.txt",
+   "source_sha256": "7be9dce736d05d2a6c23fbc848c282aaeb224dc2fa474eba30a10f239ccb9c23",
+   "start": 3767,
+   "chars": 995,
+   "text": "أيام، وللسنة والنصف التالية ١٫٥ × ٢٨ = ٤٢ يوماً. فيكون المجموع ١٤٧ يوماً، وتبلغ المكافأة ١٤٧ × ١٠٬٠٠٠ ÷ ٣٠ = **٤٩٬٠٠٠ ريال قطري**.\n\n## ٦. مقارنة بين المواقع\n| البند | دبي (الإمارات) | الرياض (السعودية) | الدوحة (قطر) |\n| أيام المكافأة عن كل سنة، من السنة ١ إلى ٥ | ٢١ | ١٥ | ٢١ |\n| أيام المكافأة عن كل سنة بعد السنة الخامسة | ٣٠ | ٣٠ | ٢٨ |\n| الاستقالة قبل إكمال سنتين | كاملة، بعد سنة واحدة | لا شيء | كاملة، بعد سنة واحدة |\n| الحد الأقصى الإجمالي | ٢٤ شهراً من الراتب الأساسي | لا يوجد | لا يوجد |\n\n## ٧. الصرف والاستقطاعات والوفاة أثناء الخدمة\n- تُصرف المكافأة مع التسوية النهائية خلال **١٠ أيام عمل** من آخر يوم عمل، بتحويل مصرفي إلى حساب الراتب المسجل في MyMeridian، وبعملة موقع العمل.\n- يجوز أن تُستقطع من المكافأة المبالغ المستحقة لميريديان على الموظف، مثل سلفة راتب غير مسددة، بحد أقصى **٥٠٪** من المكافأة، ويُسترد أي رصيد متبقٍ بصورة منفصلة.\n- عند وفاة الموظف أثناء الخدمة، تُصرف المكافأة كاملة لورثته الشرعيين **بصرف النظر عن مدة الخدمة**، ولا يسري شرط الحد الأدنى البالغ سنة واحدة ولا"
+  },
+  {
+   "pid": "ar-24",
+   "lang": "ar",
+   "source": "gulf/GLF-010-AR-overtime-weekend-and-shift-rules.txt",
+   "source_sha256": "88079d68eebabba35303da89c2c7eec80381ac8d1e35519fb8b3577a6e2c9926",
+   "start": 2031,
+   "chars": 1997,
+   "text": "شهر رمضان، تُحتسب الساعات التي تتجاوز يوم العمل الرمضاني البالغ ٦ ساعات عملاً إضافياً.\n\n## ٤. معدلات أجر العمل الإضافي\nيُحتسب أجر العمل الإضافي على أساس أجر الساعة الأساسي، وهو الراتب الأساسي الشهري مقسوماً على ٣٠ ثم على ٨. ولا تدخل بدلات السكن والمواصلات وغيرها من البدلات في الاحتساب.\n\n| نوع العمل الإضافي | دبي، الإمارات | الرياض، السعودية | الدوحة، قطر |\n| يوم عمل، قبل الساعة ٢٢:٠٠ | ١٢٥٪ | ١٥٠٪ | ١٢٥٪ |\n| يوم عمل، من الساعة ٢٢:٠٠ إلى ٠٥:٠٠ | ١٥٠٪ | ١٧٥٪ | ١٥٠٪ |\n| يوم الراحة الأسبوعية | ١٧٥٪ | ٢٠٠٪ | ١٥٠٪ مع يوم راحة بديل |\n| العطلة الرسمية | ٢٠٠٪ مع يوم إجازة بديل | ٢٥٠٪ | ٢٠٠٪ مع يوم إجازة بديل |\n\nمثال تطبيقي: مهندس في الدرجة G3 في دبي راتبه الأساسي الشهري ٩٬٠٠٠ درهم إماراتي، فيكون أجر الساعة الأساسي له ٣٧٫٥٠ درهم. وتُدفع أربع ساعات عمل إضافي معتمدة في يوم عمل قبل الساعة ٢٢:٠٠ بنسبة ١٢٥٪، أي ما مجموعه **١٨٧٫٥٠ درهم**.\n\n## ٥. حدود العمل الإضافي وصرفه\n| الحد | دبي، الإمارات | الرياض، السعودية | الدوحة، قطر |\n| الحد الأقصى للعمل الإضافي في يوم العمل | ساعتان | ساعتان | ساعتان |\n| الحد الأقصى للعمل الإضافي في الشهر التقويمي | ٣٠ ساعة | ٣٦ ساعة | ٣٢ ساعة |\n| الحد الأقصى لأيام الراحة الأسبوعية التي يُعمل فيها في الشهر | ٢ | ٢ | ١ |\n\n- لا يجوز تجاوز الحد الشهري إلا في حالة حادث تشغيلي مُعلَن في بيئة الإنتاج، وبموافقة خطية من رئيس الإدارة ورئيس الموارد البشرية في الخليج معاً.\n- يُصرف أجر العمل الإضافي المعتمد مع راتب الشهر التالي، ويظهر بنداً مستقلاً في قسيمة الراتب.\n- تُرحَّل قيود العمل الإضافي التي لم تُعتمد حتى اليوم ٢٥ من الشهر إلى دورة الرواتب التالية.\n\n## ٦. العمل بنظام المناوبات\nتسري قواعد المناوبات على الموظفين المدرجين في جداول مركز عمليات الخدمة الذي يعمل على مدار الساعة طوال أيام الأسبوع، وعلى فرق الدعم الميداني.\n\n- تُنشر جداول المناوبات في نظام MyMeridian قبل **١٤ يوماً** على الأقل.\n- مدة المناوبة ٩ ساعات، تشمل استراحة لتناول الطعام مدتها ٦٠ دقيقة.\n- يجب ألا تقل فترة الراحة بين نهاية مناوبة وبداية المناوبة التالية عن **١١ ساعة**.\n- لا يعمل أي موظف أكثر من **٦ مناوبات ليلية متتالية**، ويحصل بعد سلسلة المناوبات الليلية على راحة لا تقل عن ٤٨ ساعة.\n- تُقدَّم"
+  },
+  {
+   "pid": "ar-25",
+   "lang": "ar",
+   "source": "gulf/GLF-006-AR-wage-protection-system-and-payroll-calendar.txt",
+   "source_sha256": "4839d2abd69887ee00cea68823aefaf6e915c9c6c4489d07578baa1fe2dd0d8b",
+   "start": 639,
+   "chars": 395,
+   "text": "(الرياض) | تحويل الرواتب عبر البنك، مع رفع ملف حماية الأجور على منصة مُدد | ملف حماية الأجور الشهري | عمليات الرواتب - الخليج، الرياض |\n| قطر (الدوحة) | نظام حماية الأجور عبر البنك المعتمد لدى الشركة لصرف الرواتب | ملف معلومات الرواتب (SIF) | عمليات الرواتب - الخليج، الدوحة |\n\nتُصرف جميع مدفوعات الرواتب عبر هذه القناة، بما فيها المتأخرات والمدفوعات خارج الدورة المعتادة. ولا يُسمح بصرف الرواتب"
+  }
+ ]
+}

@@ -1,0 +1,69 @@
+#META
+id: GLF-012-EN
+title: National Talent Programme (Emiratisation, Saudisation and Qatarisation)
+owner: Talent Acquisition and Development Gulf
+version: 1.0
+effective: 01-Oct-2026
+review: 30-Sep-2027
+applies: All employees, hiring managers and programme participants of Meridian Systems Gulf FZ-LLC in Dubai, Riyadh and Doha
+#BODY
+## 1. Purpose
+Meridian Systems Gulf FZ-LLC is committed to building a skilled national workforce in each country where it operates. This policy sets the company's internal targets for Emirati nationals at the Dubai head office, Saudi nationals at the Riyadh branch and Qatari nationals at the Doha branch. It also explains how national candidates are recruited and how national employees are developed and retained.
+
+The targets in this policy are company commitments. Each January, the Compliance team confirms the national workforce requirement that applies in each country. Where that requirement is higher than an internal target, the national requirement replaces the target for that year.
+
+## 2. Internal targets
+| Location | Headcount on 30-Sep-2026 | National employees | National share | Target by 31-Dec-2027 | Target by 31-Dec-2028 |
+| Dubai, UAE (Emirati) | 400 | 24 | 6% | 10% | 12% |
+| Riyadh, KSA (Saudi) | 180 | 54 | 30% | 35% | 40% |
+| Doha, Qatar (Qatari) | 90 | 9 | 10% | 15% | 20% |
+
+- Only national employees on a full-time contract who have completed **90 days** of service count towards a target.
+- Progress is measured on the last day of each quarter and reported to the Gulf Executive Committee.
+
+## 3. Recruitment of national talent
+- Every vacancy in grades **G1 to G6** is first advertised only to national candidates: for **14 days** in Riyadh, **10 days** in Dubai and **7 days** in Doha. After this window the vacancy is open to all candidates.
+- Where a qualified national candidate applies, at least one national candidate must appear on the final shortlist.
+- Job offers to national candidates are released within 5 working days of the final interview.
+- The employee referral bonus for a hired national candidate is **AED 6,000** in Dubai, **SAR 6,000** in Riyadh and **QAR 6,000** in Doha. It is paid once the new hire completes the **6-month** probation period.
+
+## 4. Meridian Future Leaders Graduate Programme
+The graduate programme lasts **18 months** and consists of three rotations of 6 months each, across Engineering, Consulting and Service Operations. Each intake starts on 01 September and applications open on 01 February.
+
+| Item | Dubai, UAE | Riyadh, KSA | Doha, Qatar |
+| Annual intake | 12 graduates | 10 graduates | 5 graduates |
+| Monthly gross salary during the programme | AED 16,000 | SAR 14,000 | QAR 15,000 |
+| Grade on successful completion | G4 | G4 | G4 |
+
+Eligibility:
+- Nationality of the country of the hiring location.
+- A bachelor's degree awarded within the last **3 years**.
+- A minimum cumulative GPA of **3.0 out of 4.0**, or its equivalent.
+
+A graduate who scores **70%** or more in the final assessment is confirmed in a permanent G4 role. A graduate who scores less may repeat the final rotation once.
+
+## 5. Development support for national employees
+| Support | Provision |
+| Mentor | A mentor in grade G7 or above, assigned within 10 working days of joining |
+| Mentoring time | At least 2 hours a month for the first 12 months |
+| Individual development plan | Agreed with the manager within 60 days of joining |
+| Professional certifications | Up to AED 15,000, SAR 15,000 or QAR 15,000 per employee per calendar year |
+| Master's degree sponsorship | 75% of tuition, capped at AED 80,000, SAR 80,000 or QAR 80,000 for the full programme, after 2 years of service |
+
+A sponsored master's degree carries a service commitment of **24 months** after completion. An employee who leaves earlier repays the sponsorship pro rata to the unserved months.
+
+## 6. Retention
+- National employees receive a retention award of **10% of annual basic salary** after 24 months of continuous service.
+- The HR Business Partner holds an exit interview with every national employee who resigns, within 5 working days of the resignation.
+- National attrition is reviewed every quarter. Where it exceeds **12%** annualised at a location, the location head presents a corrective plan to the National Talent Council.
+
+## 7. Governance
+- The National Talent Council is chaired by the Managing Director Gulf and meets every quarter.
+- For managers in grade G7 and above, national talent goals carry a **10% weighting** in the annual performance objectives.
+- Personal data collected under this programme is used only for workforce reporting and is handled under the company's data privacy rules.
+
+## 8. Related documents
+- GLF-010 Overtime, Weekend and Shift Rules (Gulf)
+- GLF-011 Business Travel and Per Diem within the GCC
+
+Fictional document created for a technical demonstration. Not legal advice.

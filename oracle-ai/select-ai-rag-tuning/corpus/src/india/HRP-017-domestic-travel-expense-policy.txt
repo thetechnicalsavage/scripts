@@ -1,0 +1,114 @@
+#META
+id: HRP-017
+title: Domestic Travel and Expense Policy
+owner: Finance Shared Services
+version: 6.1
+effective: 01-Apr-2026
+review: 31-Mar-2027
+applies: All employees travelling within India on Meridian business
+#BODY
+## 1. Purpose and principles
+This policy governs travel within India on Meridian Systems India Private Limited business, the entitlements by grade, and how expenses are claimed and settled.
+
+Three principles apply to every claim:
+- Travel only when the business outcome cannot be achieved remotely.
+- Spend as you would spend your own money, within the entitlement.
+- Claim what you spent, with evidence. Entitlements are ceilings, not allowances to be exhausted.
+
+## 2. City tiers
+Entitlements vary by the tier of the destination city.
+
+| Tier | Cities |
+| Tier A | Mumbai, Delhi and the National Capital Region, Bengaluru |
+| Tier B | Pune, Hyderabad, Chennai, Kolkata, Ahmedabad |
+| Tier C | All other locations in India |
+
+## 3. Travel entitlement by grade
+| Grade band | Air travel | Rail travel | Road |
+| G1 to G2 | Economy class, only where the rail journey exceeds 6 hours or the distance exceeds 500 km | AC 2-Tier | Company cab or bus |
+| G3 to G4 | Economy class | AC 2-Tier | Company cab, or own vehicle at the mileage rate in HRP-019 |
+| G5 to G6 | Economy class | AC First Class | Company cab, or own vehicle at the mileage rate |
+| G7 to G8 | Economy class; Business class permitted where the single flight sector exceeds 6 hours | AC First Class | Company cab |
+| G9 and above | Business class | AC First Class | Company cab |
+
+Air tickets must be booked through the Meridian travel desk or the approved online booking tool at least **7 days in advance**, on the lowest logical fare for the required schedule. A booking made inside 7 days requires the reason to be recorded, and a booking inside 48 hours requires function head approval.
+
+## 4. Hotel entitlement, per night, exclusive of taxes
+| Grade band | Tier A | Tier B | Tier C |
+| G1 to G2 | INR 3,500 | INR 2,800 | INR 2,200 |
+| G3 to G4 | INR 5,000 | INR 4,000 | INR 3,000 |
+| G5 to G6 | INR 7,500 | INR 6,000 | INR 4,500 |
+| G7 to G8 | INR 10,000 | INR 8,000 | INR 6,000 |
+| G9 and above | At actuals, with prior approval of the Chief Financial Officer |
+
+## 4a. The hotel entitlement stated in full
+Each line below repeats the city tier so that the entitlement can be read on its own.
+
+- A **grade G1 or G2** employee may book up to **INR 3,500 per night** in a Tier A city (Mumbai, Delhi NCR, Bengaluru), **INR 2,800 per night** in a Tier B city (Pune, Hyderabad, Chennai, Kolkata, Ahmedabad), and **INR 2,200 per night** in any Tier C city.
+- A **grade G3 or G4** employee may book up to **INR 5,000 per night** in a Tier A city (Mumbai, Delhi NCR, Bengaluru), **INR 4,000 per night** in a Tier B city (Pune, Hyderabad, Chennai, Kolkata, Ahmedabad), and **INR 3,000 per night** in any Tier C city.
+- A **grade G5 or G6** employee may book up to **INR 7,500 per night** in a Tier A city (Mumbai, Delhi NCR, Bengaluru), **INR 6,000 per night** in a Tier B city (Pune, Hyderabad, Chennai, Kolkata, Ahmedabad), and **INR 4,500 per night** in any Tier C city.
+- A **grade G7 or G8** employee may book up to **INR 10,000 per night** in a Tier A city (Mumbai, Delhi NCR, Bengaluru), **INR 8,000 per night** in a Tier B city (Pune, Hyderabad, Chennai, Kolkata, Ahmedabad), and **INR 6,000 per night** in any Tier C city.
+- A **grade G9 or above** employee books at actuals, with the prior approval of the Chief Financial Officer.
+
+All hotel ceilings are per night and exclude taxes. Meridian does not specify a star rating; the ceiling is the only limit, alongside the corporate-rate requirement in section 4.
+
+- Where the Meridian travel desk has a negotiated corporate rate at the destination, that hotel must be used even if a cheaper option exists, because the corporate rate carries the duty-of-care and safety assurances.
+- Where the entitlement cannot secure safe accommodation at the destination, for example during a major event, the employee may exceed the ceiling with written approval from the function head recorded before the booking.
+- Room service, laundry beyond one day per 3 nights, minibar, movies and spa are not reimbursable.
+- Two employees of the same gender travelling together to a Tier C location may be asked to share a twin room. Sharing is never required for women employees or for employees in G5 and above.
+
+## 5. Daily allowance, per night of stay
+The daily allowance covers meals, laundry, tips and incidental expenses. **No receipts are required for the daily allowance.** It is paid for each night of stay away from the base location.
+
+| Grade band | Tier A | Tier B | Tier C |
+| G1 to G2 | INR 900 | INR 750 | INR 600 |
+| G3 to G4 | INR 1,200 | INR 1,000 | INR 800 |
+| G5 to G6 | INR 1,600 | INR 1,300 | INR 1,000 |
+| G7 to G8 | INR 2,000 | INR 1,700 | INR 1,400 |
+| G9 and above | INR 2,500 | INR 2,100 | INR 1,800 |
+
+## 5a. The daily allowance stated in full
+- A **grade G1 or G2** employee receives **INR 900 per night** in a Tier A city (Mumbai, Delhi NCR, Bengaluru), **INR 750** in a Tier B city (Pune, Hyderabad, Chennai, Kolkata, Ahmedabad), and **INR 600** in a Tier C city.
+- A **grade G3 or G4** employee receives **INR 1,200 per night** in a Tier A city, **INR 1,000** in a Tier B city (Pune, Hyderabad, Chennai, Kolkata, Ahmedabad), and **INR 800** in a Tier C city.
+- A **grade G5 or G6** employee receives **INR 1,600 per night** in a Tier A city, **INR 1,300** in a Tier B city (Pune, Hyderabad, Chennai, Kolkata, Ahmedabad), and **INR 1,000** in a Tier C city.
+- A **grade G7 or G8** employee receives **INR 2,000 per night** in a Tier A city, **INR 1,700** in a Tier B city, and **INR 1,400** in a Tier C city.
+- A **grade G9 or above** employee receives **INR 2,500 per night** in a Tier A city, **INR 2,100** in a Tier B city, and **INR 1,800** in a Tier C city.
+
+Worked example: an employee in grade G5 travelling to **Pune**, which is a Tier B city, may book a hotel up to **INR 6,000 per night** and receives a daily allowance of **INR 1,300 for each night of stay**. If the hotel tariff includes breakfast, the daily allowance for that night reduces by 20 per cent to INR 1,040.
+
+Reductions where meals are provided:
+- Breakfast included in the hotel tariff, or provided by the client: deduct **20 per cent**.
+- Lunch provided: deduct **35 per cent**.
+- Dinner provided: deduct **35 per cent**.
+- All meals provided, for example at a residential training programme: **10 per cent** of the daily allowance is paid to cover incidentals.
+
+A day trip with no overnight stay, where the employee is away from base for more than 8 hours, attracts **50 per cent** of the Tier C daily allowance for the employee's grade.
+
+## 6. Other reimbursable expenses
+| Expense | Rule |
+| Airport or station transfer | At actuals, by the most economical safe mode |
+| Local conveyance at the destination | At actuals against receipts, or the mileage rate in HRP-019 |
+| Baggage charges | One checked bag; additional bags only where business material is carried |
+| Wi-Fi at the hotel or in flight | At actuals where required for work |
+| Visa and vaccination for a subsequent international trip | At actuals, see HRP-018 |
+| Client entertainment | Pre-approved by the function head, with the names and organisations of attendees recorded |
+| Personal travel insurance | Not reimbursable; Meridian's corporate cover applies |
+| Traffic fines and parking penalties | Never reimbursable |
+| Alcohol | Not reimbursable, including within client entertainment, unless expressly approved by the business unit head |
+
+## 7. Travel advance
+An employee may request an advance of up to **80 per cent** of the estimated trip cost, through MyMeridian > Expenses > Travel Advance. The advance is disbursed within 3 working days of approval and must be adjusted against the expense claim within **15 days of returning**. An unadjusted advance older than 45 days is recovered from the next payroll.
+
+## 8. Claiming and settlement
+- Submit the claim in **MyMeridian > Expenses > New Claim** within **30 days of completing the travel**. A claim submitted after 30 days requires function head approval, and after 90 days is not payable.
+- Attach a legible image of each receipt. Individual items **below INR 500** do not require a receipt, up to a total of INR 2,000 per claim.
+- A GST-compliant invoice showing the Meridian GSTIN must be obtained for hotel stays and air tickets, so that the input tax credit can be claimed. The GSTIN for each state is published in MyMeridian > Expenses > GST Details.
+- The reporting manager approves within 3 working days. Finance Shared Services audits and settles within 7 working days of manager approval.
+- Settlements are paid into the salary account on the **15th and the last working day** of each month.
+
+## 9. Related documents
+- HRP-018 International Travel and Per Diem Policy
+- HRP-019 Local Conveyance and Mileage Reimbursement Policy
+- HRP-021 Corporate Credit Card and Expense Settlement Policy
+- ESS-005 Employee Self Service: Submitting an Expense Claim
+- MSS-001 Manager Self Service: Approving Leave, Timesheets and Expense Claims

@@ -1,0 +1,75 @@
+#META
+id: HRP-031
+title: IT Acceptable Use and Bring Your Own Device Policy
+owner: Information Security
+version: 5.1
+effective: 01-Apr-2026
+review: 31-Mar-2027
+applies: All users of Meridian Systems India systems, including employees, contractors and interns
+#BODY
+## 1. Purpose
+This policy defines acceptable use of the Meridian Systems India Private Limited computing environment: laptops, mobile devices, networks, email, collaboration tools, cloud services and artificial intelligence tools.
+
+## 2. Acceptable use
+Company systems are provided for company business. **Reasonable and occasional personal use** of email, the internet and the company laptop is permitted, provided it does not interfere with work, consume significant bandwidth or storage, involve any prohibited activity in section 3, or create a liability for Meridian.
+
+## 3. Prohibited activity
+- Accessing, storing or transmitting material that is unlawful, obscene, defamatory, discriminatory or harassing.
+- Circumventing any security control, including the proxy, the endpoint agent, disk encryption, or multi-factor authentication.
+- Installing software that is not in the approved catalogue, including browser extensions. Extensions are a common data exfiltration route and are blocked by policy.
+- Connecting an unapproved removable storage device. USB mass storage is disabled by default and enabled only on an approved exception.
+- Using a personal cloud storage, file transfer or note-taking service for company or client data. Approved services only.
+- Sharing credentials, or using another person's credentials, for any reason, including to cover an absence.
+- Running a personal business, mining cryptocurrency, or hosting a personal service on company infrastructure.
+- Connecting company equipment to an untrusted network without the virtual private network enabled.
+- Attempting to access data, systems or environments beyond the access granted for the role.
+
+## 4. Accounts, passwords and authentication
+- Minimum password length is **14 characters**, and the password must not be reused from another service. A passphrase of four unrelated words is encouraged.
+- **Multi-factor authentication is mandatory** for email, the virtual private network, the identity provider, all cloud consoles and all administrative access.
+- Privileged accounts are separate from the day-to-day account and are used only for the task that requires them.
+- Approved password managers are provided; storing passwords in a spreadsheet, a document or a browser profile is prohibited.
+- Session lock after 10 minutes of inactivity on a laptop and 2 minutes on a mobile device.
+
+## 5. Email and collaboration
+- Do not auto-forward company email to a personal address. The rule is enforced technically.
+- Verify the recipient before sending anything confidential; auto-complete errors are the most common cause of accidental disclosure at Meridian.
+- Report a suspected phishing message using the Report Phish button rather than deleting it. Reporting a genuine phish is never penalised, and neither is reporting something that turns out to be legitimate.
+- External recipients on a client-related thread must be checked against the client's authorised contact list.
+
+## 6. Artificial intelligence and large language model tools
+This section applies to any generative AI assistant, coding assistant, meeting transcription tool, translation service or summarisation service.
+
+- Only tools in the **approved AI catalogue** in MyMeridian may be used for work. The catalogue states, for each tool, whether it is approved for internal data, and whether it is approved for client data.
+- **Never paste client data, personal data, credentials, source code under a client contract, unpublished financial information or security details into a public AI service.** Anything entered into a consumer tool must be treated as published.
+- Where a client contract prohibits the use of AI tools on that engagement, that prohibition overrides the catalogue. The engagement lead confirms the position in writing at the start of the project.
+- Output from an AI tool must be reviewed by a competent person before it is used. The employee remains accountable for the accuracy of anything they submit, and "the tool generated it" is not a defence.
+- AI-generated code must pass the same review, licence scanning and security testing as any other code.
+- Meeting transcription or recording requires the consent of all participants, stated at the start of the meeting.
+
+## 7. Bring Your Own Device
+A personal device may be used to access Meridian email, calendar and chat, but **not** to access source code repositories, client environments, production systems or bulk personal data.
+
+Conditions:
+- The device must be enrolled in mobile device management. Enrolment applies a container or work profile; it does not give Meridian access to personal photographs, messages, browsing history or location.
+- The device must run a supported operating system version receiving security updates, have a screen lock of at least 6 digits or biometric equivalent, and have device encryption enabled.
+- Jailbroken or rooted devices are blocked automatically.
+- The employee consents to a **selective remote wipe of the work container** on separation, on loss of the device, or on a security incident. Personal data on the device is not wiped.
+- The employee must report a lost or stolen device to the IT service desk **within 2 hours** of becoming aware.
+- BYOD is voluntary. An employee who prefers not to enrol a personal device is issued a company mobile device if the role requires mobile access.
+
+## 8. Monitoring
+Meridian monitors its systems to protect them, in line with HRP-032. Employees should understand what this means in practice:
+- Network traffic, email metadata, endpoint security telemetry and access logs are collected and retained.
+- The content of communications is not routinely read. Access to content requires the written authorisation of the Head of Information Security and the Head of HR, and is granted only for a specific investigation under HRP-028, a legal obligation, or a security incident.
+- Monitoring data is retained for 12 months, and longer where it forms part of an investigation.
+- Employees are notified of this monitoring here, in the employment contract and at login.
+
+## 9. Asset custody
+Every asset issued is recorded against the employee in the asset register. The employee is responsible for its safe custody. Loss or damage must be reported within 24 hours. Wilful damage or an unreported loss may result in recovery of the depreciated value from the employee, and is misconduct under HRP-028. Assets must be returned on separation, as part of the clearance in HRP-040.
+
+## 10. Related documents
+- HRP-028 Disciplinary Action, Misconduct and Grievance Policy
+- HRP-030 Remote and Hybrid Work Policy
+- HRP-032 Data Privacy and Personal Data Protection Policy
+- HRP-033 Information Security and Confidentiality Policy

@@ -1,0 +1,70 @@
+#META
+id: GLF-E01-EN
+title: Remote Work from Another GCC Country Policy
+owner: People Policy Gulf
+version: 1.0
+effective: 01-Oct-2026
+review: 30-Sep-2027
+applies: All employees on the Meridian Systems Gulf FZ-LLC payroll in the UAE, the Kingdom of Saudi Arabia and the State of Qatar
+#BODY
+## 1. Purpose and scope
+This policy allows employees of Meridian Systems Gulf FZ-LLC to work for a limited time from a Gulf Cooperation Council (GCC) state other than their country of employment. In this policy the country where the employee holds residence and is paid is the **home country**: the UAE for the Dubai head office, the Kingdom of Saudi Arabia (KSA) for the Riyadh branch and Qatar for the Doha branch. The GCC state the employee works from is the **host country**. Only the six GCC states can be host countries: Bahrain, Kuwait, Oman, Qatar, KSA and the UAE.
+
+Remote work from a host country is approved case by case. It is neither business travel, which is covered by GLF-011, nor a transfer. Working from outside the GCC is not permitted, and hybrid working inside the home country is outside the scope of this policy.
+
+## 2. Eligibility
+- The employee has completed probation and at least **12 months** of continuous service with Meridian Systems Gulf FZ-LLC.
+- The most recent annual performance rating is Meets Expectations or higher.
+- The role does not need physical presence. Data centre operations, facilities, reception and client-site delivery roles are excluded.
+- The employee has no active written warning.
+- The employee's residence in the home country stays valid for the whole stay and for at least **90 days** after the planned return.
+
+## 3. Day limits
+The allowance is counted in home-country working days and resets on 01 January. Unused days lapse on 31 December and cannot be carried forward or exchanged for leave.
+
+| Home country | Remote work days per calendar year | Longest single stay | Minimum gap between two stays |
+| UAE (Dubai head office) | 30 working days | 21 calendar days | 30 calendar days |
+| KSA (Riyadh branch) | 20 working days | 14 calendar days | 30 calendar days |
+| Qatar (Doha branch) | 25 working days | 14 calendar days | 30 calendar days |
+
+Stated in full: an employee paid in the **UAE** may work remotely from another GCC state for up to **30 working days** a year, with no single stay longer than **21 calendar days**. An employee paid in **KSA** may do so for up to **20 working days** a year, and an employee paid in **Qatar** for up to **25 working days**. For KSA and Qatar, no single stay may be longer than **14 calendar days**.
+
+A partial working day in the host country counts as a full day. Weekends and public holidays do not use up the annual allowance, but they do count towards the longest single stay.
+
+## 4. Tax and permanent establishment limits
+GCC states do not currently tax employment income, so the main risk is not personal income tax. It is that the employee's presence creates a taxable presence for Meridian in the host country, known as a permanent establishment. These limits apply on top of section 3.
+
+- No employee may spend more than **60 calendar days** in total in any one host country in a rolling 12-month period, counting remote work, annual leave and business travel together. Tax Gulf reviews every case that reaches **45 calendar days**.
+- While working remotely, the employee must not negotiate or sign contracts, accept orders, meet clients or prospects in person, or present themselves as Meridian's local representative.
+- Employees in sales, pre-sales and business development roles, and all employees in grade **G9 and above**, are limited to **10 working days** a year in any host country and need Tax Gulf approval before every stay.
+- Oman has announced a personal income tax that takes effect on 01 January 2028. From **01 July 2027**, every request to work from Oman needs Tax Gulf approval, whatever the grade.
+
+Salary, allowances and social insurance continue unchanged through the home country payroll, in the home currency. No per diem, housing or travel cost is paid for remote work.
+
+## 5. Visa and entry rules
+- Meridian does not apply for, sponsor or pay for any visa, entry permit or work permit in a host country for remote work.
+- The employee may use only the entry status already available to them as a GCC national or as a resident of the home country. Before approval, Government Relations Gulf confirms in writing, within **5 working days**, that remote work for Meridian under that status is acceptable.
+- The passport must be valid for at least **6 months** beyond the planned return date.
+- If the host country would require a work permit for the activity, or entry is refused, the stay is not approved or ends at once. The cost of an early return is the employee's.
+
+## 6. Working arrangements and security
+- The employee keeps the working hours of the home office and is available during core hours, **09:00 to 15:00 home-country time**.
+- Only the Meridian laptop may be used, with the company VPN connected at all times. Public Wi-Fi may be used only through the VPN.
+- Work on data classified Restricted, or on client systems whose contract limits access to a named country, is not allowed from a host country. The project manager confirms this before the request is submitted.
+- Travel, accommodation and connectivity costs are the employee's own. Medical cover abroad follows GLF-007, so check the provider network of your plan tier before travelling.
+
+## 7. Requests, approvals and records
+- Submit the request in MyMeridian > Time and Attendance > Remote Work Abroad at least **10 working days** before the first day.
+- The reporting manager approves first, then Country HR. Tax Gulf also approves where section 4 requires it. Each approver responds within **3 working days**.
+- A request with shorter notice is accepted only for a family emergency, with the approval of the Country HR Head, and for no more than **5 working days** per stay.
+- The employee confirms the actual days worked abroad in MyMeridian within **3 working days** of returning.
+
+Remote work abroad without approval is treated as unauthorised absence. Days beyond an approved limit are converted to annual leave and, where no leave balance remains, to unpaid leave.
+
+## 8. Related documents
+- GLF-001 Annual Leave and Public Holidays
+- GLF-005 Residence Visa, Emirates ID, Iqama and QID Sponsorship and Dependants Policy
+- GLF-007 Gulf Group Medical Insurance Policy
+- GLF-011 Business Travel and Per Diem within the GCC
+
+Fictional document created for a technical demonstration. Not legal advice.

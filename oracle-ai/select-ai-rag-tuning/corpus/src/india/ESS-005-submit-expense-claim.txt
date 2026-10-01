@@ -1,0 +1,82 @@
+#META
+id: ESS-005
+title: Employee Self Service: Submitting an Expense Claim
+owner: Finance Shared Services
+version: 2.7
+effective: 01-Apr-2026
+review: 31-Mar-2027
+applies: All employees using the MyMeridian self-service portal
+#BODY
+## 1. What this guide covers
+How to raise a travel advance, submit an expense claim, attach receipts, and understand why a claim is queried or rejected. The entitlements themselves are in HRP-017, HRP-018 and HRP-019.
+
+## 2. Before you travel: the advance
+- Go to **MyMeridian > Expenses > Travel Advance**.
+- Enter the trip dates, the destination and the estimated cost by category. The portal pre-fills the hotel ceiling and the daily allowance for your grade and the destination tier, from HRP-017.
+- You may request up to **80 per cent** of the estimate.
+- Approved advances are paid within 3 working days by a separate bank transfer.
+- The advance must be adjusted against a claim within **15 days of returning**. An unadjusted advance older than 45 days is recovered from payroll automatically.
+
+## 3. Submitting a claim
+- Go to **MyMeridian > Expenses > New Claim**.
+- Choose the claim type: Domestic Travel, International Travel, Local Conveyance, Client Entertainment or Other Business Expense.
+- Link the trip and the travel advance if there is one. Linking is what tells the system to offset the advance rather than pay you twice.
+- Add each expense as a separate line: date, category, amount, currency, and a description of the business purpose.
+- Attach a legible image of the receipt to each line. Photograph receipts on a flat surface in good light; the automatic reader extracts the date, amount and vendor and pre-fills the line, which saves time and reduces queries.
+- Review the totals against the entitlement, which is shown alongside each line, and select **Submit**.
+
+## 4. The 30-day rule
+A claim must be submitted within **30 days of the expense being incurred**, or of the completion of the travel.
+
+| Age of the expense | What happens |
+| Within 30 days | Normal processing |
+| 31 to 90 days | The claim requires function head approval and the reason must be stated |
+| Over 90 days | Not payable |
+
+This is not an administrative preference. Expenses must be recorded in the accounting period in which they arise, and the input tax credit on a GST invoice is time-limited.
+
+## 5. Receipts
+| Situation | Requirement |
+| Any single item of INR 500 or more | Receipt required |
+| Items below INR 500 | No receipt, up to a total of **INR 2,000 per claim** |
+| Hotel stay | GST-compliant invoice showing the Meridian GSTIN for that state |
+| Air or rail ticket | Invoice plus the boarding pass or the ticket |
+| Daily allowance or per diem | **No receipts required**, it is paid at the flat rate for the grade and tier |
+| Client entertainment | Receipt plus the names and organisations of everyone present |
+| Mileage for a personal vehicle | No receipt; record the from and to locations and the purpose |
+
+The Meridian GSTIN for each state is listed at **MyMeridian > Expenses > GST Details**. Give it to the hotel at check-in, not at check-out, because most hotel systems cannot add it to an invoice after the folio is closed.
+
+## 6. Approval and payment
+| Stage | Timeline |
+| Reporting manager approval | 3 working days |
+| Finance Shared Services audit | 7 working days from manager approval |
+| Payment | The **15th and the last working day** of each month |
+
+You can see exactly where a claim sits at MyMeridian > Expenses > My Claims. Each claim has a reference in the format **EXP-YYYY-NNNNNN**.
+
+## 7. Why claims get queried
+| Reason | How to avoid it |
+| Receipt illegible or cropped | Photograph the whole receipt flat, including the date and the total |
+| Amount exceeds the grade entitlement without prior approval | Get the function head's written approval **before** the booking, and attach it |
+| Business purpose too vague | "Client meeting" is not enough. Give the client, the attendees and the subject |
+| Duplicate submission | The system flags a matching date, amount and vendor. Usually caused by claiming a corporate card charge that Finance already settled |
+| Personal expense included | Remove it. Even a small personal item on an otherwise valid claim delays the whole claim |
+| Advance not linked | Link the advance so the offset is applied |
+| Expense outside the approved trip dates | Attach an explanation, for example a flight cancellation |
+| Hotel invoice without the GSTIN | Meridian loses the input tax credit. The claim is still paid but Finance will ask you to obtain a corrected invoice |
+
+A queried claim returns to you with a comment. Respond in the claim, do not raise a new one, or you create a duplicate.
+
+## 8. Claiming in foreign currency
+Enter the amount in the currency actually spent. The portal converts at the card statement rate where the corporate card was used, or at the rate on the date of the expense from the published reference table. Do not convert manually; a manual conversion will not reconcile with the card statement and will be queried.
+
+## 9. Corporate card charges
+If you hold a corporate card, the charges appear in MyMeridian > Expenses > Card Transactions. Select each transaction and attach it to a claim line. This substantiates the charge. Do **not** create a separate out-of-pocket line for a charge already on the card; that is the most common cause of a duplicate flag. The 30-day settlement obligation in HRP-021 applies.
+
+## 10. Related documents
+- HRP-017 Domestic Travel and Expense Policy
+- HRP-018 International Travel and Per Diem Policy
+- HRP-019 Local Conveyance and Mileage Reimbursement Policy
+- HRP-021 Corporate Credit Card and Expense Settlement Policy
+- MSS-001 Manager Self Service: Approving Leave, Timesheets and Expense Claims

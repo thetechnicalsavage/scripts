@@ -1,0 +1,75 @@
+#META
+id: HRP-025
+title: Anti-Bribery and Anti-Corruption Policy
+owner: Corporate Compliance
+version: 3.0
+effective: 01-Apr-2026
+review: 31-Mar-2027
+applies: All employees, contractors, agents and third parties acting for Meridian Systems India
+#BODY
+## 1. Purpose and scope
+Meridian Systems India Private Limited prohibits bribery and corruption in every form, in every country, without exception. This policy applies to employees and to any third party acting on Meridian's behalf, including agents, consultants, resellers and joint venture partners.
+
+Meridian is subject to the **Prevention of Corruption Act 1988** as amended in 2018, which makes it an offence for a commercial organisation to give an undue advantage to a public servant. Because Meridian has clients and operations abroad, the **United States Foreign Corrupt Practices Act** and the **United Kingdom Bribery Act 2010** also apply, and both have extraterritorial reach. The UK Bribery Act creates an offence of failing to prevent bribery, for which the only defence is having adequate procedures in place. This policy is part of those procedures.
+
+## 2. What is prohibited
+- **Offering, promising, giving, requesting, agreeing to receive or accepting** any financial or other advantage intended to induce or reward the improper performance of a function.
+- Using a third party to do indirectly what Meridian may not do directly.
+- **Facilitation payments**: small unofficial payments to secure or speed up a routine government action such as a permit, a customs clearance or a utility connection. These are illegal in India and under the FCPA and the UK Bribery Act, and are prohibited at Meridian **without exception**, including where they are locally customary.
+- Kickbacks of any kind to or from a client, vendor or partner.
+- Charitable donations or sponsorships used as a route to improper influence.
+- Political contributions of any kind, in any country. Meridian makes none.
+
+**The only exception** is a payment made under duress where there is an imminent threat to the life, limb or liberty of a person. Such a payment must be reported to Corporate Compliance within 24 hours and recorded accurately in the books.
+
+## 3. Public officials
+A public official includes an employee of a government department or agency, a state-owned or state-controlled enterprise, a public university or hospital, an international organisation, a political party, a party official, and a candidate for public office. Officials of state-owned enterprises are frequently overlooked; in sectors where Meridian works, many client organisations are state-owned.
+
+Any gift, meal, hospitality, travel or sponsorship involving a public official requires **prior written approval from Corporate Compliance**, regardless of value.
+
+## 4. Third parties and due diligence
+Meridian can be liable for a bribe paid by an agent or a partner acting on its behalf. Before any third party is engaged to interact with clients, regulators or public officials:
+
+- **Risk-based due diligence** is conducted, covering ownership, the identity of beneficial owners, connections to public officials, sanctions and adverse media screening.
+- The contract must include anti-bribery representations, audit rights and a right to terminate for breach.
+- Remuneration must be commercially reasonable and proportionate to services actually rendered. Success fees calculated as a percentage of a contract value with a public body are a significant red flag.
+- The engagement is reviewed at least every 2 years.
+
+## 5. Red flags
+Escalate to Corporate Compliance before proceeding where you encounter:
+- A request for payment to a country or an account unconnected with the work.
+- A request to pay in cash, or to a personal account.
+- A third party who refuses to accept anti-bribery contract terms.
+- A vague or missing description of services on an invoice.
+- A partner recommended or insisted on by the client's decision maker.
+- A commission that is out of line with the market.
+- Unwillingness to disclose beneficial ownership.
+- Pressure to bypass the procurement or approval process because of urgency.
+
+## 6. Books, records and internal controls
+Every payment must be recorded accurately, in reasonable detail, in the books of account. **No off-book account, undisclosed fund or false entry may be created for any purpose.** Expense descriptions must be specific: "client meeting, Mr A and Ms B of ABC Ltd, discussion on the migration proposal" and not "business development expense".
+
+## 7. Charitable donations and sponsorships
+Meridian's corporate social responsibility spending under section 135 of the Companies Act 2013 is governed by the approved CSR policy. A donation or sponsorship must never be made:
+- At the request or suggestion of a client, a public official or anyone who could influence a business decision.
+- To an organisation connected with a public official or a client decision maker.
+- While a tender or a contract negotiation involving the requesting party is live.
+
+All donations and sponsorships above INR 1,00,000 require Corporate Compliance sign-off in addition to the normal financial approval.
+
+## 8. Training and certification
+- Anti-bribery training is mandatory for all employees on joining and annually thereafter.
+- Employees in sales, procurement, finance and any role interacting with public officials complete an enhanced annual module and an individual certification.
+- Completion is tracked in MyMeridian > My Compliance and reported to the Audit Committee quarterly.
+
+## 9. Reporting and protection
+Concerns are reported to Corporate Compliance or through the channels in HRP-026, including anonymously. Meridian will not penalise anyone for refusing to pay a bribe, or for reporting a concern in good faith, **even where the refusal results in Meridian losing business**. That outcome is accepted.
+
+## 10. Consequences
+Breach of this policy is serious misconduct and will normally result in termination. Individuals face personal criminal liability, including imprisonment, under Indian law and under the FCPA and the UK Bribery Act. The company faces unlimited fines and debarment from public contracts.
+
+## 11. Related documents
+- HRP-022 Code of Business Conduct and Ethics
+- HRP-023 Conflict of Interest and Outside Engagement Policy
+- HRP-021 Corporate Credit Card and Expense Settlement Policy
+- HRP-026 Whistleblower and Protected Disclosure Policy

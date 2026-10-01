@@ -1,0 +1,87 @@
+#META
+id: HRP-001
+title: Leave Policy
+owner: HR Operations
+version: 4.2
+effective: 01-Apr-2026
+review: 31-Mar-2027
+applies: All employees on the Meridian Systems India payroll
+#BODY
+## 1. Purpose and scope
+This policy sets out the paid leave entitlements available to employees of Meridian Systems India Private Limited, how leave is accrued, how it is applied for and approved, and what happens to unused balances. It covers Earned Leave, Casual Leave, Sick Leave and Compensatory Off. Maternity, paternity, adoption, bereavement, marriage and unpaid leave are governed by separate policies listed in section 11.
+
+The leave year at Meridian runs from **01 January to 31 December**. This is deliberately different from the financial year (01 April to 31 March) used for payroll and tax purposes.
+
+## 2. Leave entitlement at a glance
+| Leave type | Annual entitlement | Accrual | Carry forward cap | Encashable | Available during probation |
+| Earned Leave (EL) | 18 days | 1.5 days credited on the last day of each completed month | 45 days | Yes, on exit only | Accrues, but can be availed only after confirmation |
+| Casual Leave (CL) | 7 days | Credited in full on 01 January, pro-rated for joiners | Nil, lapses on 31 December | No | Yes, from date of joining |
+| Sick Leave (SL) | 10 days | Credited in full on 01 January, pro-rated for joiners | 30 days | No | Yes, from date of joining |
+| Compensatory Off | As earned | One day per approved full day worked on a weekly off or holiday | Expires 60 days after it is earned | No | Yes |
+
+Employees who join mid-year receive CL and SL pro-rated to the number of completed months remaining in the leave year, rounded up to the nearest half day.
+
+## 3. Earned Leave
+Earned Leave is intended for planned time away from work: holidays, family commitments and personal matters that can be scheduled in advance.
+
+- EL is credited at 1.5 days per completed calendar month of service and appears in MyMeridian on the first working day of the following month.
+- EL may be taken in half-day units. There is no minimum block.
+- A request for **up to 3 consecutive days** must be submitted at least 3 working days in advance. A request for **4 or more consecutive days** must be submitted at least 15 calendar days in advance.
+- More than 45 days of EL cannot be carried into the next leave year. Any balance above 45 days on 31 December lapses. MyMeridian sends a lapse warning in the first week of November.
+- EL is not encashable during service. On separation, the EL balance up to the 45-day cap is encashed at the last drawn Basic salary and paid with the full and final settlement.
+
+## 4. Casual Leave
+Casual Leave covers short, unplanned absences such as a domestic emergency or a personal errand that cannot be scheduled.
+
+- A maximum of **2 consecutive days** of CL may be taken at one time. A longer absence must be applied for as Earned Leave.
+- CL cannot be combined with EL or SL in a single continuous absence.
+- CL cannot be prefixed or suffixed to a public holiday or a weekly off without the written approval of the reporting manager.
+- Unused CL lapses on 31 December and is never encashed.
+
+## 5. Sick Leave
+Sick Leave covers absence due to the employee's own illness or injury.
+
+- A medical certificate from a registered medical practitioner is required for **3 or more consecutive days** of SL. The certificate must be uploaded to the leave request in MyMeridian within 3 working days of returning to work.
+- For hospitalisation, a discharge summary must be uploaded. HR Operations may ask for a fitness-to-work certificate before the employee resumes duty.
+- SL exhausted during a genuine long illness may be extended against the EL balance, and thereafter as Leave Without Pay under HRP-005.
+- Up to 30 days of unused SL may be carried forward. SL is never encashed.
+
+## 6. Compensatory Off
+Compensatory Off is earned when an employee is required to work on a weekly off or a declared holiday, and the work is approved in advance by the reporting manager.
+
+- A full day worked earns one Compensatory Off. A half day (4 hours or more) earns half a day.
+- Compensatory Off must be availed within **60 days** of the date on which it was earned, after which it expires automatically.
+- Compensatory Off is not paid out in cash under any circumstance.
+- Employees receiving on-call or overtime payment under HRP-008 for the same period are not additionally eligible for Compensatory Off.
+
+## 7. Applying for leave
+All leave is applied for and approved in MyMeridian. Verbal approval, email approval and messages to the manager are not valid substitutes and will not update the leave record.
+
+- The employee raises the request under **MyMeridian > Time and Attendance > Leave Request**.
+- The reporting manager is the first and, for most leave types, the only approver. Requests of 15 continuous days or more additionally route to the function head.
+- A request left unattended for 5 working days escalates automatically to the skip-level manager.
+- Leave is deemed approved only when the request shows the status Approved. A request in Pending status does not authorise absence.
+
+Detailed step-by-step instructions, including how to cancel or withdraw a request, are in ESS-001.
+
+## 8. Unplanned absence and notification
+If an employee cannot report for work and has not obtained prior approval, the employee must inform the reporting manager by telephone or message **before the start of the shift, and in any case no later than two hours into the working day**. The leave request must then be raised in MyMeridian on the day of return, backdated to the date of absence.
+
+Backdated leave requests older than 30 days cannot be raised by the employee and require an AskHR ticket to HR Operations.
+
+## 9. Negative leave balance and unauthorised absence
+- A negative EL balance is permitted only up to **3 days**, and only with the reporting manager's approval. Beyond this, the absence is treated as Leave Without Pay.
+- Absence without approval is unauthorised. The salary for those days is deducted and the manager records the absence in MyMeridian.
+- Continuous unauthorised absence of **more than 5 working days** triggers the abandonment of service process: HR Operations issues a written notice to the last recorded address, and a failure to respond within 7 days leads to action under HRP-028.
+
+## 10. Blackout periods
+Business units may declare blackout periods during which planned leave is restricted, for example a year-end financial close or a major client go-live. Blackout periods must be published in MyMeridian at least 30 days in advance. Leave already approved before a blackout is declared is honoured. Sick Leave and emergency Casual Leave are never restricted by a blackout.
+
+## 11. Related documents
+- HRP-002 Maternity Benefit and Parental Leave Policy
+- HRP-003 Paternity and Adoption Leave Policy
+- HRP-004 Bereavement, Marriage and Special Leave Policy
+- HRP-005 Leave Without Pay and Sabbatical Policy
+- HRP-006 Holiday Calendar and Restricted Holiday Policy
+- HRP-007 Attendance, Shift and Compensatory Off Policy
+- ESS-001 Employee Self Service: Applying for and Cancelling Leave

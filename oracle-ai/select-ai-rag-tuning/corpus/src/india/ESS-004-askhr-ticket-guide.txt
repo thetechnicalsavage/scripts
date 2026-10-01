@@ -1,0 +1,85 @@
+#META
+id: ESS-004
+title: Employee Self Service: Raising and Tracking an AskHR Ticket
+owner: HR Operations
+version: 2.1
+effective: 01-Apr-2026
+review: 31-Mar-2027
+applies: All employees using the MyMeridian self-service portal
+#BODY
+## 1. What AskHR is
+AskHR is the single channel for any HR, payroll, benefits or workplace request that self-service cannot complete. It replaces email to HR mailboxes and messages to individual HR colleagues. Using it means your request is tracked, has an owner and an SLA, and does not depend on one person being available.
+
+Raise a ticket at **MyMeridian > AskHR > New Request**.
+
+## 2. Ticket categories
+| Category | Typical requests |
+| Leave and Attendance | Backdated leave beyond 30 days, balance correction, attendance regularisation |
+| Payroll | Salary query, payslip correction, Form 16 correction, salary certificate, bank letter |
+| Benefits | Insurance claim escalation, dependant addition outside the window, wellness reimbursement |
+| Tax | Investment proof rejection, Form 12BB, previous employer income |
+| Employment Documents | Experience letter, address proof, visa letter, employment verification |
+| Onboarding and Confirmation | Probation extension, confirmation delay, induction access |
+| Learning | Certification approval outside the list, tuition assistance |
+| Accommodation | Reasonable accommodation request under HRP-027 |
+| Privacy | Data access, correction or erasure request under HRP-032 |
+| Workplace Services | Seating, access card, parking, creche registration, transport |
+| Finance | Corporate card limit, expense query, advance query |
+| Other | Anything not listed above |
+
+## 3. Priority and service levels
+Priority is set by the system from the category and the reason, not by the requester. You can ask for it to be raised by adding a comment explaining the impact.
+
+| Priority | Definition | First response | Resolution |
+| P1 | Salary not credited, insurance denial during a hospitalisation, a safety issue | 4 hours | 1 working day |
+| P2 | Statutory deadline within 7 days, a document needed for a visa appointment | 1 working day | 3 working days |
+| P3 | Standard request with no immediate deadline | 2 working days | 5 working days |
+| P4 | Information request, policy clarification | 3 working days | 10 working days |
+
+SLA clocks run on working days at your base location, excluding that location's holidays.
+
+## 4. Ticket reference
+Every ticket receives a reference in the format **HRSD-YYYY-NNNNNN**, for example HRSD-2026-004821. Quote it in any follow-up. You receive an email at creation, at each status change, and at closure.
+
+## 5. Ticket statuses
+| Status | Meaning |
+| New | Created, not yet assigned |
+| Assigned | An owner has picked it up |
+| In Progress | Being worked on |
+| **Awaiting Information** | **Waiting on you.** The SLA clock is paused. A ticket left in this status for 7 days closes automatically |
+| Pending Approval | Waiting on a manager or a function head |
+| Resolved | A resolution has been provided |
+| Closed | Confirmed by you, or auto-closed after 7 days in Resolved |
+
+**Awaiting Information** is the status that most often causes a ticket to stall. Check your tickets if you have not heard back; the request may be waiting on a document from you.
+
+## 6. Writing a ticket that gets resolved quickly
+- Say what you need, not only what is wrong. "Please correct my Earned Leave balance from 11 to 13 days" is faster than "my leave balance is wrong".
+- Give the specifics: dates, amounts, a reference number, the name of the screen.
+- Attach the evidence in the first message: the payslip, the rejection notice, the certificate.
+- One issue per ticket. Two unrelated issues in one ticket means one of them gets lost.
+- State the deadline if there is one, and why.
+
+## 7. Reopening and escalating
+- A Resolved ticket can be reopened within **7 days** from the ticket screen. After 7 days it closes and you must raise a new ticket referencing the old one.
+- Escalation path, using the Escalate button on the ticket:
+
+| Level | Goes to | Use when |
+| L1 | HR Services team lead | The SLA has been breached |
+| L2 | HR Operations manager | L1 has not responded within 2 working days |
+| L3 | Head of HR Shared Services | L2 has not responded within 3 working days |
+
+Escalation does not restart the SLA clock and it does not count against you in any way.
+
+## 8. What does not belong in AskHR
+- A complaint of sexual harassment. Go to the Internal Committee under HRP-024.
+- A whistleblower concern about fraud, bribery or a legal breach. Use the channels in HRP-026.
+- An IT fault, a system outage or an access problem. Raise it with the IT service desk.
+- A grievance about your manager or an appraisal rating. Use the grievance procedure in HRP-028, although you may raise the Stage 2 grievance through AskHR.
+
+## 9. Related documents
+- HRP-024 Prevention of Sexual Harassment at the Workplace Policy
+- HRP-026 Whistleblower and Protected Disclosure Policy
+- HRP-028 Disciplinary Action, Misconduct and Grievance Policy
+- HRP-032 Data Privacy and Personal Data Protection Policy
+- ESS-001 Employee Self Service: Applying for and Cancelling Leave

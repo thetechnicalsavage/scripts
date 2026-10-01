@@ -1,0 +1,73 @@
+#META
+id: GLF-003-EN
+title: Ramadan Working Hours and Religious Leave Policy - Gulf
+owner: HR Operations - Gulf
+version: 1.0
+effective: 01-Jan-2027
+review: 31-Dec-2027
+applies: All employees of Meridian Systems Gulf FZ-LLC at the Dubai head office and the Riyadh and Doha branches
+#BODY
+## 1. Purpose and scope
+This policy sets out working hours during the holy month of Ramadan, Hajj leave and leave for religious observance for employees of Meridian Systems Gulf FZ-LLC at the Dubai head office (UAE) and the Riyadh (KSA) and Doha (Qatar) branches. Meridian aims to let every employee observe their faith while service to customers continues without interruption.
+
+Ramadan hours apply from the first day of Ramadan until the last working day before the Eid al-Fitr holiday, as announced by the authorities in each country. They apply to all employees, whether or not they are fasting.
+
+## 2. Ramadan working hours
+The normal working day in all three locations is 8 hours, 5 days a week. During Ramadan the working day is reduced by 2 hours to **6 hours**, with no reduction in salary or allowances.
+
+| Work location | Normal hours per week | Ramadan hours per day | Ramadan hours per week | Ramadan core hours |
+| Dubai head office (UAE) | 40 | 6 | 30 | 10:00 to 14:00 |
+| Riyadh branch (KSA) | 40 | 6 | 30 | 10:30 to 14:30 |
+| Doha branch (Qatar) | 40 | 6 | 30 | 09:00 to 13:00 |
+
+- Employees must be available during the core hours of their location. The remaining 2 hours may be worked before or after the core hours, at any time between 07:00 and 18:00.
+- During Ramadan, employees in eligible roles may work from home for up to **2 days a week in Dubai and Doha** and **1 day a week in Riyadh**, with the manager's agreement.
+- Friday is a working day at the Dubai head office. During Ramadan, Friday working hours there are **08:30 to 12:30**.
+- Internal meetings are not scheduled after 14:00, and team events that involve food or drink are held only after Iftar.
+
+## 3. Shift roles and overtime during Ramadan
+Employees in the round-the-clock customer support and network operations teams work **6-hour shifts** during Ramadan. Rosters are published at least 7 days before Ramadan begins.
+
+| Time of work beyond the Ramadan working day | Overtime rate |
+| Between 04:00 and 22:00 | 125 per cent of hourly basic salary |
+| Between 22:00 and 04:00 | 150 per cent of hourly basic salary |
+| On a weekly off day or a public holiday | 150 per cent of hourly basic salary |
+
+- Overtime must be approved in advance in MyMeridian and may not exceed **2 hours a day**.
+- The hourly basic salary is the monthly basic salary divided by **240**.
+- Employees in grade G7 and above are not eligible for overtime pay.
+
+## 4. Iftar gatherings and salary before Eid
+- Each team may hold one Iftar gathering during Ramadan. The budget per attendee is **AED 150 in Dubai, SAR 175 in Riyadh and QAR 160 in Doha**, claimed as a team expense in MyMeridian.
+- If the normal payday falls during or after the Eid al-Fitr holiday, the salary for that month is paid at least **3 working days before** the Eid al-Fitr holiday begins.
+
+## 5. Hajj leave
+Muslim employees may take Hajj leave **once during their service** with Meridian Systems Gulf FZ-LLC.
+
+| Work location | Minimum continuous service | Hajj leave | Pay |
+| Dubai head office (UAE) | 1 year | 15 calendar days | Fully paid |
+| Riyadh branch (KSA) | 2 years | 15 calendar days, including the Eid al-Adha holiday | Fully paid |
+| Doha branch (Qatar) | 1 year | 20 calendar days | First 10 days paid, remaining 10 days unpaid |
+
+- Apply in MyMeridian at least **60 days** before the planned departure, attaching the Hajj permit or the booking confirmation from a licensed Hajj operator.
+- In Dubai and Doha, public holidays that fall within Hajj leave are not deducted from it.
+- Hajj leave may be combined with up to **10 days** of annual leave.
+- No more than **10 per cent** of a team may be on Hajj leave in the same Hajj season. Where requests exceed this limit, priority goes first to employees who have not performed Hajj before, and then to the earliest application.
+- Evidence of travel for Hajj must be uploaded within 14 days of return. If it is not, the leave is converted to annual leave.
+
+## 6. Umrah and other religious observance
+- Employees may take up to **5 working days of unpaid leave** once per leave year to perform Umrah, or use annual leave for it.
+- Employees of other faiths receive **2 days of paid religious observance leave** per leave year for festivals of their own faith, such as Christmas, Easter, Diwali or Vesak. The request must be raised at least **14 days** in advance. These days do not carry forward and are not paid out.
+- Prayer rooms are provided at all three offices. Short breaks for the daily prayers do not need to be recorded in MyMeridian.
+
+## 7. Health and wellbeing during fasting
+- Managers must not ask employees whether they are fasting, and must not treat employees differently because of it.
+- An employee who is unwell during Ramadan uses sick leave in the normal way.
+- Outdoor site work is not scheduled between 12:30 and 15:00 during Ramadan in any location.
+- The Employee Assistance Programme remains available throughout Ramadan, including outside office hours.
+
+## 8. Related documents
+- GLF-001 Annual Leave and Public Holidays Policy - Gulf
+- GLF-002 End-of-Service Gratuity Policy - Gulf
+
+Fictional document created for a technical demonstration. Not legal advice.

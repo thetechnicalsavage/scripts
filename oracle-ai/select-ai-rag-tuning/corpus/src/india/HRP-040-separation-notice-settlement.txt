@@ -1,0 +1,103 @@
+#META
+id: HRP-040
+title: Separation, Notice Period and Final Settlement Policy
+owner: HR Operations
+version: 4.7
+effective: 01-Apr-2026
+review: 31-Mar-2027
+applies: All employees separating from Meridian Systems India
+#BODY
+## 1. Purpose
+This policy sets out the notice periods, the exit process, the clearance requirements and the timeline for the full and final settlement when employment at Meridian Systems India Private Limited ends.
+
+## 2. Notice periods
+| Employment status | Notice by the employee | Notice by Meridian |
+| On probation | 15 days | 15 days |
+| Confirmed, G1 to G4 | 60 days | 60 days |
+| Confirmed, G5 and above | 90 days | 90 days |
+| Termination for major misconduct under HRP-028 | Not applicable | None, following the disciplinary procedure |
+
+Notice runs from the date the resignation is submitted in MyMeridian, not from the date the manager acknowledges it. Notice periods are calendar days, not working days.
+
+## 3. Notice period buy-out
+An employee may request to shorten the notice period by paying for the unserved days. The buy-out is calculated on **Basic salary** for the unserved days, not on gross.
+
+- The request goes to the reporting manager and the HR Business Partner, and is granted at the company's discretion based on the handover position.
+- Where Meridian waives part of the notice for its own convenience, no recovery is made for the waived days.
+- Earned Leave cannot be used to offset the notice period. Leave during notice is granted only for a genuine emergency, and any approved leave extends the last working day correspondingly.
+
+## 4. Resignation process
+| Step | Owner | Timeline |
+| Submit the resignation in MyMeridian > My Profile > Resignation | Employee | Day 0 |
+| Manager acknowledges and confirms the last working day | Manager | Within 3 working days |
+| Retention conversation, where the company wishes to have one | Manager and HR Business Partner | Within 7 days |
+| Knowledge transfer plan agreed and recorded | Manager and employee | Within 10 days |
+| Exit interview | HR Business Partner | In the final 2 weeks |
+| Clearance | Employee | By the last working day |
+| Relieving and experience letters issued | HR Operations | On the last working day |
+| Full and final settlement paid | Finance Shared Services | **Within 45 days** of the last working day |
+
+A resignation may be withdrawn with the agreement of the manager and the HR Business Partner, normally only within 7 days of submission and where the role has not been backfilled.
+
+## 5. Knowledge transfer
+Handover is a condition of a clean exit. The employee documents the current state of every assigned item, the location of artefacts, open risks, and the contacts required, using the template in MyMeridian. The manager confirms completion. An incomplete handover is recorded and may affect the rehire eligibility flag, but it is **never** a ground for withholding the relieving letter or the settlement, both of which are the employee's legal entitlement.
+
+## 6. Clearance checklist
+| Item | Cleared by |
+| Laptop, mobile device, peripherals, headset | IT asset team |
+| Access card, locker key, parking tag | Workplace Services |
+| Corporate credit card surrender and nil balance | Finance Shared Services |
+| Outstanding salary advance or loan under HRP-009 | Finance Shared Services |
+| Outstanding travel advance and expense claims | Finance Shared Services |
+| Library items, training material, client documentation | Learning and Development |
+| System and client environment access revocation | Information Security |
+| Confidentiality and post-employment obligations acknowledgement | HR Operations |
+
+## 7. Full and final settlement
+### Amounts payable to the employee
+- Salary for the days worked in the final month.
+- Encashment of the Earned Leave balance, up to the 45-day cap, at the last drawn Basic salary.
+- **Gratuity**, where 5 years of continuous service is completed, per HRP-012, paid within 30 days of the last working day.
+- Any approved and unpaid expense reimbursement.
+- Statutory bonus, where eligible, pro-rated.
+
+### Amounts recoverable from the employee
+- Notice period shortfall, where buy-out was agreed.
+- Outstanding salary advance, festival advance or emergency medical advance under HRP-009.
+- Unadjusted travel advance.
+- Relocation clawback under HRP-020.
+- Learning service commitment recovery under HRP-038.
+- Corporate card charges not substantiated.
+- The depreciated value of any company asset not returned.
+
+A statement showing every line is issued to the employee for review **before** payment, and queries are answered within 7 working days.
+
+## 8. Documents issued
+- **Relieving letter**, confirming the dates of employment and that the employee has been relieved. Issued on the last working day.
+- **Experience letter**, confirming the designation and the dates of service. Issued on the last working day.
+- **Form 16** for the financial year, issued by 15 June following the end of that year.
+- **Final payslip** and the settlement statement.
+- A **service certificate** on request, in the format required by a visa or a regulatory authority.
+
+Meridian does not withhold the relieving or experience letter for any reason, including an unresolved recovery. Recoveries are pursued separately.
+
+## 9. Post-employment obligations
+- Confidentiality under HRP-033 continues indefinitely.
+- **Non-solicitation**: for **12 months** after the last working day, a former employee must not solicit Meridian employees to leave, and must not solicit business from a client the employee served in the 12 months before leaving.
+- Meridian does not impose a general non-compete restricting future employment. Such a restraint would in any case be void under section 27 of the Indian Contract Act 1872.
+- Unexercised stock options are governed by HRP-014.
+
+## 10. Retirement and other endings
+- The **retirement age is 58**. The HR Business Partner starts the retirement process 6 months in advance. Re-engagement on a fixed-term contract is possible with the function head's approval, up to age 62.
+- On the **death** of an employee, all dues including gratuity, insurance and any unvested benefits that accelerate are settled with the nominee on priority, with a target of 15 days. The HR Business Partner assists the family with the provident fund, insurance and pension claims and there is no requirement for the family to initiate anything.
+- **Redundancy**, where a role ceases to exist, follows a separate process with redeployment attempted first, and carries an enhanced severance approved by the Head of HR.
+
+## 11. Related documents
+- HRP-009 Salary Advance and Emergency Loan Policy
+- HRP-012 Provident Fund, Gratuity and Statutory Benefits Policy
+- HRP-014 Employee Stock Option Plan Policy
+- HRP-020 Relocation and Transfer Assistance Policy
+- HRP-028 Disciplinary Action, Misconduct and Grievance Policy
+- HRP-033 Information Security and Confidentiality Policy
+- HRP-038 Learning, Development and Certification Policy
+- MSS-003 Manager Self Service: Transfers, Exits and Team Movement

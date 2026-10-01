@@ -1,0 +1,71 @@
+#META
+id: GLF-E03-EN
+title: Learning Sponsorship and Arabic Language Classes Policy
+owner: Learning and Development Gulf
+version: 1.0
+effective: 01-Oct-2026
+review: 30-Sep-2027
+applies: All employees on the Meridian Systems Gulf FZ-LLC payroll in the UAE, the Kingdom of Saudi Arabia and the State of Qatar
+#BODY
+## 1. Purpose and scope
+This policy explains how Meridian Systems Gulf FZ-LLC pays for learning outside the company's own catalogue: external courses, professional certifications and degree programmes. It also sets out the free Arabic language programme for employees at the Dubai head office and the Riyadh and Doha branches. Mandatory compliance training and the internal e-learning catalogue are free for everyone and are not charged to any budget in this policy.
+
+## 2. Annual learning budget
+Each employee has a personal learning budget for each calendar year. It is not paid in cash, cannot be transferred to a colleague and lapses on **31 December**.
+
+| Grade band | UAE (AED per year) | KSA (SAR per year) | Qatar (QAR per year) |
+| G1 to G4 | 4,300 | 4,300 | 4,100 |
+| G5 to G6 | 7,800 | 7,800 | 7,600 |
+| G7 and above | 12,000 | 12,000 | 11,500 |
+
+Stated in full: a **grade G5 or G6** employee has **AED 7,800** a year in the UAE, **SAR 7,800** in KSA and **QAR 7,600** in Qatar. Joiners receive the budget pro-rated by the completed months remaining in the year. The budget covers course fees, exam fees and required course materials. Travel to a course outside the home city needs separate approval under GLF-011.
+
+## 3. Professional certifications
+- Meridian pays the exam fee for the **first attempt**. A second attempt is paid only if it is taken within **6 months** of the first. Further attempts are at the employee's cost.
+- Certification fees are charged to the learning budget. A certification that the business requires for the role, confirmed by the function head, is paid centrally and does not use the budget.
+- Study leave is granted at **1 working day** for each exam, up to **4 working days** a year. It is recorded in MyMeridian as Study Leave, not as annual leave.
+
+## 4. Degree and diploma sponsorship
+Degree and diploma sponsorship is paid in addition to the learning budget.
+
+- Eligible employees are in grade G3 or above and have at least **24 months** of continuous service.
+- Meridian reimburses **50 per cent** of tuition fees, up to **AED 23,000**, **SAR 23,000** or **QAR 21,000** per academic year.
+- Each term is reimbursed only after it is passed with at least **70 per cent**, or the equivalent grade, and the claim is made within **45 days** of the result.
+- The programme must relate to the employee's current role or a documented career path. Classes should take place outside working hours.
+
+## 5. Service commitment and repayment
+Any single sponsorship above **AED 6,800**, **SAR 6,800** or **QAR 6,800** needs a learning agreement signed before the course starts. If the employee resigns, or is dismissed for misconduct, the amount paid is repaid as follows:
+
+| Leaving date, counted from the last payment | Share repaid |
+| Within 12 months | 100 per cent |
+| From 12 to 24 months | 50 per cent |
+| After 24 months | Nil |
+
+No repayment is due when employment ends through redundancy, ill health or death. Amounts due are recovered from the final settlement, within the deduction rules in GLF-006.
+
+## 6. Arabic language programme
+The programme is free for employees whose first language is not Arabic, and it does not use the learning budget. Classes take place in working hours with the manager's agreement.
+
+| Level | Hours | Duration | Who may join |
+| Arabic 1: Foundations | 36 | 12 weeks | All grades |
+| Arabic 2: Everyday Arabic | 36 | 12 weeks | Completed Arabic 1, or placement test |
+| Arabic 3: Business Arabic | 45 | 15 weeks | Completed Arabic 2; client-facing roles first |
+| Gulf dialect module | 18 | 6 weeks | Completed Arabic 1 |
+
+- Classes run in sessions of **90 minutes**, twice a week. Dubai and Riyadh hold classes on site. Doha employees join a virtual class led from Dubai.
+- Cohorts start in **February** and **September**. Enrolment closes **15 days** before a cohort starts.
+- A certificate is issued at **80 per cent** attendance or more. An employee who leaves a level without a valid reason after week 3 may not enrol again for **6 months**.
+- An employee who passes the external Business Arabic assessment receives a one-time award of **AED 2,000**, **SAR 2,000** or **QAR 2,000**, paid in the next payroll.
+
+Employees whose first language is Arabic may join a **24-hour** Business English Writing course on the same terms.
+
+## 7. How to apply
+- Request an external course, a certification or a sponsorship in MyMeridian > Learning > Sponsorship Request at least **20 working days** before the start date. The reporting manager approves first, then Learning and Development Gulf.
+- Enrol in Arabic classes in MyMeridian > Learning > Arabic Programme.
+- Submit a reimbursement claim within **45 days** of completion, with the receipt and the certificate or result.
+
+## 8. Related documents
+- GLF-006 Wage Protection System and Payroll Calendar Policy
+- GLF-011 Business Travel and Per Diem within the GCC
+
+Fictional document created for a technical demonstration. Not legal advice.

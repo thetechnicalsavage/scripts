@@ -1,0 +1,69 @@
+#META
+id: GLF-E02-EN
+title: Company Car and Fuel Card Policy (Gulf)
+owner: Facilities and Fleet Gulf
+version: 1.0
+effective: 01-Oct-2026
+review: 30-Sep-2027
+applies: Employees of Meridian Systems Gulf FZ-LLC in the UAE, the Kingdom of Saudi Arabia and the State of Qatar who are assigned a company vehicle or a fuel card
+#BODY
+## 1. Purpose and scope
+This policy covers the vehicles that Meridian Systems Gulf FZ-LLC provides at the Dubai head office and the Riyadh and Doha branches, and the fuel cards that go with some of them. There are three kinds of company vehicle:
+
+- **Entitlement car**: chosen by an employee in grade G9 or above instead of the cash transport allowance, as set out in GLF-004.
+- **Business-need vehicle**: assigned to an employee whose role requires regular driving on company business, such as field service engineers, network installation teams and facilities staff.
+- **Pool car**: kept at an office and booked for individual business journeys.
+
+A fuel card is issued only for business-need vehicles and pool cars. Fuel for an entitlement car is handled under GLF-004 and is never charged to a Meridian fuel card.
+
+## 2. Entitlement cars
+| Country | Vehicle value cap, including any VAT | Replacement cycle | Replacement mileage |
+| UAE (Dubai) | AED 180,000 | 4 years | 120,000 km |
+| KSA (Riyadh) | SAR 185,000 | 4 years | 150,000 km |
+| Qatar (Doha) | QAR 175,000 | 4 years | 120,000 km |
+
+The car is replaced after 4 years or on reaching the replacement mileage, whichever comes first. The employee may choose a car up to **10 per cent** above the value cap by paying the difference up front. Meridian pays the lease or purchase, insurance, registration and scheduled maintenance. At replacement, the employee may buy the outgoing car at its net book value.
+
+## 3. Business-need vehicles
+- A role qualifies when the employee drives on business an average of at least **1,600 km per month** over 3 consecutive months, or when the Country Head designates the role in writing.
+- A sedan is the standard vehicle. A 4x4 or pickup is assigned only for regular travel to sites away from paved roads, which mainly applies to field teams in KSA.
+- The vehicle may be used for business journeys and the daily commute only. Personal use, including at weekends, is not allowed, and only Meridian employees may travel in it.
+- While a business-need vehicle is assigned for more than **30 consecutive days**, the transport allowance under GLF-004 is suspended. It resumes from the month after the vehicle is returned.
+
+## 4. Fuel cards
+| Vehicle type | UAE monthly limit | KSA monthly limit | Qatar monthly limit |
+| Pool car | AED 850 | SAR 650 | QAR 550 |
+| Business-need sedan | AED 1,150 | SAR 900 | QAR 780 |
+| Business-need 4x4 or pickup | AED 1,700 | SAR 1,300 | QAR 1,050 |
+
+Stated in full: a **business-need sedan** has a fuel card limit of **AED 1,150** a month in the UAE, **SAR 900** in KSA and **QAR 780** in Qatar.
+
+- The card is linked to one plate number and works only for that vehicle.
+- It may be used for fuel of the lowest grade the manufacturer approves and for up to **2 car washes** a month. It cannot be used for shop purchases, engine oil, accessories or any other vehicle.
+- The odometer reading is entered at every fill. Fleet reconciles each card by the **5th working day** of the following month.
+- The line manager may approve one top-up a month in MyMeridian, of up to **25 per cent** of the monthly limit.
+- A lost or stolen card is reported to Fleet within **24 hours** and blocked at once.
+
+Personal use of a fuel card is recovered at the amount charged plus a **15 per cent** administration fee, and is also handled under the disciplinary policy.
+
+## 5. Tolls, fines and accidents
+- Road tolls for business-need vehicles and pool cars, such as Salik in Dubai and Darb in Abu Dhabi, are paid by Meridian. Tolls for an entitlement car are the employee's own cost.
+- Traffic fines are always the driver's responsibility, in every kind of company vehicle. A fine not settled within **15 days** of notification is deducted from salary in the next payroll, under the vehicle agreement signed at handover. The driver also bears any impound and release costs caused by their own violation.
+- An accident is reported to the police or the authorised accident-reporting service in the country, and to Fleet within **12 hours**.
+- Where the driver is at fault, the driver pays 50 per cent of the insurance excess, capped at **AED 1,250**, **SAR 1,250** or **QAR 1,250**. Driving without a valid licence, or under the influence of alcohol or drugs, makes the driver liable for the full cost of the damage.
+
+## 6. Licences, telematics and safety
+- Before handover, the driver shows a driving licence valid in the country of employment and signs the vehicle agreement.
+- Business-need vehicles and pool cars carry telematics. An alert is raised at **10 km/h** above the posted speed limit, and trip data is kept for **90 days**.
+- Every company vehicle has working air conditioning. From June to September, drivers carry at least **2 litres** of drinking water per occupant, as set out in GLF-E06.
+- A mobile phone may be used while driving only through a hands-free system.
+
+## 7. Return of vehicles and cards
+A business-need vehicle and its fuel card are returned on the last working day, on a transfer to another country, or before any leave longer than 30 days. An entitlement car is returned on the last working day. Damage beyond fair wear and tear is assessed by Fleet and recovered from the final settlement.
+
+## 8. Related documents
+- GLF-004 Housing, Transport and Allowances Policy
+- GLF-006 Wage Protection System and Payroll Calendar Policy
+- GLF-E06 Workplace Health and Heat Stress Policy
+
+Fictional document created for a technical demonstration. Not legal advice.

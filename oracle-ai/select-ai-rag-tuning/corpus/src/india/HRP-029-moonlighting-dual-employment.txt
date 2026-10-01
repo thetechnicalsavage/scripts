@@ -1,0 +1,60 @@
+#META
+id: HRP-029
+title: Moonlighting and Dual Employment Policy
+owner: Corporate Compliance
+version: 2.2
+effective: 01-Apr-2026
+review: 31-Mar-2027
+applies: All employees on the Meridian Systems India payroll
+#BODY
+## 1. Purpose
+Employees of Meridian Systems India Private Limited are engaged on a full-time and exclusive basis. This policy states clearly what outside activity is prohibited, what is permitted with approval, and how Meridian detects and deals with undisclosed dual employment.
+
+The policy exists to protect three things: the confidentiality of client information, the employee's capacity to do their job safely and well, and Meridian's contractual commitments to clients about the exclusivity and location of the people working on their systems.
+
+## 2. What is prohibited
+- **Employment with another employer**, whether full-time, part-time, permanent, temporary or on a contract, while employed by Meridian. This is dual employment and is prohibited without exception.
+- Any engagement with a **competitor** of Meridian, in any capacity, paid or unpaid.
+- Any engagement with a **client or a vendor** of the business unit in which the employee works.
+- Freelance or consulting work in the same technical or professional field as the employee's role at Meridian, without written approval.
+- Running or holding an operational role in a business that supplies services of the type Meridian supplies.
+- Any activity performed during Meridian working hours, or using a Meridian laptop, network, licence, tool, client data or confidential information.
+- Any activity that creates a risk of disclosing client confidential information, or that a client contract prohibits.
+
+## 3. What is permitted with prior written approval
+The activities in HRP-023 section 6, namely teaching, writing, speaking, standards and industry bodies, not-for-profit trusteeships and open-source contribution. In addition:
+
+- **Passive investment** in any business, including a start-up, provided the employee has no operational or advisory role and the holding is declared where it exceeds the threshold in HRP-023.
+- A **family business** in which the employee holds a non-executive interest, declared annually.
+- **Content creation**, such as a technical blog, a podcast or a video channel, including monetised channels, provided no Meridian or client information is used and the employee makes clear they speak personally.
+- **Paid advisory work outside the employee's field**, for example serving on the board of a housing society or a school.
+
+Approval is requested in MyMeridian > My Compliance > Outside Engagement Request, and is decided by the function head and Corporate Compliance within 10 working days. Approval is granted for 12 months and must be renewed.
+
+## 4. Activity that never needs approval
+Managing personal investments; letting out a residential property; personal creative work with no connection to Meridian's business; participation in a sport or an arts activity, including where prize money is earned; and unpaid volunteering. No declaration is required for these.
+
+## 5. How Meridian detects dual employment
+Meridian applies these checks, and employees should be aware of them:
+- The **Universal Account Number** in the Provident Fund records shows contributions from two employers in the same month. HR Operations reviews the exception report quarterly.
+- Form 26AS and the Annual Information Statement show tax deducted at source by two employers, which surfaces during the payroll tax reconciliation.
+- Background verification at the time of joining, and periodic re-verification for employees with access to sensitive client environments.
+- Client contractual audits, where a client requires confirmation that named personnel are exclusively deployed.
+
+Meridian does **not** monitor employees' personal devices, personal social media accounts or personal bank accounts for this purpose.
+
+## 6. What happens on detection
+- HR Operations raises the exception with the employee and asks for an explanation within 7 days. There are innocent explanations, most commonly a previous employer's delayed final contribution, and these are resolved without further action.
+- Where the employee confirms an undeclared engagement that would have been approved, and the disclosure is prompt and complete, the outcome is normally a written warning and a requirement to regularise or cease the engagement.
+- Where there is undeclared **dual employment**, or an engagement with a competitor or a client, or the use of Meridian assets or confidential information, the matter is treated as major misconduct under HRP-028 and normally results in termination.
+- Where client confidential information has been exposed, the client is notified in line with the contract and HRP-033.
+
+## 7. A note on moonlighting and the employee's interests
+Meridian recognises that people build skills, income and reputation outside work, and this policy is not intended to prevent that. The distinction it draws is between activity that is transparent and compatible with the employment, and activity that is concealed or that compromises client commitments. An employee who is unsure should ask before starting, not afterwards. **No employee has ever been penalised at Meridian for asking.**
+
+## 8. Related documents
+- HRP-005 Leave Without Pay and Sabbatical Policy
+- HRP-022 Code of Business Conduct and Ethics
+- HRP-023 Conflict of Interest and Outside Engagement Policy
+- HRP-028 Disciplinary Action, Misconduct and Grievance Policy
+- HRP-033 Information Security and Confidentiality Policy

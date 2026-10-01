@@ -1,0 +1,79 @@
+#META
+id: ESS-001
+title: Employee Self Service: Applying for and Cancelling Leave
+owner: HR Operations
+version: 2.5
+effective: 01-Apr-2026
+review: 31-Mar-2027
+applies: All employees using the MyMeridian self-service portal
+#BODY
+## 1. What this guide covers
+How to check your leave balance, apply for leave, amend or cancel a request, and what to do when something does not work, in the MyMeridian employee self-service portal. The entitlement rules themselves are in HRP-001.
+
+## 2. Checking your leave balance
+Go to **MyMeridian > Time and Attendance > Leave Balance**. The screen shows, for each leave type:
+
+| Column | Meaning |
+| Opening balance | The balance carried into the current leave year on 01 January |
+| Accrued | Credited so far this year. Earned Leave accrues 1.5 days at the end of each completed month |
+| Availed | Days taken and approved so far |
+| Pending | Days in requests that are submitted but not yet approved. **These are already held against your balance** |
+| Available | What you can apply for today |
+| Projected 31 Dec | The balance you will hold at year end if you take no further leave, with the lapse amount shown in red |
+
+The **Pending** column is the most common source of confusion. A request awaiting approval reduces what you can apply for, so that two overlapping requests cannot both be approved.
+
+## 3. Applying for leave
+- Go to **MyMeridian > Time and Attendance > Leave Request > New Request**.
+- Select the **leave type**. Only the types you are eligible for appear. Earned Leave does not appear during probation, per HRP-001.
+- Select the **from** and **to** dates. Weekly offs and holidays inside the range are excluded automatically and are not deducted.
+- For a **half day**, select the same date in both fields and then choose First Half or Second Half.
+- Enter the **reason**. One line is enough for Casual and Earned Leave. For Sick Leave of 3 or more days, attach the medical certificate here.
+- Nominate a **backup contact**, the colleague covering your work.
+- Review the summary and select **Submit**.
+
+The request goes to your reporting manager. You receive an email and an in-app notification at submission and again at the decision.
+
+### Notice requirements
+| Duration | Advance notice |
+| Up to 3 consecutive days | 3 working days |
+| 4 or more consecutive days | 15 calendar days |
+
+MyMeridian warns you if you are inside the notice window but does not block the request. The manager sees the same warning.
+
+## 4. Amending a request
+A request can be amended only while it is **Pending**. Open it and select Edit. Once approved, a request cannot be edited; cancel it and raise a new one.
+
+## 5. Cancelling leave
+### Before the leave starts
+Open the request and select **Cancel**. If the request is Pending, it is withdrawn immediately and the balance is released. If it is already Approved, the cancellation goes to your manager for approval; the balance is released when the manager approves.
+
+### After the leave has started or finished
+- **Partial cancellation**, where you returned early: open the request, select Cancel, and change the To date to your actual last day of leave. The unused days are credited back.
+- **Full cancellation of leave already taken** is not possible through self-service. Raise an AskHR ticket in the Leave and Attendance category explaining what happened.
+
+## 6. Backdated leave
+You can apply for leave up to **30 days in the past**. Beyond 30 days the date picker will not accept the entry and you must raise an AskHR ticket. This limit exists because payroll for a closed month cannot be reopened through self-service.
+
+## 7. Delegation while you are away
+If you approve leave for others, set a delegate before you go: **MyMeridian > My Profile > Delegation**. Choose the delegate, the start and end dates, and the processes to delegate. Delegation transfers the approval authority for that period; it does not transfer accountability. Approvals taken by your delegate are recorded in both names.
+
+## 8. Escalation when a request is not actioned
+A request left Pending for **5 working days** escalates automatically to your skip-level manager, and both are notified. If it is still not actioned after a further 3 working days, raise an AskHR ticket in the Leave and Attendance category with the request number.
+
+## 9. Common errors and what they mean
+| Code | Message | What to do |
+| LV-101 | Insufficient leave balance | Check the Pending column. Either reduce the days, choose a different leave type, or apply for Leave Without Pay under HRP-005 |
+| LV-204 | Overlapping leave request exists | You already have a request covering one or more of these dates. Open Leave History and cancel or amend the existing one |
+| LV-311 | Dates fall within a declared blackout period | Contact your manager. Blackout restrictions do not apply to Sick Leave or emergency Casual Leave |
+| LV-402 | Medical certificate required for this duration | Attach the certificate to the request. Required for 3 or more consecutive days of Sick Leave |
+| LV-508 | Leave type not available during probation | Earned Leave cannot be availed until confirmation. Use Casual or Sick Leave |
+| LV-613 | Backdated beyond the permitted window | The date is more than 30 days in the past. Raise an AskHR ticket |
+| LV-701 | Maximum consecutive days exceeded for this leave type | Casual Leave is limited to 2 consecutive days. Apply for Earned Leave instead |
+
+## 10. Related documents
+- HRP-001 Leave Policy
+- HRP-005 Leave Without Pay and Sabbatical Policy
+- HRP-006 Holiday Calendar and Restricted Holiday Policy
+- ESS-004 Employee Self Service: Raising and Tracking an AskHR Ticket
+- MSS-001 Manager Self Service: Approving Leave, Timesheets and Expense Claims

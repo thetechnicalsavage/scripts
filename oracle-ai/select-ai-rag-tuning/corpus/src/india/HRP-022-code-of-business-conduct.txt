@@ -1,0 +1,74 @@
+#META
+id: HRP-022
+title: Code of Business Conduct and Ethics
+owner: Corporate Compliance
+version: 6.0
+effective: 01-Apr-2026
+review: 31-Mar-2027
+applies: All employees, contractors, interns and directors of Meridian Systems India
+#BODY
+## 1. Purpose
+This Code is the single statement of how Meridian Systems India Private Limited expects its people to behave. It is not a substitute for judgement. Where a situation is not covered here, the test is: would this stand up if it were reported accurately and in full to a client, a regulator, or a colleague you respect?
+
+Every employee must read and acknowledge this Code **within 15 days of joining** and again in **April of each year**. Acknowledgement is recorded in MyMeridian > My Compliance.
+
+## 2. The standards we hold
+- **Act with integrity.** Do not mislead, do not create a false impression, and do not stay silent where silence misleads.
+- **Comply with the law** of every country in which we operate, and with our client contracts.
+- **Protect what is entrusted to us**: client data, company information, and the personal data of colleagues.
+- **Keep accurate records.** Timesheets, expense claims, test results, audit evidence and status reports must reflect what actually happened.
+- **Compete fairly.** Win work on merit, not through improper payments, misrepresentation or the misuse of a competitor's confidential information.
+- **Treat people with respect.** Harassment, discrimination and retaliation have no place here.
+- **Speak up** when something looks wrong.
+
+## 3. Gifts and hospitality
+| Situation | Rule |
+| Gift received from a client, vendor or partner | Permitted up to a value of **INR 5,000** per occasion, provided it is not cash or a cash equivalent |
+| Gift above INR 5,000 | Must be declined, or if declining would cause offence, accepted on behalf of Meridian, declared within 7 days and surrendered to the Compliance team |
+| Cash, gift cards, vouchers or gold, of any value | Never acceptable |
+| Meals and hospitality | Permitted where modest, occasional, and connected to a genuine business discussion |
+| Travel or accommodation paid by a third party | Requires prior written approval from the function head and Corporate Compliance |
+| Any gift or hospitality to or from a government official | Prohibited without prior approval, see HRP-025 |
+| Gifts during a live tender or contract negotiation | Prohibited in both directions, regardless of value |
+
+All gifts above INR 5,000, and all declined gifts, are recorded in the gift register in MyMeridian > My Compliance > Gift Declaration.
+
+## 4. Conflicts of interest
+A conflict of interest arises when a personal interest could influence, or could reasonably appear to influence, a decision taken for Meridian. Conflicts are not in themselves wrong; **failing to disclose them is**. HRP-023 sets out the full disclosure requirements.
+
+## 5. Insider trading
+Employees who have unpublished price-sensitive information about Meridian, a client or any listed company, obtained through their work, must not deal in those securities and must not pass the information to anyone else, including family.
+
+- Designated persons, as defined in the insider trading code, are subject to a **trading window** that closes from the end of each quarter until 48 hours after the results are published.
+- Pre-clearance from the Compliance Officer is required for any trade above INR 10,00,000 by a designated person.
+- A contra trade within 6 months of a previous trade is prohibited for designated persons.
+
+These rules give effect to the SEBI (Prohibition of Insider Trading) Regulations 2015.
+
+## 6. Accurate books and records
+Every entry in a Meridian system is a business record. Do not:
+- Record time against a project on which you did not work.
+- Submit an expense you did not incur, or an inflated amount.
+- Sign off a test, a review or a control that you did not actually perform.
+- Backdate a document, or create a document after the fact and present it as contemporaneous.
+- Pass a client deliverable as complete when known defects remain undisclosed.
+
+## 7. Use of company assets
+Company laptops, networks, software licences, access cards and consumables are provided for business use. Incidental personal use of email and the internet is permitted within HRP-031. Assets must not be used for a personal business, for an outside engagement, or to store personal media libraries.
+
+## 8. Political activity
+Employees are free to participate in political activity in their personal capacity, in their own time and at their own cost. Meridian does not make political contributions of any kind. An employee must not use the Meridian name, premises, systems or branding in connection with political activity, and must not create an impression that a personal political view is a company view.
+
+## 9. Speaking up
+Concerns about a breach of this Code can be raised with the reporting manager, the HR Business Partner, or through the channels in HRP-026. Reports can be made anonymously. **Retaliation against anyone who raises a concern in good faith is itself a serious breach of this Code**, and is treated as such regardless of whether the original concern is substantiated.
+
+## 10. Consequences
+A breach of this Code is misconduct and is dealt with under HRP-028. Depending on the seriousness it may result in a warning, the withholding of an increment, demotion or termination, and where the law has been broken, referral to the authorities. A breach may also result in personal civil or criminal liability for the individual.
+
+## 11. Related documents
+- HRP-023 Conflict of Interest and Outside Engagement Policy
+- HRP-024 Prevention of Sexual Harassment Policy
+- HRP-025 Anti-Bribery and Anti-Corruption Policy
+- HRP-026 Whistleblower and Protected Disclosure Policy
+- HRP-028 Disciplinary Action and Misconduct Policy
+- HRP-033 Information Security and Confidentiality Policy

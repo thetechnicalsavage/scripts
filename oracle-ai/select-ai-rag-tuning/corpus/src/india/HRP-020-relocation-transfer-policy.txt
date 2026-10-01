@@ -1,0 +1,82 @@
+#META
+id: HRP-020
+title: Relocation and Transfer Assistance Policy
+owner: HR Operations
+version: 2.6
+effective: 01-Apr-2026
+review: 31-Mar-2027
+applies: Employees relocating between Meridian Systems India locations, and new hires relocating to join
+#BODY
+## 1. Purpose
+This policy sets out the assistance Meridian Systems India Private Limited provides when an employee moves base location, whether on transfer or on joining. The assistance is designed to cover the genuine cost of moving, not to be a source of gain.
+
+## 2. When this policy applies
+- A **company-initiated transfer**, where Meridian requires the employee to move to meet a business need.
+- A **new hire relocation**, where a candidate accepts an offer at a location other than the current city of residence.
+- An **employee-requested transfer**, approved for personal reasons. In this case only the assistance in section 6 applies.
+
+An employee moving house within the same city is not covered.
+
+## 3. Relocation lump sum
+A one-time lump sum is paid to cover incidental costs: utility connections, address changes, local registration, curtains and fittings, and the general disruption of a move.
+
+| Grade band | Lump sum, employee moving alone | Lump sum, employee moving with family |
+| G1 to G2 | INR 30,000 | INR 50,000 |
+| G3 to G4 | INR 60,000 | INR 1,00,000 |
+| G5 to G6 | INR 1,00,000 | INR 1,75,000 |
+| G7 and above | INR 1,50,000 | INR 2,50,000 |
+
+Stated in full: a **grade G1 or G2** employee receives INR 30,000 moving alone and INR 50,000 moving with family. A **grade G3 or G4** employee receives INR 60,000 alone and INR 1,00,000 with family. A **grade G5 or G6** employee receives INR 1,00,000 alone and INR 1,75,000 with family. A **grade G7 or above** employee receives INR 1,50,000 alone and INR 2,50,000 with family.
+
+The lump sum is paid with the first payroll after the employee reports at the new location. It is a taxable payment and tax is deducted at source. No receipts are required.
+
+## 4. Transport of household goods
+Transport of household goods is arranged through the Meridian empanelled relocation vendor and billed directly to the company. Where the employee prefers to arrange it independently, reimbursement is at actuals against **three comparative quotations**, limited to the lowest quotation, and capped as follows:
+
+| Grade band | Cap on goods transit |
+| G1 to G2 | INR 45,000 |
+| G3 to G4 | INR 75,000 |
+| G5 to G6 | INR 1,20,000 |
+| G7 and above | INR 1,80,000 |
+
+Transit insurance at 1 per cent of the declared value is arranged by the vendor and is reimbursable. One personal vehicle is transported at company cost for G5 and above.
+
+## 5. Travel and temporary accommodation
+| Item | G1 to G4 | G5 and above |
+| Travel for the employee and family to the new location | One-way, by the class entitlement in HRP-017 | One-way, by the class entitlement in HRP-017 |
+| Temporary accommodation at the new location | 15 days | 30 days |
+| Daily allowance during temporary accommodation | 50 per cent of the HRP-017 daily allowance | 50 per cent of the HRP-017 daily allowance |
+| House-hunting trip before the move | 2 days, employee only | 3 days, employee and spouse |
+| Brokerage for rented accommodation | One month's rent, capped at INR 40,000 | One month's rent, capped at INR 75,000 |
+
+## 6. Assistance for an employee-requested transfer
+Where the employee requests the transfer for personal reasons and Meridian agrees, the company provides:
+- Transfer of the employment record, payroll and statutory registrations to the new location, at no cost to the employee.
+- 7 days of temporary accommodation.
+- Introductions to the empanelled relocation vendor at corporate rates, payable by the employee.
+
+No lump sum, goods transit or brokerage assistance is payable.
+
+## 7. School admission support
+For employees in grade G5 and above relocating with school-age children, Meridian reimburses one-time school admission and capitation charges up to **INR 50,000 per child**, for a maximum of two children, against receipts from the school. The HR Business Partner at the destination provides a list of schools with which Meridian has a corporate arrangement.
+
+## 8. Clawback
+Relocation assistance is provided on the understanding that the employee will serve at the new location. If the employee resigns, or is terminated for cause:
+
+| Resignation or termination within | Proportion of total assistance to be repaid |
+| 12 months of reporting at the new location | 100 per cent |
+| 13 to 24 months | 50 per cent |
+| Beyond 24 months | Nil |
+
+The clawback is recovered from the full and final settlement. It does not apply where the separation is initiated by Meridian for reasons other than misconduct, nor in the event of death or permanent disablement.
+
+## 9. Process
+- The HR Business Partner raises the relocation case in MyMeridian once the transfer or the offer is confirmed.
+- The employee receives a relocation checklist and the vendor contact within 2 working days.
+- The employee has **90 days** from the effective date of transfer to complete the move and submit all claims. Claims after 90 days require the function head's approval.
+- Relocation reimbursements are processed through the expense system and settled with the twice-monthly payment run.
+
+## 10. Related documents
+- HRP-017 Domestic Travel and Expense Policy
+- HRP-036 Onboarding, Probation and Confirmation Policy
+- HRP-040 Separation, Notice Period and Final Settlement Policy

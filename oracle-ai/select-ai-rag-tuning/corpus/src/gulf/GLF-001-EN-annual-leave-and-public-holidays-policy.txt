@@ -1,0 +1,77 @@
+#META
+id: GLF-001-EN
+title: Annual Leave and Public Holidays Policy - Gulf
+owner: HR Operations - Gulf
+version: 1.0
+effective: 01-Jan-2027
+review: 31-Dec-2027
+applies: All employees of Meridian Systems Gulf FZ-LLC at the Dubai head office and the Riyadh and Doha branches
+#BODY
+## 1. Purpose and scope
+This policy sets out the annual leave and public holiday entitlements of employees of Meridian Systems Gulf FZ-LLC. It applies to the head office in Dubai, United Arab Emirates, and to the branches in Riyadh, Kingdom of Saudi Arabia, and Doha, State of Qatar. An employee's entitlement follows the work location named in the employment contract, not the employee's nationality or the country where the leave is spent.
+
+The leave year runs from **01 January to 31 December**. Hajj leave, Ramadan working hours and religious observance leave are covered by GLF-003. Where the labour law of a work location grants a more favourable entitlement than this policy, the more favourable entitlement applies.
+
+## 2. Annual leave entitlement
+| Work location | Service below 5 years | Service of 5 years or more | How days are counted |
+| Dubai head office (UAE) | 30 days | 30 days | Calendar days |
+| Riyadh branch (KSA) | 21 days | 30 days | Calendar days |
+| Doha branch (Qatar) | 22 days | 26 days | Working days |
+
+- Annual leave accrues monthly from the date of joining. In Dubai the accrual is **2.5 calendar days per completed month** of service.
+- The higher entitlement applies from the first day of the leave year that follows completion of 5 years of continuous service.
+- Accrued leave may be taken once the employee has completed **6 months of service in Dubai and Doha**, and **90 days of service in Riyadh**.
+- Where leave is counted in calendar days (Dubai and Riyadh), a public holiday that falls within approved annual leave is not deducted from the balance. In Doha, weekly off days and public holidays are never counted as working days.
+
+## 3. Carry forward and encashment
+| Work location | Maximum carry forward | Carried days must be used by | Encashment during service |
+| Dubai head office (UAE) | 15 calendar days | 31 March | Up to 10 days per leave year |
+| Riyadh branch (KSA) | 10 calendar days | 31 March | Not permitted |
+| Doha branch (Qatar) | 10 working days | 31 March | Up to 5 days per leave year |
+
+- Any balance above the carry-forward limit on 31 December lapses. Carried days not used by 31 March also lapse, unless the manager refused leave in writing for business reasons, in which case HR Operations extends the deadline to 30 June.
+- Encashment during service is requested in MyMeridian between 01 and 15 December and is paid with the December salary at the daily basic rate, which is the monthly basic salary divided by 30.
+- On separation, the accrued and unused balance is paid with the final settlement. It is calculated on basic salary in Dubai and Doha, and on basic salary plus housing allowance in Riyadh.
+
+## 4. Public holidays
+Meridian grants the paid public holidays below. Islamic holidays follow the Hijri calendar and their dates are confirmed only when the authorities announce them. HR Operations publishes the holiday calendar for each work location in MyMeridian by **15 December** of the preceding year.
+
+| Holiday | Dubai (UAE) | Riyadh (KSA) | Doha (Qatar) |
+| New Year's Day, 1 January | 1 day | Not observed | Not observed |
+| Founding Day, 22 February | Not applicable | 1 day | Not applicable |
+| National Sport Day, second Tuesday of February | Not applicable | Not applicable | 1 day |
+| Eid al-Fitr | 3 days | 4 days | 3 days |
+| Arafat Day and Eid al-Adha | 4 days | 4 days | 3 days |
+| Hijri New Year | 1 day | Not observed | Not observed |
+| Prophet's Birthday | 1 day | Not observed | Not observed |
+| National Day | 2 days, 2 and 3 December | 1 day, 23 September | 1 day, 18 December |
+| Total paid holiday days | 12 days | 10 days | 8 days |
+
+If a government announcement for the private sector grants more days for a holiday at a work location, Meridian follows the announcement and updates the calendar.
+
+## 5. Weekly off days and working on a holiday
+- The weekly off days are **Saturday and Sunday in Dubai**, and **Friday and Saturday in Riyadh and Doha**.
+- A public holiday that falls on a weekly off day is not replaced by another day off.
+- An employee who works on a public holiday with the prior written approval of the manager receives one substitute day off, which must be taken within **60 days**. Employees in grades G1 to G6 also receive a holiday allowance of **50 per cent of the daily basic salary** for each day worked. Employees in grade G7 and above receive the substitute day only.
+
+## 6. Applying for annual leave
+All leave is applied for and approved in MyMeridian under Time and Attendance > Leave Request.
+- A request of up to 5 days must be raised at least **7 calendar days** in advance. A request of more than 5 days must be raised at least **30 calendar days** in advance.
+- A single block of more than 21 consecutive days needs the approval of the Country Manager in addition to the reporting manager.
+- Every employee is expected to take at least one block of **10 consecutive calendar days** of annual leave in each leave year, so that each location has proper cover and the employee has a real break.
+- Requests that overlap Eid al-Fitr or Eid al-Adha are approved in order of submission, with no more than 30 per cent of a team away on the same day.
+
+## 7. Annual leave air ticket
+Employees recruited from outside the country of their work location receive an air ticket allowance for travel to their home country on annual leave.
+
+| Grade | Frequency | Maximum allowance |
+| G1 to G5 | Once every 24 months | AED 2,500 / SAR 2,500 / QAR 2,500 |
+| G6 and above | Once every 12 months | AED 4,000 / SAR 4,000 / QAR 4,000 |
+
+The allowance is paid with the salary of the month in which a block of at least 10 consecutive days of annual leave begins. An unused entitlement does not carry forward.
+
+## 8. Related documents
+- GLF-002 End-of-Service Gratuity Policy - Gulf
+- GLF-003 Ramadan Working Hours and Religious Leave Policy - Gulf
+
+Fictional document created for a technical demonstration. Not legal advice.

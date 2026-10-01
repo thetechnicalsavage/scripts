@@ -1,0 +1,71 @@
+#META
+id: MSS-003
+title: Manager Self Service: Transfers, Exits and Team Movement
+owner: HR Operations
+version: 2.0
+effective: 01-Apr-2026
+review: 31-Mar-2027
+applies: All employees with direct reports at Meridian Systems India
+#BODY
+## 1. What this guide covers
+What a manager does in MyMeridian when someone joins the team, moves within Meridian, or leaves: raising a requisition, handling an internal move, acknowledging a resignation, running the handover and completing clearance.
+
+## 2. Raising a requisition
+**Manager > Requisitions > New Requisition**. Complete the grade, role, location, reason, and the budgeted range from HRP-010. The approval routing follows the matrix in HRP-035 and is applied automatically.
+
+A requisition for a replacement can be raised **as soon as a resignation is acknowledged**; you do not need to wait for the last working day. Doing it early is the single biggest factor in avoiding a coverage gap.
+
+## 3. When a team member applies internally
+You will not know until the employee has cleared the first interview. This is deliberate, and it is set out in HRP-035 section 3.
+
+When you are informed:
+- **Do not attempt to block the move or to persuade the employee to withdraw.** Retention is addressed through the role, not through obstruction. HR Business Partners track blocked moves, and a pattern is treated as a management concern.
+- You have **45 days** from selection to release the employee. You may request one extension of up to 15 days, with a documented handover reason, through Manager > Internal Moves.
+- Raise the backfill requisition immediately.
+- Agree the knowledge transfer plan with the employee and the receiving manager in the first week.
+
+## 4. Requesting a transfer for a team member
+**Manager > Team Movement > Transfer Request**, for a change of location, business unit or reporting line. Attach the business reason. A company-initiated transfer carries the relocation assistance in HRP-020; an employee-requested transfer carries the limited assistance in HRP-020 section 6. State which it is, because it determines what the employee receives.
+
+## 5. When a team member resigns
+| Step | What you do | Timeline |
+| Acknowledge | Open the resignation in Manager > Resignations, confirm the last working day computed from the notice period in HRP-040 | **3 working days** |
+| Retention conversation | Optional, with the HR Business Partner. Hold it early, not in the last week | Within 7 days |
+| Knowledge transfer plan | Agree and record the items, owners and dates | Within 10 days |
+| Backfill | Raise the requisition | Immediately |
+| Clearance | Confirm your sections | By the last working day |
+
+### Acknowledging is not optional
+The notice period runs from the date of submission regardless of whether you have acknowledged. Delaying an acknowledgement does not extend the notice; it only leaves the last working day uncertain for everyone and delays the backfill.
+
+### Notice buy-out
+If the employee requests a shorter notice period, record your recommendation in Manager > Resignations with the handover position. The decision rests with the HR Business Partner. Base the recommendation on whether the work can be transferred safely, not on how you feel about the departure.
+
+## 6. Knowledge transfer
+Use the template in **Manager > Knowledge Transfer**. For each item: what it is, its current state, where the artefacts live, the open risks, and who is taking it. Confirm completion item by item rather than as a single sign-off at the end.
+
+Where the handover is incomplete at the last working day, record what remains. This may affect the rehire eligibility flag. It does **not** entitle you to withhold the relieving letter or the settlement; both are the employee's legal entitlement and are issued by HR Operations regardless of your view of the handover.
+
+## 7. Clearance
+Your sections in the clearance checklist:
+- Confirm the knowledge transfer is complete, or record what is outstanding.
+- Confirm the return of any team-held asset in the employee's custody.
+- Confirm that access to your team's systems and client environments can be revoked.
+- Complete the rehire eligibility recommendation, with a reason.
+
+Information Security revokes access on the last working day for a resignation, and **at the moment of notification** for an involuntary separation. Where you have a concern about a specific risk during the notice period, raise it with the HR Business Partner and Information Security rather than restricting access yourself.
+
+## 8. The exit interview
+The exit interview is conducted by the HR Business Partner, not by you, and its content is confidential. You receive the themes at an aggregate level each quarter, never an individual's comments. This confidentiality is what makes the exit interview worth running. Do not ask the HR Business Partner what was said, and do not ask the departing employee to tell you.
+
+## 9. After the last working day
+- Update the team structure in **Manager > Team**. An employee left in the structure keeps receiving system routing and appears in headcount.
+- Reassign any workflow items that were routed to the departing employee.
+- Hold a short team conversation about coverage. Silence after a departure is corrosive; people fill it with their own explanations.
+
+## 10. Related documents
+- HRP-010 Compensation Structure and Salary Review Policy
+- HRP-020 Relocation and Transfer Assistance Policy
+- HRP-035 Recruitment, Internal Job Posting and Background Verification Policy
+- HRP-040 Separation, Notice Period and Final Settlement Policy
+- MSS-001 Manager Self Service: Approving Leave, Timesheets and Expense Claims

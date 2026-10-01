@@ -1,0 +1,71 @@
+#META
+id: GLF-009-EN
+title: Probation, Notice Period and Resignation Policy - Gulf
+owner: HR Operations Gulf
+version: 1.4
+effective: 01-Jan-2026
+review: 31-Dec-2026
+applies: All employees of Meridian Systems Gulf FZ-LLC in the UAE, Saudi Arabia and Qatar
+#BODY
+## 1. Purpose and scope
+This policy sets out probation, notice periods and the resignation process for employees of Meridian Systems Gulf FZ-LLC at the Dubai head office and at the Riyadh and Doha branches. The periods in this policy are company policy and are written into each employment contract. Where the labour law of the country of employment requires a longer period or gives the employee a better right, the law applies. India employees follow HRP-036 and HRP-040, not this policy.
+
+## 2. Probation
+| Grade band | UAE (Dubai) | KSA (Riyadh) | Qatar (Doha) |
+| G1 to G4 | 6 months | 180 days | 6 months |
+| G5 and above | 3 months | 90 days | 3 months |
+| Transfer from another Meridian entity | None | None | None |
+
+- Probation may be extended **once**, for G5 and above only, up to 6 months in total in the UAE and Qatar, or 180 days in total in KSA. The extension must be confirmed in writing before the original end date.
+- In KSA, days of sick leave and the Eid al-Fitr and Eid al-Adha holidays do not count towards probation, so the end date moves by the same number of days.
+- The manager completes the confirmation review in MyMeridian at least **10 working days** before probation ends. If no decision is recorded by the end date, the employee is confirmed from the original date.
+- Group medical cover under GLF-007 applies from the date of joining, including during probation.
+
+## 3. Ending employment during probation
+| Situation | UAE (Dubai) | KSA (Riyadh) | Qatar (Doha) |
+| The company ends employment | 14 days written notice | 7 days written notice | 7 days written notice |
+| Employee resigns to join another employer in the same country | 1 month | 7 days | 1 month |
+| Employee resigns to leave the country | 14 days | 7 days | 14 days |
+
+- Before ending employment for performance, the manager must have raised the concerns with the employee in writing at least once.
+- If an employee in the UAE resigns during probation to join another UAE employer, the company claims its recruitment and visa costs, up to **AED 10,000**, from the new employer. No amount is deducted from the employee's final pay for this reason.
+
+## 4. Notice period after confirmation
+| Grade band | UAE (Dubai) | KSA (Riyadh), employee / company | Qatar (Doha) |
+| G1 to G4 | 30 days | 30 days / 60 days | 1 month, or 2 months after 2 years of service |
+| G5 to G6 | 60 days | 60 days / 60 days | 2 months |
+| G7 and above | 90 days | 90 days / 90 days | 2 months |
+
+- In the UAE and Qatar the same notice applies to the employee and to the company. In KSA the company always gives at least 60 days.
+- Notice is counted in calendar days, starting on the day after the resignation or termination is submitted in MyMeridian.
+- Dismissal for serious misconduct follows the disciplinary procedure and carries no notice.
+
+## 5. How to resign
+| Step | Owner | Timeline |
+| Submit the resignation in MyMeridian > My Profile > Resignation | Employee | Day 0 |
+| Acknowledge the resignation and confirm the last working day | Manager | Within 2 working days |
+| Withdraw the resignation, if the manager agrees | Employee | Within 5 working days of submission |
+| Agree the handover plan | Manager and employee | Within 10 days |
+| Exit interview | HR Business Partner | In the final 2 weeks |
+| Pay the final settlement | Payroll Gulf | Within 14 days of the last working day in the UAE and Qatar, and within 7 days in KSA |
+
+A resignation sent only by email or message is not valid until it is submitted in MyMeridian. The Government Relations team starts the cancellation or transfer of the employee's residence permit after the last working day.
+
+## 6. Shortening the notice period
+- **Buy-out by the employee**: with the approval of the manager and the HR Business Partner, the employee may pay for unserved notice days. Each day is charged at the gross monthly salary, meaning basic salary plus fixed allowances, divided by 30.
+- **Pay in lieu by the company**: the company may release an employee early and pays gross salary for the unserved days.
+- **Garden leave**: an employee in G7 and above may be placed on garden leave for up to **30 days** of the notice period, at full pay and without access to systems or clients.
+- Annual leave during notice needs the manager's approval and does not shorten the notice. Unused annual leave is paid in the final settlement.
+
+## 7. Final settlement and documents
+- The final settlement covers salary to the last working day, unused annual leave, end-of-service gratuity under GLF-002 and approved expenses, less any recoveries such as loans, advances or unreturned assets.
+- The experience certificate and the service letter are issued on the last working day in English, and in Arabic on request. They are never withheld because of an open recovery.
+- **Non-solicitation**: for **6 months** after the last working day, a former employee must not solicit Meridian employees, or clients the employee served in the final 12 months of employment. The company does not impose a general non-compete.
+
+## 8. Related documents
+- GLF-001 Annual Leave and Public Holidays
+- GLF-002 End-of-Service Gratuity
+- GLF-005 Residence Visa, Emirates ID, Iqama and QID Sponsorship and Dependants
+- GLF-007 Gulf Group Medical Insurance Policy
+
+Fictional document created for a technical demonstration. Not legal advice.

@@ -1,0 +1,79 @@
+#META
+id: HRP-023
+title: Conflict of Interest and Outside Engagement Policy
+owner: Corporate Compliance
+version: 3.7
+effective: 01-Apr-2026
+review: 31-Mar-2027
+applies: All employees, contractors and directors of Meridian Systems India
+#BODY
+## 1. Purpose
+A conflict of interest exists when an employee's personal, financial or family interest could influence, or could reasonably be seen to influence, a decision made on behalf of Meridian Systems India Private Limited.
+
+The existence of a conflict is usually not misconduct. **Failing to declare it is.** This policy defines what must be declared, when, and to whom.
+
+## 2. Definition of a relative
+For the purposes of this policy, a **relative** means: spouse, parent, step-parent, child, step-child, sibling, step-sibling, parent-in-law, sibling-in-law, child-in-law, grandparent, grandchild, and any person residing in the same household as the employee, including a domestic partner.
+
+## 3. Situations that must be declared
+| Category | Examples that must be declared |
+| Family in the workplace | A relative employed at Meridian; a relative who joins a team in the employee's reporting line, directly or indirectly |
+| Family at a counterparty | A relative employed by, or holding an ownership interest in, a Meridian client, vendor, bidder, competitor or channel partner |
+[line removed for publication]
+| Outside role | Any directorship, partnership, proprietorship, advisory role, consulting engagement or trusteeship outside Meridian |
+| Outside work | Any paid work for another organisation, see also HRP-029 |
+| Personal relationship in the reporting line | A romantic or close personal relationship with a person the employee manages, appraises, or whose compensation they influence |
+| Procurement influence | Any role in selecting, evaluating or approving a vendor with which the employee or a relative has any connection |
+| Post-employment | Accepting an offer from a client or a vendor while still involved in decisions affecting that organisation |
+| Intellectual property | Developing software, content or inventions outside work hours that relate to Meridian's business |
+
+## 4. When to declare
+- **On joining**, within 15 days, as part of onboarding.
+- **Annually**, during the April compliance window, even where nothing has changed.
+- **Within 7 days** of any change in circumstances that creates a new conflict.
+- **Immediately, and before participating**, where a conflict arises in a specific decision such as a vendor selection or a hiring panel.
+
+Declarations are filed in **MyMeridian > My Compliance > Conflict of Interest Declaration**. The declaration goes to the reporting manager and to Corporate Compliance.
+
+## 5. How a declared conflict is managed
+Corporate Compliance, with the function head, decides on the mitigation. Typical outcomes:
+
+- **Recusal.** The employee takes no part in the decision, receives none of the papers, and this is minuted.
+- **Reassignment of the reporting line**, so that no employee appraises or sets the pay of a relative or a person with whom they have a close personal relationship. Meridian does not prohibit relatives working in the company; it prohibits one being in the other's reporting line.
+- **Ring-fencing of information**, where the employee is excluded from a specific data set or system.
+- **Divestment**, where a financial holding cannot be reconciled with the role.
+- **Declining the outside role**, where it cannot be managed.
+
+The mitigation is recorded against the declaration and reviewed annually.
+
+## 6. Outside engagements that are generally permitted
+With prior written approval, and where they do not compete with Meridian, do not use Meridian time, assets or confidential information, and do not create a reputational risk:
+
+- Teaching, guest lecturing and examining at an educational institution.
+- Writing and publishing books, articles and technical papers.
+- Speaking at conferences, including where an honorarium is paid.
+- Serving on a standards body, an industry association or an academic committee.
+- Serving as a trustee or director of a not-for-profit organisation.
+- Contributing to open-source projects, subject to the review process in HRP-031.
+
+Approval is sought in MyMeridian > My Compliance > Outside Engagement Request and decided within 10 working days.
+
+## 7. Outside engagements that are never permitted
+- Any role with a competitor of Meridian.
+- Any role with a client or vendor of the business unit in which the employee works.
+- Any engagement that uses Meridian confidential information or intellectual property.
+- Any engagement performed during Meridian working hours or using Meridian assets.
+- Employment with another employer, which is dual employment and is covered by HRP-029.
+
+## 8. Procurement and vendor selection
+Any employee participating in a vendor evaluation must complete a **conflict declaration specific to that evaluation** before receiving the bids. An employee who declares a connection to a bidder is removed from the panel. Failing to declare a connection and then participating is treated as serious misconduct, because it undermines the integrity of the procurement and may expose Meridian to a challenge from other bidders.
+
+## 9. Consequences
+Failure to declare a conflict, or participating in a decision after a conflict has been identified, is misconduct under HRP-028 and may result in termination. Where the undeclared conflict has caused Meridian financial loss, the company reserves the right to recover the loss and to refer the matter to the authorities.
+
+## 10. Related documents
+- HRP-015 Employee Referral Programme Policy
+- HRP-022 Code of Business Conduct and Ethics
+- HRP-025 Anti-Bribery and Anti-Corruption Policy
+- HRP-029 Moonlighting and Dual Employment Policy
+- HRP-033 Information Security and Confidentiality Policy

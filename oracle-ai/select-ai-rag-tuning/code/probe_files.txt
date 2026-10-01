@@ -1,0 +1,39 @@
+# v1.1 - Brief 09 probe files: what sits in RAG_PROBE_DIR for probes P5, P6, P13 and P15
+#        (PLAN.md 8.1), and where each file comes from.
+#        v1.1: public copy: the other app is named the existing HR app (comment and 'what' text only).
+#        v1.0: first version. Five files staged before P5; two P13 copies staged after p1 is
+#              built; P15 removes one of those copies again.
+#
+# Read by : 04_probes.py (files, stage-dir, p5). 05_extraction_gate.sql and 04_probes.sql carry
+#           the same names; tests/test_probes.py fails if they disagree.
+# Staging : 01_stage_files.sh is the only thing that writes into RAG_PROBE_DIR:
+#             04_probes.py stage-dir --stage initial --dir D   copies each origin under its
+#                                                              probe name into an empty dir D
+#             01_stage_files.sh probe D                        before P5
+#             04_probes.py stage-dir --stage p13 --dir D13
+#             01_stage_files.sh probe D13 --allow-non-ascii    before 04_probes.sql P13
+#             01_stage_files.sh probe-rm PRB-P13-EN-COPY.pdf   before 04_probes.sql P15
+#           "python3 04_probes.py files" lists every row with size and sha256.
+#           Nothing else may be in that directory: no manifest, lock or hidden file.
+# Order   : the p1..p4 probe indexes read RAG_PROBE_DIR:*, so the directory must hold exactly
+#           the stage=initial files when P6, P10 and P14 build them.
+#
+# Columns : probe_name|stage|role|lang|format|origin|made_by|source_text|doc_id|required|what
+#   probe_name  file name inside RAG_PROBE_DIR (ASCII, except the deliberate P13 Arabic name)
+#   stage       initial (staged before P5) | p13 (staged after P6 built p1, for P13)
+#   role        gate-ar-pdf | gate-docx | gate-en-pdf   the three files the P5 decision rests on
+#               reference         the India reportlab PDF, the existing HR app's format (India never changes)
+#               negative-control  Noto Naskh Arabic PDF; it is expected to FAIL the gate
+#               p13-ascii | p13-multibyte   same bytes, ASCII vs Arabic file name
+#   origin      path relative to the brief folder, or probe:<name> for a copy of another probe file
+#   made_by     the command that produces <origin> when it is not part of the built corpus, or -
+#   source_text corpus source the extraction is scored against, with the build_corpus.py normaliser
+#   required    yes: P5 stops when it is missing | no: skipped and reported when missing
+#
+PRB-AR-AMIRI-GLF-001-AR.pdf|initial|gate-ar-pdf|ar|pdf|corpus/pdf/GLF-001-AR-annual-leave-and-public-holidays-policy.pdf|-|corpus/src/gulf/GLF-001-AR-annual-leave-and-public-holidays-policy.txt|GLF-001-AR|yes|Arabic, Chromium print, Amiri 1.003 embedded (the corpus as built)
+PRB-AR-DOCX-GLF-001-AR.docx|initial|gate-docx|ar|docx|corpus/docx/GLF-001-AR-annual-leave-and-public-holidays-policy.docx|-|corpus/src/gulf/GLF-001-AR-annual-leave-and-public-holidays-policy.txt|GLF-001-AR|yes|the same Arabic document as Transitional-OOXML DOCX (LibreOffice), the fallback format
+PRB-EN-CHROMIUM-GLF-001-EN.pdf|initial|gate-en-pdf|en|pdf|corpus/pdf/GLF-001-EN-annual-leave-and-public-holidays-policy.pdf|-|corpus/src/gulf/GLF-001-EN-annual-leave-and-public-holidays-policy.txt|GLF-001-EN|yes|English twin, Chromium print, Noto Sans embedded (embedded fonts affect English too)
+PRB-EN-REPORTLAB-HRP-001.pdf|initial|reference|en|pdf|corpus/pdf/HRP-001-leave-policy.pdf|-|corpus/src/india/HRP-001-leave-policy.txt|HRP-001|yes|India policy, the existing HR app's original reportlab PDF, Helvetica not embedded
+PRB-AR-NOTO-GLF-001-AR.pdf|initial|negative-control|ar|pdf|corpus/probe/PRB-AR-NOTO-GLF-001-AR.pdf|04_probes.py make-noto-control|corpus/src/gulf/GLF-001-AR-annual-leave-and-public-holidays-policy.txt|GLF-001-AR|no|the same Arabic document printed with Noto Naskh Arabic (dotless glyph plus dot): expected to fail
+PRB-P13-EN-COPY.pdf|p13|p13-ascii|en|pdf|probe:PRB-EN-REPORTLAB-HRP-001.pdf|04_probes.py stage-dir --stage p13|corpus/src/india/HRP-001-leave-policy.txt|HRP-001|no|P13 positive control: an ASCII-named copy added after p1 was built; P15 deletes it
+PRB-P13-AR-نسخة.pdf|p13|p13-multibyte|en|pdf|probe:PRB-EN-REPORTLAB-HRP-001.pdf|04_probes.py stage-dir --stage p13|corpus/src/india/HRP-001-leave-policy.txt|HRP-001|no|P13: the same bytes under a file name with Arabic letters ([D3]: such files are skipped)

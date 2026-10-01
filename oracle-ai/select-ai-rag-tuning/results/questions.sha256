@@ -1,0 +1,5 @@
+# v1.0 questions.json seal (PLAN.md 5.1), written by code/eval/validate_gold.py --write.
+# Check from the brief folder: sha256sum -c results/questions.sha256
+# questions version v2.4
+# questions digest c1c89bf2d3c52e8e9481aeb06a3057803ac95d0f3ac2b21473f5d8c5f1ff60ee
+055f5e7d5792d05fb0a41bb09bc0928d6f6cee6be8e985b82650f0b3cfba62df  code/eval/questions.json

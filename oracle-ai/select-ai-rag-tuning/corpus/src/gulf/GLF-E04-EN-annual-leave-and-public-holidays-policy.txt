@@ -1,0 +1,53 @@
+#META
+id: GLF-E04-EN
+title: Annual Leave and Public Holidays Policy, 2024 edition (SUPERSEDED)
+owner: HR Operations Gulf
+version: 1.0
+effective: 01-Jan-2024
+review: SUPERSEDED - withdrawn when the 2026 edition of GLF-001 took effect
+applies: Archive copy only. Formerly applied to all employees of Meridian Systems Gulf FZ-LLC in the UAE, the Kingdom of Saudi Arabia and the State of Qatar
+#BODY
+## 1. Status of this document: SUPERSEDED
+**SUPERSEDED.** This is the 2024 edition, version 1.0, of GLF-001 Annual Leave and Public Holidays. It has been replaced by the 2026 edition of GLF-001 and no longer applies. Do not use it to answer questions about current leave entitlements. HR Operations Gulf keeps it in the policy archive only for audits and for questions about leave taken while it was in force. Where this edition and the 2026 edition differ, the 2026 edition applies.
+
+## 2. Purpose and scope (2024 edition)
+The 2024 edition set out the paid annual leave of employees of Meridian Systems Gulf FZ-LLC at the Dubai head office and the Riyadh and Doha branches. It covered how leave was accrued, requested and carried forward, and how public holidays were treated. The leave year was the calendar year, from 01 January to 31 December. Sick leave, maternity and paternity leave and other special leave were covered by separate policies.
+
+## 3. Annual leave entitlement (2024 edition)
+Under the 2024 edition, every employee received **24 working days** of paid annual leave per leave year, in every grade and in all three countries.
+
+| Provision (2024 edition) | UAE (Dubai) | KSA (Riyadh) | Qatar (Doha) |
+| Annual leave per leave year | 24 working days | 24 working days | 24 working days |
+| Accrual | 2 working days per completed month | 2 working days per completed month | 2 working days per completed month |
+| Longest single block without Country HR approval | 15 working days | 20 working days | 15 working days |
+| Annual leave ticket, cash cap per year | AED 2,600 | SAR 2,600 | QAR 2,450 |
+
+- After **5 years** of continuous service, the entitlement rose by 2 working days, to **26 working days**.
+- Leave accrued from the date of joining but could not be taken during probation, except for up to **3 working days** of emergency leave taken as an advance.
+- Public holidays that fell within a period of annual leave were not deducted from the leave balance.
+
+## 4. Requesting leave (2024 edition)
+- Leave of **5 or more** working days was requested at least **21 calendar days** in advance. Shorter leave was requested at least **3 working days** in advance.
+- Requests were raised in MyMeridian and approved by the reporting manager. A block longer than the country limit in section 3 also needed Country HR approval.
+- Leave taken without an approved request was treated as unauthorised absence.
+
+## 5. Carry forward and encashment (2024 edition)
+- Up to **8 working days** of unused leave could be carried into the next leave year. Carried days had to be used by **31 March**, after which they lapsed.
+- Employees in grades G1 to G6 could encash up to **5 unused days** each January. Employees in grade G7 and above could not encash leave during service.
+- Days above the carry-forward cap that were not encashed lapsed on 31 December.
+
+## 6. Annual leave ticket (2024 edition)
+- Expatriate employees received the cash value of an economy class return ticket to their home city once in each leave year, up to the caps in section 3.
+- The ticket was paid with the salary of the month in which a block of at least **10 consecutive working days** of annual leave started. Employees who had not taken such a block by **30 November** received it with the December salary.
+- Nationals of the country of employment were not eligible for the leave ticket.
+
+## 7. What changed in 2026
+The 2026 edition of GLF-001 replaced every provision above. Readers must check the current GLF-001 for today's entitlement, accrual, carry-forward, encashment and leave ticket rules. The values in this archive copy, including the 24-day entitlement, are historical and must not be quoted as current policy.
+
+## 8. Related documents
+- GLF-001 Annual Leave and Public Holidays (2026 edition, current)
+- GLF-006 Wage Protection System and Payroll Calendar Policy
+
+**SUPERSEDED: archive copy of the 2024 edition. See the current GLF-001.**
+
+Fictional document created for a technical demonstration. Not legal advice.

@@ -1,0 +1,73 @@
+#META
+id: HRP-011
+title: Variable Pay and Performance Bonus Policy
+owner: Total Rewards
+version: 3.4
+effective: 01-Apr-2026
+review: 31-Mar-2027
+applies: All employees on the Meridian Systems India payroll
+#BODY
+## 1. Purpose
+A part of every employee's cost to company at Meridian Systems India Private Limited is at risk against performance. This policy explains how the variable pay target is set, how the payout is calculated, and when it is paid.
+
+## 2. Variable pay target by grade
+| Grade band | Variable pay target as a percentage of fixed pay |
+| G1 to G2 | 5 per cent |
+| G3 to G4 | 10 per cent |
+| G5 to G6 | 15 per cent |
+| G7 to G8 | 25 per cent |
+| G9 and above | 35 per cent |
+
+The target is the amount payable when both the company and the individual perform exactly at plan. It is stated in the appointment letter and in every revised compensation letter.
+
+## 3. How the payout is calculated
+**Payout = Variable pay target x Company performance multiplier x Individual performance factor x Eligibility proportion**
+
+### Company performance multiplier
+Set once a year by the Board after the audited results, based on revenue, operating margin and client satisfaction against plan. The multiplier ranges from **0 to 1.50**. A multiplier below 0.60 requires the Board to record its reasons; a multiplier above 1.25 requires Compensation Committee approval.
+
+| Company performance against plan | Multiplier |
+| Below 85 per cent of plan | 0.00 to 0.50 |
+| 85 to 94 per cent of plan | 0.60 to 0.85 |
+| 95 to 104 per cent of plan | 0.90 to 1.10 |
+| 105 to 114 per cent of plan | 1.15 to 1.30 |
+| 115 per cent of plan and above | 1.35 to 1.50 |
+
+### Individual performance factor
+| Performance rating | Factor |
+| Exceptional | 1.30 |
+| Exceeds expectations | 1.15 |
+| Meets expectations | 1.00 |
+| Partially meets expectations | 0.60 |
+| Does not meet expectations | 0.00 |
+
+### Worked example
+An employee in grade G4 with a fixed pay of INR 18,00,000 has a variable target of 10 per cent, that is INR 1,80,000. The company multiplier for the year is 1.10 and the employee is rated Exceeds expectations, a factor of 1.15. The employee worked the full year, so the eligibility proportion is 1.00.
+
+Payout = 1,80,000 x 1.10 x 1.15 x 1.00 = **INR 2,27,700**, before tax.
+
+## 4. Eligibility proportion
+- An employee who worked the full performance year has an eligibility proportion of 1.00.
+- An employee who joined during the year is eligible on a pro-rata basis for completed months, provided they joined on or before **30 September** of the performance year. An employee joining after that date is not eligible for that year.
+- Days of Leave Without Pay and sabbatical are excluded from the completed months.
+- Maternity, paternity and any other paid leave are treated as time worked and do not reduce the proportion.
+
+## 5. Payment conditions
+- Variable pay is paid annually with the **July payroll**, following the close of the performance year on 31 March.
+- The employee must be on the rolls and must not have resigned or been served notice **on the date of payment**. An employee who resigns before the payment date forfeits the payout for the completed year. This condition is stated in the appointment letter.
+- An employee whose service ends because of death, permanent total disablement or retirement at superannuation receives the payout pro-rated to the last working day, without the on-rolls condition.
+- Variable pay is fully taxable as salary in the year of receipt and is subject to tax deducted at source.
+
+## 6. Statutory bonus
+Employees whose salary, as defined in the Payment of Bonus Act 1965, does not exceed **INR 21,000 per month** are eligible for statutory bonus at a minimum of **8.33 per cent** and a maximum of **20 per cent** of salary, computed on a salary ceiling of INR 7,000 per month or the applicable minimum wage, whichever is higher. Statutory bonus is paid within 8 months of the close of the accounting year.
+
+Where an employee is eligible for both statutory bonus and variable pay, the statutory bonus is paid separately and is not set off against variable pay.
+
+## 7. Special incentives
+Business units may run short-term incentives such as a delivery milestone award, a certification incentive or a sales commission plan. Any such plan must be documented, approved by Total Rewards and the Finance Controller before communication, and must state its own eligibility and payout rules. These plans are in addition to, and do not replace, variable pay under this policy.
+
+## 8. Related documents
+- HRP-010 Compensation Structure and Salary Review Policy
+- HRP-014 Employee Stock Option Plan Policy
+- HRP-037 Performance Management and Improvement Policy
+- HRP-040 Separation, Notice Period and Final Settlement Policy

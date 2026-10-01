@@ -1,0 +1,58 @@
+#META
+id: GLF-005-EN
+title: Residence Visa, Emirates ID, Iqama and QID Sponsorship and Dependants Policy
+owner: Government Relations Gulf
+version: 1.0
+effective: 01-Oct-2026
+review: 30-Sep-2027
+applies: All expatriate employees of Meridian Systems Gulf FZ-LLC in the UAE, the Kingdom of Saudi Arabia and the State of Qatar, and their sponsored dependants
+#BODY
+## 1. Purpose and scope
+This policy explains how Meridian Systems Gulf FZ-LLC obtains and renews the right to live and work for expatriate employees at the Dubai head office and the Riyadh and Doha branches, which costs the company bears, what employees must do, and how family members are sponsored. It is administered by the Government Relations (GR) team in each country. Nationals of the country of employment do not need residence documents, and sections 2 to 5 do not apply to them.
+
+Meridian never holds an employee's passport. GR takes it only for the time needed to complete a residence stamping or renewal and returns it, against a signed receipt, within **2 working days**.
+
+## 2. Employment residence by country
+| Country | Residence document | Validity when issued | Processing target from arrival |
+| UAE (Dubai) | Residence visa and Emirates ID | 2 years | 15 working days |
+| KSA (Riyadh) | Iqama and work permit | 1 year, renewed every year | 20 working days |
+| Qatar (Doha) | Residence permit and Qatar ID (QID) | 2 years | 20 working days |
+
+Meridian pays every fee for the employee's own employment residence: the entry permit, the medical fitness test, biometrics, the identity card, the work permit and, in KSA, the annual government levy for expatriate staff. None of these costs is ever recovered from the employee, including when the employee leaves during probation.
+
+## 3. Employee obligations
+- Hold a passport valid for at least **12 months** when the residence application starts.
+- Complete the medical fitness test and biometrics within **10 working days** of arrival, on the slot booked by GR.
+- Report a lost or damaged Emirates ID, Iqama or QID to GR within **48 hours**, and report a lost passport to the police and to GR within **24 hours**.
+- Keep personal details current in MyMeridian, because GR uses them for every government submission.
+- Do not work for any other party while sponsored by Meridian, unless a secondary work permit has been approved in advance.
+
+## 4. Renewal and cancellation timelines
+| Step | UAE | KSA | Qatar |
+| GR starts the renewal before expiry | 60 days | 90 days | 45 days |
+| Reminder to the employee in MyMeridian | 75 days before expiry | 105 days before expiry | 60 days before expiry |
+| Cancellation or final exit processed after the last working day | Within 5 working days | Within 7 working days | Within 7 working days |
+
+Employees must not plan leave outside the country of more than **14 consecutive days** during the renewal window without agreeing it with GR first. If a residence expires because of a delay by GR, Meridian is responsible, including for any fines. A fine that results from the employee missing a booked appointment without a valid reason is borne by the employee.
+
+## 5. Dependant sponsorship
+A spouse and children may join the employee on family residence. In the UAE and Qatar the employee sponsors the family; in KSA dependants are registered on the employee's Iqama. In every case GR prepares and submits the applications.
+
+| Grade band | Dependants whose residence fees Meridian pays | Support where not covered |
+| G1 to G2 | None | Interest-free advance of up to AED 5,000, SAR 5,000 or QAR 5,000, recovered over 10 months |
+| G3 to G4 | Spouse and up to 2 children | Additional children at the employee's cost |
+| G5 to G6 | Spouse and up to 3 children | Additional children at the employee's cost |
+| G7 and above | Spouse and up to 4 children | Additional children at the employee's cost |
+
+Stated in full: for a **grade G3 or G4** employee, Meridian pays the residence fees of the spouse and at most **2 children**; for **G5 or G6**, the spouse and at most **3 children**; for **G7 and above**, the spouse and at most **4 children**. A **grade G1 or G2** employee pays dependant fees personally but may take the interest-free advance.
+
+Company-paid dependant fees cover children until their **21st birthday**. Residence for parents is at the employee's own cost in every grade, although GR will still process it. In KSA, the monthly dependant fee charged by the authorities is reimbursed for covered dependants through payroll **every quarter**. GR submits a dependant application within **10 working days** of receiving a complete file: the attested marriage certificate, attested birth certificates and passport copies.
+
+## 6. Long-term residence
+Employees in **G7 and above** who qualify for a long-term (10-year) residence visa in the UAE may apply with GR support. Meridian contributes up to **AED 7,500** towards the government fees for the employee and spouse. In KSA and Qatar, applications for premium or permanent residence schemes are a personal matter and are not funded by Meridian.
+
+## 7. Related documents
+- GLF-004 Housing, Transport and Allowances Policy
+- GLF-006 Wage Protection System and Payroll Calendar Policy
+
+Fictional document created for a technical demonstration. Not legal advice.

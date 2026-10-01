@@ -1,0 +1,87 @@
+#META
+id: HRP-010
+title: Compensation Structure and Salary Review Policy
+owner: Total Rewards
+version: 4.1
+effective: 01-Apr-2026
+review: 31-Mar-2027
+applies: All employees on the Meridian Systems India payroll
+#BODY
+## 1. Purpose
+This policy explains how compensation is structured at Meridian Systems India Private Limited, how salary ranges are set for each grade, and how and when salaries are reviewed.
+
+## 2. Grade structure
+| Grade band | Typical designations | Career stage |
+| G1 to G2 | Associate Engineer, Engineer, Analyst | Individual contributor, developing |
+| G3 to G4 | Senior Engineer, Technical Lead, Senior Analyst | Individual contributor, experienced |
+| G5 to G6 | Manager, Senior Manager, Architect | People or technical leadership |
+| G7 to G8 | Director, Senior Director, Principal Architect | Function or large programme leadership |
+| G9 and above | Vice President and above | Business unit leadership |
+
+The grade determines salary range, variable pay target, travel entitlement, insurance sum insured and stock eligibility. Grade is not the same as designation; two employees with the same designation may sit in different grades.
+
+## 3. Components of fixed pay
+| Component | Basis | Notes |
+| Basic salary | 40 per cent of fixed pay | Drives Provident Fund, gratuity and leave encashment |
+| House Rent Allowance | 50 per cent of Basic for Tier A cities, 40 per cent elsewhere | Tax exemption under section 10(13A) subject to rent proof |
+| Flexible Benefit Plan | Balancing amount | Allocated by the employee among the components in HRP-016 |
+| Employer Provident Fund | 12 per cent of Basic, subject to the statutory wage ceiling | Part of cost to company, not of take-home pay |
+| Gratuity provision | 4.81 per cent of Basic | Part of cost to company, payable on eligibility under HRP-012 |
+
+Cost to company is the sum of fixed pay, the employer's statutory contributions, the gratuity provision, the insurance premium and the variable pay target at 100 per cent.
+
+## 4. Salary ranges
+Total Rewards maintains a salary range for each grade and each job family, expressed as a minimum, a midpoint and a maximum. Ranges are benchmarked annually against the Indian technology services market using two external survey sources, and are approved by the Compensation Committee before the start of the review cycle.
+
+The midpoint represents the market median for a fully proficient performer in that grade. A new hire is normally offered between the minimum and the midpoint. Positioning above the midpoint requires the approval of the function head and Total Rewards.
+
+## 5. The annual salary review cycle
+| Milestone | Timing |
+| Performance ratings finalised and calibrated | April |
+| Budget approved by the Compensation Committee | May |
+| Manager recommendations submitted in MyMeridian | 01 to 20 June |
+| Second-level review and Total Rewards moderation | 21 to 30 June |
+| Increment effective date | 01 July |
+| Revised letters released to employees | By 15 July |
+| Payment, with arrears if any | July payroll |
+
+## 6. How an increment is determined
+The increment percentage is a function of three inputs:
+
+- The **performance rating** for the review year, on the 5-point scale in HRP-037.
+- The employee's **position in the salary range**. An employee below the midpoint receives a higher increment than an equally rated employee above the maximum, because the purpose is to move people towards the market rate.
+- The **approved budget** for the business unit.
+
+| Rating | Typical increment for an employee below midpoint | Typical increment for an employee above midpoint |
+| Exceptional | 14 to 18 per cent | 9 to 12 per cent |
+| Exceeds expectations | 10 to 13 per cent | 7 to 9 per cent |
+| Meets expectations | 6 to 9 per cent | 4 to 6 per cent |
+| Partially meets expectations | 0 to 3 per cent | Nil |
+| Does not meet expectations | Nil | Nil |
+
+These are guidance ranges, not entitlements. The actual increment depends on the approved budget for the year.
+
+## 7. Eligibility for the annual review
+- The employee must have joined on or before **31 December** of the review year to be eligible for a full increment. Employees joining between 01 January and 31 March receive a pro-rated increment. Employees joining on or after 01 April of the review year are not eligible in that cycle.
+- The employee must be on the rolls and not serving notice on the effective date.
+- An employee on an active Performance Improvement Plan is not considered until the plan concludes successfully, after which the increment is applied prospectively without arrears.
+
+## 8. Off-cycle salary revisions
+Off-cycle revisions are the exception and require the approval of the function head, Total Rewards and the Head of HR. They are considered only for:
+
+- A promotion taking effect outside the annual cycle.
+- A significant and documented change in the scope of the role.
+- A retention case supported by a market data point, where the employee is identified as critical talent.
+[line removed for publication]
+
+A counter-offer made solely in response to an employee's resignation is not an off-cycle revision and is not supported by this policy. Retention conversations must happen before an employee reaches that point.
+
+## 9. Confidentiality
+Individual compensation is confidential between the employee, the reporting manager, the HR Business Partner and Total Rewards. Employees are asked not to disclose their own compensation to colleagues. Meridian does not take disciplinary action against an employee for discussing their own pay, but discussing another employee's pay obtained through system access or in a managerial capacity is a breach of HRP-033.
+
+## 10. Related documents
+- HRP-011 Variable Pay and Performance Bonus Policy
+- HRP-012 Provident Fund, Gratuity and Statutory Benefits Policy
+- HRP-016 Flexible Benefit Plan and Tax Declaration Policy
+- HRP-037 Performance Management and Improvement Policy
+- HRP-039 Promotion and Career Progression Policy

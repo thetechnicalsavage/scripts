@@ -1,0 +1,62 @@
+#META
+id: GLF-E06-EN
+title: Workplace Health and Heat Stress Policy
+owner: Health, Safety and Environment Gulf
+version: 1.0
+effective: 01-Oct-2026
+review: 30-Sep-2027
+applies: All employees of Meridian Systems Gulf FZ-LLC in the UAE, the Kingdom of Saudi Arabia and the State of Qatar, and contractors working on Meridian sites
+#BODY
+## 1. Purpose and scope
+Summer temperatures in the Gulf often pass 45 degrees C. This policy sets the rules that protect employees and contractors of Meridian Systems Gulf FZ-LLC from heat stress. Most staff work in air-conditioned offices, but field service engineers, network installation teams, facilities staff, drivers and couriers spend part of the day outdoors or in hot plant rooms. The policy covers outdoor work, work in shaded areas without proper ventilation, hot indoor spaces such as rooftop plant rooms, and driving on company business.
+
+## 2. Midday outdoor work stop
+No outdoor work in direct sun, or in shaded areas without proper ventilation, is scheduled during the windows below. Each window is at least as wide as the midday break announced by the authorities of that country for summer 2026. If an authority announces a wider window or a longer season, the wider rule applies at once, and HSE Gulf updates this table in MyMeridian within **2 working days**.
+
+| Country | Daily stop window | Season |
+| UAE (Dubai head office) | 12:30 to 15:00 | 15 June to 15 September |
+| KSA (Riyadh branch) | 12:00 to 15:00 | 15 June to 15 September |
+| Qatar (Doha branch) | 10:00 to 15:30 | 1 June to 15 September |
+
+Stated in full: in the **UAE**, outdoor work stops from **12:30 to 15:00** every day between **15 June and 15 September**. In **KSA**, the stop runs from **12:00 to 15:00** over the same season. In **Qatar**, it runs from **10:00 to 15:30** between **1 June and 15 September**.
+
+- The stop applies on every calendar day of the season, including weekends and public holidays.
+- Outside the season, Meridian's own minimum applies in all three countries: when the forecast maximum temperature at the site is **40 degrees C** or higher, no outdoor work is scheduled between **12:30 and 15:00**.
+- Workers on a break must have a shaded, cooled rest area. A parked vehicle with the engine running does not count as a rest area.
+
+## 3. Emergency exemptions
+Only emergency work to restore a critical service, such as power, cooling or network links to a client data centre, may take place during a stop window. It needs a permit to work signed by the Country HSE Lead before work starts. Each person works for no more than **30 minutes** at a time, followed by at least **30 minutes** in a cooled rest area, with cold water and electrolyte drinks supplied at the work point.
+
+## 4. Heat stress index and work-rest cycles
+Outside the stop windows, supervisors measure the Wet Bulb Globe Temperature (WBGT) at the work point when work starts and at least every **2 hours**, and apply these company limits.
+
+| WBGT at the work point | Risk level | Work and rest cycle | Minimum drinking water |
+| Below 28.0 degrees C | Low | Normal work, with a 10-minute break every 2 hours | 250 ml every 20 minutes |
+| 28.0 to 29.9 degrees C | Moderate | 45 minutes work, 15 minutes rest in each hour | 250 ml every 20 minutes |
+| 30.0 to 32.0 degrees C | High | 30 minutes work, 30 minutes rest in each hour | 250 ml every 15 minutes |
+| Above 32.0 degrees C | Extreme | Outdoor work stops | Not applicable |
+
+- Cool drinking water is free at every site. Electrolyte drinks are provided once a worker has spent **2 hours** outdoors in a day.
+- During the season, no one works outdoors alone between **10:00 and 16:00**. A buddy checks on the worker at least every **30 minutes**.
+
+## 5. Acclimatisation, fitness and training
+- A new outdoor worker, or one returning after **7 or more days** away from the Gulf, builds up exposure over 5 days: **20 per cent** of a normal outdoor shift on day 1, rising by 20 percentage points each day.
+- Employees in outdoor roles have a pre-placement medical and an annual fitness review. Anyone with a condition that raises heat risk may be restricted on medical advice.
+- Outdoor workers and their supervisors complete heat stress training, a **45-minute** e-learning module, by **31 May** every year.
+- When Ramadan falls in the summer season, outdoor tasks for employees who are fasting are scheduled before **10:00** or after sunset.
+
+## 6. Heat illness and reporting
+- Anyone showing signs of heat illness, such as confusion, headache, nausea, heavy sweating or hot dry skin, stops work at once, is moved to a cool place and is cooled with water.
+- If the person is confused, collapses or does not improve within **15 minutes**, call an ambulance: **998** in the UAE, **997** in KSA and **999** in Qatar.
+- Every case of heat illness is reported to HSE Gulf within **4 hours**. A case that needs hospital treatment is investigated within **5 working days**.
+- Any employee may stop work that they believe is unsafe because of heat, without penalty.
+
+## 7. Offices and company vehicles
+- Office air conditioning is set to **23 degrees C**, plus or minus 1 degree. From June to September, Facilities responds to a cooling failure within **2 hours**.
+- Company vehicles must have working air conditioning. From June to September, drivers carry at least **2 litres** of drinking water per occupant, and never leave a person, a child or an animal in a parked vehicle.
+
+## 8. Related documents
+- GLF-007 Gulf Group Medical Insurance Policy
+- GLF-E02 Company Car and Fuel Card Policy (Gulf)
+
+Fictional document created for a technical demonstration. Not legal advice.

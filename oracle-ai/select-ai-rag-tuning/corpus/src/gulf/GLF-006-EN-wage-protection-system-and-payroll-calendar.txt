@@ -1,0 +1,61 @@
+#META
+id: GLF-006-EN
+title: Wage Protection System and Payroll Calendar Policy
+owner: Payroll Operations Gulf
+version: 1.0
+effective: 01-Oct-2026
+review: 30-Sep-2027
+applies: All employees on the Meridian Systems Gulf FZ-LLC payroll in the UAE, the Kingdom of Saudi Arabia and the State of Qatar
+#BODY
+## 1. Purpose and scope
+This policy sets the monthly payroll calendar of Meridian Systems Gulf FZ-LLC and explains how salaries are paid through the wage protection arrangements in each country where the company operates. Salaries are paid monthly in the local currency: AED in the UAE, SAR in the Kingdom of Saudi Arabia (KSA) and QAR in Qatar. The pay period is the Gregorian calendar month, from the first day to the last.
+
+## 2. Wage protection channel by country
+| Country | Channel | Salary file | Confirmation owner |
+| UAE (Dubai) | Wage Protection System (WPS) through a bank acting as WPS agent | Salary Information File (SIF) | Payroll Operations Gulf, Dubai |
+| KSA (Riyadh) | Bank salary transfer, with the wage protection file uploaded to the Mudad platform | Monthly wage protection file | Payroll Operations Gulf, Riyadh |
+| Qatar (Doha) | Wage Protection System (WPS) through the company's salary bank | Salary Information File (SIF) | Payroll Operations Gulf, Doha |
+
+Every salary payment, including arrears and off-cycle payments, goes through this channel. Cash salary payments are not permitted in any country. The salary shown in the file must match the employment contract and the allowances in GLF-004.
+
+## 3. Monthly payroll calendar
+| Milestone | UAE | KSA | Qatar |
+| Payroll input cut-off (joiners, changes, allowances, overtime) | 15th | 14th | 15th |
+| Leave and attendance cut-off | 18th | 17th | 18th |
+| Payroll locked and approved by Country Finance | 20th | 19th | 20th |
+| Salary file sent to the bank | 22nd | 23rd | 23rd |
+| Salary credited to employee accounts | 25th | 27th | 26th |
+| Wage protection confirmation completed | 26th | 5th of the following month (Mudad upload) | 27th |
+
+Stated in full: salaries are credited on the **25th** of each month in the UAE, on the **27th** in KSA and on the **26th** in Qatar. Changes received after the input cut-off are processed in the next month's payroll, with arrears.
+
+## 4. Weekends, public holidays and Eid
+The payroll weekend is **Saturday and Sunday** in the UAE, and **Friday and Saturday** in KSA and Qatar. When a pay date falls on a weekend or a public holiday, the salary is credited on the preceding working day.
+
+When Eid al-Fitr or Eid al-Adha is expected to begin between the 20th and the last day of a month, that month's salary is credited at least **3 working days** before the first day of Eid. In December, the salary is credited on the **20th** in all three countries, to allow for the year-end close.
+
+## 5. Bank accounts, salary cards and payslips
+- Salary is paid only into an account in the employee's own name, held with a bank in the country of employment.
+- A new joiner who does not yet have a bank account may be paid onto a salary card for at most the first **2 payroll cycles**.
+- A change of bank account must be submitted in MyMeridian by the input cut-off, with an account confirmation letter from the bank. Changes received later apply from the next month.
+- A joiner whose first day falls after the input cut-off is paid in the following month's payroll, with arrears for the days worked. No off-cycle run is made for them.
+- Payslips are published in MyMeridian on the pay date, in English and Arabic.
+
+## 6. Deductions, corrections and off-cycle payments
+| Item | Rule |
+| Recovery of advances and loans | Not more than 20 per cent of monthly gross salary in total in any month |
+| Underpayment above AED 500, SAR 500 or QAR 500 | Paid off-cycle within 5 working days of confirmation |
+| Underpayment up to that amount | Paid in the next regular payroll |
+| Overpayment | Recovered in the next payroll, or in up to 3 monthly instalments if it exceeds 10 per cent of net pay |
+| Payroll query | Raised through AskHR within 30 days of the pay date |
+
+Deductions are made only for items permitted by the employment contract or agreed by the employee in writing, and every deduction is shown on the payslip.
+
+## 7. Final settlement
+The final settlement, covering salary to the last working day, payable leave balance, the end-of-service benefit and any recoveries, is paid within **10 calendar days** of the last working day through the same wage protection channel. The employee confirms the settlement statement in MyMeridian before payment. Payment is not held back because a residence cancellation under GLF-005 is still pending.
+
+## 8. Related documents
+- GLF-004 Housing, Transport and Allowances Policy
+- GLF-005 Residence Visa, Emirates ID, Iqama and QID Sponsorship and Dependants Policy
+
+Fictional document created for a technical demonstration. Not legal advice.

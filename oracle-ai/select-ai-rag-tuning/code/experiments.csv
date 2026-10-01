@@ -1,0 +1,21 @@
+config_id,stage,model_key,model_name,chunk_size,chunk_overlap,metric,match_limit,similarity_threshold,corpus_format,index_name,rag_profile,answer_layer,status,notes
+1,S1,M0,ALL_MINILM_L12_V2,1024,128,COS,5,0,TBD,RAG_M0_C1024_O128_COS,RAG_P_M0_C1024_O128_COS,yes,planned,build 1 of PLAN 4.3: baseline with Oracle defaults [D1]
+1r,S1,M0,ALL_MINILM_L12_V2,1024,128,COS,5,0,TBD,RAG_M0_C1024_O128_COS,RAG_P_M0_C1024_O128_COS,no,planned,build 1r: identical rebuild of 1 (drop and recreate); chunk count and characters must equal 1
+2,S2,M0,ALL_MINILM_L12_V2,2000,300,COS,6,0.3,TBD,RAG_M0_C2000_O300_COS,RAG_P_M0_C2000_O300_COS,yes,planned,build 2: production retrieval settings of HR_KB_IDX; answer parameters stay the lab's
+3,S3,M0,ALL_MINILM_L12_V2,640,128,COS,9,0,TBD,RAG_M0_C640_O128_COS,RAG_P_M0_C640_O128_COS,tbd,planned,build 3: chunk_size sweep; k 9 = equal context budget of about 6000 characters
+4,S3,M0,ALL_MINILM_L12_V2,1536,128,COS,4,0,TBD,RAG_M0_C1536_O128_COS,RAG_P_M0_C1536_O128_COS,tbd,planned,build 4: chunk_size sweep; k 4 = equal context budget
+5,S3,M0,ALL_MINILM_L12_V2,2000,128,COS,3,0,TBD,RAG_M0_C2000_O128_COS,RAG_P_M0_C2000_O128_COS,tbd,planned,build 5: chunk_size sweep; k 3 = equal context budget
+6,S4,M0,ALL_MINILM_L12_V2,TBD,0,COS,TBD,0,TBD,TBD,TBD,tbd,pending_decision,build 6: overlap 0 at the S3 winner (dev split); fill chunk_size / k / names then set status planned
+7,S4,M0,ALL_MINILM_L12_V2,TBD,TBD,COS,TBD,0,TBD,TBD,TBD,tbd,pending_decision,build 7: overlap 20% of the S3 winner (P10 shows what is accepted)
+8,S8,M1,MULTILINGUAL_E5_SMALL,1024,128,COS,5,0,TBD,RAG_M1_C1024_O128_COS,RAG_P_M1_C1024_O128_COS,yes,planned,build 8: fixed-chunk model comparison (headline chart)
+9,S8,M2,MULTILINGUAL_E5_BASE,1024,128,COS,5,0,TBD,RAG_M2_C1024_O128_COS,RAG_P_M2_C1024_O128_COS,tbd,planned,build 9: fixed-chunk model comparison; answer layer only if among the two best of M2-M5
+10,S8,M3,MULTILINGUAL_E5_LARGE,1024,128,COS,5,0,TBD,RAG_M3_C1024_O128_COS,RAG_P_M3_C1024_O128_COS,tbd,planned,build 10: fixed-chunk model comparison; 560M model
+11,S8,M4,BGE_M3,1024,128,COS,5,0,TBD,RAG_M4_C1024_O128_COS,RAG_P_M4_C1024_O128_COS,tbd,planned,build 11: fixed-chunk model comparison; 560M model
+12,S8,M5,ARCTIC_EMBED_L_V2,1024,128,COS,5,0,TBD,RAG_M5_C1024_O128_COS,RAG_P_M5_C1024_O128_COS,tbd,planned,build 12: fixed-chunk model comparison; 560M model
+13,S8,M6,ARABIC_TRIPLET_V2,1024,128,COS,5,0,TBD,RAG_M6_C1024_O128_COS,RAG_P_M6_C1024_O128_COS,yes,planned,build 13: fixed-chunk model comparison; Arabic specialist
+14,S8,TBD,TBD,1536,128,COS,4,0,TBD,TBD,TBD,tbd,pending_decision,build 14: best multilingual model at 1536; cut first if P12 puts any build over 45 min
+15,S8,TBD,TBD,2000,128,COS,3,0,TBD,TBD,TBD,tbd,pending_decision,build 15: best multilingual model at 2000; cut first if P12 puts any build over 45 min
+16,S8,TBD,TBD,1536,128,COS,4,0,TBD,TBD,TBD,tbd,pending_decision,build 16: second-best multilingual model at 1536; cut first if P12 puts any build over 45 min
+17,S8,TBD,TBD,2000,128,COS,3,0,TBD,TBD,TBD,tbd,pending_decision,build 17: second-best multilingual model at 2000; cut first if P12 puts any build over 45 min
+18,S9,M1Q,MULTILINGUAL_E5_SMALL_Q,1024,128,COS,5,0,TBD,RAG_M1Q_C1024_O128_COS,RAG_P_M1Q_C1024_O128_COS,tbd,planned,build 18 (exploratory): e5 query: prefix spliced on both sides
+19,S10,TBD,TBD,TBD,TBD,COS,TBD,TBD,TBD,TBD,TBD,yes,pending_decision,build 19 (conditional): only if the best overlap is not 128; best model x chunking x overlap with calibrated k/thr

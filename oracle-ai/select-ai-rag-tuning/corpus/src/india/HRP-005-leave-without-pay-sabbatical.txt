@@ -1,0 +1,62 @@
+#META
+id: HRP-005
+title: Leave Without Pay and Sabbatical Policy
+owner: HR Operations
+version: 1.8
+effective: 01-Apr-2026
+review: 31-Mar-2027
+applies: All confirmed employees on the Meridian Systems India payroll
+#BODY
+## 1. Purpose
+There are circumstances in which an employee needs a longer absence than the paid leave entitlements allow. This policy sets out two mechanisms: Leave Without Pay for shorter, unavoidable absences, and Sabbatical for a planned career break. Both preserve the employment relationship.
+
+## 2. Leave Without Pay
+Leave Without Pay (LWP) is unpaid leave granted when an employee has exhausted all applicable paid leave balances.
+
+- Maximum **90 continuous days** in any rolling 12-month period.
+- Granted only after the Earned Leave and, where the reason is medical, the Sick Leave balance has been fully used.
+- Approved by the reporting manager and the HR Business Partner. Requests beyond 30 days additionally require the function head.
+- Salary is not paid for LWP days. Statutory contributions (Provident Fund, ESI) are not made for a full calendar month of LWP, because there are no wages in that month.
+- Group medical, accident and life insurance cover continues for the duration of approved LWP at company cost.
+- LWP days do not count towards Earned Leave accrual, the variable pay eligibility period, or the service period for a promotion under HRP-039.
+- LWP does count as continuous service for gratuity under the Payment of Gratuity Act 1972, since the service is not terminated.
+
+## 3. Sabbatical
+A Sabbatical is a planned, unpaid career break for a defined purpose, with an agreed return date.
+
+| Parameter | Provision |
+| Minimum service to be eligible | 5 years of continuous service at Meridian |
+| Duration | 3 to 6 months |
+| Frequency | Once in any 7-year period |
+| Approving authority | Function head and Head of HR |
+| Notice required | 90 days before the intended start date |
+| Position held open | Yes, for the agreed duration plus a 30-day grace period |
+| Performance rating in the sabbatical year | Pro-rated to the period actually worked, no penalty applied |
+
+## 4. Accepted purposes for a sabbatical
+- Full-time higher education or a research programme.
+- Extended medical treatment or recovery for the employee, beyond the Sick Leave and LWP entitlement.
+- Caregiving for a spouse, child or parent with a serious medical condition.
+- Certified voluntary or social sector work.
+- Elite sport, where the employee represents a state or the country.
+
+A sabbatical is not granted to take up employment or consulting work elsewhere. Doing so during a sabbatical is dual employment and is dealt with under HRP-029.
+
+## 5. Terms during a sabbatical
+- No salary, no variable pay accrual and no annual increment for the sabbatical period.
+- Group medical insurance continues at company cost. Group personal accident and term life cover continue.
+- Unvested stock options do not vest during the sabbatical; the vesting schedule is extended by the length of the sabbatical.
+- Company assets, including laptop and access card, are returned before the sabbatical begins and reissued on return.
+- Network and application access is suspended for the duration.
+
+## 6. Return to work
+The employee confirms the return date in writing at least **30 days before** the agreed end of the sabbatical. HR Operations and the manager agree the returning role, which will be at the same grade and compensation. Where the original role no longer exists, Meridian offers an equivalent role; if no equivalent role is available within 60 days of return, separation terms are agreed under HRP-040.
+
+An employee who does not return on the agreed date and does not communicate is treated as having abandoned service, and the process in HRP-001 section 9 applies.
+
+## 7. Related documents
+- HRP-001 Leave Policy
+- HRP-012 Provident Fund, Gratuity and Statutory Benefits Policy
+- HRP-014 Employee Stock Option Plan Policy
+- HRP-029 Moonlighting and Dual Employment Policy
+- HRP-040 Separation, Notice Period and Final Settlement Policy

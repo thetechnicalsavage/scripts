@@ -1,0 +1,74 @@
+#META
+id: HRP-014
+title: Employee Stock Option Plan Policy
+owner: Total Rewards
+version: 2.1
+effective: 01-Apr-2026
+review: 31-Mar-2027
+applies: Employees in grade G5 and above, and employees granted options by exception
+#BODY
+## 1. Purpose
+The Meridian Employee Stock Option Plan 2024 aligns the interests of senior employees with the long-term value of the company. This document summarises the plan in plain language. Where this summary and the plan document differ, the **plan document approved by the shareholders prevails**.
+
+## 2. Eligibility
+- Employees in grade **G5 and above** are eligible to be considered for a grant.
+- Employees below G5 may be granted options by exception, on the recommendation of the function head, for a sustained and exceptional contribution. Such grants require Compensation Committee approval.
+- An employee must be confirmed on the date of grant.
+[line removed for publication]
+- An employee serving notice or on an active Performance Improvement Plan is not granted options.
+
+## 3. Grant
+| Item | Provision |
+| Grant cycle | Once a year, in August, following the salary review |
+| Grant price | Fair market value on the date of grant, as determined by a registered valuer |
+| Grant size | Recommended by the function head within a Compensation Committee approved pool, expressed in number of options |
+| Acceptance | The employee must accept the grant letter in MyMeridian within 30 days, failing which the grant lapses |
+| Records | Held by the company secretary in the statutory register of employee stock options |
+
+## 4. Vesting
+Options vest over **four years from the date of grant**, with a **one-year cliff**:
+
+| Anniversary of grant | Cumulative vesting |
+| Year 1 | 25 per cent |
+| Year 2 | 50 per cent |
+| Year 3 | 75 per cent |
+| Year 4 | 100 per cent |
+
+Nothing vests before the first anniversary. After the cliff, vesting occurs annually on the grant anniversary, not monthly or quarterly.
+
+Vesting is suspended during a sabbatical under HRP-005 and during any period of Leave Without Pay exceeding 30 continuous days. The vesting schedule is extended by the length of the suspension. Maternity, paternity and other paid leave do not suspend vesting.
+
+## 5. Exercise
+- Vested options may be exercised during any open exercise window. Windows open for 15 working days after each quarterly results announcement.
+- The exercise period runs for **5 years from the date of vesting**. Options not exercised within that period lapse.
+- Exercise is initiated in MyMeridian > My Benefits > Stock Options. The employee pays the exercise price and the tax, and shares are credited to the employee's demat account.
+- A **cashless exercise** facility is available where the company arranges the sale of sufficient shares to fund the exercise price and the tax, and credits the balance shares or proceeds to the employee.
+- No exercise is permitted while the trading window is closed under the insider trading code in HRP-022.
+
+## 6. Tax treatment in India
+There are two taxable events:
+
+- **On exercise**: the difference between the fair market value on the date of exercise and the exercise price is a perquisite, taxed as salary income. Tax is deducted at source by Meridian and must be funded by the employee at exercise.
+- **On sale**: the difference between the sale price and the fair market value on the date of exercise is a capital gain, taxed as short-term or long-term depending on the holding period from the date of exercise.
+
+Employees are advised to take their own tax advice. Meridian does not provide personal tax advice.
+
+## 7. What happens on separation
+| Scenario | Unvested options | Vested options |
+| Resignation (good leaver) | Lapse on the last working day | Exercisable within 90 days of the last working day |
+| Termination for cause or misconduct (bad leaver) | Lapse | Lapse |
+| Retirement at superannuation | Continue to vest on the original schedule | Exercisable until the end of the original exercise period |
+| Death | Vest in full immediately | Exercisable by the nominee within 12 months |
+| Permanent total disablement | Vest in full immediately | Exercisable within 12 months |
+| Redundancy | Accelerate by 12 months | Exercisable within 180 days |
+
+An employee who joins a competitor within the notice period or the 90-day post-exit exercise window is reclassified as a bad leaver and forfeits unexercised options, in line with the plan document.
+
+## 8. Change of control
+On a change of control, the Compensation Committee may accelerate vesting in full, substitute the options for options in the acquiring entity, or settle them in cash at the transaction value less the exercise price. The treatment is communicated to option holders at least 15 days before the transaction closes.
+
+## 9. Related documents
+- HRP-010 Compensation Structure and Salary Review Policy
+- HRP-011 Variable Pay and Performance Bonus Policy
+- HRP-022 Code of Business Conduct and Ethics
+- HRP-040 Separation, Notice Period and Final Settlement Policy

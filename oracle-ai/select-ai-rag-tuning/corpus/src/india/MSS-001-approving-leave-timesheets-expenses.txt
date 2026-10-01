@@ -1,0 +1,80 @@
+#META
+id: MSS-001
+title: Manager Self Service: Approving Leave, Timesheets and Expense Claims
+owner: HR Operations
+version: 2.6
+effective: 01-Apr-2026
+review: 31-Mar-2027
+applies: All employees with direct reports at Meridian Systems India
+#BODY
+## 1. What this guide covers
+Your approval responsibilities as a manager in MyMeridian, what you are actually certifying when you approve, and how to delegate when you are away.
+
+## 2. Your worklist
+**MyMeridian > Manager > My Worklist** is the single place where every item awaiting you appears: leave requests, timesheets, expense claims, salary advance requests, outside engagement requests, resignation acknowledgements and confirmation reviews.
+
+| Column | What to look at |
+| Age | How long the item has waited. Items past SLA are highlighted |
+| Type | The process |
+| Employee | Who raised it |
+| Impact | The days, the amount, or the effective date |
+| Flags | System warnings: notice period breach, entitlement exceeded, duplicate, policy exception |
+
+## 3. Approval service levels
+| Item | Your SLA | What happens if you miss it |
+| Leave request | 3 working days | Escalates to your manager at 5 working days |
+| Timesheet | 3 working days from submission | Locks at 14 days; the employee needs an AskHR ticket to reopen |
+| Expense claim | 3 working days | Escalates to your manager at 7 working days |
+| Salary advance | 2 working days | Escalates to the HR Business Partner |
+| Confirmation review | Due 15 days before probation ends | The employee is confirmed automatically if no decision is recorded within 15 days of the probation end date |
+
+## 4. What you are certifying
+Approval is not an acknowledgement. When you approve you are confirming, on the record:
+
+- **Leave**: the absence is workable, the cover is arranged, and you have no reason to doubt the stated purpose.
+- **Timesheet**: the hours and the project allocation reflect work actually performed. Timesheets drive client invoicing, so an inaccurate approval can mean an incorrect invoice to a client.
+- **Expense claim**: the expense was incurred for Meridian business, it is within the entitlement or you have approved the exception, and the business purpose is genuine.
+- **Salary advance**: you are aware of the request. You are not assessing the employee's personal circumstances and you should not ask about them. Eligibility is checked by the system and by HR.
+
+Approving without looking is the single most common control failure found in the internal audit of expenses.
+
+## 5. Handling leave requests
+- Check the team calendar at **MyMeridian > Manager > Team Calendar** before deciding, to see overlapping absence.
+- You may decline a request, but you must give a reason, and for a restricted holiday under HRP-006 you must offer an alternative date.
+- You may **not** decline Sick Leave, or emergency Casual Leave, on business grounds.
+- If you want the employee to change the dates, use **Return for amendment** rather than Reject. Rejecting makes the employee start again and loses the history.
+- A request that breaches the notice period in HRP-001 shows a flag. You can still approve it; the flag records that you were aware.
+
+## 6. Handling expense claims
+- Check the business purpose, not only the amount. A correct amount with no stated purpose is not approvable.
+- Check the entitlement panel shown against each line. Where a line exceeds the entitlement, look for the prior approval; if there is none, return the claim.
+- Use **Partial approval** to approve valid lines and query one line, rather than holding the whole claim.
+- Do not approve your own claim through a delegation you hold. The system blocks it, but do not attempt a workaround.
+- Claims over INR 50,000 additionally route to your function head after your approval.
+
+## 7. Timesheets
+- Approve weekly, by the end of Tuesday for the previous week.
+- Look for: hours booked to a project the employee is not staffed on, a full week booked while the employee was on approved leave, and overtime hours that were not pre-approved under HRP-008.
+- Where a correction is needed, return the timesheet with a comment. Do not edit it yourself; the employee must resubmit so that the record shows who asserted the hours.
+
+## 8. Delegating while you are away
+Set this up **before** you go: **MyMeridian > My Profile > Delegation**.
+
+- Choose the delegate, normally a peer manager or your own manager.
+- Set the start and end dates. Delegation ends automatically; there is no need to remember to turn it off.
+- Choose which processes to delegate. You can delegate leave and timesheets while retaining expense and advance approvals.
+- Your delegate sees the items in their own worklist, marked as delegated from you.
+- **Accountability does not transfer.** Approvals are recorded in both names.
+
+If you go away without setting a delegate, items escalate to your manager after the SLA, which is a poorer outcome for your team.
+
+## 9. Bulk actions
+The worklist supports selecting multiple items of the same type and approving them together. Bulk approval is appropriate for routine timesheets from a stable team. It is **not** appropriate for expense claims, salary advances or any item carrying a flag; the system requires those to be opened individually.
+
+## 10. Related documents
+- HRP-001 Leave Policy
+- HRP-008 Overtime and On-Call Compensation Policy
+- HRP-009 Salary Advance and Emergency Loan Policy
+- HRP-017 Domestic Travel and Expense Policy
+- ESS-001 Employee Self Service: Applying for and Cancelling Leave
+- ESS-005 Employee Self Service: Submitting an Expense Claim

@@ -1,0 +1,67 @@
+#META
+id: HRP-009
+title: Salary Advance and Emergency Loan Policy
+owner: Finance Shared Services
+version: 3.0
+effective: 01-Apr-2026
+review: 31-Mar-2027
+applies: Confirmed employees on the Meridian Systems India payroll
+#BODY
+## 1. Purpose
+Meridian Systems India Private Limited recognises that employees occasionally face a cash requirement that cannot wait for the next salary date. This policy provides three interest-free facilities: a salary advance, an emergency medical advance and a festival advance. All three are advances against future salary, not loans in the commercial sense, and no interest is charged on any of them.
+
+## 2. Facilities available
+| Facility | Maximum amount | Recovery | Frequency | Minimum service |
+| Salary advance | One month's gross salary, capped at INR 1,50,000 | 3 equal monthly instalments | Once per financial year | 6 months |
+| Emergency medical advance | Three months' gross salary, capped at INR 5,00,000 | 12 equal monthly instalments | Once per financial year, twice in exceptional cases | 12 months |
+| Festival advance | INR 30,000 | 6 equal monthly instalments | Once per financial year | 6 months |
+
+Interest is not charged on any facility. Because these are interest-free advances from the employer, the perquisite valuation rules under Rule 3(7)(i) of the Income Tax Rules are applied by payroll where the aggregate outstanding exceeds INR 20,000, and the perquisite value is reported in Form 16.
+
+## 3. Eligibility
+- The employee must be **confirmed**. Employees serving probation are not eligible.
+- The employee must not be serving a notice period, and must not have a resignation recorded in MyMeridian.
+- The employee must not have an active Performance Improvement Plan or a pending disciplinary proceeding.
+- The employee must have **no other advance outstanding**. Only one facility may be open at a time, except that a festival advance may run alongside an emergency medical advance.
+- Total deductions from net pay, including the advance recovery, statutory deductions and any other recovery, must not exceed **40 per cent of net monthly pay**. Where the requested instalment would breach this, the recovery period is extended rather than the amount reduced.
+
+## 4. Emergency medical advance
+The emergency medical advance is intended for hospitalisation or a medical procedure for the employee, spouse, dependent child or dependent parent, where the cost is not fully met by the group medical insurance under HRP-013.
+
+- The employee should first check the insurance cashless pre-authorisation. The advance covers the shortfall, the deductible, or treatment excluded from the policy.
+- Supporting documents: the hospital estimate or the admission note, and the insurer's pre-authorisation decision where one exists.
+- Where the emergency is genuine and documentation is not yet available, the HR Business Partner may approve a provisional advance of up to INR 1,00,000, with documents to follow within 15 days.
+- Recovery begins in the second month after disbursement, giving the employee one clear month.
+
+## 5. Approval matrix
+| Advance amount | Approvers required |
+| Up to INR 50,000 | Reporting manager |
+| INR 50,001 to INR 1,00,000 | Reporting manager and HR Business Partner |
+| INR 1,00,001 to INR 3,00,000 | Reporting manager, HR Business Partner and Finance Controller |
+| Above INR 3,00,000 | Reporting manager, HR Business Partner, Finance Controller and Head of HR |
+
+## 6. How to apply
+- Raise the request in **MyMeridian > My Pay > Salary Advance Request**. Select the facility, the amount and the preferred number of instalments.
+- Attach supporting documents where the facility requires them.
+- The system validates eligibility automatically and will reject the request at submission if an advance is already outstanding, if the employee is unconfirmed, or if the 40 per cent deduction ceiling would be breached.
+- Approved advances are disbursed to the employee's registered salary account within **3 working days** of final approval, by a separate bank transfer, not through the monthly payroll run.
+- The employee receives an advance reference number in the format ADV-YYYY-NNNNN. Quote this number in any AskHR ticket about the advance.
+
+## 7. Recovery
+- Recovery starts with the payroll of the month following disbursement, except for the emergency medical advance as noted in section 4.
+- Each instalment appears in the payslip as a separate deduction line showing the advance reference number and the remaining balance.
+- An employee may prepay the outstanding balance in full or in part at any time, at no charge, by raising an AskHR ticket in the Payroll category. Partial prepayment reduces the number of remaining instalments, not the instalment amount.
+- If an employee goes on Leave Without Pay, recovery is suspended for the unpaid months and the schedule is extended accordingly.
+
+## 8. Separation with an advance outstanding
+Any outstanding advance becomes due in full on the last working day. It is recovered from the full and final settlement under HRP-040. Where the settlement is insufficient to clear the balance, the employee must pay the shortfall before the relieving letter is issued. Meridian does not write off advance balances except with the written approval of the Chief Financial Officer in cases of death or permanent total disablement, where the balance is waived in full.
+
+## 9. What this policy does not cover
+Meridian does not provide housing loans, vehicle loans, education loans or any facility intended to be repaid over more than 12 months. Employees requiring such facilities should approach a bank. The Finance Shared Services team will issue a salary certificate and an employment verification letter for a bank loan application within 3 working days of an AskHR request.
+
+## 10. Related documents
+- HRP-013 Group Medical Insurance and Wellness Benefits Policy
+- HRP-016 Flexible Benefit Plan and Tax Declaration Policy
+- HRP-040 Separation, Notice Period and Final Settlement Policy
+- ESS-002 Employee Self Service: Payslips, Form 16 and Tax Declarations
+- ESS-004 Employee Self Service: Raising and Tracking an AskHR Ticket

@@ -1,0 +1,523 @@
+{
+ "inputs": [
+  "rag_20260930T023755Z_r1.jsonl",
+  "rag_20260930T023755Z_r2.jsonl",
+  "rag_20260930T023755Z_r3.jsonl",
+  "retrieval_RAG_M0_C1024_O0_COS_20260930T014000Z.jsonl",
+  "retrieval_RAG_M0_C1024_O128_COS_20260930T002614Z.jsonl",
+  "retrieval_RAG_M0_C1024_O205_COS_20260930T014252Z.jsonl",
+  "retrieval_RAG_M0_C1536_O128_COS_20260930T003027Z.jsonl",
+  "retrieval_RAG_M0_C2000_O128_COS_20260930T003154Z.jsonl",
+  "retrieval_RAG_M0_C2000_O300_COS_20260930T002737Z.jsonl",
+  "retrieval_RAG_M0_C640_O128_COS_20260930T002859Z.jsonl",
+  "retrieval_RAG_M1_C1024_O128_COS_20260930T003318Z.jsonl",
+  "retrieval_RAG_M1Q_C1024_O128_COS_20260930T005108Z.jsonl",
+  "retrieval_RAG_M2_C1024_O128_COS_20260930T003405Z.jsonl",
+  "retrieval_RAG_M3_C1024_O128_COS_20260930T003603Z.jsonl",
+  "retrieval_RAG_M4_C1024_O128_COS_20260930T004057Z.jsonl",
+  "retrieval_RAG_M4_C1536_O128_COS_20260930T021812Z.jsonl",
+  "retrieval_RAG_M4_C2000_O128_COS_20260930T023042Z.jsonl",
+  "retrieval_RAG_M5_C1024_O128_COS_20260930T004446Z.jsonl",
+  "retrieval_RAG_M5_C1536_O128_COS_20260930T015252Z.jsonl",
+  "retrieval_RAG_M5_C2000_O128_COS_20260930T020513Z.jsonl",
+  "retrieval_RAG_M6_C1024_O128_COS_20260930T004831Z.jsonl"
+ ],
+ "kind": "family",
+ "questions_digest": "c1c89bf2d3c52e8e9481aeb06a3057803ac95d0f3ac2b21473f5d8c5f1ff60ee",
+ "result": {
+  "adjudicated": {
+   "alpha": 0.05,
+   "complete": true,
+   "rows": [
+    {
+     "a": {
+      "direction": "EN->EN",
+      "index": "RAG_M0_C1024_O128_COS",
+      "k": 5
+     },
+     "a_only": 9,
+     "a_rate": {
+      "ci95": [
+       0.505,
+       0.8982
+      ],
+      "n": 16,
+      "rate": 0.75,
+      "x": 12
+     },
+     "b": {
+      "direction": "AR->AR",
+      "index": "RAG_M0_C1024_O128_COS",
+      "k": 5
+     },
+     "b_only": 0,
+     "b_rate": {
+      "ci95": [
+       0.0659,
+       0.4301
+      ],
+      "n": 16,
+      "rate": 0.1875,
+      "x": 3
+     },
+     "better": "a",
+     "claim": "M0 finds the evidence AR->AR less often than EN->EN on the same facts (masked), on facts whose evidence fits one chunk in both twins",
+     "condition": "containable_both",
+     "id": "H1",
+     "label": "significant",
+     "n": 16,
+     "p": 0.003906,
+     "p_holm": 0.015624,
+     "reject_holm": true,
+     "unconditional": {
+      "a_only": 9,
+      "a_rate": {
+       "ci95": [
+        0.505,
+        0.8982
+       ],
+       "n": 16,
+       "rate": 0.75,
+       "x": 12
+      },
+      "b_only": 0,
+      "b_rate": {
+       "ci95": [
+        0.0659,
+        0.4301
+       ],
+       "n": 16,
+       "rate": 0.1875,
+       "x": 3
+      },
+      "better": "a",
+      "label": "exploratory: significant",
+      "n": 16,
+      "p": 0.003906
+     }
+    },
+    {
+     "a": {
+      "direction": "AR->AR",
+      "index": "RAG_M5_C1024_O128_COS",
+      "k": 5
+     },
+     "a_only": 12,
+     "a_rate": {
+      "ci95": [
+       0.7167,
+       0.9889
+      ],
+      "n": 16,
+      "rate": 0.9375,
+      "x": 15
+     },
+     "b": {
+      "direction": "AR->AR",
+      "index": "RAG_M0_C1024_O128_COS",
+      "k": 5
+     },
+     "b_only": 0,
+     "b_rate": {
+      "ci95": [
+       0.0659,
+       0.4301
+      ],
+      "n": 16,
+      "rate": 0.1875,
+      "x": 3
+     },
+     "better": "a",
+     "claim": "the best multilingual model (chosen on dev) beats M0 on masked AR->AR evidence hit@5",
+     "id": "H2",
+     "label": "significant",
+     "n": 16,
+     "p": 0.000488,
+     "p_holm": 0.00244,
+     "reject_holm": true
+    },
+    {
+     "a": {
+      "index": "RAG_M5_C1024_O128_COS"
+     },
+     "a_only": 6,
+     "a_rate": {
+      "ci95": [
+       0.2446,
+       0.4881
+      ],
+      "n": 56,
+      "rate": 0.3571,
+      "x": 20
+     },
+     "b": {
+      "index": "RAG_M0_C1024_O128_COS"
+     },
+     "b_only": 9,
+     "b_rate": {
+      "ci95": [
+       0.2917,
+       0.5412
+      ],
+      "n": 56,
+      "rate": 0.4107,
+      "x": 23
+     },
+     "better": "b",
+     "claim": "S10 tuned beats S1 baseline on answer accuracy (majority of 3)",
+     "id": "H3",
+     "label": "within noise",
+     "n": 56,
+     "p": 0.607239,
+     "p_holm": 1.0,
+     "reject_holm": false
+    },
+    {
+     "a": {
+      "index": "RAG_M0_C2000_O300_COS",
+      "k": "match_limit",
+      "run_label": "unmasked",
+      "threshold": "similarity_threshold"
+     },
+     "a_only": 5,
+     "a_rate": {
+      "ci95": [
+       0.2758,
+       0.5237
+      ],
+      "n": 56,
+      "rate": 0.3929,
+      "x": 22
+     },
+     "b": {
+      "index": "RAG_M0_C1024_O128_COS",
+      "k": "match_limit",
+      "run_label": "unmasked",
+      "threshold": "similarity_threshold"
+     },
+     "b_only": 5,
+     "b_rate": {
+      "ci95": [
+       0.2758,
+       0.5237
+      ],
+      "n": 56,
+      "rate": 0.3929,
+      "x": 22
+     },
+     "better": "tie",
+     "claim": "S2 production retrieval settings vs S1 defaults, evidence hit at each match_limit",
+     "id": "H4",
+     "label": "within noise",
+     "n": 56,
+     "p": 1.0,
+     "p_holm": 1.0,
+     "reject_holm": false
+    },
+    {
+     "a": {
+      "index": "RAG_M0_C1024_O128_COS",
+      "k": "budget",
+      "run_label": "unmasked"
+     },
+     "a_only": 0,
+     "a_rate": {
+      "ci95": [
+       0.2917,
+       0.5412
+      ],
+      "n": 56,
+      "rate": 0.4107,
+      "x": 23
+     },
+     "b": {
+      "index": "RAG_M0_C1024_O128_COS",
+      "k": "budget",
+      "run_label": "unmasked"
+     },
+     "b_only": 0,
+     "b_rate": {
+      "ci95": [
+       0.2917,
+       0.5412
+      ],
+      "n": 56,
+      "rate": 0.4107,
+      "x": 23
+     },
+     "better": "tie",
+     "claim": "the chunk_size winner vs 1024, evidence hit at an equal ~6,000-character budget",
+     "id": "H5",
+     "label": "within noise",
+     "n": 56,
+     "p": 1.0,
+     "p_holm": 1.0,
+     "reject_holm": false
+    }
+   ]
+  },
+  "audit": {
+   "agreement": {
+    "ci95": [
+     0.8718,
+     0.9245
+    ],
+    "n": 496,
+    "rate": 0.9012,
+    "x": 447
+   },
+   "applied": 496,
+   "changed": 49,
+   "confusion": {
+    "contaminated->contaminated": 22,
+    "contaminated->correct": 1,
+    "contaminated->false_refusal": 4,
+    "contaminated->wrong": 6,
+    "correct->correct": 210,
+    "false_refusal->false_refusal": 154,
+    "false_refusal->wrong": 2,
+    "wrong->correct": 10,
+    "wrong->false_refusal": 26,
+    "wrong->wrong": 61
+   },
+   "file": "model_adjudication.jsonl",
+   "flagged": 894,
+   "flagged_unaudited": 667,
+   "records": 496,
+   "unmatched": 0
+  },
+  "scorer": {
+   "alpha": 0.05,
+   "complete": true,
+   "rows": [
+    {
+     "a": {
+      "direction": "EN->EN",
+      "index": "RAG_M0_C1024_O128_COS",
+      "k": 5
+     },
+     "a_only": 9,
+     "a_rate": {
+      "ci95": [
+       0.505,
+       0.8982
+      ],
+      "n": 16,
+      "rate": 0.75,
+      "x": 12
+     },
+     "b": {
+      "direction": "AR->AR",
+      "index": "RAG_M0_C1024_O128_COS",
+      "k": 5
+     },
+     "b_only": 0,
+     "b_rate": {
+      "ci95": [
+       0.0659,
+       0.4301
+      ],
+      "n": 16,
+      "rate": 0.1875,
+      "x": 3
+     },
+     "better": "a",
+     "claim": "M0 finds the evidence AR->AR less often than EN->EN on the same facts (masked), on facts whose evidence fits one chunk in both twins",
+     "condition": "containable_both",
+     "id": "H1",
+     "label": "significant",
+     "n": 16,
+     "p": 0.003906,
+     "p_holm": 0.015624,
+     "reject_holm": true,
+     "unconditional": {
+      "a_only": 9,
+      "a_rate": {
+       "ci95": [
+        0.505,
+        0.8982
+       ],
+       "n": 16,
+       "rate": 0.75,
+       "x": 12
+      },
+      "b_only": 0,
+      "b_rate": {
+       "ci95": [
+        0.0659,
+        0.4301
+       ],
+       "n": 16,
+       "rate": 0.1875,
+       "x": 3
+      },
+      "better": "a",
+      "label": "exploratory: significant",
+      "n": 16,
+      "p": 0.003906
+     }
+    },
+    {
+     "a": {
+      "direction": "AR->AR",
+      "index": "RAG_M5_C1024_O128_COS",
+      "k": 5
+     },
+     "a_only": 12,
+     "a_rate": {
+      "ci95": [
+       0.7167,
+       0.9889
+      ],
+      "n": 16,
+      "rate": 0.9375,
+      "x": 15
+     },
+     "b": {
+      "direction": "AR->AR",
+      "index": "RAG_M0_C1024_O128_COS",
+      "k": 5
+     },
+     "b_only": 0,
+     "b_rate": {
+      "ci95": [
+       0.0659,
+       0.4301
+      ],
+      "n": 16,
+      "rate": 0.1875,
+      "x": 3
+     },
+     "better": "a",
+     "claim": "the best multilingual model (chosen on dev) beats M0 on masked AR->AR evidence hit@5",
+     "id": "H2",
+     "label": "significant",
+     "n": 16,
+     "p": 0.000488,
+     "p_holm": 0.00244,
+     "reject_holm": true
+    },
+    {
+     "a": {
+      "index": "RAG_M5_C1024_O128_COS"
+     },
+     "a_only": 6,
+     "a_rate": {
+      "ci95": [
+       0.2446,
+       0.4881
+      ],
+      "n": 56,
+      "rate": 0.3571,
+      "x": 20
+     },
+     "b": {
+      "index": "RAG_M0_C1024_O128_COS"
+     },
+     "b_only": 9,
+     "b_rate": {
+      "ci95": [
+       0.2917,
+       0.5412
+      ],
+      "n": 56,
+      "rate": 0.4107,
+      "x": 23
+     },
+     "better": "b",
+     "claim": "S10 tuned beats S1 baseline on answer accuracy (majority of 3)",
+     "id": "H3",
+     "label": "within noise",
+     "n": 56,
+     "p": 0.607239,
+     "p_holm": 1.0,
+     "reject_holm": false
+    },
+    {
+     "a": {
+      "index": "RAG_M0_C2000_O300_COS",
+      "k": "match_limit",
+      "run_label": "unmasked",
+      "threshold": "similarity_threshold"
+     },
+     "a_only": 5,
+     "a_rate": {
+      "ci95": [
+       0.2758,
+       0.5237
+      ],
+      "n": 56,
+      "rate": 0.3929,
+      "x": 22
+     },
+     "b": {
+      "index": "RAG_M0_C1024_O128_COS",
+      "k": "match_limit",
+      "run_label": "unmasked",
+      "threshold": "similarity_threshold"
+     },
+     "b_only": 5,
+     "b_rate": {
+      "ci95": [
+       0.2758,
+       0.5237
+      ],
+      "n": 56,
+      "rate": 0.3929,
+      "x": 22
+     },
+     "better": "tie",
+     "claim": "S2 production retrieval settings vs S1 defaults, evidence hit at each match_limit",
+     "id": "H4",
+     "label": "within noise",
+     "n": 56,
+     "p": 1.0,
+     "p_holm": 1.0,
+     "reject_holm": false
+    },
+    {
+     "a": {
+      "index": "RAG_M0_C1024_O128_COS",
+      "k": "budget",
+      "run_label": "unmasked"
+     },
+     "a_only": 0,
+     "a_rate": {
+      "ci95": [
+       0.2917,
+       0.5412
+      ],
+      "n": 56,
+      "rate": 0.4107,
+      "x": 23
+     },
+     "b": {
+      "index": "RAG_M0_C1024_O128_COS",
+      "k": "budget",
+      "run_label": "unmasked"
+     },
+     "b_only": 0,
+     "b_rate": {
+      "ci95": [
+       0.2917,
+       0.5412
+      ],
+      "n": 56,
+      "rate": 0.4107,
+      "x": 23
+     },
+     "better": "tie",
+     "claim": "the chunk_size winner vs 1024, evidence hit at an equal ~6,000-character budget",
+     "id": "H5",
+     "label": "within noise",
+     "n": 56,
+     "p": 1.0,
+     "p_holm": 1.0,
+     "reject_holm": false
+    }
+   ]
+  }
+ },
+ "split": null,
+ "utc": "20260930T054024Z"
+}

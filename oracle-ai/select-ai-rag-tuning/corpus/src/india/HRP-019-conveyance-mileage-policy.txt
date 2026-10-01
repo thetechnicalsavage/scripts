@@ -1,0 +1,61 @@
+#META
+id: HRP-019
+title: Local Conveyance and Mileage Reimbursement Policy
+owner: Finance Shared Services
+version: 3.5
+effective: 01-Apr-2026
+review: 31-Mar-2027
+applies: All employees on the Meridian Systems India payroll
+#BODY
+## 1. Purpose
+This policy covers travel within the employee's base city on Meridian business: visits to client offices, travel between Meridian locations, and journeys to and from the airport or railway station for an approved trip.
+
+## 2. What is and is not reimbursable
+| Journey | Reimbursable |
+| Home to the regular office and back | No. The daily commute is never reimbursable |
+| Office to a client site and back | Yes |
+| Home directly to a client site, where it is the first journey of the day | Yes, limited to the distance that exceeds the normal home-to-office distance |
+| Between two Meridian offices in the same city | Yes |
+| Home to airport or station, for approved business travel | Yes |
+| Travel to a company-organised event outside working hours | Yes |
+| Travel to a personal appointment during the working day | No |
+| Late-night travel home after 21:00, where the employee worked late at the manager's request | Yes |
+
+## 3. Mileage rates for the use of a personal vehicle
+| Vehicle | Rate per kilometre |
+| Car, petrol or diesel | INR 12.00 |
+| Car, electric | INR 8.00 |
+| Two-wheeler, petrol | INR 5.00 |
+| Two-wheeler, electric | INR 3.50 |
+
+The mileage rate is inclusive of fuel, maintenance, insurance and depreciation. Fuel bills are not separately reimbursable when the mileage rate is claimed. The employee must hold a valid driving licence and the vehicle must be insured; both are declared once a year in MyMeridian.
+
+Employees who receive the fuel and vehicle maintenance component of the Flexible Benefit Plan under HRP-016 may still claim mileage for business journeys, because the FBP component relates to the commute and personal use.
+
+## 4. Taxi and ride-hailing
+- Reimbursed at actuals against the trip receipt showing the pick-up, drop and fare.
+- The economy category of the ride-hailing service is the default. A premium category may be used where the employee is carrying equipment, is travelling with a client, or is travelling between 22:00 and 06:00.
+- Airport transfers may use a fixed-fare airport taxi where it is cheaper than the metered alternative.
+- Waiting charges and surge pricing are reimbursable at actuals where the trip receipt shows them.
+
+## 5. Public transport
+Metro, suburban rail and bus fares are reimbursed at actuals. A smart-card recharge is reimbursed only against a statement showing the business journeys. Monthly or seasonal passes are not reimbursable, because they principally cover the commute.
+
+## 6. Monthly ceiling
+The total local conveyance claim for an employee is capped at **INR 15,000 per calendar month**. A claim beyond this ceiling requires the function head's approval, recorded on the claim, and is expected to be rare. Employees in client-facing roles with a structurally high travel need may be granted a standing higher ceiling by the business unit head, reviewed every 6 months.
+
+## 7. Claiming
+- Submit in **MyMeridian > Expenses > New Claim**, category Local Conveyance, within **30 days** of the journey.
+- For a mileage claim, record the date, the from and to locations, the business purpose and the distance. MyMeridian computes the distance from the mapping service and flags a variance of more than 15 per cent for manager review.
+- For a taxi claim, attach the trip receipt. A screenshot of the ride-hailing application history is acceptable where the emailed receipt is unavailable.
+- Individual journeys **below INR 500** do not need a receipt, up to INR 2,000 per claim.
+- Claims are settled with the twice-monthly expense payment run on the 15th and the last working day.
+
+## 8. Late-night and safety-related travel
+Where an employee works beyond 21:00 at the manager's request, the journey home is reimbursed at actuals with no distance cap, and the employee should use a cab rather than a personal two-wheeler or public transport. For a woman employee travelling after 20:00, Meridian arranges transport under HRP-007 section 4; a self-arranged cab in that situation is reimbursed at actuals without requiring the monthly ceiling to be applied.
+
+## 9. Related documents
+- HRP-007 Attendance, Working Hours and Shift Policy
+- HRP-016 Flexible Benefit Plan and Tax Declaration Policy
+- HRP-017 Domestic Travel and Expense Policy
+- ESS-005 Employee Self Service: Submitting an Expense Claim

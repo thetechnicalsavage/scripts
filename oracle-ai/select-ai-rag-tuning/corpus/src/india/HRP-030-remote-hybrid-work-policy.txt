@@ -1,0 +1,80 @@
+#META
+id: HRP-030
+title: Remote and Hybrid Work Policy
+owner: HR Operations
+version: 4.2
+effective: 01-Apr-2026
+review: 31-Mar-2027
+applies: All employees on the Meridian Systems India payroll
+#BODY
+## 1. Purpose
+This policy sets out how Meridian Systems India Private Limited combines office and remote working, the eligibility for a fully remote arrangement, the support provided, and the obligations that apply wherever an employee works.
+
+## 2. The standard hybrid arrangement
+- Employees attend a Meridian office for a minimum of **3 days each week**.
+- **Tuesday, Wednesday and Thursday are anchor days** across the company, so that teams overlap. A business unit may vary the anchor days with the function head's approval, provided three common days are retained.
+- The remaining two days may be worked remotely from the declared work location.
+- Attendance is measured as a **monthly average** so that a week of client travel or a week of illness does not create a shortfall.
+
+## 3. Roles that are office-based
+Some roles cannot be performed remotely and are designated office-based by the function head:
+- Roles in a client-mandated secure delivery centre, where the contract requires work to be performed from a controlled facility.
+- Roles requiring physical access to laboratory equipment, hardware or test rigs.
+- Workplace services, security, facilities and IT asset handling roles.
+- Roles handling physical documents that cannot leave the premises.
+
+Employees in these roles are told at the point of offer or transfer, and the designation is recorded in MyMeridian.
+
+## 4. Fully remote arrangements
+A fully remote arrangement is an exception, approved by the function head and the HR Business Partner, and reviewed every 6 months. It is considered where:
+- The role has no office-dependent component and the team operates asynchronously.
+- The employee has a documented health condition or disability for which remote work is a reasonable accommodation under HRP-027. **These are approved on the merits of the accommodation and are not counted against any business unit quota.**
+- The employee has a caregiving responsibility that cannot be met otherwise.
+- The employee is returning from maternity leave under HRP-002 section 6.
+- Meridian has no office within reasonable commuting distance of the employee's home.
+
+Business units other than those listed above are expected to keep fully remote arrangements to no more than 10 per cent of headcount.
+
+## 5. Declaring the work location
+Every employee declares a primary work location in **MyMeridian > My Profile > Work Location**, and updates it before any change. This matters for more than administration:
+
+- **Payroll and Professional Tax** are driven by the state of the work location.
+- **Insurance and emergency response** depend on Meridian knowing where an employee is.
+- Some **client contracts** restrict the countries and sometimes the states from which their systems may be accessed.
+
+Working from a location other than the declared one for more than 15 consecutive days requires approval. **Working from outside India requires the prior approval of Global Mobility**, without exception, because it can create a permanent establishment risk for Meridian, a personal tax liability for the employee, and a breach of client data residency terms. Approval takes up to 15 working days, so plan ahead.
+
+## 6. Support provided for remote work
+| Item | Provision |
+| Home office setup allowance | One-time **INR 15,000**, claimable after confirmation, against receipts for a desk, chair, monitor, lighting or a power backup |
+| Internet reimbursement | **INR 1,000 per month**, against a broadband bill in the employee's name, claimed quarterly |
+| Company laptop | Provided to every employee; specification by role |
+| Ergonomic assessment | A self-assessment checklist on joining, and a virtual assessment by the occupational health adviser on request |
+| Mobile connection | Provided to employees in on-call roles and in grades G5 and above |
+
+The setup allowance may be claimed once in any 4-year period.
+
+## 7. Obligations when working remotely
+- Be **contactable and available during core hours**, 11:00 to 16:00 IST, as set out in HRP-007.
+- Work from a location where confidential conversations cannot be overheard and screens cannot be seen by others. Do not take client calls in a public place, a cafe or a shared co-working area unless it is an enclosed room.
+- Connect through the Meridian virtual private network for any access to internal or client systems.
+- Do not allow family members or anyone else to use the company laptop.
+- Do not print client material at home unless the client contract permits it and a secure disposal method exists.
+- Keep the declared address, the emergency contact and the personal mobile number current in MyMeridian.
+- Follow the same standards of conduct as in the office. The workplace definitions in HRP-024 and HRP-027 include remote work.
+
+## 8. Right to disconnect
+Meridian expects that an employee is not required to respond to work communication after **19:30** on a working day, or at any time on a weekly off or a holiday, unless the employee is rostered on-call under HRP-008 or there is a declared production incident.
+
+Managers must not treat responsiveness outside working hours as a measure of commitment. An employee working across time zones agrees a working window with the manager, and that window is the employee's working day; it does not sit on top of Indian office hours.
+
+## 9. Withdrawal of a remote arrangement
+A hybrid or remote arrangement may be withdrawn where there is a sustained performance concern, a security or confidentiality breach, a client contractual requirement, or a change in the role. Withdrawal requires 30 days notice to the employee and the HR Business Partner's agreement, and the reasons must be given in writing. It is not used as a disciplinary penalty; penalties are governed by HRP-028.
+
+## 10. Related documents
+- HRP-002 Maternity Benefit and Parental Support Policy
+- HRP-007 Attendance, Working Hours and Shift Policy
+- HRP-008 Overtime and On-Call Compensation Policy
+- HRP-027 Equal Opportunity, Diversity and Anti-Discrimination Policy
+- HRP-031 IT Acceptable Use and BYOD Policy
+- HRP-033 Information Security and Confidentiality Policy

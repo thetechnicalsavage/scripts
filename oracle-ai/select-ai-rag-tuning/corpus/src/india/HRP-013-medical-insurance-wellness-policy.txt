@@ -1,0 +1,85 @@
+#META
+id: HRP-013
+title: Group Medical Insurance and Wellness Benefits Policy
+owner: Total Rewards
+version: 5.2
+effective: 01-Apr-2026
+review: 31-Mar-2027
+applies: All employees on the Meridian Systems India payroll and their enrolled dependants
+#BODY
+## 1. Purpose
+This policy describes the insurance cover and the wellness benefits that Meridian Systems India Private Limited provides, who is covered, how to claim, and what is excluded. The policy year runs from **01 April to 31 March**, aligned with the insurer's contract.
+
+## 2. Group Medical Insurance sum insured
+| Grade band | Sum insured, family floater |
+| G1 to G4 | INR 5,00,000 |
+| G5 to G6 | INR 7,50,000 |
+| G7 and above | INR 10,00,000 |
+
+The sum insured is a family floater, meaning it is shared across all enrolled members rather than allotted per person. The premium for the employee, spouse and up to two dependent children is borne entirely by Meridian.
+
+## 3. Who can be enrolled
+- The employee, automatically from the date of joining.
+- Spouse, and up to **two dependent children** up to the age of 25.
+- **Dependent parents or parents-in-law**, at the employee's option. The premium for parents is borne by the employee through payroll deduction. The employee chooses either parents or parents-in-law, not both.
+- A newborn is covered from day one and must be added within **30 days of birth**.
+
+Enrolment changes are permitted only during the April enrolment window, or within 30 days of a qualifying life event: marriage, the birth or adoption of a child, divorce, or the death of a dependant.
+
+## 4. Key cover features
+| Feature | Provision |
+| Pre-existing disease waiting period | Waived from day one |
+| Initial 30-day waiting period | Waived |
+| Room rent limit | Single private room, capped at 1.5 per cent of sum insured per day |
+| ICU limit | At actuals |
+| Maternity sub-limit | INR 75,000 normal delivery, INR 1,00,000 caesarean |
+| Pre and post natal expenses | Covered up to INR 15,000 within the maternity sub-limit |
+| Pre-hospitalisation | 30 days |
+| Post-hospitalisation | 60 days |
+| Day care procedures | Covered as listed by the insurer |
+| Ambulance | Up to INR 3,000 per hospitalisation |
+| Co-payment | Nil for employee, spouse and children; 10 per cent for parents above 65 |
+| Corporate buffer | INR 25,00,000 shared corporate buffer for critical cases, approved by the Head of HR |
+
+## 5. Group Personal Accident and Group Term Life
+| Cover | Sum assured | Notes |
+| Group Personal Accident | 3 times annual cost to company | 24-hour worldwide cover, including accidental death, permanent total and partial disablement |
+| Group Term Life | 2 times annual cost to company | Payable on death from any cause |
+
+Both covers are entirely at company cost and apply to the employee only. Nominations for these covers are captured in MyMeridian > My Profile > Nominations and must be reviewed annually.
+
+## 6. Making a claim
+### Cashless
+- Use the insurer's network hospital list, available in MyMeridian > My Benefits > Network Hospitals.
+- Present the e-card, available for download in MyMeridian, along with a photo identity document.
+- For a planned admission, the hospital sends the pre-authorisation request at least **72 hours** in advance. For an emergency, within 24 hours of admission.
+- The third-party administrator responds to pre-authorisation within 4 hours for an emergency and within 24 hours for a planned admission.
+
+### Reimbursement
+- Submit the claim within **30 days of discharge** through the insurer's portal, with the discharge summary, the itemised final bill, payment receipts, investigation reports and the treating doctor's prescription.
+- Settlement is targeted within 21 working days of receipt of a complete claim.
+- A claim rejected by the insurer may be escalated through an AskHR ticket in the Benefits category. Total Rewards will take up the case with the insurer, but the insurer's contractual terms govern the outcome.
+
+## 7. Common exclusions
+Cosmetic and aesthetic treatment, dental treatment unless arising from an accident, spectacles and hearing aids, infertility treatment, treatment for alcoholism or drug abuse, self-inflicted injury, war and nuclear risks, and treatment taken outside India except emergency treatment while on company business. The full exclusion list is in the policy document published in MyMeridian.
+
+## 8. Wellness benefits
+| Benefit | Provision |
+| Annual health check | One comprehensive check per year at company cost, for the employee and spouse, from age 30 |
+| Outpatient wellness wallet | INR 10,000 per employee per year for consultations, diagnostics, dental and vision |
+| Employee Assistance Programme | 8 free counselling sessions per employee per year, extended to family members, delivered by an external provider on a confidential basis |
+| Teleconsultation | Unlimited general physician teleconsultation through the insurer's application |
+| Fitness reimbursement | INR 12,000 per year against a gym, yoga or sports club membership |
+| Vaccination | Annual influenza vaccination at office locations at company cost |
+
+The Employee Assistance Programme is confidential. Meridian receives only aggregate utilisation numbers and never the identity of a user or any clinical detail.
+
+## 9. During and after separation
+Cover ceases on the last working day. An employee may port the group cover to an individual policy with the same insurer, subject to the insurer's terms, by contacting the insurer directly within 30 days of the last working day. Total Rewards will issue a continuity certificate on request.
+
+## 10. Related documents
+- HRP-002 Maternity Benefit and Parental Support Policy
+- HRP-009 Salary Advance and Emergency Loan Policy
+- HRP-012 Provident Fund, Gratuity and Statutory Benefits Policy
+- HRP-034 Workplace Health, Safety and Emergency Policy
+- ESS-003 Employee Self Service: Updating Personal, Bank and Nominee Details

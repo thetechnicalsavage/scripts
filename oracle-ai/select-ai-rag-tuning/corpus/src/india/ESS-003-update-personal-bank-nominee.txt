@@ -1,0 +1,68 @@
+#META
+id: ESS-003
+title: Employee Self Service: Updating Personal, Bank and Nominee Details
+owner: HR Operations
+version: 2.8
+effective: 01-Apr-2026
+review: 31-Mar-2027
+applies: All employees using the MyMeridian self-service portal
+#BODY
+## 1. What this guide covers
+How to keep your own record accurate in MyMeridian: contact details, address, bank account, dependants and nominations. Several of these have deadlines or evidence requirements, and getting them wrong has real consequences, so this guide states them plainly.
+
+## 2. What you can change yourself, and what needs approval
+| Detail | Route | Effective |
+| Personal mobile number and personal email | Self-service, immediate | Immediately |
+| Current address | Self-service, immediate | Immediately |
+| Emergency contact | Self-service, immediate | Immediately |
+| Permanent address | Self-service with address proof upload | After HR verification, 2 working days |
+| Marital status | Self-service with a supporting document | After HR verification, 3 working days |
+| Bank account | Self-service with a cancelled cheque or bank statement | Next payroll, subject to the cutoff in section 4 |
+| Name | AskHR ticket with a legal document | 5 working days |
+| Date of birth | AskHR ticket with a birth certificate or school leaving certificate | 5 working days, and only to correct a data-entry error |
+| Dependants on insurance | Self-service within the window in section 5 | Per the insurer's cycle |
+| Provident fund and gratuity nominations | Self-service | Immediately |
+| Qualifications | Self-service with the certificate | After verification, 5 working days |
+
+## 3. Keeping contact details current is a safety matter
+The **personal mobile number** in MyMeridian is used by the emergency notification system described in HRP-034. The **emergency contact** is who Meridian calls if something happens to you at work or on company travel. Neither is an administrative formality. Check both in April each year; MyMeridian prompts you.
+
+## 4. Changing your bank account
+- Go to **MyMeridian > My Profile > Bank Details**.
+- Enter the account number twice, and the IFSC. The portal validates the IFSC against the bank master and shows the branch name for you to confirm.
+- Upload a **cancelled cheque bearing your printed name**, or the first page of a bank statement or passbook showing your name, account number and IFSC. A handwritten name on a cheque is not accepted.
+- The account must be in your own name. Joint accounts are accepted where you are the first holder. Third-party accounts are never accepted.
+
+**The cutoff is the 20th of the month.** A change submitted and verified on or before the 20th applies to that month's salary. After the 20th it applies from the following month, because the payment file for the month is prepared from the 21st. There is no exception to this, so plan a bank change around it.
+
+## 5. Dependants and insurance enrolment
+Go to **MyMeridian > My Profile > Dependants**. You may add or change dependants only:
+- During the **April enrolment window**, or
+- Within **30 days of a qualifying life event**: marriage, the birth or adoption of a child, divorce, or the death of a dependant.
+
+Outside these windows the insurer will not accept the addition, and Meridian cannot override it. A newborn added on day 31 is not covered until the next April window, so add the child as soon as the birth is registered.
+
+Parents or parents-in-law may be enrolled at your own cost, as described in HRP-013. You choose one set, not both, and the choice holds for the policy year.
+
+## 6. Nominations
+There are **three separate nominations** and they are not interchangeable. People frequently assume one covers all three.
+
+| Nomination | Governing form | Where | Who can be nominated |
+| Provident Fund and Employees' Pension Scheme | Form 2, filed through the EPFO portal using your UAN | EPFO member portal, linked from MyMeridian | Family members as defined in the scheme. A non-family nomination is valid only if you have no family |
+| Gratuity | Form F | MyMeridian > My Profile > Nominations | Family members. If you have no family at the time, you may nominate anyone, but must file a fresh Form F within 90 days of acquiring a family |
+| Group insurance, medical, accident and life | Insurer's nomination | MyMeridian > My Profile > Nominations | Anyone you choose |
+
+Review all three on marriage, on the birth of a child, and after a bereavement. An unfiled or outdated nomination is the single most common cause of delay and distress for a family after an employee's death, because the company must then satisfy itself about the legal heirs before paying.
+
+## 7. Changing your name
+Upload one of: a marriage certificate, a gazette notification, a court order, or a deed poll, together with an updated PAN or Aadhaar showing the new name. HR Operations updates the payroll, statutory and email records together, because a mismatch between the PAN name and the payroll name causes the tax deducted at source to fail to reflect against your PAN.
+
+## 8. Correcting your date of birth
+The date of birth can be corrected only where the recorded value is wrong, on production of a birth certificate or a school leaving certificate. It cannot be changed to a different date of birth. Note that the date of birth drives the payslip password, the retirement date and the insurance premium band.
+
+## 9. Related documents
+- HRP-012 Provident Fund, Gratuity and Statutory Benefits Policy
+- HRP-013 Group Medical Insurance and Wellness Benefits Policy
+- HRP-032 Data Privacy and Personal Data Protection Policy
+- HRP-034 Workplace Health, Safety and Emergency Policy
+- ESS-002 Employee Self Service: Payslips, Form 16 and Tax Declarations

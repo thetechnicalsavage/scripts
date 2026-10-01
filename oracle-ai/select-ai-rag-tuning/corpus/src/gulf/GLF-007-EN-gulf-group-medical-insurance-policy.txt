@@ -1,0 +1,79 @@
+#META
+id: GLF-007-EN
+title: Gulf Group Medical Insurance Policy
+owner: Total Rewards Gulf
+version: 2.1
+effective: 01-Jan-2026
+review: 31-Dec-2026
+applies: All employees of Meridian Systems Gulf FZ-LLC in the UAE, Saudi Arabia and Qatar, and their enrolled dependants
+#BODY
+## 1. Purpose and scope
+This policy sets out the group medical insurance that Meridian Systems Gulf FZ-LLC provides to employees at the Dubai head office and at the Riyadh and Doha branches. Each country has its own mandatory scheme, so the company places a separate group policy in each country:
+
+- **UAE (Dubai)**: a group policy compliant with the Dubai Health Authority (DHA) mandatory health insurance scheme.
+- **Saudi Arabia (Riyadh)**: a cooperative health insurance policy compliant with the rules of the Council of Health Insurance (CHI, formerly CCHI).
+- **Qatar (Doha)**: a group policy compliant with the Qatar mandatory health insurance scheme overseen by the Ministry of Public Health.
+
+These are company plans. Where the rules of a scheme require more than this policy provides, the scheme rules apply. The policy year runs from **01 January to 31 December**. The India group policy HRP-013 does not apply to Gulf employees.
+
+## 2. Plan category by grade
+Every employee is placed in a plan category according to grade. The annual limit applies per insured member per policy year.
+
+| Grade band | Plan category | UAE annual limit | KSA annual limit | Qatar annual limit |
+| G1 to G4 | Silver | AED 250,000 | SAR 500,000 | QAR 300,000 |
+| G5 to G6 | Gold | AED 1,000,000 | SAR 750,000 | QAR 750,000 |
+| G7 and above | Platinum | AED 3,000,000 | SAR 1,000,000 | QAR 1,500,000 |
+
+No employee is placed on the DHA Essential Benefits Plan. Employees in Dubai with a monthly salary of AED 4,000 or less are enrolled in Silver, which is above that minimum. When an employee changes grade, the employee and the enrolled dependants move to the new category from the first day of the following month.
+
+## 3. Cover features by category
+Amounts in this table are in the local currency of the country of employment (AED, SAR or QAR).
+
+| Feature | Silver | Gold | Platinum |
+| Provider network | Country of employment only | All GCC countries | Worldwide, excluding the USA and Canada |
+| Hospital room | Shared room | Private room | Private room with companion bed |
+| Outpatient co-payment | 20 per cent, capped at 50 per visit | 10 per cent, capped at 50 per visit | Nil |
+| Pharmacy co-payment | 10 per cent | Nil | Nil |
+| Maternity limit per pregnancy | 15,000 | 25,000 | 40,000 |
+| Dental, per member per year | 1,000 | 3,000 | 6,000 |
+| Optical, per member every 2 years | Not covered | 1,000 | 2,500 |
+| Reimbursement outside the network | 80 per cent of customary charges | 90 per cent of customary charges | 100 per cent of customary charges |
+
+Inpatient treatment at a network hospital carries no co-payment in any category. Emergency treatment is covered in any country the employee visits, within the category annual limit, for stays of up to 30 days per trip.
+
+## 4. Dependants
+Dependant cover follows the employee's plan category. What the company pays for depends on the country of employment:
+
+| Country | Spouse | Children at company cost | Age limit for children |
+| UAE (Dubai) | Company cost | Up to 3 children | Under 21, or under 25 in full-time education |
+| KSA (Riyadh) | Company cost | All eligible children | Under 25, unmarried |
+| Qatar (Doha) | Company cost | All eligible children | Under 18, or under 21 in full-time education |
+
+- A dependant must hold a residence permit sponsored by the employee in the country of employment.
+- In the UAE, a fourth or further child may be enrolled on the group policy at the employee's cost. The premium is deducted through payroll in 12 equal monthly instalments.
+- Parents are not covered at company cost. An employee in Dubai or Doha may enrol a parent who holds a residence permit sponsored by the employee, at the employee's cost. This option is not offered in KSA.
+- A newborn is covered from birth if enrolled within **30 days** of the date of birth. After 30 days, cover starts only from the date of enrolment.
+
+## 5. Enrolment and changes
+- Cover starts on the date of joining, including during probation. Insurance cards are issued within 5 working days of joining or of receipt of the residence permit, whichever is later.
+- Dependants are added at joining, or within 30 days of a qualifying life event: marriage, birth, legal guardianship (kafala) of a child, or the arrival of a dependant on a new residence permit.
+- Changes requested outside these windows wait for the renewal on 01 January.
+- Enrolment requests are raised in MyMeridian > My Benefits > Dependants, with the passport, the residence identity card (Emirates ID, Iqama or QID) and, for a spouse, the attested marriage certificate.
+
+## 6. Making a claim
+- **Cashless**: show the insurance card and residence identity card at a network provider. A planned inpatient admission or day surgery needs the insurer's pre-approval, requested by the hospital at least **48 hours** in advance.
+- **Emergency**: no pre-approval is needed. The hospital or the employee informs the insurer within 24 hours of admission.
+- **Reimbursement**: where treatment was taken outside the network, submit the claim within **90 days** of the date of treatment, with itemised invoices, receipts, the medical report and prescriptions. Settlement is targeted within 15 working days of a complete claim and is paid to the employee's salary account.
+- A rejected claim may be escalated through an AskHR ticket in the Benefits category. Total Rewards Gulf takes the case up with the insurer, but the insurer's terms and the scheme rules decide the outcome.
+
+## 7. Leave, travel and separation
+- Cover continues in full during paid leave and during unpaid leave of up to **90 days**. Beyond 90 days of unpaid leave, the company keeps only the employee's own cover.
+- Business travel outside the country of employment is additionally covered by company travel insurance arranged for each trip.
+- Cover ends when the employee's residence permit is cancelled or transferred to a new employer, and in any case no later than **30 days** after the last working day. Dependant cover ends on the same date.
+
+## 8. Related documents
+- GLF-005 Residence Visa, Emirates ID, Iqama and QID Sponsorship and Dependants
+- GLF-008 Maternity, Paternity and Nursing Breaks Policy - Gulf
+- GLF-011 Business Travel and Per Diem within the GCC
+
+Fictional document created for a technical demonstration. Not legal advice.

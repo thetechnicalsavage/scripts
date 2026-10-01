@@ -1,0 +1,64 @@
+#META
+id: HRP-002
+title: Maternity Benefit and Parental Support Policy
+owner: HR Operations
+version: 3.1
+effective: 01-Apr-2026
+review: 31-Mar-2027
+applies: All women employees on the Meridian Systems India payroll
+#BODY
+## 1. Purpose and scope
+This policy describes the maternity benefits available to women employees of Meridian Systems India Private Limited. It gives effect to the Maternity Benefit Act 1961 as amended by the Maternity Benefit (Amendment) Act 2017, and in several respects provides more than the statutory minimum.
+
+The policy applies to all women employees on the India payroll, including those on probation and those engaged on fixed-term contracts, subject to the qualifying service in section 3.
+
+## 2. Maternity leave entitlement
+| Situation | Paid leave | Notes |
+| Childbirth, first and second child | 26 weeks | Up to 8 weeks may be taken before the expected date of delivery |
+| Childbirth, third and subsequent child | 12 weeks | Up to 6 weeks may be taken before the expected date of delivery |
+| Adoptive mother, child below 3 months of age | 12 weeks | Counted from the date the child is handed over |
+| Commissioning mother (surrogacy) | 12 weeks | Counted from the date the child is handed over |
+| Miscarriage or medical termination of pregnancy | 6 weeks | Counted from the date of the event, on production of a medical certificate |
+| Tubectomy operation | 2 weeks | Counted from the date of the operation |
+| Illness arising out of pregnancy, delivery, premature birth, miscarriage or tubectomy | 1 additional month | On production of a medical certificate, taken in one block or in parts |
+
+Leave is paid at the average daily wage, calculated on the employee's gross earnings for the three calendar months preceding the month in which the leave begins.
+
+## 3. Qualifying service
+To be eligible for maternity benefit an employee must have worked for Meridian for at least **80 days in the 12 months immediately preceding the expected date of delivery**. Days of paid leave and days on which the employee was laid off count towards the 80 days.
+
+An employee who does not meet the 80-day threshold is granted 12 weeks of leave, of which the statutory portion is unpaid and Meridian pays an ex-gratia equal to 8 weeks of gross salary. This is a Meridian benefit and is not a statutory entitlement.
+
+## 4. Notification and documentation
+- The employee should inform her reporting manager and HR Operations as early as she is comfortable doing so, and formally no later than **8 weeks before the intended start of leave**.
+- A maternity leave request is raised in MyMeridian under Time and Attendance > Leave Request, leave type Maternity, with the expected date of delivery and a certificate from a registered medical practitioner attached.
+- Within 10 days of delivery the employee uploads the birth certificate or the hospital discharge summary so that the payroll and insurance records can be updated.
+- For adoption, the adoption order or the deed of handover is required. For surrogacy, the medical and legal documentation establishing the commissioning arrangement is required.
+
+## 5. Protection during and after maternity leave
+- No employee may be dismissed, discharged or served notice during maternity leave, nor may her conditions of service be varied to her disadvantage during this period.
+- Maternity leave counts as continuous service for gratuity, annual increment eligibility, leave accrual and vesting of stock options.
+- The employee returns to the same role, or to a role of equivalent grade, responsibility and compensation.
+- Performance objectives for the review year are pro-rated for the period actually worked. The rating is not reduced on account of the absence.
+- A woman returning from maternity leave is not eligible for a lower salary revision solely because of the leave.
+
+## 6. Work from home after maternity leave
+Where the nature of the role permits, an employee may work from home after her maternity leave is exhausted, on terms agreed with her manager and HR Operations. This arrangement may be granted for up to **6 months** and is reviewed monthly. It is in addition to the standard hybrid arrangement in HRP-030 and does not consume the exception quota there.
+
+## 7. Nursing breaks
+Until the child completes **15 months** of age, the employee is entitled to two nursing breaks of 15 minutes each per working day, in addition to the normal rest interval. Breaks are not required to be recorded in the attendance system.
+
+## 8. Creche facility
+Meridian provides a creche at every office location with **50 or more employees**. Creche facilities are currently operational at Bengaluru, Pune, Hyderabad and Gurugram. At Chennai, Meridian reimburses the cost of an external creche up to INR 8,000 per month per child.
+
+An employee is permitted **4 visits to the creche per working day**, inclusive of the nursing breaks in section 7. Children up to 6 years of age may use the creche. Registration is through an AskHR ticket in the Workplace Services category, with at least 15 days notice.
+
+## 9. Medical insurance during maternity
+The group medical policy described in HRP-013 includes a maternity sub-limit of **INR 75,000 for a normal delivery and INR 1,00,000 for a caesarean delivery**, per event. The newborn is covered from day one and must be added as a dependant within 30 days of birth through MyMeridian > My Profile > Dependants. Pre-natal and post-natal expenses up to INR 15,000 are covered within the maternity sub-limit.
+
+## 10. Related documents
+- HRP-003 Paternity and Adoption Leave Policy
+- HRP-013 Group Medical Insurance and Wellness Benefits Policy
+- HRP-030 Remote and Hybrid Work Policy
+- HRP-037 Performance Management and Improvement Policy
+- ESS-003 Employee Self Service: Updating Personal, Bank and Nominee Details

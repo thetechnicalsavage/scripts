@@ -1,0 +1,71 @@
+#META
+id: HRP-034
+title: Workplace Health, Safety and Emergency Policy
+owner: Workplace Services
+version: 3.8
+effective: 01-Apr-2026
+review: 31-Mar-2027
+applies: All persons at a Meridian Systems India workplace
+#BODY
+## 1. Purpose
+Meridian Systems India Private Limited is responsible for the health and safety of everyone at its workplaces: employees, contractors, interns and visitors. This policy sets out the arrangements and what each person must do.
+
+## 2. Responsibilities
+| Role | Responsibility |
+| Every person at the workplace | Follow safety instructions, use equipment correctly, report hazards and incidents, know the evacuation route |
+| Reporting managers | Ensure the team is trained, that new joiners are inducted, and that reported hazards are escalated |
+| Workplace Services | Maintain the premises, equipment and systems; run drills; maintain records; investigate incidents |
+| Emergency Response Team | Lead evacuation, first aid and fire response at each location |
+| Occupational health adviser | Ergonomic assessments, fitness-to-work advice, health surveillance |
+
+## 3. Emergency Response Team
+Each location has a trained Emergency Response Team comprising floor marshals, fire wardens and first aiders. Their names and photographs are displayed at every floor entrance and in MyMeridian. The target is **one trained first aider for every 50 occupants** and two floor marshals per floor. ERT members are trained annually and receive refresher certification in cardiopulmonary resuscitation and the use of an automated external defibrillator.
+
+## 4. Fire safety and evacuation
+- Fire drills are conducted **once every quarter** at each location, at least one of which is unannounced.
+- Evacuation maps are displayed at every stairwell and lift lobby, showing the assembly point.
+- On hearing the alarm: stop work, leave belongings, take the nearest staircase, do not use the lift, proceed to the assembly point, and report to the floor marshal so that the roll call is accurate.
+- Persons requiring assistance to evacuate have a **personal emergency evacuation plan** agreed in advance with Workplace Services and a named buddy.
+- Fire exits and stairwells must never be obstructed or locked. Report any obstruction immediately.
+
+## 5. First aid and medical emergency
+- First aid boxes are located at each pantry and reception, and their contents are checked monthly.
+- An automated external defibrillator is installed at each location near the main reception, with signage.
+- In a medical emergency: call the site emergency number displayed on every access card, alert the nearest first aider, and do not move an injured person unless they are in immediate danger.
+- Meridian maintains an arrangement with a hospital near each location and an ambulance service on call. The ambulance and emergency treatment costs are borne by the company for any incident at the workplace.
+
+## 6. Incident and hazard reporting
+Every incident must be reported through **MyMeridian > Workplace > Report an Incident** within 24 hours, including:
+- Any injury, however minor, including one treated with first aid only.
+- A near miss, meaning an event that could have caused injury but did not. **Near misses matter and are actively encouraged to be reported**; they are the cheapest source of prevention.
+- Any unsafe condition: a damaged floor or cable, a failed light, a blocked exit, a faulty electrical fitting, a water leak near electrical equipment.
+- Any security incident affecting personal safety.
+
+Workplace Services investigates every reported incident and publishes the corrective action. Reporting is never penalised.
+
+## 7. Ergonomics
+- Every workstation is set up to an ergonomic standard, with an adjustable chair, monitor riser and keyboard placement guidance.
+- New joiners complete an ergonomic self-assessment in the first week. Remote workers complete the same assessment for the home workstation.
+- An employee reporting discomfort receives an individual assessment by the occupational health adviser within 10 working days, and the recommended equipment is provided.
+
+## 8. Personal safety, transport and late working
+- Access is controlled by card at every entry point. Tailgating is prohibited.
+- Security personnel are on duty 24 hours a day at every location.
+- Night transport arrangements and the safeguards for women employees are set out in **HRP-007 section 4** and are mandatory.
+- Any employee working past 20:00 must record their presence with the security desk so that the occupancy list is accurate in an emergency.
+- Meridian operates a security escort on request for any employee moving between the building and the transport pick-up point after dark.
+
+## 9. Substance use
+Reporting for work under the influence of alcohol or a controlled substance, or consuming either at the workplace, is prohibited and is major misconduct under HRP-028. Alcohol may be served at an approved company event, in which case transport home is arranged and no employee is required to drink. An employee with a dependency is encouraged to seek help through the confidential Employee Assistance Programme in HRP-013; a voluntary approach for help is treated as a health matter and not a disciplinary one.
+
+## 10. Emergency preparedness and business continuity
+Each location maintains a business continuity plan covering fire, flood, power failure, civil disturbance, a public health emergency and the loss of a building. The plan is tested annually. Employees are contacted through the emergency notification system, which uses the personal mobile number in MyMeridian, so keeping that number current is a safety matter and not just an administrative one.
+
+During a declared emergency, instructions issued by the Crisis Management Team override normal policy, including the attendance requirements in HRP-030.
+
+## 11. Related documents
+- HRP-007 Attendance, Working Hours and Shift Policy
+- HRP-013 Group Medical Insurance and Wellness Benefits Policy
+- HRP-027 Equal Opportunity, Diversity and Anti-Discrimination Policy
+- HRP-028 Disciplinary Action, Misconduct and Grievance Policy
+- HRP-030 Remote and Hybrid Work Policy

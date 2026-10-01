@@ -1,0 +1,63 @@
+#META
+id: HRP-008
+title: Overtime and On-Call Compensation Policy
+owner: Total Rewards
+version: 2.2
+effective: 01-Apr-2026
+review: 31-Mar-2027
+applies: Employees in grades G1 to G4 and all employees rostered for on-call duty
+#BODY
+## 1. Purpose
+Some Meridian Systems India roles carry an obligation to be available outside normal working hours, either to support a production system or to meet a delivery commitment. This policy sets out when that time is paid, at what rate, and what limits apply.
+
+## 2. Who is covered
+- **Overtime** is payable to employees in grades **G1 to G4**. Employees in G5 and above are in roles where the compensation structure already contemplates variable hours, and overtime is not payable to them.
+- **On-call allowance** is payable to any employee of any grade who is formally rostered for on-call duty, including G5 and above.
+
+## 3. Overtime rates and rules
+| Item | Provision |
+| Rate | Twice the ordinary hourly rate of wages, in line with the applicable Shops and Establishments Act |
+| Ordinary hourly rate | (Basic + Dearness Allowance) divided by 26, divided by 8 |
+| Minimum unit | 30 minutes; time under 30 minutes in a day is not counted |
+| Daily threshold | Hours worked beyond 9 in a day |
+| Weekly threshold | Hours worked beyond 48 in a week |
+| Statutory cap | 50 hours in any quarter, per the Shops and Establishments Act of the relevant state |
+| Meridian internal cap | 20 hours in any month, beyond which the function head must approve in writing |
+| Approval | Pre-approved by the reporting manager in MyMeridian before the overtime is worked |
+| Payment | With the following month's payroll, shown as a separate earning line |
+
+Overtime is never paid without prior approval recorded in MyMeridian. Retrospective approval is granted only for a declared production incident, and only by the function head.
+
+## 4. On-call allowance
+On-call means the employee is not working, but must remain contactable and able to begin work within 30 minutes.
+
+| On-call period | Allowance |
+| Weekday night (18:00 to 09:00 next day) | INR 600 |
+| Saturday or Sunday, full 24 hours | INR 1,200 |
+| Declared holiday, full 24 hours | INR 1,500 |
+
+- An employee may be rostered on-call for a maximum of **12 days in a calendar month** and no more than 7 consecutive days.
+- The on-call roster is published at least 14 days in advance in MyMeridian.
+- On-call allowance is payable whether or not the employee is actually called.
+
+## 5. Call-out payment
+When an on-call employee is actually called and performs work:
+
+- A minimum of **2 hours** is credited, even if the work takes less time.
+- For G1 to G4, the time is paid at the overtime rate in section 3, in addition to the on-call allowance.
+- For G5 and above, the time is compensated with **Compensatory Off** at the rate of half a day for each call-out of 4 hours or more in a night, capped at 2 days per month. Compensatory Off earned this way follows the 60-day expiry in HRP-001.
+- Call-out time is logged in MyMeridian against the incident number within 24 hours.
+
+## 6. Interaction with other entitlements
+An employee cannot receive, for the same hours: overtime payment and Compensatory Off; or shift allowance under HRP-007 and on-call allowance. Where both would apply, the higher of the two is paid and the manager records the basis in the approval note.
+
+## 7. Health and fatigue
+- An employee called out between 00:00 and 05:00 for more than 2 hours is entitled to a **late start** of equal duration on the next working day, without any deduction from leave.
+- An employee who has been called out on 3 or more nights in a week is removed from the roster for the following week.
+- Managers must monitor the on-call load across the team and are accountable for an even distribution. HR Operations publishes a quarterly on-call load report to function heads.
+
+## 8. Related documents
+- HRP-001 Leave Policy
+- HRP-007 Attendance, Working Hours and Shift Policy
+- HRP-010 Compensation Structure and Salary Review Policy
+- MSS-001 Manager Self Service: Approving Leave, Timesheets and Expense Claims

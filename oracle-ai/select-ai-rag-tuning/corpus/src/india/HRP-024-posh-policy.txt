@@ -1,0 +1,106 @@
+#META
+id: HRP-024
+title: Prevention of Sexual Harassment at the Workplace Policy
+owner: Corporate Compliance
+version: 4.4
+effective: 01-Apr-2026
+review: 31-Mar-2027
+applies: All persons at a Meridian Systems India workplace, including employees, contractors, interns, trainees and visitors
+#BODY
+## 1. Purpose and legal basis
+Meridian Systems India Private Limited is committed to a workplace free from sexual harassment. This policy gives effect to the **Sexual Harassment of Women at Workplace (Prevention, Prohibition and Redressal) Act 2013** and the rules made under it.
+
+The Act protects women. Meridian extends the same **process, protection and standard of conduct to every employee regardless of gender**, through an equivalent internal process described in section 11. Complaints from men and from employees of any gender identity are taken as seriously and investigated with the same rigour.
+
+## 2. What constitutes sexual harassment
+Any unwelcome act or behaviour, whether directly or by implication, including:
+- Physical contact and advances.
+- A demand or request for sexual favours.
+- Sexually coloured remarks.
+- Showing pornography.
+- Any other unwelcome physical, verbal or non-verbal conduct of a sexual nature.
+
+The following circumstances, if they occur in relation to any act of sexual harassment, may also amount to sexual harassment:
+- An implied or explicit promise of preferential treatment in employment.
+- An implied or explicit threat of detrimental treatment in employment.
+- An implied or explicit threat about present or future employment status.
+- Interference with work, or creating an intimidating, offensive or hostile work environment.
+- Humiliating treatment likely to affect health or safety.
+
+**Unwelcome is judged from the perspective of the person who experienced the conduct**, not from the intention of the person who engaged in it.
+
+## 3. Where this policy applies
+The workplace includes: all Meridian offices; any place visited by an employee arising out of or during employment, including transport provided by the employer; client premises; offsite meetings, training venues and company events; and work-related interactions on digital channels including email, chat, video calls and social media. It applies to remote and hybrid working arrangements.
+
+## 4. The Internal Committee
+Each Meridian location has an Internal Committee (IC) constituted under section 4 of the Act:
+
+| Role | Requirement |
+| Presiding Officer | A woman employed at a senior level at the workplace |
+| Members from among employees | At least two, committed to the cause of women or with experience in social work or legal knowledge |
+| External Member | One member from a non-governmental organisation or association committed to the cause of women, or a person familiar with issues relating to sexual harassment |
+| Composition | At least half the total members must be women |
+| Tenure | Not exceeding three years |
+
+The names and contact details of the IC members for each location are displayed at every office and published in MyMeridian > My Compliance > Internal Committee.
+
+## 5. Making a complaint
+**The deadline to file a POSH complaint is 3 months from the date of the incident, or 3 months from the date of the last incident where there is a series. The Internal Committee may extend this by a further 3 months, giving an outer limit of 6 months, where it is satisfied that circumstances prevented the complainant from filing earlier.**
+
+- A complaint should be made in writing to the IC within **3 months** of the incident, or of the last incident in a series. The IC may extend this period by a further 3 months where it is satisfied that circumstances prevented an earlier complaint.
+- Six copies of the complaint, with supporting documents and the names and addresses of witnesses, are required by the rules. The IC will assist a complainant who needs help to put the complaint in writing.
+- Where the complainant is unable to make the complaint because of physical or mental incapacity or death, a legal heir or a person authorised under the rules may do so.
+- A complaint may be sent by email to the IC address published in MyMeridian, or given in person to any IC member.
+
+## 6. Conciliation
+Before initiating an inquiry, and **only at the request of the complainant**, the IC may attempt to settle the matter through conciliation. The following conditions apply:
+- **No monetary settlement may be made the basis of conciliation.**
+- The IC records the settlement and forwards it to the employer for action.
+- Where a settlement is reached, no further inquiry is conducted.
+- Where the respondent does not comply with the settlement, the complainant may ask the IC to proceed with an inquiry.
+
+## 7. Inquiry
+| Stage | Timeline |
+| IC forwards the complaint to the respondent | Within 7 working days |
+| Respondent files a reply with supporting documents | Within 10 working days of receipt |
+| Inquiry completed | Within **90 days** of the complaint |
+| Inquiry report submitted to the employer | Within **10 days** of completion of the inquiry |
+| Employer acts on the recommendations | Within **60 days** of receiving the report |
+| Appeal by either party to the appropriate court or tribunal | Within 90 days of the recommendation |
+
+The inquiry follows the principles of natural justice. Both parties are given an opportunity to be heard and to receive a copy of the findings. Neither party may bring a legal practitioner to the proceedings. The IC has the powers of a civil court in respect of summoning and examining witnesses and requiring the production of documents.
+
+## 8. Interim relief during the inquiry
+On the written request of the complainant, the IC may recommend:
+- Transfer of the complainant or the respondent to another workplace.
+- Leave for the complainant of up to **3 months, in addition to her normal leave entitlement**, without any deduction.
+- Restraining the respondent from reporting on the work performance of the complainant or writing her confidential report.
+- Granting any other relief the IC considers appropriate.
+
+## 9. Action on a proven complaint
+Where the allegation is proved, the IC may recommend action in accordance with the service rules, which at Meridian includes: a written apology, a warning, a reprimand, withholding of a promotion or an increment, suspension, termination of service, or a direction to undergo counselling. The IC may also recommend that compensation be deducted from the respondent's salary and paid to the complainant, taking into account the mental trauma, the loss of career opportunity, medical expenses, the income and financial status of the respondent, and the feasibility of payment in instalments.
+
+## 10. Malicious complaints and false evidence
+Where the IC concludes that a complaint was **malicious**, or that the complainant knowingly produced forged or misleading evidence, it may recommend action against that person. Two safeguards apply:
+- **A complaint that cannot be substantiated is not by itself a malicious complaint.** Inability to prove a case does not attract any action.
+- Malice must be established through a separate inquiry, with the person given an opportunity to be heard.
+
+## 11. Complaints from employees of any gender
+Where the complainant is not a woman, and the complaint is therefore outside the statutory scope of the Act, the complaint is handled by the same Internal Committee members acting as a Meridian Conduct Panel, applying the same definitions, the same timelines, the same confidentiality and the same standards of natural justice under HRP-028. The outcome and the available sanctions are the same.
+
+## 12. Confidentiality
+The identity of the complainant, the respondent, the witnesses, the contents of the complaint, the inquiry proceedings and the recommendations must not be published or disclosed to the public, the press or any other person. Breach of confidentiality attracts a penalty under the rules and is separately treated as misconduct at Meridian. Confidentiality does not prevent the disclosure of information to a person who needs it to give effect to the outcome.
+
+## 13. Retaliation
+Any form of retaliation against a complainant, a witness or an IC member is a serious breach and is dealt with independently of the outcome of the underlying complaint.
+
+## 14. Awareness and reporting
+- POSH awareness training is mandatory for every employee within 30 days of joining and annually thereafter. Completion is tracked in MyMeridian.
+- IC members receive dedicated skill-building training at least once a year.
+- Meridian files an **annual report** with the District Officer setting out the number of complaints received and disposed of, and includes the same information in the Directors' Report.
+
+## 15. Related documents
+- HRP-022 Code of Business Conduct and Ethics
+- HRP-026 Whistleblower and Protected Disclosure Policy
+- HRP-027 Equal Opportunity and Anti-Discrimination Policy
+- HRP-028 Disciplinary Action and Misconduct Policy

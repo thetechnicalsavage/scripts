@@ -1,0 +1,82 @@
+#META
+id: GLF-002-EN
+title: End-of-Service Gratuity Policy - Gulf
+owner: Total Rewards - Gulf
+version: 1.0
+effective: 01-Jan-2027
+review: 31-Dec-2027
+applies: Expatriate employees of Meridian Systems Gulf FZ-LLC at the Dubai head office and the Riyadh and Doha branches
+#BODY
+## 1. Purpose and scope
+This policy explains how Meridian Systems Gulf FZ-LLC calculates and pays the end-of-service gratuity, a lump sum paid when employment ends in recognition of continuous service. It applies to expatriate employees at the Dubai head office (UAE) and at the Riyadh (KSA) and Doha (Qatar) branches. Arrangements for nationals of the host country who are registered with a national pension or social insurance scheme are set out in a separate annex issued by Total Rewards.
+
+The formula depends on the work location in the employment contract. Where an employee has transferred between Gulf locations, each period of service is calculated under the formula of the location where it was served, and the amounts are added together. Where local labour law provides a more favourable amount, the more favourable amount is paid.
+
+## 2. Eligibility and qualifying service
+- An employee becomes eligible after **1 year of continuous service** in all three locations. An employee who leaves before completing 1 year receives no gratuity, except on death in service (section 7).
+- Service after the first year counts in proportion for part years, calculated to the day.
+- Probation counts as service once the employee is confirmed.
+- Days of unpaid leave above **20 days in a leave year** are deducted from qualifying service. Paid annual leave, sick leave and Hajj leave count in full.
+- The daily wage for gratuity purposes is the monthly gratuity wage divided by **30**.
+
+| Work location | Gratuity wage | Overall cap |
+| Dubai head office (UAE) | Last basic salary | 24 months of basic salary |
+| Riyadh branch (KSA) | Last basic salary plus housing allowance | No cap |
+| Doha branch (Qatar) | Last basic salary | No cap |
+
+Other allowances, such as transport, mobile, education, bonus and commission, are not part of the gratuity wage.
+
+## 3. Dubai head office (UAE)
+| Period of service | Gratuity for each year in the period |
+| Years 1 to 5 | 21 days of basic salary |
+| Each year after year 5 | 30 days of basic salary |
+
+The same amount is paid whether employment ends by resignation, by termination by Meridian or on expiry of a fixed-term contract.
+
+Worked example: an employee with a monthly basic salary of **AED 12,000** leaves after exactly 7 years. The daily wage is AED 400. Years 1 to 5 give 5 x 21 x 400 = AED 42,000. Years 6 and 7 give 2 x 30 x 400 = AED 24,000. The total gratuity is **AED 66,000**, which is below the cap of AED 288,000.
+
+## 4. Riyadh branch (KSA)
+| Period of service | Gratuity for each year in the period |
+| Years 1 to 5 | Half a month of gratuity wage (15 days) |
+| Each year after year 5 | One month of gratuity wage (30 days) |
+
+When an employee resigns, only part of the calculated gratuity is paid.
+
+| Completed service at resignation | Share of gratuity paid |
+| Less than 2 years | Nil |
+| 2 years to less than 5 years | One third |
+| 5 years to less than 10 years | Two thirds |
+| 10 years or more | Full amount |
+
+Termination by Meridian for any reason other than gross misconduct, and expiry of a fixed-term contract, attract the full amount.
+
+Worked example: an employee with a basic salary of SAR 15,000 and a housing allowance of SAR 3,750 has a gratuity wage of SAR 18,750. After 8 years of service, years 1 to 5 give 5 x 0.5 x 18,750 = SAR 46,875 and years 6 to 8 give 3 x 18,750 = SAR 56,250, so the full gratuity is **SAR 103,125**. If the employee resigns after 8 years, two thirds are paid: **SAR 68,750**.
+
+## 5. Doha branch (Qatar)
+| Period of service | Gratuity for each year in the period |
+| Years 1 to 5 | 21 days of basic salary |
+| Each year after year 5 | 28 days of basic salary |
+
+The gratuity is paid in full on resignation or termination once 1 year of service is complete.
+
+Worked example: an employee with a monthly basic salary of **QAR 10,000** leaves after 6 years and 6 months. Years 1 to 5 give 5 x 21 = 105 days. The following 1.5 years give 1.5 x 28 = 42 days. The total is 147 days, and the gratuity is 147 x 10,000 / 30 = **QAR 49,000**.
+
+## 6. Comparison by location
+| Item | Dubai (UAE) | Riyadh (KSA) | Doha (Qatar) |
+| Gratuity days per year, years 1 to 5 | 21 | 15 | 21 |
+| Gratuity days per year after year 5 | 30 | 30 | 28 |
+| Resignation before 2 years | Full, after 1 year | Nil | Full, after 1 year |
+| Overall cap | 24 months of basic salary | None | None |
+
+## 7. Payment, deductions and death in service
+- The gratuity is paid with the final settlement within **10 working days** of the last working day, by bank transfer to the salary account registered in MyMeridian, in the currency of the work location.
+- Amounts the employee owes Meridian, such as an outstanding salary advance, may be deducted up to **50 per cent** of the gratuity. Any remaining balance is recovered separately.
+- On the death of an employee in service, the gratuity is paid in full to the legal heirs **irrespective of length of service**. Neither the 1-year minimum nor the Riyadh resignation reduction applies.
+- On dismissal for gross misconduct, Legal confirms in writing whether local law allows any part of the gratuity to be withheld, before the final settlement is approved.
+- A gratuity statement showing the service period, the wage used and the calculation is issued with the final settlement. Queries are raised through an AskHR ticket in the Final Settlement category within 30 days of payment.
+
+## 8. Related documents
+- GLF-001 Annual Leave and Public Holidays Policy - Gulf
+- GLF-003 Ramadan Working Hours and Religious Leave Policy - Gulf
+
+Fictional document created for a technical demonstration. Not legal advice.

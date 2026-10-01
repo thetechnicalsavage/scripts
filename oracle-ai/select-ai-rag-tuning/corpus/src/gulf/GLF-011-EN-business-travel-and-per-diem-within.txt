@@ -1,0 +1,71 @@
+#META
+id: GLF-011-EN
+title: Business Travel and Per Diem within the GCC
+owner: Finance and Travel Desk Gulf
+version: 1.0
+effective: 01-Oct-2026
+review: 30-Sep-2027
+applies: Employees of Meridian Systems Gulf FZ-LLC travelling on company business within the six GCC member states
+#BODY
+## 1. Purpose and scope
+This policy covers business travel by employees of the Dubai head office and the Riyadh and Doha branches of Meridian Systems Gulf FZ-LLC to any destination within the Gulf Cooperation Council (GCC): the United Arab Emirates, Saudi Arabia, Qatar, Bahrain, Kuwait and Oman. It sets out how travel is approved and booked, the class of travel, hotel limits, per diem rates, advances and expense claims. Travel outside the GCC is outside the scope of this policy and needs case-by-case approval from the Head of Finance Gulf.
+
+## 2. Approval and booking
+- Every trip needs an approved travel request in MyMeridian before any booking is made.
+- A trip to another GCC country must be requested at least **7 calendar days** before departure. A trip within the employee's own country of work needs at least **3 calendar days**.
+- The reporting manager approves trips of up to 10 nights. Trips longer than **10 nights** also need the function head's approval.
+- Flights and hotels are booked only through the Travel Desk. Self-booked travel is not reimbursed unless the Travel Desk has confirmed in writing that it could not make the booking.
+- Where an entry visa is needed, the employee applies through the Travel Desk at least **10 working days** before travel. Visa fees are reimbursed at actual cost.
+
+## 3. Air and ground travel
+| Grade band | Scheduled flight time under 2 hours 30 minutes | Scheduled flight time of 2 hours 30 minutes or more |
+| G1 to G6 | Economy | Economy |
+| G7 and above | Economy | Business |
+
+- One checked bag of up to 30 kg is covered. Excess baggage for equipment needs prior approval from the manager.
+- Airport transfers by taxi or ride-hailing app are reimbursed at actual cost, up to AED 150, SAR 150 or QAR 150 per one-way transfer, or the equivalent in local currency elsewhere in the GCC.
+- An employee who uses a private car for business travel within the same country is paid a mileage rate of **AED 1.20 per km** in the UAE, **SAR 1.10 per km** in Saudi Arabia and **QAR 1.20 per km** in Qatar. Cross-border road travel needs the function head's approval.
+- No employee may self-drive more than **400 km** in one day, or drive between 23:00 and 05:00, on company business.
+
+## 4. Hotel limits and per diem rates
+Hotel limits are per night, including taxes and breakfast. Per diem is a fixed daily amount that covers meals, local transport within the city, laundry and incidental expenses. Both are expressed in the currency of the destination.
+
+| Destination | Hotel limit G1 to G6 | Hotel limit G7 and above | Per diem G1 to G6 | Per diem G7 and above |
+| Dubai | AED 650 | AED 900 | AED 250 | AED 350 |
+| Abu Dhabi | AED 600 | AED 850 | AED 250 | AED 350 |
+| Riyadh | SAR 700 | SAR 950 | SAR 250 | SAR 350 |
+| Jeddah | SAR 650 | SAR 900 | SAR 230 | SAR 320 |
+| Doha | QAR 650 | QAR 900 | QAR 250 | QAR 350 |
+| Manama | BHD 65 | BHD 90 | BHD 25 | BHD 35 |
+| Kuwait City | KWD 55 | KWD 75 | KWD 20 | KWD 28 |
+| Muscat | OMR 60 | OMR 85 | OMR 24 | OMR 32 |
+
+For any other city, the rates of the nearest listed city in the same country apply. A hotel above the limit needs the function head's approval before booking, for example during a major exhibition. Otherwise the difference is borne by the employee.
+
+## 5. How per diem is calculated
+- Per diem is paid at **100%** for each full calendar day away from the home location.
+- The day of departure and the day of return are each paid at **75%**.
+- A same-day trip with no overnight stay that lasts more than **6 hours** earns **50%** of the destination per diem.
+- When a client or event organiser provides a meal, the per diem for that day is reduced by **20%** for lunch and **30%** for dinner.
+- From the **22nd consecutive night** at the same destination, the per diem is reduced to **70%** and the Travel Desk books a serviced apartment.
+- Per diem needs no receipts. Air fares, hotels, visas and transfers are reimbursed against receipts, within the limits in this policy.
+- An employee in G1 to G4 who travels on a weekly rest day at the manager's request is paid **4 hours** at the rest-day overtime rate in GLF-010. Employees in G5 and above receive half a day of Time Off in Lieu.
+
+## 6. Advances and expense claims
+| Step | Rule |
+| Travel advance | Up to 80% of the estimated hotel and per diem cost, requested at least 5 working days before departure |
+| Expense claim | Submitted in MyMeridian within 15 calendar days of return |
+| Receipts | Required for every expense above AED 50, SAR 50 or QAR 50, or the equivalent elsewhere, except per diem |
+| Reimbursement | Within 10 working days of the manager's approval |
+| Unsettled advance | Recovered from the next month's salary if not settled within 30 days of return |
+
+## 7. Insurance and traveller safety
+- Every business traveller is covered by the company travel insurance for the full trip, including emergency medical treatment up to **AED 500,000** per trip and emergency evacuation.
+- The itinerary must be recorded in MyMeridian so that the Travel Desk can locate travellers during an emergency and, if necessary, arrange an early return.
+- Travellers report any incident, illness or lost travel document to the Travel Desk 24-hour line within **24 hours**.
+
+## 8. Related documents
+- GLF-010 Overtime, Weekend and Shift Rules (Gulf)
+- GLF-012 National Talent Programme
+
+Fictional document created for a technical demonstration. Not legal advice.

@@ -1,0 +1,88 @@
+#META
+id: HRP-018
+title: International Travel and Per Diem Policy
+owner: Finance Shared Services
+version: 5.0
+effective: 01-Apr-2026
+review: 31-Mar-2027
+applies: All employees travelling outside India on Meridian business
+#BODY
+## 1. Purpose
+This policy governs travel outside India on Meridian Systems India Private Limited business. It covers approval, class of travel, per diem rates, immigration and tax considerations. Domestic travel is covered by HRP-017.
+
+## 2. Approval
+Every international trip requires three approvals, recorded in MyMeridian before any booking is made:
+
+- The **reporting manager**, confirming the business need.
+- The **business unit head**, confirming the budget.
+- **Global Mobility**, confirming that the visa, work authorisation and tax position are in order.
+
+Approval must be obtained at least **21 days** before departure for a visa-required destination, and at least 10 days otherwise. Trips booked inside these windows need the Chief Financial Officer's approval.
+
+## 3. Class of travel
+| Grade band | Flight duration up to 8 hours | Flight duration over 8 hours |
+| G1 to G6 | Economy class | Economy class, with a stopover of at least 8 hours at company cost where the itinerary permits |
+| G7 to G8 | Economy class | Business class |
+| G9 and above | Business class | Business class |
+
+Bookings are made through the Meridian travel desk only. The lowest logical fare applies. Where an employee wishes to upgrade at personal cost, the fare difference is paid by the employee directly to the travel desk and never claimed.
+
+## 4. Per diem rates
+The per diem covers meals, laundry, local transport within the city, tips and all incidentals. **Receipts are not required for the per diem.** Hotel accommodation is booked and paid by Meridian and is not part of the per diem.
+
+| Destination | Per diem, per night of stay |
+| United States and Canada | USD 75 |
+| United Kingdom | GBP 70 |
+| Eurozone and Switzerland | EUR 65 |
+| Singapore | SGD 90 |
+| United Arab Emirates and Saudi Arabia | AED 300 |
+| Japan | JPY 9,000 |
+| Australia and New Zealand | AUD 110 |
+| Rest of world | USD 60 |
+
+- Rates for G7 and above are **125 per cent** of the table above.
+- The day of departure from India and the day of return to India each attract **50 per cent** of the per diem.
+- Where the client provides all meals, **25 per cent** of the per diem is paid to cover incidentals.
+- Per diem is paid on the forex card before departure at the rate prevailing on the date of loading. No exchange-rate adjustment is made afterwards, in either direction.
+
+## 5. Hotel accommodation
+Accommodation is booked directly by the Meridian travel desk against the negotiated corporate programme. Where no corporate rate exists at the destination, the travel desk books within these ceilings, exclusive of taxes:
+
+| Grade band | North America and Western Europe | Middle East and Asia Pacific | Rest of world |
+| G1 to G4 | USD 180 | USD 150 | USD 120 |
+| G5 to G6 | USD 240 | USD 200 | USD 160 |
+| G7 and above | USD 320 | USD 270 | USD 220 |
+
+For assignments longer than 21 days, serviced apartments must be used where available, and the per diem is reduced to **60 per cent** from day 22 because cooking facilities are available.
+
+## 6. Forex, cards and cash
+- Meridian issues a prepaid multi-currency **forex card** loaded with the per diem and an incidental buffer. Collect it from the travel desk at least 2 working days before departure.
+- Cash is issued only where the destination has limited card acceptance, capped at the equivalent of USD 200.
+- Unspent forex card balance is recovered against the expense claim. The card must be surrendered within **15 days of return**.
+- Business expenses beyond the per diem, such as client entertainment or an unexpected hotel charge, are claimed separately with receipts.
+
+## 7. Visa, immigration and work authorisation
+- Visa fees, premium processing, biometrics, photographs, courier and attestation are borne by Meridian and claimed as an expense.
+- The employee is responsible for holding a passport valid for at least **6 months beyond the intended return date**, with at least two blank pages.
+- **Working on a business visa is not permitted.** A business visa allows meetings, negotiations and training attendance. Any activity that constitutes productive work for a client requires a work visa or the appropriate permit. Global Mobility determines the correct category; the employee must not make this assessment.
+- Making a false statement to an immigration officer, or entering on the wrong visa category, is serious misconduct under HRP-028, in addition to the legal consequences for the employee personally.
+
+## 8. Tax and social security
+- An employee who spends more than **182 days** outside India in a financial year may change tax residency status. Global Mobility runs a day-count check monthly for anyone on a long assignment.
+- Where a totalisation agreement exists, for example with Germany, the Netherlands, Belgium or Canada, Meridian obtains a **Certificate of Coverage** so that Indian Provident Fund contributions continue and host-country social security is not payable.
+- Meridian arranges and pays for host-country tax return preparation through its appointed adviser for any employee on assignment for more than 90 days.
+- Per diem paid for an international trip is not taxable in India to the extent it is actually spent for the purpose of the trip. Employees should retain a brief record of expenditure for their own protection.
+
+## 9. Insurance and duty of care
+Corporate travel insurance covering medical treatment, evacuation, repatriation, trip cancellation and baggage is automatically in force for every approved trip. The policy number and the 24-hour assistance number are printed on the travel itinerary and are also available in MyMeridian > My Benefits.
+
+Before departure the employee must:
+- Register the trip in the travel tracker so that Meridian can locate employees in an emergency.
+- Check the travel advisory for the destination published by the Ministry of External Affairs.
+- Confirm emergency contact details in MyMeridian are current.
+
+## 10. Related documents
+- HRP-013 Group Medical Insurance and Wellness Benefits Policy
+- HRP-017 Domestic Travel and Expense Policy
+- HRP-021 Corporate Credit Card and Expense Settlement Policy
+- HRP-028 Disciplinary Action and Misconduct Policy

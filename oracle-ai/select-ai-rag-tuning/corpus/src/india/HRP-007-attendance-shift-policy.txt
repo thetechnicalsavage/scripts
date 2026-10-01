@@ -1,0 +1,63 @@
+#META
+id: HRP-007
+title: Attendance, Working Hours and Shift Policy
+owner: HR Operations
+version: 3.3
+effective: 01-Apr-2026
+review: 31-Mar-2027
+applies: All employees on the Meridian Systems India payroll
+#BODY
+## 1. Purpose
+This policy defines the standard working hours at Meridian Systems India Private Limited, the shift structure for roles that support clients across time zones, the allowances payable for shift work, and how attendance is recorded.
+
+## 2. Standard working hours
+- A standard working day is **9 hours**, inclusive of a 1-hour meal break, giving 8 working hours.
+- A standard working week is **40 hours** across Monday to Friday. Saturday and Sunday are weekly offs for employees on the general shift.
+- **Core hours are 11:00 to 16:00 IST.** Employees are expected to be available during core hours regardless of when they start. Start times between 08:00 and 11:00 are at the employee's discretion, subject to team coverage agreed with the manager.
+- No employee may be required to work more than 48 hours in a week or more than 9 hours in a day without the overtime provisions of HRP-008 applying.
+
+## 3. Shift structure
+| Shift | Timing (IST) | Typical use | Shift allowance per shift worked |
+| General | 09:00 to 18:00 | Default for all roles | Nil |
+| Shift A | 06:00 to 15:00 | Asia Pacific and Middle East client coverage | INR 150 |
+| Shift B | 14:00 to 23:00 | Europe, Middle East and Africa client coverage | INR 250 |
+| Shift C | 22:00 to 07:00 | Americas client coverage and 24x7 operations | INR 450 |
+
+- Shift allowance is paid for each shift actually worked and appears as a separate line in the payslip in the following month's payroll.
+- Shift allowance is not payable for a shift on which the employee is on leave for any part of the day.
+- Shift allowance is not part of Basic salary and does not attract Provident Fund contributions or gratuity.
+- A rotational shift roster must be published at least **14 days in advance** and cannot be changed within 72 hours of a shift except with the employee's consent.
+
+## 4. Night shift safeguards
+For any shift where the employee is required to be at the workplace between 20:00 and 06:00:
+
+- **Transport is provided by Meridian, door to door, at company cost.** The employee may not be asked to arrange their own transport.
+- A woman employee is deployed on a night shift only with her written consent, recorded once a year in MyMeridian, and may withdraw that consent with 30 days notice.
+- A woman employee is never the first pick-up or the last drop of a transport route. A security escort travels on any route where a woman employee would otherwise be the only passenger.
+- A minimum of **two employees plus a security guard** must be present at the workplace at all times during the night shift.
+- The transport helpdesk number is printed on the access card and is staffed for the duration of every night shift.
+
+These provisions implement the conditions attached to the night-work exemptions granted under the state Shops and Establishments legislation at each Meridian location.
+
+## 5. Rest between shifts
+An employee must have a minimum of **11 consecutive hours of rest** between the end of one shift and the start of the next. A shift change that would breach this requires the employee's consent and the approval of the function head. An employee who works a Shift C is not rostered onto a Shift A on the following calendar day.
+
+## 6. Recording attendance
+- Attendance at a Meridian office is recorded automatically by the access control system on badge-in and badge-out.
+- Attendance on a remote working day is recorded by the employee in **MyMeridian > Time and Attendance > Timesheet**, submitted weekly by the end of the following Monday.
+- A timesheet not submitted within 14 days locks and requires an AskHR ticket to reopen.
+- Employees at client locations follow the client's attendance system and additionally submit the Meridian timesheet.
+
+## 7. Late arrival and short hours
+Meridian does not operate a punitive late-arrival regime for roles on the general shift, because core hours and delivery commitments are the measure. However:
+
+- Three or more instances in a month of absence during core hours without notice are addressed by the manager as a performance conversation.
+- For shift-based roles, arriving more than 30 minutes after the shift start without notice is recorded as a late mark. Four late marks in a month result in the loss of one half day of Earned Leave.
+- Persistent short hours after a documented conversation are treated as misconduct under HRP-028.
+
+## 8. Related documents
+- HRP-001 Leave Policy
+- HRP-006 Holiday Calendar and Restricted Holiday Policy
+- HRP-008 Overtime and On-Call Compensation Policy
+- HRP-030 Remote and Hybrid Work Policy
+- HRP-034 Workplace Health, Safety and Emergency Policy

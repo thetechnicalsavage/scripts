@@ -1,0 +1,72 @@
+#META
+id: HRP-033
+title: Information Security and Confidentiality Policy
+owner: Information Security
+version: 6.2
+effective: 01-Apr-2026
+review: 31-Mar-2027
+applies: All employees, contractors and interns of Meridian Systems India
+#BODY
+## 1. Purpose
+Meridian Systems India Private Limited holds information belonging to its clients, its people and itself. This policy states how that information is classified, handled, and protected, and what every employee must do. The information security management system is certified to **ISO/IEC 27001**.
+
+## 2. Information classification
+| Classification | Definition | Handling |
+| Public | Approved for release outside Meridian | No restriction |
+| Internal | Ordinary business information | Share within Meridian on a need-to-know basis; do not post externally |
+| Confidential | Client data, personal data, source code, commercial terms, unpublished financials | Encrypt in transit and at rest; access on a named basis; no personal devices beyond the BYOD limits in HRP-031 |
+| Restricted | Credentials, cryptographic keys, security architecture, data subject to a client's highest tier, material non-public information | Named individual access with dual authorisation; no copying; no printing; access logged and reviewed monthly |
+
+Every document, repository and dataset must carry a classification. Where none is marked, treat it as **Confidential**.
+
+## 3. Confidentiality obligations
+Every employee signs a confidentiality undertaking on joining. Its substance:
+- Do not disclose confidential information to anyone outside Meridian, or to anyone inside Meridian who does not need it for their work.
+- Do not use confidential information for any purpose other than performing your role.
+- Client information is subject to the **client's** contract as well as this policy. Where the two differ, the stricter applies.
+- The obligation applies from the first day of employment and **continues indefinitely after separation**. It is not limited to the notice period or to any fixed number of years.
+
+## 4. Client data segregation
+- Client data must remain in the environment designated for that client. Never copy client data into a Meridian internal tool, a personal workspace, a general-purpose ticketing system or an AI assistant.
+- Never move data between two clients' environments, and never reuse one client's artefacts for another without written permission.
+- Where an employee moves from one client engagement to another, access to the previous environment is revoked **on the day of the move**, not at the end of the month. The engagement lead raises the revocation.
+- Production client data must not be used for testing. Use masked or synthetic data. Where a defect can only be reproduced with production data, the client's written approval and a time-boxed access grant are required.
+
+## 5. Everyday practices
+- **Clean desk**: confidential material is locked away when the desk is unattended and at the end of the day.
+- **Clear screen**: lock the screen whenever you step away. Locking takes one keystroke.
+- **Printing**: use secure release printing; collect immediately; shred in the confidential waste bins, never in the general waste.
+- **Whiteboards**: erase after a meeting involving client or commercial content.
+- **Conversations**: do not discuss client matters in lifts, cafeterias, transport or public places. Do not use a client's name where a code name exists.
+- **Visitors**: escorted at all times; never left alone in a work area.
+- **Access cards**: never share, never lend, never tailgate, and challenge anyone without a visible card. Report a lost card within 2 hours.
+- **Removable media**: prohibited by default. Where approved, hardware-encrypted devices only, issued by IT.
+
+## 6. Reporting a security incident
+Report to the IT service desk **within 1 hour** of becoming aware. Reportable events include: a lost or stolen device or access card; a suspected malware infection; a phishing message that was clicked; information sent to the wrong recipient; credentials entered into a suspicious page; an unexpected prompt for multi-factor approval; discovering that you have access you should not have; and any suspected unauthorised access to a client environment.
+
+**Report first, investigate never.** Do not attempt to contain, delete or fix. Do not warn the suspected party. Preserve the device in its current state.
+
+An employee who reports promptly, including where they caused the incident, is not disciplined for the mistake. Delaying or concealing an incident is serious misconduct under HRP-028, because the damage from a concealed incident compounds by the hour.
+
+## 7. Access management
+- Access is granted on the principle of least privilege and only on an approved request.
+- Managers **recertify** the access of their team members every quarter. An access right not recertified is revoked automatically.
+- Privileged access is granted for a fixed period and expires automatically.
+- Access is revoked on the last working day as part of the clearance in HRP-040, and for an involuntary separation, at the moment the employee is informed.
+
+## 8. Secure development and change
+Where employees write or change software: code is peer reviewed; secrets are never committed to a repository; dependencies are scanned for known vulnerabilities and licence compliance; static and dynamic security testing runs in the pipeline; and changes to a production environment follow the approved change process with a rollback plan.
+
+## 9. Intellectual property
+Everything an employee creates in the course of employment, using Meridian time, assets or information, belongs to Meridian or to the client as the contract provides. This includes software, designs, documentation, processes and inventions. An employee wishing to retain rights in something created outside work that relates to Meridian's business must declare it under HRP-023 and obtain a written release before proceeding.
+
+## 10. Obligations after leaving
+On the last working day an employee must return all assets and materials, and delete any company or client information from any personal device or account. Confidentiality obligations continue indefinitely. Taking client data, source code, designs, customer lists or commercial information on separation is a breach of contract and may be a criminal offence under the Information Technology Act 2000 and the Bharatiya Nyaya Sanhita. Meridian audits the file transfer and email logs of every leaver in the 30 days before the last working day, as a matter of routine.
+
+## 11. Related documents
+- HRP-022 Code of Business Conduct and Ethics
+- HRP-028 Disciplinary Action, Misconduct and Grievance Policy
+- HRP-031 IT Acceptable Use and Bring Your Own Device Policy
+- HRP-032 Data Privacy and Personal Data Protection Policy
+- HRP-040 Separation, Notice Period and Final Settlement Policy

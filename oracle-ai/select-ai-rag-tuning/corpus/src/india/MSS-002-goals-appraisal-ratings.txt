@@ -1,0 +1,66 @@
+#META
+id: MSS-002
+title: Manager Self Service: Goal Setting, Appraisal and Rating Submission
+owner: HR Operations
+version: 2.4
+effective: 01-Apr-2026
+review: 31-Mar-2027
+applies: All employees with direct reports at Meridian Systems India
+#BODY
+## 1. What this guide covers
+The manager's tasks in the performance cycle: setting goals, running check-ins, completing the assessment, preparing for calibration and holding the appraisal conversation. The policy is HRP-037; this is how to execute it in MyMeridian.
+
+## 2. Your dates
+| Task | Window | Screen |
+| Approve team goals | 01 to 30 April | Manager > Team Goals |
+| Record check-ins | Monthly, all year | Manager > Check-ins |
+| Mid-year review | 01 to 31 October | Manager > Mid-Year Review |
+| Read self-assessments | 01 to 10 April | Manager > Appraisals |
+| Complete manager assessment | 11 to 20 April | Manager > Appraisals |
+| Attend calibration | 21 to 30 April | Scheduled by the HR Business Partner |
+| Release ratings and hold conversations | By 15 May | Manager > Appraisals |
+| Respond to appeals | Within 15 working days of an appeal | Manager > Appeals |
+
+## 3. Goal setting
+- The employee drafts the goals; you review and approve. A goal you wrote and imposed is rarely owned.
+- Between **4 and 7 goals**, with weightages summing to 100. The portal will not let you submit otherwise.
+- Every goal needs a measure. "Improve code quality" is not a goal. "Reduce the defect escape rate on the payments module from 6 to 3 per release by Q3" is.
+- Cascade at least one goal from your own, so the line of sight to the business unit objective is visible.
+- Include the compliance and capability goals; they are not optional padding.
+- A goal can be revised during the year with a recorded reason. Revising a goal because the business changed is legitimate; revising it in March because it was not met is not, and the audit trail will show it.
+
+## 4. Check-ins
+Record a check-in at least monthly at **Manager > Check-ins**. Two or three lines are enough: what was discussed, what was agreed, and any concern raised.
+
+This record matters more than managers expect. Under HRP-037 section 8, if you have not held a documented check-in in the preceding quarter, **you cannot record a rating of Partially meets or Does not meet expectations** without the HR Business Partner's review. The reason is simple: a poor rating at year end that the employee is hearing about for the first time is a management failure.
+
+## 5. Writing the assessment
+- Read the self-assessment first, and in full.
+- Assess against the goals and the competencies for the grade, not against the other members of your team.
+- Give **evidence for every rating element**: what the employee did, what the outcome was, when. Adjectives are not evidence.
+- Nothing may appear in the assessment that the employee has not previously heard. If you find yourself writing something for the first time in April, that is a signal about the year, not about the employee.
+- Exclude periods of maternity, paternity or long-term sick leave from the assessment window. Rate the period worked, and do not reduce a rating because of a protected absence.
+- Where an employee changed role or manager during the year, request input from the previous manager through **Manager > Request Feedback** before submitting.
+
+## 6. Calibration
+Calibration checks that a rating means the same thing across teams. Prepare by bringing, for each proposed rating at the top and bottom of your distribution, two or three specific pieces of evidence.
+
+- Meridian does **not** use a forced distribution. You are not required to fit a quota, and you should push back if asked to move a rating without a reason grounded in evidence.
+- If your distribution differs markedly from the company pattern, be ready to explain why. A small high-performing team legitimately looks different from the average.
+- A rating changed at calibration must have the reason recorded, and you must be able to explain that reason to the employee in your own words. If you cannot, do not accept the change.
+
+## 7. The appraisal conversation
+- Hold it in person or on video, never by message, and never in an open area.
+- Lead with the rating and the reason, then the evidence. Do not bury the rating at the end of a long preamble; the employee is waiting for it and will not hear anything said before it.
+- Separate the **rating conversation** from the **compensation conversation**. Compensation follows on 01 July under HRP-010.
+- For a rating of Partially meets or Does not meet expectations, come with the specific gaps, the support you will provide and the timeframe. If a Performance Improvement Plan is proposed, the HR Business Partner must have approved it before you mention it.
+- Record the date of the conversation in MyMeridian. The rating is not considered released until you do.
+
+## 8. Appeals
+An employee may appeal within 15 days. The appeal goes to your manager and the HR Business Partner, not to you, and you will be asked for the evidence supporting your assessment. Treat an appeal as a normal part of the process rather than as a challenge to your authority. **A rating is never lowered on appeal**, so there is no risk to the employee in appealing and you should not suggest otherwise.
+
+## 9. Related documents
+- HRP-010 Compensation Structure and Salary Review Policy
+- HRP-027 Equal Opportunity, Diversity and Anti-Discrimination Policy
+- HRP-037 Performance Management and Improvement Policy
+- HRP-039 Promotion and Career Progression Policy

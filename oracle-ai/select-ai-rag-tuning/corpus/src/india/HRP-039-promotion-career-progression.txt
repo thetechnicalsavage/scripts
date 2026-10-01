@@ -1,0 +1,64 @@
+#META
+id: HRP-039
+title: Promotion and Career Progression Policy
+owner: HR Operations
+version: 2.9
+effective: 01-Apr-2026
+review: 31-Mar-2027
+applies: All employees on the Meridian Systems India payroll
+#BODY
+## 1. Purpose
+A promotion at Meridian Systems India Private Limited recognises that an employee is already operating at the next grade, and formalises it. It is not a reward for tenure, and it is not a substitute for a salary increase. This policy sets out the eligibility, the process and the outcomes.
+
+## 2. Career tracks
+Meridian operates two parallel tracks of equal standing:
+
+| Track | Progression | Nature of the role |
+| Professional or technical | Engineer, Senior Engineer, Technical Lead, Architect, Principal Architect | Deep expertise, technical direction, no people management requirement |
+| Management | Engineer, Senior Engineer, Manager, Senior Manager, Director | Accountability for people, delivery and budget |
+
+An employee may move between tracks. Moving from the management track to the professional track is **not** a demotion and does not reduce grade or compensation. Managers must not present it as a step back, and HR Business Partners will challenge any case where it is framed that way.
+
+## 3. Eligibility
+| Criterion | Requirement |
+| Time in current grade | **18 months** for G1 to G4; **24 months** for G5 and above |
+| Performance | **Meets expectations or above** in each of the last two review cycles, and Exceeds expectations in at least one of them for a move into G5 and above |
+| Role availability | A role at the higher grade must exist in the approved structure, or the scope of the current role must have grown to the next grade |
+| Readiness | Demonstrated performance at the next grade for a sustained period, evidenced in the appraisal record |
+| Standing | No active Performance Improvement Plan, no live disciplinary proceeding, no unresolved conflict of interest declaration |
+
+Meeting the eligibility criteria makes an employee **eligible to be considered**. It does not create an entitlement to a promotion.
+
+## 4. The promotion cycle
+| Stage | Timing |
+| Manager nominations submitted in MyMeridian with evidence | 01 to 20 May |
+| Function review and shortlisting | 21 to 31 May |
+| Promotion panel for G5 and above | First week of June |
+| Approval by the business unit head and Head of HR | Second week of June |
+| Effective date | **01 July** |
+| Communication and revised letters | By 15 July |
+
+Off-cycle promotions are rare and require the business unit head and the Head of HR. They are considered where an employee has taken on a significantly larger role mid-year, typically to fill a gap created by a departure.
+
+## 5. The promotion panel
+For a move into G5 and above, a panel assesses readiness rather than relying on the nominating manager alone. The panel comprises the function head, a leader from another function, and the HR Business Partner. The candidate presents a case study or a body of work, and the panel assesses against the competency framework for the target grade. The outcome is recorded with reasons, and the reasons are shared with the candidate whether or not the promotion is granted.
+
+## 6. Compensation on promotion
+| Promotion | Typical increment |
+| Within a band, for example G3 to G4 | 8 to 12 per cent |
+| Across a band, for example G4 to G5 | 12 to 18 per cent |
+| Into G7 and above | Assessed individually against the range for the target grade |
+
+The promotion increment is in addition to the annual merit increment under HRP-010, and both take effect on 01 July. Where the resulting salary would fall below the minimum of the target grade's range, it is raised to the minimum regardless of the percentage.
+
+The variable pay target moves to the target grade's percentage under HRP-011 from the effective date, applied pro-rata for the year.
+
+## 7. Feedback when a promotion is not granted
+Every nominated employee who is not promoted receives a conversation with the manager within **10 working days** of the cycle closing, covering the specific gap, what evidence would demonstrate readiness, and the timeframe. A generic explanation such as "there was no budget" is not acceptable on its own; where budget was genuinely the constraint, that must be stated plainly along with the readiness assessment.
+
+## 8. Related documents
+- HRP-010 Compensation Structure and Salary Review Policy
+- HRP-011 Variable Pay and Performance Bonus Policy
+- HRP-035 Recruitment, Internal Job Posting and Background Verification Policy
+- HRP-037 Performance Management and Improvement Policy
+- HRP-038 Learning, Development and Certification Policy

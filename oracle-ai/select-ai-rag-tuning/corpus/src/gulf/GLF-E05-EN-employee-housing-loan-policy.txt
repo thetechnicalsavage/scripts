@@ -1,0 +1,63 @@
+#META
+id: GLF-E05-EN
+title: Employee Housing Loan Policy (Gulf)
+owner: Total Rewards Gulf
+version: 1.0
+effective: 01-Oct-2026
+review: 30-Sep-2027
+applies: Eligible employees on the Meridian Systems Gulf FZ-LLC payroll in the UAE, the Kingdom of Saudi Arabia and the State of Qatar
+#BODY
+## 1. Purpose and scope
+This policy sets out the interest-free loan that Meridian Systems Gulf FZ-LLC offers to help eligible employees buy a home to live in, in their country of employment. The loan helps with the down payment and the registration fees of the purchase. It is separate from the rent advance under GLF-004. An employee may hold both at the same time only if the total monthly recovery stays within the limit in GLF-006.
+
+Meridian gives no advice on property law, on mortgage finance or on whether the employee may own a particular property. The employee is responsible for confirming that they are legally permitted to own it.
+
+## 2. Eligibility
+- Continuous service of at least **3 years** for grades G3 to G6, or **2 years** for grade G7 and above. Grades G1 and G2 are not eligible.
+- A confirmed employment contract, not serving notice, and no written warning in the last **12 months**.
+- The property is the employee's main home and is in the country of employment. It is either completed, or an off-plan unit with at least **50 per cent** of construction certified complete.
+- One housing loan per employee during their employment with Meridian. Where both spouses work for Meridian, one loan per household.
+
+## 3. Loan amount
+| Grade band | UAE (AED) | KSA (SAR) | Qatar (QAR) |
+| G3 to G4 | 75,000 | 75,000 | 70,000 |
+| G5 to G6 | 150,000 | 150,000 | 140,000 |
+| G7 and above | 260,000 | 260,000 | 245,000 |
+
+The loan is also limited to the lower of **10 times** the monthly basic salary and **25 per cent** of the purchase price.
+
+Stated in full: a **grade G5 or G6** employee may borrow up to **AED 150,000** in the UAE, **SAR 150,000** in KSA or **QAR 140,000** in Qatar, subject to the two limits above.
+
+## 4. Cost and repayment
+- Meridian charges no interest, profit or fee on the loan.
+- The loan is repaid by equal monthly payroll deductions over up to **60 months** for G3 to G6, or up to **84 months** for G7 and above.
+- The monthly instalment may not exceed **15 per cent** of monthly gross salary. Where the labour law of the country of employment sets a lower limit on deductions for loans, the lower limit applies and the term or the loan amount is adjusted to fit.
+- Deductions start in the payroll of the month after disbursement.
+- The employee may repay early at any time without charge, in full or in amounts of at least **AED 12,000**, **SAR 12,000** or **QAR 12,000**.
+
+If the property is sold, or stops being the employee's main home, the balance is repaid within **30 days**. If the employee dies in service, Meridian waives the outstanding balance.
+
+## 5. Annual loan budget
+Loans are approved within a fixed yearly budget for each country, in the order in which complete applications are received. Applications beyond the budget go on a waiting list and are considered first in the following year.
+
+| Country | Annual loan budget |
+| UAE | AED 3,200,000 |
+| KSA | SAR 3,200,000 |
+| Qatar | QAR 2,100,000 |
+
+## 6. Applying and disbursement
+- Apply in MyMeridian > Loans > Housing Loan with the sale and purchase agreement or reservation form, the payment details of the seller or developer, and a copy of the residence identity card.
+- Approval requires the reporting manager, the Country HR Head, the Head of Total Rewards Gulf and Country Finance. A decision is given within **15 working days** of a complete application.
+- The loan is paid within **10 working days** of approval, directly to the seller, the developer's escrow account or the registration authority. It is never paid to the employee.
+- A copy of the title deed, or of the registered off-plan contract, is uploaded within **60 days** of the transfer.
+
+## 7. Separation and transfer
+- On resignation or termination, the outstanding balance becomes due. It is deducted from the final settlement, including the end-of-service benefit. Any remainder is repaid under a repayment agreement signed before the last working day, over no more than **12 months**.
+- On a transfer between Gulf countries, the loan stays in its original currency, and each instalment is converted at that month's payroll exchange rate.
+- On a transfer to Meridian Systems India Private Limited, the balance is settled within **90 days** of the transfer date.
+
+## 8. Related documents
+- GLF-004 Housing, Transport and Allowances Policy
+- GLF-006 Wage Protection System and Payroll Calendar Policy
+
+Fictional document created for a technical demonstration. Not legal advice.

@@ -1,0 +1,99 @@
+#META
+id: HRP-028
+title: Disciplinary Action, Misconduct and Grievance Policy
+owner: HR Operations
+version: 4.0
+effective: 01-Apr-2026
+review: 31-Mar-2027
+applies: All employees on the Meridian Systems India payroll
+#BODY
+## 1. Purpose
+This policy sets out what Meridian Systems India Private Limited treats as misconduct, the procedure that is followed before any action is taken, the penalties available, and the route for an employee to raise a grievance.
+
+Two principles govern every case: **no penalty without a fair hearing**, and **proportionality between the misconduct and the penalty**.
+
+## 2. Minor misconduct
+Typically addressed through counselling and, if repeated, a written warning:
+- Persistent late attendance or unauthorised short absence.
+- Failure to submit timesheets or expense claims within the prescribed period.
+- Careless work resulting in rework, where the cause is not negligence of a serious kind.
+- Discourtesy to a colleague, a client or a visitor.
+- Failure to complete mandatory compliance training after two reminders.
+- Non-compliance with the dress or access-card requirements at the workplace.
+
+## 3. Major misconduct
+May result in termination, including for a first offence:
+- Theft, fraud, or dishonesty in connection with the company's or a client's business or property.
+- Falsification of any record, including timesheets, expense claims, test evidence, qualifications or the credentials submitted at hiring.
+- Wilful damage to company or client property.
+- Unauthorised disclosure of confidential or personal data.
+- Accepting or offering a bribe, or a breach of HRP-025.
+- An undeclared conflict of interest that influenced a company decision, in breach of HRP-023.
+- Dual employment in breach of HRP-029.
+- Sexual harassment, or harassment or discrimination in breach of HRP-024 or HRP-027.
+- Physical violence, or threatening behaviour at the workplace.
+- Being under the influence of alcohol or a controlled substance at the workplace.
+- Wilful insubordination or disobedience of a lawful and reasonable instruction.
+- Habitual absence without leave, or absence without leave for more than 5 consecutive days.
+- Conviction for a criminal offence involving moral turpitude.
+- Retaliation against a person who has raised a concern under HRP-026.
+
+## 4. The disciplinary procedure
+| Stage | What happens | Timeline |
+| Preliminary assessment | HR Business Partner establishes whether there is a case to answer | 5 working days |
+| Show-cause notice | The employee receives a written notice setting out the specific allegation, the evidence relied on, and the possible consequences | Issued on conclusion of the assessment |
+| Employee's reply | The employee responds in writing | **7 calendar days**, extendable once on request |
+| Domestic inquiry | Convened where the reply does not resolve the matter, or where the allegation is major misconduct | Constituted within 10 working days |
+| Inquiry completed | Report submitted to the disciplinary authority | 30 days from constitution |
+| Decision | Communicated in writing with reasons | 10 working days from the report |
+| Appeal | To the next higher authority | Within **15 days** of the decision |
+
+### The domestic inquiry
+- Conducted by an inquiry officer who has had no prior involvement in the matter.
+- The employee may be accompanied by a colleague of their choice. Legal representation is not permitted, in line with settled practice for domestic inquiries.
+- The employee is given copies of the documents relied on, the right to cross-examine witnesses, and the right to lead evidence in defence.
+- The proceedings are recorded and the employee signs each day's record.
+- The standard of proof is the preponderance of probability, not proof beyond reasonable doubt.
+
+## 5. Suspension pending inquiry
+Where the continued presence of the employee would prejudice the inquiry or pose a risk, the employee may be suspended. Suspension is **not a penalty**.
+
+| Period of suspension | Subsistence allowance |
+| First 90 days | 50 per cent of wages |
+| Day 91 onwards, where the delay is not attributable to the employee | 75 per cent of wages |
+
+If the employee is exonerated, the suspension period is treated as duty and the balance of wages is paid.
+
+## 6. Penalties
+In increasing order of severity:
+- Documented counselling.
+- Written warning, retained on the personnel file for 12 months.
+- Final written warning, retained for 24 months.
+- Withholding of the annual increment, for a stated period.
+- Withholding of a promotion, for a stated period.
+- Demotion to a lower grade.
+- Termination of employment with notice.
+- Termination without notice, for major misconduct, with recovery of any loss caused.
+
+A warning that has run its retention period is disregarded in any future proceeding.
+
+## 7. Grievance procedure
+A grievance is a concern raised by an employee about their own employment: work allocation, an appraisal rating, a compensation decision, working conditions, or the behaviour of a colleague or manager.
+
+| Stage | Raised with | Response time |
+| Stage 1 | The reporting manager, informally | 5 working days |
+| Stage 2 | The HR Business Partner, in writing through an AskHR ticket | 10 working days |
+| Stage 3 | The function head, with the HR Business Partner present | 15 working days |
+| Stage 4 | The Head of HR, whose decision is final within the company | 20 working days |
+
+An employee may skip Stage 1 where the grievance concerns the reporting manager. A grievance about sexual harassment goes to the Internal Committee under HRP-024 and does not follow this route. A grievance about a matter listed in HRP-026 section 2 goes to the whistleblower channel.
+
+## 8. Records
+Disciplinary records are held in the personnel file with restricted access. They are retained for **8 years** after separation, in line with HRP-032. An employee may request a copy of their own disciplinary record through an AskHR ticket.
+
+## 9. Related documents
+- HRP-022 Code of Business Conduct and Ethics
+- HRP-024 Prevention of Sexual Harassment at the Workplace Policy
+- HRP-026 Whistleblower and Protected Disclosure Policy
+- HRP-029 Moonlighting and Dual Employment Policy
+- HRP-037 Performance Management and Improvement Policy

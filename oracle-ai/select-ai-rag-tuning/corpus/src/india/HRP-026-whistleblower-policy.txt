@@ -1,0 +1,72 @@
+#META
+id: HRP-026
+title: Whistleblower and Protected Disclosure Policy
+owner: Corporate Compliance
+version: 2.8
+effective: 01-Apr-2026
+review: 31-Mar-2027
+applies: All employees, directors, contractors, vendors and clients of Meridian Systems India
+#BODY
+## 1. Purpose and legal basis
+This policy establishes the vigil mechanism required by **section 177(9) of the Companies Act 2013** and Regulation 22 of the SEBI Listing Regulations. It gives every person a safe, confidential route to report genuine concerns about wrongdoing at Meridian Systems India Private Limited, and guarantees protection from retaliation for anyone who does so in good faith.
+
+## 2. What should be reported
+- Fraud, theft, misappropriation or misuse of company or client assets.
+- Falsification of records, accounts, timesheets, test results or audit evidence.
+- Bribery, corruption, kickbacks or facilitation payments.
+- A breach of law or regulation, or of a client contract.
+- A conflict of interest that has not been declared.
+- A data breach or the deliberate misuse of personal or client data.
+- A danger to the health or safety of any person.
+- Deliberate concealment of any of the above.
+- Retaliation against someone who has raised a concern.
+
+## 3. What should not be reported through this channel
+Personal grievances about a manager, an appraisal rating, a compensation decision, a team allocation or an interpersonal conflict are handled through the grievance process in HRP-028 and the HR Business Partner, not through the whistleblower mechanism. A complaint of sexual harassment goes to the Internal Committee under HRP-024, because that process is prescribed by statute. Where a report received here belongs in another process, Corporate Compliance routes it and tells the reporter it has been routed.
+
+## 4. How to report
+| Channel | Details |
+| Ethics hotline | A toll-free number operated by an independent third party, 24 hours a day, in English, Hindi, Kannada, Tamil, Telugu and Marathi |
+| Ethics web portal | An externally hosted portal that accepts anonymous reports and issues a case reference for follow-up |
+| Email | The ethics mailbox, monitored only by the Compliance Officer |
+| In person or in writing | To the Compliance Officer, or directly to the Chairperson of the Audit Committee |
+| Direct access to the Audit Committee | Available to any reporter in exceptional cases, and mandatory where the concern involves the Compliance Officer, a member of the senior management team, or a director |
+
+The identity of the reporter is known only to the Compliance Officer and, where necessary, to the investigator. It is not disclosed to the person under investigation, to the reporter's manager, or to anyone else without the reporter's written consent.
+
+## 5. Anonymous reports
+Anonymous reports are accepted and investigated. The reporter should be aware that anonymity can limit the investigation, because follow-up questions cannot be asked. The web portal allows an anonymous reporter to return with a case reference and a passphrase to answer questions while remaining anonymous, and this is the preferred route.
+
+## 6. Investigation process
+| Stage | Timeline |
+| Acknowledgement to the reporter, where contactable | 3 working days |
+| Preliminary assessment by the Compliance Officer | 7 working days |
+| Appointment of an investigator, independent of the area concerned | 10 working days |
+| Investigation concluded | **45 days**, extendable once by 30 days with Audit Committee approval |
+| Outcome communicated to the reporter | 10 working days after conclusion |
+
+Where the concern involves a member of the senior management team or a director, the investigation is conducted under the direct supervision of the Audit Committee and the Compliance Officer has no decision-making role.
+
+## 7. Protection from retaliation
+Meridian prohibits any detriment to a person who raises a concern in good faith, or who assists an investigation. Detriment includes dismissal, a change in duties, an adverse appraisal rating, the withdrawal of an opportunity, exclusion, or informal pressure.
+
+- Protection applies **even where the concern turns out to be mistaken**, provided it was raised in good faith.
+- Protection extends to witnesses and to anyone who supports the reporter.
+- A reporter who believes they are suffering retaliation should contact the Compliance Officer immediately. Retaliation is investigated as a separate matter under HRP-028 and is treated as serious misconduct.
+- Raising a concern does not protect a person from the consequences of their own participation in the wrongdoing, although self-reporting is taken into account as a mitigating factor.
+
+## 8. Deliberately false reports
+A report made in good faith that is not substantiated attracts no action whatsoever. A report that the investigator concludes was **knowingly false and made to harm another person** is misconduct under HRP-028. The bar for this finding is deliberately high, and it requires the Audit Committee's concurrence.
+
+## 9. Oversight and reporting
+The Compliance Officer reports to the Audit Committee every quarter with the number of reports received by category, the status of each investigation, the outcomes and any themes requiring management action. The existence of the vigil mechanism and the fact that no person has been denied access to the Audit Committee are disclosed in the Directors' Report each year.
+
+## 10. Record retention
+Case records are retained for **8 years** from closure, in a restricted repository accessible only to the Compliance Officer and the Audit Committee secretary.
+
+## 11. Related documents
+- HRP-022 Code of Business Conduct and Ethics
+- HRP-024 Prevention of Sexual Harassment at the Workplace Policy
+- HRP-025 Anti-Bribery and Anti-Corruption Policy
+- HRP-028 Disciplinary Action and Misconduct Policy
+- HRP-032 Data Privacy and Personal Data Protection Policy

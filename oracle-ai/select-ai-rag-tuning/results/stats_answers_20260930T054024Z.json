@@ -1,0 +1,779 @@
+{
+ "inputs": [
+  "rag_20260930T023755Z_r1.jsonl",
+  "rag_20260930T023755Z_r2.jsonl",
+  "rag_20260930T023755Z_r3.jsonl"
+ ],
+ "kind": "answers",
+ "questions_digest": "c1c89bf2d3c52e8e9481aeb06a3057803ac95d0f3ac2b21473f5d8c5f1ff60ee",
+ "result": {
+  "adjudicated": [
+   {
+    "answerable_majority": {
+     "ci95": [
+      0.2917,
+      0.5412
+     ],
+     "n": 56,
+     "rate": 0.4107,
+     "x": 23
+    },
+    "answerable_per_run": {
+     "1": {
+      "ci95": [
+       0.2758,
+       0.5237
+      ],
+      "n": 56,
+      "rate": 0.3929,
+      "x": 22
+     },
+     "2": {
+      "ci95": [
+       0.2917,
+       0.5412
+      ],
+      "n": 56,
+      "rate": 0.4107,
+      "x": 23
+     },
+     "3": {
+      "ci95": [
+       0.2758,
+       0.5237
+      ],
+      "n": 56,
+      "rate": 0.3929,
+      "x": 22
+     }
+    },
+    "index": "RAG_M0_C1024_O128_COS",
+    "infra_rate": 0.0,
+    "infra_unscored": 0,
+    "publishable": true,
+    "questions": 68,
+    "runs": [
+     1,
+     2,
+     3
+    ],
+    "scope": "core",
+    "stable_all_runs": 57,
+    "unanswerable_majority_descriptive": {
+     "ci95": [
+      0.1933,
+      0.6805
+     ],
+     "n": 12,
+     "rate": 0.4167,
+     "x": 5
+    }
+   },
+   {
+    "answerable_majority": {
+     "ci95": [
+      0.2917,
+      0.5412
+     ],
+     "n": 56,
+     "rate": 0.4107,
+     "x": 23
+    },
+    "answerable_per_run": {
+     "1": {
+      "ci95": [
+       0.2758,
+       0.5237
+      ],
+      "n": 56,
+      "rate": 0.3929,
+      "x": 22
+     },
+     "2": {
+      "ci95": [
+       0.2917,
+       0.5412
+      ],
+      "n": 56,
+      "rate": 0.4107,
+      "x": 23
+     },
+     "3": {
+      "ci95": [
+       0.2601,
+       0.5059
+      ],
+      "n": 56,
+      "rate": 0.375,
+      "x": 21
+     }
+    },
+    "index": "RAG_M0_C2000_O300_COS",
+    "infra_rate": 0.0,
+    "infra_unscored": 0,
+    "publishable": true,
+    "questions": 68,
+    "runs": [
+     1,
+     2,
+     3
+    ],
+    "scope": "core",
+    "stable_all_runs": 47,
+    "unanswerable_majority_descriptive": {
+     "ci95": [
+      0.2538,
+      0.7462
+     ],
+     "n": 12,
+     "rate": 0.5,
+     "x": 6
+    }
+   },
+   {
+    "answerable_majority": {
+     "ci95": [
+      0.4241,
+      0.6761
+     ],
+     "n": 56,
+     "rate": 0.5536,
+     "x": 31
+    },
+    "answerable_per_run": {
+     "1": {
+      "ci95": [
+       0.4414,
+       0.6923
+      ],
+      "n": 56,
+      "rate": 0.5714,
+      "x": 32
+     },
+     "2": {
+      "ci95": [
+       0.407,
+       0.6598
+      ],
+      "n": 56,
+      "rate": 0.5357,
+      "x": 30
+     },
+     "3": {
+      "ci95": [
+       0.4241,
+       0.6761
+      ],
+      "n": 56,
+      "rate": 0.5536,
+      "x": 31
+     }
+    },
+    "index": "RAG_M1_C1024_O128_COS",
+    "infra_rate": 0.0,
+    "infra_unscored": 0,
+    "publishable": true,
+    "questions": 68,
+    "runs": [
+     1,
+     2,
+     3
+    ],
+    "scope": "core",
+    "stable_all_runs": 49,
+    "unanswerable_majority_descriptive": {
+     "ci95": [
+      0.3195,
+      0.8067
+     ],
+     "n": 12,
+     "rate": 0.5833,
+     "x": 7
+    }
+   },
+   {
+    "answerable_majority": {
+     "ci95": [
+      0.6041,
+      0.8304
+     ],
+     "n": 56,
+     "rate": 0.7321,
+     "x": 41
+    },
+    "answerable_per_run": {
+     "1": {
+      "ci95": [
+       0.6041,
+       0.8304
+      ],
+      "n": 56,
+      "rate": 0.7321,
+      "x": 41
+     },
+     "2": {
+      "ci95": [
+       0.6423,
+       0.859
+      ],
+      "n": 56,
+      "rate": 0.7679,
+      "x": 43
+     },
+     "3": {
+      "ci95": [
+       0.6231,
+       0.8448
+      ],
+      "n": 56,
+      "rate": 0.75,
+      "x": 42
+     }
+    },
+    "index": "RAG_M4_C1024_O128_COS",
+    "infra_rate": 0.0,
+    "infra_unscored": 0,
+    "publishable": true,
+    "questions": 68,
+    "runs": [
+     1,
+     2,
+     3
+    ],
+    "scope": "core",
+    "stable_all_runs": 54,
+    "unanswerable_majority_descriptive": {
+     "ci95": [
+      0.4677,
+      0.9111
+     ],
+     "n": 12,
+     "rate": 0.75,
+     "x": 9
+    }
+   },
+   {
+    "answerable_majority": {
+     "ci95": [
+      0.2446,
+      0.4881
+     ],
+     "n": 56,
+     "rate": 0.3571,
+     "x": 20
+    },
+    "answerable_per_run": {
+     "1": {
+      "ci95": [
+       0.2601,
+       0.5059
+      ],
+      "n": 56,
+      "rate": 0.375,
+      "x": 21
+     },
+     "2": {
+      "ci95": [
+       0.2446,
+       0.4881
+      ],
+      "n": 56,
+      "rate": 0.3571,
+      "x": 20
+     },
+     "3": {
+      "ci95": [
+       0.2292,
+       0.47
+      ],
+      "n": 56,
+      "rate": 0.3393,
+      "x": 19
+     }
+    },
+    "index": "RAG_M5_C1024_O128_COS",
+    "infra_rate": 0.0,
+    "infra_unscored": 0,
+    "publishable": true,
+    "questions": 68,
+    "runs": [
+     1,
+     2,
+     3
+    ],
+    "scope": "core",
+    "stable_all_runs": 65,
+    "unanswerable_majority_descriptive": {
+     "ci95": [
+      0.7575,
+      1.0
+     ],
+     "n": 12,
+     "rate": 1.0,
+     "x": 12
+    }
+   },
+   {
+    "answerable_majority": {
+     "ci95": [
+      0.3239,
+      0.5759
+     ],
+     "n": 56,
+     "rate": 0.4464,
+     "x": 25
+    },
+    "answerable_per_run": {
+     "1": {
+      "ci95": [
+       0.3239,
+       0.5759
+      ],
+      "n": 56,
+      "rate": 0.4464,
+      "x": 25
+     },
+     "2": {
+      "ci95": [
+       0.3077,
+       0.5586
+      ],
+      "n": 56,
+      "rate": 0.4286,
+      "x": 24
+     },
+     "3": {
+      "ci95": [
+       0.3077,
+       0.5586
+      ],
+      "n": 56,
+      "rate": 0.4286,
+      "x": 24
+     }
+    },
+    "index": "RAG_M6_C1024_O128_COS",
+    "infra_rate": 0.0,
+    "infra_unscored": 0,
+    "publishable": true,
+    "questions": 68,
+    "runs": [
+     1,
+     2,
+     3
+    ],
+    "scope": "core",
+    "stable_all_runs": 52,
+    "unanswerable_majority_descriptive": {
+     "ci95": [
+      0.4677,
+      0.9111
+     ],
+     "n": 12,
+     "rate": 0.75,
+     "x": 9
+    }
+   }
+  ],
+  "audit": {
+   "agreement": {
+    "ci95": [
+     0.8718,
+     0.9245
+    ],
+    "n": 496,
+    "rate": 0.9012,
+    "x": 447
+   },
+   "applied": 496,
+   "changed": 49,
+   "confusion": {
+    "contaminated->contaminated": 22,
+    "contaminated->correct": 1,
+    "contaminated->false_refusal": 4,
+    "contaminated->wrong": 6,
+    "correct->correct": 210,
+    "false_refusal->false_refusal": 154,
+    "false_refusal->wrong": 2,
+    "wrong->correct": 10,
+    "wrong->false_refusal": 26,
+    "wrong->wrong": 61
+   },
+   "file": "model_adjudication.jsonl",
+   "flagged": 894,
+   "flagged_unaudited": 667,
+   "records": 496,
+   "unmatched": 0
+  },
+  "scorer": [
+   {
+    "answerable_majority": {
+     "ci95": [
+      0.2917,
+      0.5412
+     ],
+     "n": 56,
+     "rate": 0.4107,
+     "x": 23
+    },
+    "answerable_per_run": {
+     "1": {
+      "ci95": [
+       0.2758,
+       0.5237
+      ],
+      "n": 56,
+      "rate": 0.3929,
+      "x": 22
+     },
+     "2": {
+      "ci95": [
+       0.2917,
+       0.5412
+      ],
+      "n": 56,
+      "rate": 0.4107,
+      "x": 23
+     },
+     "3": {
+      "ci95": [
+       0.2758,
+       0.5237
+      ],
+      "n": 56,
+      "rate": 0.3929,
+      "x": 22
+     }
+    },
+    "index": "RAG_M0_C1024_O128_COS",
+    "infra_rate": 0.0,
+    "infra_unscored": 0,
+    "publishable": true,
+    "questions": 68,
+    "runs": [
+     1,
+     2,
+     3
+    ],
+    "scope": "core",
+    "stable_all_runs": 54,
+    "unanswerable_majority_descriptive": {
+     "ci95": [
+      0.1381,
+      0.6094
+     ],
+     "n": 12,
+     "rate": 0.3333,
+     "x": 4
+    }
+   },
+   {
+    "answerable_majority": {
+     "ci95": [
+      0.2917,
+      0.5412
+     ],
+     "n": 56,
+     "rate": 0.4107,
+     "x": 23
+    },
+    "answerable_per_run": {
+     "1": {
+      "ci95": [
+       0.2758,
+       0.5237
+      ],
+      "n": 56,
+      "rate": 0.3929,
+      "x": 22
+     },
+     "2": {
+      "ci95": [
+       0.2917,
+       0.5412
+      ],
+      "n": 56,
+      "rate": 0.4107,
+      "x": 23
+     },
+     "3": {
+      "ci95": [
+       0.2601,
+       0.5059
+      ],
+      "n": 56,
+      "rate": 0.375,
+      "x": 21
+     }
+    },
+    "index": "RAG_M0_C2000_O300_COS",
+    "infra_rate": 0.0,
+    "infra_unscored": 0,
+    "publishable": true,
+    "questions": 68,
+    "runs": [
+     1,
+     2,
+     3
+    ],
+    "scope": "core",
+    "stable_all_runs": 49,
+    "unanswerable_majority_descriptive": {
+     "ci95": [
+      0.2538,
+      0.7462
+     ],
+     "n": 12,
+     "rate": 0.5,
+     "x": 6
+    }
+   },
+   {
+    "answerable_majority": {
+     "ci95": [
+      0.4241,
+      0.6761
+     ],
+     "n": 56,
+     "rate": 0.5536,
+     "x": 31
+    },
+    "answerable_per_run": {
+     "1": {
+      "ci95": [
+       0.4414,
+       0.6923
+      ],
+      "n": 56,
+      "rate": 0.5714,
+      "x": 32
+     },
+     "2": {
+      "ci95": [
+       0.407,
+       0.6598
+      ],
+      "n": 56,
+      "rate": 0.5357,
+      "x": 30
+     },
+     "3": {
+      "ci95": [
+       0.4241,
+       0.6761
+      ],
+      "n": 56,
+      "rate": 0.5536,
+      "x": 31
+     }
+    },
+    "index": "RAG_M1_C1024_O128_COS",
+    "infra_rate": 0.0,
+    "infra_unscored": 0,
+    "publishable": true,
+    "questions": 68,
+    "runs": [
+     1,
+     2,
+     3
+    ],
+    "scope": "core",
+    "stable_all_runs": 52,
+    "unanswerable_majority_descriptive": {
+     "ci95": [
+      0.3195,
+      0.8067
+     ],
+     "n": 12,
+     "rate": 0.5833,
+     "x": 7
+    }
+   },
+   {
+    "answerable_majority": {
+     "ci95": [
+      0.6041,
+      0.8304
+     ],
+     "n": 56,
+     "rate": 0.7321,
+     "x": 41
+    },
+    "answerable_per_run": {
+     "1": {
+      "ci95": [
+       0.6041,
+       0.8304
+      ],
+      "n": 56,
+      "rate": 0.7321,
+      "x": 41
+     },
+     "2": {
+      "ci95": [
+       0.6423,
+       0.859
+      ],
+      "n": 56,
+      "rate": 0.7679,
+      "x": 43
+     },
+     "3": {
+      "ci95": [
+       0.6231,
+       0.8448
+      ],
+      "n": 56,
+      "rate": 0.75,
+      "x": 42
+     }
+    },
+    "index": "RAG_M4_C1024_O128_COS",
+    "infra_rate": 0.0,
+    "infra_unscored": 0,
+    "publishable": true,
+    "questions": 68,
+    "runs": [
+     1,
+     2,
+     3
+    ],
+    "scope": "core",
+    "stable_all_runs": 54,
+    "unanswerable_majority_descriptive": {
+     "ci95": [
+      0.4677,
+      0.9111
+     ],
+     "n": 12,
+     "rate": 0.75,
+     "x": 9
+    }
+   },
+   {
+    "answerable_majority": {
+     "ci95": [
+      0.2446,
+      0.4881
+     ],
+     "n": 56,
+     "rate": 0.3571,
+     "x": 20
+    },
+    "answerable_per_run": {
+     "1": {
+      "ci95": [
+       0.2601,
+       0.5059
+      ],
+      "n": 56,
+      "rate": 0.375,
+      "x": 21
+     },
+     "2": {
+      "ci95": [
+       0.2446,
+       0.4881
+      ],
+      "n": 56,
+      "rate": 0.3571,
+      "x": 20
+     },
+     "3": {
+      "ci95": [
+       0.2292,
+       0.47
+      ],
+      "n": 56,
+      "rate": 0.3393,
+      "x": 19
+     }
+    },
+    "index": "RAG_M5_C1024_O128_COS",
+    "infra_rate": 0.0,
+    "infra_unscored": 0,
+    "publishable": true,
+    "questions": 68,
+    "runs": [
+     1,
+     2,
+     3
+    ],
+    "scope": "core",
+    "stable_all_runs": 66,
+    "unanswerable_majority_descriptive": {
+     "ci95": [
+      0.7575,
+      1.0
+     ],
+     "n": 12,
+     "rate": 1.0,
+     "x": 12
+    }
+   },
+   {
+    "answerable_majority": {
+     "ci95": [
+      0.3239,
+      0.5759
+     ],
+     "n": 56,
+     "rate": 0.4464,
+     "x": 25
+    },
+    "answerable_per_run": {
+     "1": {
+      "ci95": [
+       0.3239,
+       0.5759
+      ],
+      "n": 56,
+      "rate": 0.4464,
+      "x": 25
+     },
+     "2": {
+      "ci95": [
+       0.3077,
+       0.5586
+      ],
+      "n": 56,
+      "rate": 0.4286,
+      "x": 24
+     },
+     "3": {
+      "ci95": [
+       0.3077,
+       0.5586
+      ],
+      "n": 56,
+      "rate": 0.4286,
+      "x": 24
+     }
+    },
+    "index": "RAG_M6_C1024_O128_COS",
+    "infra_rate": 0.0,
+    "infra_unscored": 0,
+    "publishable": true,
+    "questions": 68,
+    "runs": [
+     1,
+     2,
+     3
+    ],
+    "scope": "core",
+    "stable_all_runs": 52,
+    "unanswerable_majority_descriptive": {
+     "ci95": [
+      0.4677,
+      0.9111
+     ],
+     "n": 12,
+     "rate": 0.75,
+     "x": 9
+    }
+   }
+  ]
+ },
+ "split": "test",
+ "utc": "20260930T054024Z"
+}

@@ -1,0 +1,752 @@
+{
+ "bind_args": [
+  "--bind BEST_MULTILINGUAL=RAG_M5_C1024_O128_COS",
+  "--bind S3_WINNER=RAG_M0_C1024_O128_COS"
+ ],
+ "bindings": {
+  "BEST_MULTILINGUAL": "RAG_M5_C1024_O128_COS",
+  "S3_WINNER": "RAG_M0_C1024_O128_COS"
+ },
+ "corpus_format": "docx",
+ "cut_rows": [],
+ "decisions": {
+  "R1": {
+   "amendments": "Amendments v1.1 A11: When S3_WINNER is S1 itself, H5 compares S1 with itself and is reported as such.",
+   "candidates": [
+    {
+     "chunk_size": 640,
+     "config": "3",
+     "index": "RAG_M0_C640_O128_COS",
+     "k": 9,
+     "n": 32,
+     "rate": 0.375,
+     "x": 12
+    },
+    {
+     "chunk_size": 1024,
+     "config": "1",
+     "index": "RAG_M0_C1024_O128_COS",
+     "k": 6,
+     "n": 32,
+     "rate": 0.4375,
+     "x": 14
+    },
+    {
+     "chunk_size": 1536,
+     "config": "4",
+     "index": "RAG_M0_C1536_O128_COS",
+     "k": 4,
+     "n": 32,
+     "rate": 0.375,
+     "x": 12
+    },
+    {
+     "chunk_size": 2000,
+     "config": "5",
+     "index": "RAG_M0_C2000_O128_COS",
+     "k": 3,
+     "n": 32,
+     "rate": 0.3438,
+     "x": 11
+    }
+   ],
+   "notes": [
+    "S3_WINNER is S1 (RAG_M0_C1024_O128_COS): H5 compares S1 with itself (A11)"
+   ],
+   "reason": "1024 has the highest rate (0.4375); 1024 kept",
+   "rule": "R1",
+   "rule_text": "R1 S3 chunk_size (M0, overlap 128): candidates configs 3 (640), 1 (1024), 4 (1536), 5 (2000). Metric: containable-conditional evidence hit at budget k, dev, answerable, unmasked. Winner: the highest rate; ties go to the size nearer 1024 (then the smaller); 3 pp or less keeps 1024.",
+   "status": "decided",
+   "winner": 1024,
+   "winner_config": "1",
+   "winner_index": "RAG_M0_C1024_O128_COS"
+  },
+  "R2": {
+   "amendments": "Amendments v1.1 A2: a tie at the top that includes the default keeps the default (\"ties keep 128\"). A tie between two non-default candidates that both clear the 3 pp margin goes to the one nearer the default, then the smaller (the R1 tie rule): R2 at w=1024 -> 205 before 0. A3: R2 at w = 640: round(0.2 x 640) = 128 is the winner's own index, so R2 compares 0 and 128 only and row 7 is set to status 'cut' with the note \"20% of 640 = 128, the S3 winner's own overlap\".",
+   "candidates": [
+    {
+     "chunk_overlap": 0,
+     "config": "6",
+     "index": "RAG_M0_C1024_O0_COS"
+    },
+    {
+     "chunk_overlap": 205,
+     "config": "7",
+     "index": "RAG_M0_C1024_O205_COS"
+    },
+    {
+     "chunk_overlap": 128,
+     "config": "1",
+     "index": "RAG_M0_C1024_O128_COS"
+    }
+   ],
+   "chunk_size": 1024,
+   "missing": [
+    "RAG_M0_C1024_O0_COS",
+    "RAG_M0_C1024_O205_COS"
+   ],
+   "notes": [],
+   "reason": "waiting for RAG_M0_C1024_O0_COS, RAG_M0_C1024_O205_COS",
+   "row7_cut": false,
+   "rule": "R2",
+   "rule_text": "R2 S4 overlap at the R1 winner w: candidates overlap 0 (config 6), round(0.2 * w) (config 7) and 128 (the R1 winner's own index). Same metric and k = budget_k(w). 3 pp or less keeps 128. Ties keep 128. Config 6/7 rows: chunk_size w, match_limit budget_k(w), threshold 0, index names RAG_M0_C<w>_O<ovl>_COS, profiles RAG_P_M0_C<w>_O<ovl>_COS.",
+   "status": "pending"
+  },
+  "R3": {
+   "amendments": "Amendments v1.1 A4: Parameter counts for tie-breaks: M0 33M, M1 118M, M2 278M, M6 135M, M3 560M, M4 568M, M5 568M (then key order).",
+   "best_multilingual": "RAG_M5_C1024_O128_COS",
+   "decided_by": "tie_break_1",
+   "models": {
+    "M0": {
+     "config": "1",
+     "index": "RAG_M0_C1024_O128_COS",
+     "key": "M0",
+     "masked_t": {
+      "AR->AR": {
+       "k": 5,
+       "n": 8,
+       "rate": 0.0,
+       "x": 0
+      },
+      "AR->EN": {
+       "k": 5,
+       "n": 8,
+       "rate": 0.0,
+       "x": 0
+      },
+      "EN->AR": {
+       "k": 5,
+       "n": 8,
+       "rate": 0.0,
+       "x": 0
+      },
+      "EN->EN": {
+       "k": 5,
+       "n": 8,
+       "rate": 0.875,
+       "x": 7
+      }
+     },
+     "params_m": 33,
+     "primary": {
+      "k": 5,
+      "n": 32,
+      "rate": 0.375,
+      "x": 12
+     },
+     "tie_break_1": 0.21875
+    },
+    "M1": {
+     "config": "8",
+     "index": "RAG_M1_C1024_O128_COS",
+     "key": "M1",
+     "masked_t": {
+      "AR->AR": {
+       "k": 5,
+       "n": 8,
+       "rate": 0.75,
+       "x": 6
+      },
+      "AR->EN": {
+       "k": 5,
+       "n": 8,
+       "rate": 0.0,
+       "x": 0
+      },
+      "EN->AR": {
+       "k": 5,
+       "n": 8,
+       "rate": 0.0,
+       "x": 0
+      },
+      "EN->EN": {
+       "k": 5,
+       "n": 8,
+       "rate": 0.875,
+       "x": 7
+      }
+     },
+     "params_m": 118,
+     "primary": {
+      "k": 5,
+      "n": 32,
+      "rate": 0.6562,
+      "x": 21
+     },
+     "tie_break_1": 0.40625
+    },
+    "M2": {
+     "config": "9",
+     "index": "RAG_M2_C1024_O128_COS",
+     "key": "M2",
+     "masked_t": {
+      "AR->AR": {
+       "k": 5,
+       "n": 8,
+       "rate": 0.625,
+       "x": 5
+      },
+      "AR->EN": {
+       "k": 5,
+       "n": 8,
+       "rate": 0.0,
+       "x": 0
+      },
+      "EN->AR": {
+       "k": 5,
+       "n": 8,
+       "rate": 0.0,
+       "x": 0
+      },
+      "EN->EN": {
+       "k": 5,
+       "n": 8,
+       "rate": 0.875,
+       "x": 7
+      }
+     },
+     "params_m": 278,
+     "primary": {
+      "k": 5,
+      "n": 32,
+      "rate": 0.625,
+      "x": 20
+     },
+     "tie_break_1": 0.375
+    },
+    "M3": {
+     "config": "10",
+     "index": "RAG_M3_C1024_O128_COS",
+     "key": "M3",
+     "masked_t": {
+      "AR->AR": {
+       "k": 5,
+       "n": 8,
+       "rate": 0.875,
+       "x": 7
+      },
+      "AR->EN": {
+       "k": 5,
+       "n": 8,
+       "rate": 0.0,
+       "x": 0
+      },
+      "EN->AR": {
+       "k": 5,
+       "n": 8,
+       "rate": 0.0,
+       "x": 0
+      },
+      "EN->EN": {
+       "k": 5,
+       "n": 8,
+       "rate": 1.0,
+       "x": 8
+      }
+     },
+     "params_m": 560,
+     "primary": {
+      "k": 5,
+      "n": 32,
+      "rate": 0.6875,
+      "x": 22
+     },
+     "tie_break_1": 0.46875
+    },
+    "M4": {
+     "config": "11",
+     "index": "RAG_M4_C1024_O128_COS",
+     "key": "M4",
+     "masked_t": {
+      "AR->AR": {
+       "k": 5,
+       "n": 8,
+       "rate": 1.0,
+       "x": 8
+      },
+      "AR->EN": {
+       "k": 5,
+       "n": 8,
+       "rate": 0.5,
+       "x": 4
+      },
+      "EN->AR": {
+       "k": 5,
+       "n": 8,
+       "rate": 0.25,
+       "x": 2
+      },
+      "EN->EN": {
+       "k": 5,
+       "n": 8,
+       "rate": 0.875,
+       "x": 7
+      }
+     },
+     "params_m": 568,
+     "primary": {
+      "k": 5,
+      "n": 32,
+      "rate": 0.875,
+      "x": 28
+     },
+     "tie_break_1": 0.65625
+    },
+    "M5": {
+     "config": "12",
+     "index": "RAG_M5_C1024_O128_COS",
+     "key": "M5",
+     "masked_t": {
+      "AR->AR": {
+       "k": 5,
+       "n": 8,
+       "rate": 1.0,
+       "x": 8
+      },
+      "AR->EN": {
+       "k": 5,
+       "n": 8,
+       "rate": 0.625,
+       "x": 5
+      },
+      "EN->AR": {
+       "k": 5,
+       "n": 8,
+       "rate": 0.625,
+       "x": 5
+      },
+      "EN->EN": {
+       "k": 5,
+       "n": 8,
+       "rate": 0.875,
+       "x": 7
+      }
+     },
+     "params_m": 568,
+     "primary": {
+      "k": 5,
+      "n": 32,
+      "rate": 0.875,
+      "x": 28
+     },
+     "tie_break_1": 0.78125
+    },
+    "M6": {
+     "config": "13",
+     "index": "RAG_M6_C1024_O128_COS",
+     "key": "M6",
+     "masked_t": {
+      "AR->AR": {
+       "k": 5,
+       "n": 8,
+       "rate": 1.0,
+       "x": 8
+      },
+      "AR->EN": {
+       "k": 5,
+       "n": 8,
+       "rate": 0.0,
+       "x": 0
+      },
+      "EN->AR": {
+       "k": 5,
+       "n": 8,
+       "rate": 0.0,
+       "x": 0
+      },
+      "EN->EN": {
+       "k": 5,
+       "n": 8,
+       "rate": 0.25,
+       "x": 2
+      }
+     },
+     "params_m": 135,
+     "primary": {
+      "k": 5,
+      "n": 32,
+      "rate": 0.5625,
+      "x": 18
+     },
+     "tie_break_1": 0.3125
+    }
+   },
+   "no_primary_data": [],
+   "rank1": "M5",
+   "rank2": "M4",
+   "ranking": [
+    "M5",
+    "M4",
+    "M3",
+    "M1",
+    "M2"
+   ],
+   "ranking_reported": [
+    "M5",
+    "M4",
+    "M3",
+    "M1",
+    "M2",
+    "M6",
+    "M0"
+   ],
+   "ranking_reported_unresolved": [],
+   "reason": "rank 1 M5 (ev hit@5 0.875, masked T mean 0.78125) over rank 2 M4 (ev hit@5 0.875, masked T mean 0.65625), decided by tie_break_1",
+   "rule": "R3",
+   "rule_text": "R3 model ranking (S8, fixed chunk 1024/128): multilingual candidates M1..M5 (configs 8..12). Primary: evidence hit@5, dev, answerable, unmasked, unconditional (all dev answerable non-D questions). Tie-break 1 (difference below 1e-9): mean over the four masked directions EN->EN, AR->AR, EN->AR, AR->EN of evidence hit@5 on dev bucket T. Tie-break 2: the smaller model (parameters: M1 118M, M2 278M, M3 560M, M4 568M, M5 568M; then key order). Rank 1 = BEST_MULTILINGUAL (binds stats.py H2 to its 1024/128 index); ranks 1 and 2 get builds 14-17. M0 and M6 are ranked too (reported), but only M1..M5 are candidates.",
+   "status": "decided",
+   "top2": [
+    "M5",
+    "M4"
+   ]
+  },
+  "R4": {
+   "amendments": "Amendments v1.1 A2: a tie between two non-default candidates that both clear the 3 pp margin goes to the one nearer the default, then the smaller: R4 -> 1536 before 2000. A7: If builds 14-17 are cut, R4 keeps 1024 for that model.",
+   "models": {
+    "M4": {
+     "candidates": [
+      {
+       "chunk_size": 1024,
+       "config": "11",
+       "index": "RAG_M4_C1024_O128_COS"
+      },
+      {
+       "chunk_size": 1536,
+       "config": "16",
+       "index": "RAG_M4_C1536_O128_COS"
+      },
+      {
+       "chunk_size": 2000,
+       "config": "17",
+       "index": "RAG_M4_C2000_O128_COS"
+      }
+     ],
+     "cut": [],
+     "missing": [
+      "RAG_M4_C1536_O128_COS",
+      "RAG_M4_C2000_O128_COS"
+     ],
+     "rank": 2,
+     "reason": "waiting for RAG_M4_C1536_O128_COS, RAG_M4_C2000_O128_COS",
+     "rule": "R4",
+     "status": "pending"
+    },
+    "M5": {
+     "candidates": [
+      {
+       "chunk_size": 1024,
+       "config": "12",
+       "index": "RAG_M5_C1024_O128_COS"
+      },
+      {
+       "chunk_size": 1536,
+       "config": "14",
+       "index": "RAG_M5_C1536_O128_COS"
+      },
+      {
+       "chunk_size": 2000,
+       "config": "15",
+       "index": "RAG_M5_C2000_O128_COS"
+      }
+     ],
+     "cut": [],
+     "missing": [
+      "RAG_M5_C1536_O128_COS",
+      "RAG_M5_C2000_O128_COS"
+     ],
+     "rank": 1,
+     "reason": "waiting for RAG_M5_C1536_O128_COS, RAG_M5_C2000_O128_COS",
+     "rule": "R4",
+     "status": "pending"
+    }
+   },
+   "reason": "M5: waiting for RAG_M5_C1536_O128_COS, RAG_M5_C2000_O128_COS; M4: waiting for RAG_M4_C1536_O128_COS, RAG_M4_C2000_O128_COS",
+   "rule": "R4",
+   "rule_text": "R4 best chunk_size of each top-2 model: its 1024/128 index vs its 1536/128 (k 4) and 2000/128 (k 3) builds. Same metric as R1. 3 pp or less keeps 1024. Rows 14/15 = rank-1 model at 1536/2000; rows 16/17 = rank-2 model at 1536/2000 (index RAG_<key>_C<size>_O128_COS, profile RAG_P_<key>_C<size>_O128_COS, match_limit = budget k).",
+   "status": "pending"
+  },
+  "R5": {
+   "amendments": "Amendments v1.1 A5: R5 ranks every model whose 1024/128 index is among the inputs (M0..M6; M1Q excluded) by the R3 primary metric, with R3's tie-breaks (A4 counts). A model whose index is missing is reported and left out, not waited for. A6: for M0 the R1 winner w and the R2 overlap (an existing build: S3/S4 winner). For another model, its R4 best chunk c (1024 if it is not top-2, or if its builds 14-17 are cut), and the R2 choice carried over as a rule, not a character count: 128 stays 128, 0 stays 0, \"20%\" becomes round(0.2 x c). Build 19 is needed only when that index does not already exist. If S10 resolves to S1's own index (M0 wins, R1 and R2 keep the defaults), the tool reports it as an operator decision and binds nothing for H3. A8: Row 19 build-time match_limit = budget_k(chunk) and similarity_threshold 0 (as rows 3-7 and 14-17); the S10 knobs from R6/R7 are applied afterwards with 08_set_query_knobs.sql.",
+   "best_model": "M5",
+   "decided_by": "tie_break_1",
+   "left_out": [],
+   "missing": [
+    "R2"
+   ],
+   "notes": [],
+   "ranking": [
+    "M5",
+    "M4",
+    "M3",
+    "M1",
+    "M2",
+    "M6",
+    "M0"
+   ],
+   "reason": "best model M5; needs the R2 overlap (R2 is pending)",
+   "rule": "R5",
+   "rule_text": "R5 S10 model and chunking: the best of ALL models (M0..M6 and M1Q excluded as exploratory) by the R3 primary metric at 1024/128, then that model's best chunk_size (R4 if it is a top-2 model, else 1024), and overlap: the R2 winner applies to M0 only; for another model overlap stays 128 unless R2 chose a different overlap, in which case build 19 = best model x best chunk x R2 overlap (PLAN 4.3 row 19). If build 19 is not needed, S10 reuses the existing index.",
+   "status": "pending",
+   "unresolved": []
+  },
+  "R6": {
+   "missing": [
+    "R5"
+   ],
+   "reason": "needs S10 (R5)",
+   "rule": "R6",
+   "rule_text": "R6 match_limit for S10 (S5 rule): the smallest k in {3,5,6,8,10,12} with dev unmasked evidence hit@k >= hit@12 - 0.03 (unconditional, answerable).",
+   "status": "pending"
+  },
+  "R7": {
+   "amendments": "Amendments v1.1 A9: R7 uses eval_retrieval.calibrate_threshold's definition in SCORE units: an answerable question's score is its best evidence chunk, or, where no chunk holds the evidence, its best gold-document chunk (counted as a fallback); unanswerable questions without hits are left out. Scores are round(similarity, 2) half away from zero (Oracle ROUND), candidates t on the 0.01 grid from 0.00.",
+   "missing": [
+    "R5"
+   ],
+   "reason": "needs S10 (R5)",
+   "rule": "R7",
+   "rule_text": "R7 similarity_threshold for S10 (S6 rule, per model, SCORE units per P14): P14 measured that for a COSINE index Select AI's SCORE is 1 - cosine distance rounded to 2 dp (max error 4.9e-3 = rounding). Candidate thresholds t in {0.00, 0.01, ..., 0.99}. Maximise balanced accuracy = mean( share of dev answerable questions with round(best_evidence similarity, 2) >= t, share of dev unanswerable questions with round(top-1 hit similarity, 2) < t ). Ties go to the lower value. Unmasked records only.",
+   "status": "pending"
+  }
+ },
+ "experiments_rows": {
+  "14": {
+   "chunk_overlap": "128",
+   "chunk_size": "1536",
+   "corpus_format": "docx",
+   "index_name": "RAG_M5_C1536_O128_COS",
+   "match_limit": "4",
+   "metric": "COS",
+   "model_key": "M5",
+   "model_name": "ARCTIC_EMBED_L_V2",
+   "rag_profile": "RAG_P_M5_C1536_O128_COS",
+   "similarity_threshold": "0",
+   "status": "planned"
+  },
+  "15": {
+   "chunk_overlap": "128",
+   "chunk_size": "2000",
+   "corpus_format": "docx",
+   "index_name": "RAG_M5_C2000_O128_COS",
+   "match_limit": "3",
+   "metric": "COS",
+   "model_key": "M5",
+   "model_name": "ARCTIC_EMBED_L_V2",
+   "rag_profile": "RAG_P_M5_C2000_O128_COS",
+   "similarity_threshold": "0",
+   "status": "planned"
+  },
+  "16": {
+   "chunk_overlap": "128",
+   "chunk_size": "1536",
+   "corpus_format": "docx",
+   "index_name": "RAG_M4_C1536_O128_COS",
+   "match_limit": "4",
+   "metric": "COS",
+   "model_key": "M4",
+   "model_name": "BGE_M3",
+   "rag_profile": "RAG_P_M4_C1536_O128_COS",
+   "similarity_threshold": "0",
+   "status": "planned"
+  },
+  "17": {
+   "chunk_overlap": "128",
+   "chunk_size": "2000",
+   "corpus_format": "docx",
+   "index_name": "RAG_M4_C2000_O128_COS",
+   "match_limit": "3",
+   "metric": "COS",
+   "model_key": "M4",
+   "model_name": "BGE_M3",
+   "rag_profile": "RAG_P_M4_C2000_O128_COS",
+   "similarity_threshold": "0",
+   "status": "planned"
+  },
+  "6": {
+   "chunk_overlap": "0",
+   "chunk_size": "1024",
+   "corpus_format": "docx",
+   "index_name": "RAG_M0_C1024_O0_COS",
+   "match_limit": "6",
+   "metric": "COS",
+   "model_key": "M0",
+   "model_name": "ALL_MINILM_L12_V2",
+   "rag_profile": "RAG_P_M0_C1024_O0_COS",
+   "similarity_threshold": "0",
+   "status": "planned"
+  },
+  "7": {
+   "chunk_overlap": "205",
+   "chunk_size": "1024",
+   "corpus_format": "docx",
+   "index_name": "RAG_M0_C1024_O205_COS",
+   "match_limit": "6",
+   "metric": "COS",
+   "model_key": "M0",
+   "model_name": "ALL_MINILM_L12_V2",
+   "rag_profile": "RAG_P_M0_C1024_O205_COS",
+   "similarity_threshold": "0",
+   "status": "planned"
+  }
+ },
+ "inputs": [
+  {
+   "config_id": "1",
+   "corpus_format": "docx",
+   "index": "RAG_M0_C1024_O128_COS",
+   "n_questions": 116,
+   "path": "retrieval_RAG_M0_C1024_O128_COS_20260930T002614Z.jsonl",
+   "seal_digest": "c1c89bf2d3c52e8e9481aeb06a3057803ac95d0f3ac2b21473f5d8c5f1ff60ee",
+   "sha256": "f89e3ec65e6031213c3415a4157b960f8f3f5bba259f3116101a2be34d4b5129",
+   "split": "all",
+   "stamp": "20260930T002614Z",
+   "utc": "2026-09-30T00:26:14.926814+00:00"
+  },
+  {
+   "config_id": "4",
+   "corpus_format": "docx",
+   "index": "RAG_M0_C1536_O128_COS",
+   "n_questions": 116,
+   "path": "retrieval_RAG_M0_C1536_O128_COS_20260930T003027Z.jsonl",
+   "seal_digest": "c1c89bf2d3c52e8e9481aeb06a3057803ac95d0f3ac2b21473f5d8c5f1ff60ee",
+   "sha256": "871557209df5d1a568ca63b5199dce5f26636b7a3b680d92f3ac20062af9d9a4",
+   "split": "all",
+   "stamp": "20260930T003027Z",
+   "utc": "2026-09-30T00:30:28.143217+00:00"
+  },
+  {
+   "config_id": "5",
+   "corpus_format": "docx",
+   "index": "RAG_M0_C2000_O128_COS",
+   "n_questions": 116,
+   "path": "retrieval_RAG_M0_C2000_O128_COS_20260930T003154Z.jsonl",
+   "seal_digest": "c1c89bf2d3c52e8e9481aeb06a3057803ac95d0f3ac2b21473f5d8c5f1ff60ee",
+   "sha256": "a4e6767f212711a9b390ddddfbfc1616e4ef25d07c50e2a97b1732fe05e95d61",
+   "split": "all",
+   "stamp": "20260930T003154Z",
+   "utc": "2026-09-30T00:31:55.129998+00:00"
+  },
+  {
+   "config_id": "2",
+   "corpus_format": "docx",
+   "index": "RAG_M0_C2000_O300_COS",
+   "n_questions": 116,
+   "path": "retrieval_RAG_M0_C2000_O300_COS_20260930T002737Z.jsonl",
+   "seal_digest": "c1c89bf2d3c52e8e9481aeb06a3057803ac95d0f3ac2b21473f5d8c5f1ff60ee",
+   "sha256": "90c18369a91db64b61813635aba6886f33fb52038d4d0c92a8f3b372be95ce54",
+   "split": "all",
+   "stamp": "20260930T002737Z",
+   "utc": "2026-09-30T00:27:38.013811+00:00"
+  },
+  {
+   "config_id": "3",
+   "corpus_format": "docx",
+   "index": "RAG_M0_C640_O128_COS",
+   "n_questions": 116,
+   "path": "retrieval_RAG_M0_C640_O128_COS_20260930T002859Z.jsonl",
+   "seal_digest": "c1c89bf2d3c52e8e9481aeb06a3057803ac95d0f3ac2b21473f5d8c5f1ff60ee",
+   "sha256": "4bbeb0916c4718b614ec052210e565b4ca7e4f6d23695e0fc740d26182ebcaec",
+   "split": "all",
+   "stamp": "20260930T002859Z",
+   "utc": "2026-09-30T00:29:00.152933+00:00"
+  },
+  {
+   "config_id": "18",
+   "corpus_format": "docx",
+   "index": "RAG_M1Q_C1024_O128_COS",
+   "n_questions": 116,
+   "path": "retrieval_RAG_M1Q_C1024_O128_COS_20260930T005108Z.jsonl",
+   "seal_digest": "c1c89bf2d3c52e8e9481aeb06a3057803ac95d0f3ac2b21473f5d8c5f1ff60ee",
+   "sha256": "1354ee1453932fca2542837765987d4ebfefea43a5e9550a52463f962fdc749d",
+   "split": "all",
+   "stamp": "20260930T005108Z",
+   "utc": "2026-09-30T00:51:09.053019+00:00"
+  },
+  {
+   "config_id": "8",
+   "corpus_format": "docx",
+   "index": "RAG_M1_C1024_O128_COS",
+   "n_questions": 116,
+   "path": "retrieval_RAG_M1_C1024_O128_COS_20260930T003318Z.jsonl",
+   "seal_digest": "c1c89bf2d3c52e8e9481aeb06a3057803ac95d0f3ac2b21473f5d8c5f1ff60ee",
+   "sha256": "52788d0e49b6c11df77e40c715ea3e5aaca2fce199740b012caa326a34d4fb3f",
+   "split": "all",
+   "stamp": "20260930T003318Z",
+   "utc": "2026-09-30T00:33:19.084558+00:00"
+  },
+  {
+   "config_id": "9",
+   "corpus_format": "docx",
+   "index": "RAG_M2_C1024_O128_COS",
+   "n_questions": 116,
+   "path": "retrieval_RAG_M2_C1024_O128_COS_20260930T003405Z.jsonl",
+   "seal_digest": "c1c89bf2d3c52e8e9481aeb06a3057803ac95d0f3ac2b21473f5d8c5f1ff60ee",
+   "sha256": "a76b3796e5437c4b5f012b01d64921881135822252a35b135bf4496453f755ad",
+   "split": "all",
+   "stamp": "20260930T003405Z",
+   "utc": "2026-09-30T00:34:05.521960+00:00"
+  },
+  {
+   "config_id": "10",
+   "corpus_format": "docx",
+   "index": "RAG_M3_C1024_O128_COS",
+   "n_questions": 116,
+   "path": "retrieval_RAG_M3_C1024_O128_COS_20260930T003603Z.jsonl",
+   "seal_digest": "c1c89bf2d3c52e8e9481aeb06a3057803ac95d0f3ac2b21473f5d8c5f1ff60ee",
+   "sha256": "53a2c85bccb44c3e66ad35f576ff00be494b51feef7fd705f740b81fb32ee188",
+   "split": "all",
+   "stamp": "20260930T003603Z",
+   "utc": "2026-09-30T00:36:04.788757+00:00"
+  },
+  {
+   "config_id": "11",
+   "corpus_format": "docx",
+   "index": "RAG_M4_C1024_O128_COS",
+   "n_questions": 116,
+   "path": "retrieval_RAG_M4_C1024_O128_COS_20260930T004057Z.jsonl",
+   "seal_digest": "c1c89bf2d3c52e8e9481aeb06a3057803ac95d0f3ac2b21473f5d8c5f1ff60ee",
+   "sha256": "8e605153696f9fb577e5a274802443cd899dae14f42ef1248d5fb2edceec003d",
+   "split": "all",
+   "stamp": "20260930T004057Z",
+   "utc": "2026-09-30T00:40:58.935400+00:00"
+  },
+  {
+   "config_id": "12",
+   "corpus_format": "docx",
+   "index": "RAG_M5_C1024_O128_COS",
+   "n_questions": 116,
+   "path": "retrieval_RAG_M5_C1024_O128_COS_20260930T004446Z.jsonl",
+   "seal_digest": "c1c89bf2d3c52e8e9481aeb06a3057803ac95d0f3ac2b21473f5d8c5f1ff60ee",
+   "sha256": "c5b5f701bb10278c0f2d0e5a922e28462819d47bb77ba90050a0bdcd6bc2fefc",
+   "split": "all",
+   "stamp": "20260930T004446Z",
+   "utc": "2026-09-30T00:44:46.792233+00:00"
+  },
+  {
+   "config_id": "13",
+   "corpus_format": "docx",
+   "index": "RAG_M6_C1024_O128_COS",
+   "n_questions": 116,
+   "path": "retrieval_RAG_M6_C1024_O128_COS_20260930T004831Z.jsonl",
+   "seal_digest": "c1c89bf2d3c52e8e9481aeb06a3057803ac95d0f3ac2b21473f5d8c5f1ff60ee",
+   "sha256": "b04142c62768b6ed39c2ccc20a8b40986d39320a4f757d41199faa534942ac18",
+   "split": "all",
+   "stamp": "20260930T004831Z",
+   "utc": "2026-09-30T00:48:31.980091+00:00"
+  }
+ ],
+ "operator_decisions": [],
+ "pending": [
+  "R2",
+  "R4",
+  "R5",
+  "R6",
+  "R7"
+ ],
+ "questions_digest": "c1c89bf2d3c52e8e9481aeb06a3057803ac95d0f3ac2b21473f5d8c5f1ff60ee",
+ "rules": "DEV_RULES.md v1.1 (pre-registered 30-Sep-2026; amendments A1-A11)",
+ "s10_knobs": null,
+ "split": "dev",
+ "stamp": "20260930T013000Z",
+ "tool": "decide_dev.py v1.3"
+}

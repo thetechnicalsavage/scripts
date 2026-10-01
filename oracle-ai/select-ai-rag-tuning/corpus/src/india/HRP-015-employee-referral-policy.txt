@@ -1,0 +1,55 @@
+#META
+id: HRP-015
+title: Employee Referral Programme Policy
+owner: Talent Acquisition
+version: 3.2
+effective: 01-Apr-2026
+review: 31-Mar-2027
+applies: All employees on the Meridian Systems India payroll, except those listed in section 5
+#BODY
+## 1. Purpose
+Referrals from employees are consistently the best source of hires at Meridian Systems India Private Limited: they join faster, perform better and stay longer than candidates from any other channel. This policy sets out the referral bonus and how it is paid.
+
+## 2. Referral bonus
+| Grade of the position filled | Standard bonus | Bonus for a niche skill position |
+| G1 to G3 | INR 25,000 | INR 37,500 |
+| G4 to G6 | INR 50,000 | INR 75,000 |
+| G7 and above | INR 1,00,000 | INR 1,50,000 |
+
+A **niche skill position** is one flagged as such in the requisition by Talent Acquisition before the referral is submitted. The current niche list includes Oracle Database internals, site reliability engineering, embedded firmware, quantitative risk modelling and clinical data standards. The list is refreshed quarterly and published in MyMeridian.
+
+The bonus is a gross amount and is subject to tax deducted at source.
+
+## 3. Payment schedule
+| Milestone | Proportion paid |
+| Referred candidate joins and completes 30 days | 50 per cent |
+| Referred candidate completes 180 days | 50 per cent |
+
+Both payments are made with the next monthly payroll after the milestone is reached. The referrer must be on the rolls of Meridian and not serving notice on each milestone date. If the referrer leaves before the 180-day milestone, the second instalment is not paid.
+
+## 4. How to refer
+- Submit the referral in **MyMeridian > Careers > Refer a Candidate**, against a specific open requisition.
+- Attach the candidate's resume and confirm that the candidate has consented to the submission.
+- A referral is valid for **12 months** from the date of submission, against any requisition.
+- Where two employees refer the same candidate, the **earlier submission** in MyMeridian wins. Verbal claims are not entertained.
+- A candidate already in the Talent Acquisition database, whether from a direct application, a prior referral or an agency submission, within the preceding 12 months, is not eligible for a referral bonus. MyMeridian performs this check automatically at submission and tells the referrer immediately.
+
+## 5. Who cannot claim a referral bonus
+- Members of the Talent Acquisition team, at any grade.
+- The hiring manager for the position, and anyone in the interview panel for that candidate.
+- Employees in grade G8 and above, for whom building the talent pipeline is part of the role.
+- Any employee referring a **relative**, as defined in HRP-023. The referral is still welcome and will be processed, but no bonus is payable and the relationship must be declared at the point of referral.
+- Employees on notice period at the time the referral is submitted.
+
+## 6. Conflict of interest
+A referrer must not participate in the interview, the evaluation or the offer decision for the candidate they referred. A referrer who is in the reporting line of the hiring manager must declare this at the point of referral so that Talent Acquisition can arrange an independent panel.
+
+Referring a candidate with whom the referrer has a financial relationship, for example a business partner or a person to whom the referrer owes money, must be declared under HRP-023 before the referral is submitted.
+
+## 7. Referral campaigns
+Talent Acquisition may run time-bound campaigns offering enhanced bonuses for specific roles, for example a hiring drive for a new delivery centre. Campaign terms are published in MyMeridian and apply only to referrals submitted during the campaign window. Campaign bonuses replace, and are not added to, the standard bonus in section 2.
+
+## 8. Related documents
+- HRP-023 Conflict of Interest and Outside Engagement Policy
+- HRP-035 Recruitment, Internal Job Posting and Background Verification Policy
+- HRP-036 Onboarding, Probation and Confirmation Policy

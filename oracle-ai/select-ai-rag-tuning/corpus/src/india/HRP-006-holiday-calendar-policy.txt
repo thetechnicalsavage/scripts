@@ -1,0 +1,69 @@
+#META
+id: HRP-006
+title: Holiday Calendar and Restricted Holiday Policy
+owner: HR Operations
+version: 5.0
+effective: 01-Jan-2026
+review: 31-Dec-2026
+applies: All employees at Meridian Systems India locations
+#BODY
+## 1. Purpose
+This document publishes the Meridian Systems India holiday calendar for the 2026 calendar year and explains how fixed and restricted holidays work. India has significant regional variation in public holidays, so the calendar is maintained per location.
+
+## 2. Structure of the entitlement
+Every employee receives **12 paid holidays** in a calendar year:
+
+- **10 fixed holidays**, declared for the employee's base location and applicable to everyone at that location.
+- **2 restricted holidays**, selected by the employee from the restricted list for the location.
+
+Holidays falling on a Saturday or Sunday are not compensated with an alternative day, except where the location has fewer than 10 working-day holidays available, in which case HR Operations adds a bridge day.
+
+## 3. Fixed holidays 2026 - all locations
+| Date | Day | Occasion |
+| 01 Jan 2026 | Thursday | New Year's Day |
+| 26 Jan 2026 | Monday | Republic Day |
+| 03 Mar 2026 | Tuesday | Holi |
+| 15 Aug 2026 | Saturday | Independence Day |
+| 02 Oct 2026 | Friday | Gandhi Jayanti |
+| 08 Nov 2026 | Sunday | Diwali (Deepavali) |
+| 25 Dec 2026 | Friday | Christmas Day |
+
+## 4. Location-specific fixed holidays 2026
+| Location | Additional fixed holidays |
+| Bengaluru | Ugadi (19 Mar), Karnataka Rajyotsava (01 Nov), Ayudha Pooja (20 Oct) |
+| Chennai | Pongal (15 Jan), Tamil New Year (14 Apr), Ayudha Pooja (20 Oct) |
+| Hyderabad | Ugadi (19 Mar), Bathukamma (17 Oct), Telangana Formation Day (02 Jun) |
+| Pune | Gudi Padwa (19 Mar), Ganesh Chaturthi (14 Sep), Maharashtra Day (01 May) |
+| Gurugram | Raksha Bandhan (28 Aug), Dussehra (20 Oct), Bhai Dooj (10 Nov) |
+
+## 5. Restricted holidays 2026
+An employee selects any **2 days** from the list below. The selection is made in MyMeridian by 31 January and can be changed until 7 days before the chosen date.
+
+| Date | Occasion |
+| 14 Jan 2026 | Makar Sankranti |
+| 19 Feb 2026 | Maha Shivaratri |
+| 21 Mar 2026 | Id-ul-Fitr |
+| 27 Mar 2026 | Good Friday |
+| 31 Mar 2026 | Ram Navami |
+| 31 May 2026 | Buddha Purnima |
+| 28 May 2026 | Id-ul-Zuha (Bakrid) |
+| 26 Jun 2026 | Muharram |
+| 04 Sep 2026 | Janmashtami |
+| 24 Nov 2026 | Guru Nanak Jayanti |
+
+## 6. Rules for restricted holidays
+- A restricted holiday must be applied for in MyMeridian at least 3 working days in advance, like any other leave.
+- The reporting manager may decline a restricted holiday only where there is a critical business commitment on that date, and must offer an alternative date from the list.
+- Unused restricted holidays lapse on 31 December. They are not carried forward and are not encashed.
+- Restricted holidays taken are not deducted from Earned, Casual or Sick Leave.
+
+## 7. Working on a holiday
+Where business need requires an employee to work on a fixed or restricted holiday, the work must be approved in advance by the reporting manager. The employee earns a Compensatory Off under HRP-001 section 6, or on-call and overtime payment under HRP-008 where applicable, but not both for the same period.
+
+## 8. Employees working at a client site
+An employee deployed at a client location may be required to follow the client's holiday calendar. Where the client calendar has fewer holidays than the Meridian calendar for that location, the difference is credited as additional Compensatory Off. Where it has more, the additional days are unpaid unless the client contract provides otherwise. The BU head confirms the applicable calendar to HR Operations at the start of each calendar year.
+
+## 9. Related documents
+- HRP-001 Leave Policy
+- HRP-007 Attendance, Shift and Compensatory Off Policy
+- HRP-008 Overtime and On-Call Compensation Policy

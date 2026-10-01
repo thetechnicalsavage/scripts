@@ -1,0 +1,69 @@
+#META
+id: HRP-038
+title: Learning, Development and Certification Policy
+owner: Learning and Development
+version: 3.1
+effective: 01-Apr-2026
+review: 31-Mar-2027
+applies: All employees on the Meridian Systems India payroll
+#BODY
+## 1. Purpose
+This policy sets out the learning expectation at Meridian Systems India Private Limited, the funding available for certification and education, and the service commitments attached to the larger investments.
+
+## 2. The annual learning expectation
+Every employee is expected to complete a minimum of **40 learning hours** in each performance year, of which at least 16 hours must be in a skill relevant to the current or next role. Completion is tracked in MyMeridian > Learning and forms part of the capability goal under HRP-037.
+
+Mandatory compliance training - Code of Conduct, POSH, information security, data privacy and anti-bribery - is in addition to the 40 hours and is not counted towards it.
+
+## 3. What Meridian provides at no cost to the employee
+- Enterprise licences for the major online learning platforms, allocated on request through MyMeridian.
+- An internal technical curriculum, delivered by Meridian practitioners.
+- Structured role-based learning paths for each job family and grade.
+- Mentoring: a formal programme matching employees with a mentor outside their reporting line.
+- Leadership development programmes at G5, G7 and G9 transition points.
+- Conference attendance, where the employee is speaking or where the function head approves attendance as a business need.
+
+## 4. Certification reimbursement
+| Item | Provision |
+| Annual limit per employee | **INR 60,000** |
+| Coverage, first attempt passed | 100 per cent of the examination fee and the official study material |
+| Coverage, second attempt passed | 50 per cent of the second attempt fee |
+| Third and subsequent attempts | Not reimbursed |
+| Failed attempt | Not reimbursed |
+| Pre-approval | Required, from the reporting manager and Learning and Development, **before** booking the examination |
+| Eligibility | Confirmed employees; not available during a Performance Improvement Plan or a notice period |
+| Claim window | Within 60 days of the result |
+
+Certifications must appear on the **approved certification list** published in MyMeridian, which is refreshed quarterly and covers cloud platforms, databases, security, project and service management, data engineering and the domain certifications relevant to Meridian's industry verticals. A certification not on the list may be proposed through an AskHR ticket with a business justification, and is decided within 10 working days.
+
+## 5. Service commitment for larger investments
+| Total investment by Meridian | Service commitment from the date of completion |
+| Up to INR 1,00,000 | None |
+| INR 1,00,001 to INR 3,00,000 | 12 months |
+| Above INR 3,00,000 | 24 months |
+
+Where an employee resigns before completing the commitment, a pro-rated amount is recovered from the full and final settlement, calculated on the unserved months. No recovery is made where the separation is initiated by Meridian for reasons other than misconduct, nor in the event of death or permanent disablement.
+
+The service commitment is explained and signed before the investment is made. Meridian does not apply a commitment retrospectively.
+
+## 6. Tuition assistance for part-time higher education
+For a part-time degree or a formal executive programme relevant to the employee's career at Meridian:
+
+- **50 per cent of the tuition fee**, capped at **INR 2,00,000 per academic year**.
+- Available to confirmed employees with at least 24 months of service.
+- Requires the approval of the function head and the Head of Learning and Development.
+- Carries a **24-month service commitment** from the date of completion.
+- Reimbursed per semester or per year, on production of the fee receipt and the result showing a pass.
+- The employee must manage the programme outside working hours. Study leave is not provided, although up to 5 days of paid examination leave per academic year is granted.
+
+## 7. Learning during working hours
+Employees may use up to **4 hours per month** of working time for self-directed learning, subject to delivery commitments and with the manager's awareness. This is a genuine allocation, not a notional one; managers are accountable for making it possible.
+
+## 8. Internal trainers
+Employees who design and deliver internal training receive an honorarium of INR 3,000 per hour of delivery, capped at INR 60,000 per year, and the contribution is recorded against the collaboration goal under HRP-037. Preparation time is supported by the manager as part of the role.
+
+## 9. Related documents
+- HRP-016 Flexible Benefit Plan and Tax Declaration Policy
+- HRP-037 Performance Management and Improvement Policy
+- HRP-039 Promotion and Career Progression Policy
+- HRP-040 Separation, Notice Period and Final Settlement Policy

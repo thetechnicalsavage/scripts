@@ -1,0 +1,52 @@
+#META
+id: HRP-004
+title: Bereavement, Marriage and Special Leave Policy
+owner: HR Operations
+version: 2.0
+effective: 01-Apr-2026
+review: 31-Mar-2027
+applies: All employees on the Meridian Systems India payroll
+#BODY
+## 1. Purpose
+This policy covers the paid special leave that Meridian Systems India Private Limited grants for a small number of significant life events and civic obligations. These entitlements are over and above the Earned, Casual and Sick Leave in HRP-001 and are not deducted from those balances.
+
+## 2. Bereavement leave
+| Relationship to the employee | Paid leave |
+| Spouse, child, parent, sibling | 5 working days |
+| Parent-in-law, grandparent, grandchild | 3 working days |
+| Any other person for whom the employee is the principal mourner or has responsibility for the funeral rites | 3 working days, with HRBP approval |
+
+Bereavement leave is taken in one continuous block beginning on or within 7 days of the date of death. It may be extended by Earned Leave with the manager's approval. No documentation is required at the time of application; HR Operations may request a death certificate only where the record is being used to update insurance nominations.
+
+An employee who must travel for the last rites and is unable to return within the entitlement may apply for up to 5 additional days of Earned Leave, which the manager is expected to approve unless there is an exceptional business reason not to.
+
+## 3. Marriage leave
+- **5 working days**, once during an employee's service with Meridian, for the employee's own marriage.
+- Available after the completion of 12 months of continuous service.
+- The request must be raised at least 30 days in advance, with the wedding invitation or the marriage registration acknowledgement attached.
+- Marriage leave may be prefixed or suffixed with Earned Leave.
+- Employees who marry before completing 12 months of service may apply for the entitlement retrospectively once they cross 12 months, provided the request is raised within 90 days of that date.
+
+## 4. Civic and statutory duty leave
+- **Jury service, court summons or an appearance as a witness in a matter not involving the employee as a party**: paid leave for the days on which attendance is required, on production of the summons.
+- **Voting**: employees are released for the time required to vote in any Lok Sabha, Vidhan Sabha or local body election held at their registered constituency, without loss of pay, in line with section 135B of the Representation of the People Act 1951.
+- **Territorial Army or reserve forces training**: paid leave for the period of the notified training call-up.
+
+Leave taken to attend court in a matter where the employee is a party in a personal capacity is Earned Leave, not special leave.
+
+## 5. Blood donation and health camps
+One paid day per leave year for voluntary blood donation, on production of the donation certificate. Attendance at a Meridian-organised health camp or vaccination drive during working hours is treated as on-duty and does not require a leave request.
+
+## 6. Leave for an employee with a disability attending a medical board
+Up to **5 working days per leave year** of paid leave for an employee with a benchmark disability under the Rights of Persons with Disabilities Act 2016 to attend a medical board, obtain or renew a disability certificate, or attend a prescribed course of therapy. This is separate from Sick Leave.
+
+## 7. Applying for special leave
+All special leave is raised in **MyMeridian > Time and Attendance > Leave Request** under the specific leave type. Where the leave type is not visible in the employee's list, raise an AskHR ticket in the Leave and Attendance category and HR Operations will enable it.
+
+Special leave does not accrue, does not carry forward, and is never encashed.
+
+## 8. Related documents
+- HRP-001 Leave Policy
+- HRP-005 Leave Without Pay and Sabbatical Policy
+- HRP-027 Equal Opportunity and Anti-Discrimination Policy
+- ESS-004 Employee Self Service: Raising and Tracking an AskHR Ticket

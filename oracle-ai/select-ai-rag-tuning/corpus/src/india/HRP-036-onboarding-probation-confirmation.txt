@@ -1,0 +1,86 @@
+#META
+id: HRP-036
+title: Onboarding, Probation and Confirmation Policy
+owner: HR Operations
+version: 3.6
+effective: 01-Apr-2026
+review: 31-Mar-2027
+applies: All new joiners at Meridian Systems India
+#BODY
+## 1. Purpose
+This policy sets out what happens from the acceptance of an offer through to confirmation in the role, and what both the employee and the manager are accountable for.
+
+## 2. Before the joining date
+The candidate completes pre-joining formalities in the onboarding portal at least 3 working days before the joining date:
+
+- Personal details, address, emergency contact.
+- PAN, Aadhaar, and the Universal Account Number if one exists.
+- Bank account details with a cancelled cheque or a bank statement header.
+- Educational certificates, the relieving letter and the last three payslips from the previous employer.
+- Passport-size photograph.
+- Signed offer acceptance, confidentiality undertaking and code of conduct acknowledgement.
+- Provident fund and gratuity nominations.
+- Form 12B from the previous employer, where the candidate is joining mid financial year.
+
+The HR Business Partner confirms the workstation, laptop, access card and system accounts with Workplace Services and IT **5 working days before** the joining date, so that the employee is productive on day one.
+
+## 3. Day one and the first week
+| Day | Activity |
+| Day 1 | Welcome and documentation, access card, laptop handover, workstation allocation, introduction to the team |
+| Day 1 | Mandatory induction: Code of Conduct, POSH, information security, data privacy, health and safety |
+| Day 2 | Role induction with the reporting manager, introduction to the buddy |
+| Day 3 to 5 | Systems access verification, tool familiarisation, engagement or project induction |
+| End of week 1 | The 30-60-90 day plan agreed and recorded in MyMeridian |
+
+Every new joiner is assigned a **buddy**: a peer, not the manager, who answers the questions a new joiner may not want to take to a manager. The buddy relationship runs for 90 days.
+
+## 4. The 30-60-90 day plan
+The manager and the employee agree written objectives for the first three months, recorded in MyMeridian:
+- **By day 30**: understand the team, the client, the systems and the ways of working; complete all mandatory training; deliver a first small piece of work end to end.
+- **By day 60**: work independently on defined tasks; contribute in reviews; know who to approach for what.
+- **By day 90**: deliver to the standard expected of the grade; own a defined area.
+
+Progress is reviewed at each milestone. **A concern at day 30 must be raised at day 30**, not saved for the confirmation review. An employee cannot correct a problem they have not been told about.
+
+## 5. Probation
+| Grade band | Probation period |
+| G1 to G4 | 6 months |
+| G5 and above | 3 months |
+| Re-hire within 12 months of the previous separation | 3 months |
+
+During probation:
+- Casual Leave and Sick Leave are available from day one. Earned Leave accrues but can be availed only after confirmation, per HRP-001.
+- The notice period is **15 days** on either side, per HRP-040.
+- The employee is not eligible for a salary advance under HRP-009, for stock options under HRP-014, or to apply internally under HRP-035.
+- Group medical, accident and life insurance cover applies from day one.
+- Provident fund and gratuity service count from the date of joining.
+
+## 6. Extension of probation
+Probation may be extended **once**, by up to 3 months, where performance is short of the standard but the manager judges it recoverable. An extension requires:
+- A written review setting out the specific gaps with evidence.
+- Agreed, measurable objectives for the extension period.
+- The HR Business Partner's approval.
+- Communication to the employee in writing **before the original probation end date**.
+
+An extension communicated after the probation period has ended is not valid.
+
+## 7. Confirmation
+Confirmation is **not automatic**. The manager completes the confirmation review in MyMeridian **15 days before** the probation ends, recording the assessment against the 30-60-90 plan and a recommendation: confirm, extend or separate.
+
+- Where the manager takes no action and the probation period ends, the HR Business Partner escalates to the function head. The employee is not disadvantaged by the manager's delay: if no decision is recorded within 15 days of the probation end date, the employee is confirmed with effect from the original date.
+- On confirmation the employee receives a confirmation letter, becomes eligible for the full leave, benefit and internal mobility entitlements, and moves to the standard notice period.
+
+## 8. Separation during probation
+Where performance or conduct during probation does not meet the standard, employment may be ended with **15 days notice** or pay in lieu. Before that decision:
+- The concerns must have been raised with the employee in writing at least once, with a reasonable opportunity to improve.
+- The HR Business Partner must review the case.
+- The reason is recorded. An employee separated during probation for performance is eligible for rehire; the record reflects that.
+
+Separation during probation for **misconduct** follows HRP-028, not this section.
+
+## 9. Related documents
+- HRP-001 Leave Policy
+- HRP-020 Relocation and Transfer Assistance Policy
+- HRP-035 Recruitment, Internal Job Posting and Background Verification Policy
+- HRP-037 Performance Management and Improvement Policy
+- HRP-040 Separation, Notice Period and Final Settlement Policy

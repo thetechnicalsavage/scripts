@@ -1,0 +1,68 @@
+#META
+id: GLF-004-EN
+title: Housing, Transport and Allowances Policy
+owner: Total Rewards Gulf
+version: 1.0
+effective: 01-Oct-2026
+review: 30-Sep-2027
+applies: All employees on the Meridian Systems Gulf FZ-LLC payroll in the UAE, the Kingdom of Saudi Arabia and the State of Qatar
+#BODY
+## 1. Purpose and scope
+This policy sets out the housing allowance, the transport allowance and the other fixed monthly allowances that Meridian Systems Gulf FZ-LLC pays to employees at the Dubai head office and at the Riyadh and Doha branches. Amounts are stated in the currency of the country of employment: UAE dirham (AED) in the UAE, Saudi riyal (SAR) in the Kingdom of Saudi Arabia (KSA) and Qatari riyal (QAR) in Qatar. The values are Meridian policy. They are reviewed every year against the local market and are not linked to any statutory minimum.
+
+All allowances in this policy are fixed monthly amounts paid with the salary through the wage protection channel described in GLF-006. They are not reimbursements, so no receipts are needed unless a section says otherwise.
+
+## 2. Housing allowance
+| Grade band | UAE (AED per month) | KSA (SAR per month) | Qatar (QAR per month) |
+| G1 to G2 | 4,500 | 3,800 | 4,200 |
+| G3 to G4 | 7,000 | 5,800 | 6,500 |
+| G5 to G6 | 10,500 | 8,500 | 9,800 |
+| G7 to G8 | 15,000 | 12,500 | 14,000 |
+| G9 and above | 22,000 or company-leased residence | 18,500 or company-leased residence | 20,500 or company-leased residence |
+
+Stated in full: a **grade G1 or G2** employee receives **AED 4,500** per month in the UAE, **SAR 3,800** in KSA and **QAR 4,200** in Qatar. A **grade G5 or G6** employee receives **AED 10,500** in the UAE, **SAR 8,500** in KSA and **QAR 9,800** in Qatar. An employee in **G9 or above** chooses once a year, in January, between the cash allowance and a residence leased by Meridian. The two cannot be combined.
+
+Where two spouses are both employed by Meridian in the same country, only one housing allowance is paid to the household, at the higher of the two entitlements.
+
+## 3. Housing advance
+Rent in the Gulf is often paid several months in advance. An employee who has completed probation may draw part of the housing allowance in advance, once in any 12-month period.
+
+| Country | Maximum advance | Recovery |
+| UAE | 6 months of housing allowance | 12 equal monthly instalments |
+| KSA | 12 months of housing allowance | 12 equal monthly instalments |
+| Qatar | 3 months of housing allowance | 6 equal monthly instalments |
+
+The advance is interest free. The employee uploads the signed tenancy contract with the request in MyMeridian, registered on the local tenancy platform where registration applies. Any balance outstanding on separation is deducted from the final settlement.
+
+## 4. Transport allowance
+| Grade band | UAE (AED per month) | KSA (SAR per month) | Qatar (QAR per month) |
+| G1 to G2 | 1,200 | 1,000 | 1,100 |
+| G3 to G4 | 1,800 | 1,500 | 1,650 |
+| G5 to G6 | 2,500 | 2,100 | 2,300 |
+| G7 to G8 | 3,500 | 3,000 | 3,200 |
+| G9 and above | Company car or 5,000 | Company car or 4,200 | Company car or 4,600 |
+
+The transport allowance covers the daily commute, fuel, parking and road tolls. Business use of a private car beyond the normal commute is reimbursed separately at **AED 0.75 per kilometre** in the UAE, **SAR 0.70 per kilometre** in KSA and **QAR 0.75 per kilometre** in Qatar, claimed through MyMeridian Expenses within 30 days of the journey.
+
+A G9 employee who chooses a company car receives a fully maintained vehicle, with insurance and registration paid by Meridian. Fuel remains the employee's cost.
+
+## 5. Other allowances
+| Allowance | Eligibility | Amount |
+| Mobile and data | G3 and above | AED 300, SAR 300 or QAR 250 per month |
+| Child education | G5 and above, children aged 4 to 18 | Up to AED 30,000, SAR 25,000 or QAR 28,000 per child per academic year |
+| Settling-in (one time) | Employees relocating to the country for the role | 1 month of housing allowance for G1 to G4; 2 months for G5 and above |
+
+The child education allowance covers tuition fees only and is paid against the school invoice. It applies to a maximum of **2 children for G5 to G6** and **3 children for G7 and above**. It is paid directly to the school where the school accepts corporate payment. School transport, uniforms and books are excluded.
+
+## 6. Joiners, leavers, promotions and transfers
+- Allowances for a joiner or a leaver are pro-rated by calendar days in the month.
+- On promotion, the rates of the new grade apply from the effective date of the promotion.
+- Housing and transport allowances continue during paid leave. They are suspended for the whole period of any unpaid leave longer than **14 consecutive calendar days**.
+- On a transfer between countries, the rates of the receiving country apply from the first working day there. A housing advance taken in the previous country continues to be recovered on the original schedule, converted at the payroll exchange rate on the transfer date.
+- Exceptions require the joint written approval of the Country HR Head and the Head of Total Rewards Gulf.
+
+## 7. Related documents
+- GLF-005 Residence Visa, Emirates ID, Iqama and QID Sponsorship and Dependants Policy
+- GLF-006 Wage Protection System and Payroll Calendar Policy
+
+Fictional document created for a technical demonstration. Not legal advice.

@@ -1,0 +1,45 @@
+#META
+id: HRP-003
+title: Paternity and Adoption Leave Policy
+owner: HR Operations
+version: 2.4
+effective: 01-Apr-2026
+review: 31-Mar-2027
+applies: All employees on the Meridian Systems India payroll
+#BODY
+## 1. Purpose
+Paternity leave is not a statutory entitlement in India for private sector employees. Meridian Systems India Private Limited provides it as a company benefit, in the belief that caregiving in the first months of a child's life is shared. This policy sets out the entitlement, eligibility and process.
+
+## 2. Entitlement
+| Event | Paid leave | Window in which it must be taken |
+| Birth of a child, employee is the father | 15 working days | Within 6 months of the date of birth |
+| Adoption of a child below 3 years, employee is the secondary caregiver | 15 working days | Within 6 months of the date of handover |
+| Surrogacy, employee is the commissioning parent and not the commissioning mother | 15 working days | Within 6 months of the date of handover |
+| Stillbirth or the death of a newborn | 10 working days | Within 3 months of the event |
+| Spouse hospitalised for more than 5 days during or immediately after delivery | 5 additional working days | Within 2 months of the event |
+
+The entitlement is available for a maximum of **two children** over the whole of an employee's service with Meridian.
+
+## 3. Taking the leave in blocks
+Paternity leave may be taken in up to **three separate blocks**, each of a minimum of 3 working days. This allows an employee to be present at the birth, again when the mother is discharged, and again when family support is withdrawn. All blocks must fall inside the 6-month window.
+
+Unused paternity leave lapses at the end of the window. It is not carried forward, encashed or converted into any other leave type.
+
+## 4. Eligibility
+There is no minimum service requirement. An employee who joins Meridian within the 6-month window following the birth of a child is eligible for the balance of the entitlement, pro-rated to the remaining window.
+
+Employees on notice period are not eligible to commence paternity leave, although leave already commenced continues.
+
+## 5. Process
+- Raise a request in **MyMeridian > Time and Attendance > Leave Request**, leave type Paternity.
+- Attach the birth certificate, the hospital discharge summary, the adoption order or the surrogacy documentation as applicable. Where the certificate is not yet available, the request may be submitted with the hospital admission record and the certificate uploaded within 30 days.
+- Notify the reporting manager at least 15 days in advance where the date is known. For an unplanned early delivery, notify as soon as practicable.
+- Add the child as a dependant on the group medical policy within 30 days of birth or handover, through MyMeridian > My Profile > Dependants.
+
+## 6. Interaction with other leave
+Paternity leave may be prefixed or suffixed with Earned Leave, subject to the normal approval in HRP-001. It may not be combined with Casual Leave. Weekly offs and public holidays falling inside a block of paternity leave are not counted against the 15 working days.
+
+## 7. Related documents
+- HRP-001 Leave Policy
+- HRP-002 Maternity Benefit and Parental Support Policy
+- HRP-013 Group Medical Insurance and Wellness Benefits Policy

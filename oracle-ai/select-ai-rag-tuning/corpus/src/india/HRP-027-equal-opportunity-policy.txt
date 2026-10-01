@@ -1,0 +1,74 @@
+#META
+id: HRP-027
+title: Equal Opportunity, Diversity and Anti-Discrimination Policy
+owner: HR Operations
+version: 3.3
+effective: 01-Apr-2026
+review: 31-Mar-2027
+applies: All employees, candidates, contractors and interns of Meridian Systems India
+#BODY
+## 1. Purpose
+Meridian Systems India Private Limited selects, develops, pays and promotes people on the basis of merit and contribution. This policy sets out the commitment, the protected characteristics, the accommodations available, and how to raise a concern.
+
+## 2. Protected characteristics
+No employee or candidate will be treated less favourably on the basis of:
+- Gender, gender identity or gender expression
+- Sexual orientation
+- Marital or parental status, including pregnancy
+- Caste, community, tribe, religion, race, ethnicity or place of birth
+- Language
+- Disability or long-term health condition
+- Age
+- Political opinion
+- Membership or non-membership of a trade union
+- Genetic information or family medical history
+- Socio-economic background or the institution attended
+
+## 3. Where the policy applies
+Recruitment and selection; compensation and benefits; work allocation and project staffing; training and development; performance evaluation and promotion; transfer and relocation; disciplinary action; and separation. It applies equally to the treatment of employees by colleagues, managers, clients, vendors and visitors.
+
+## 4. Prohibited conduct
+- **Direct discrimination**: treating a person less favourably because of a protected characteristic.
+- **Indirect discrimination**: applying a rule that appears neutral but disadvantages a group, where the rule is not a genuine and proportionate business requirement. A requirement to work from an office five days a week, for example, may indirectly disadvantage employees with a disability or caring responsibilities.
+- **Harassment**: unwanted conduct related to a protected characteristic that violates dignity or creates an intimidating, hostile, degrading or offensive environment. This includes slurs, jokes, mimicry, the display of offensive material and the persistent misuse of a person's name or pronouns.
+- **Victimisation**: subjecting a person to detriment because they raised or supported a complaint.
+- **Instructing, causing or inducing** another person to discriminate.
+
+## 5. Disability and reasonable accommodation
+Meridian gives effect to the **Rights of Persons with Disabilities Act 2016**. Meridian has published an Equal Opportunity Policy under section 21 of the Act and has appointed a liaison officer at each location, whose contact details are in MyMeridian.
+
+Accommodations available on request include:
+- Assistive technology: screen readers, magnification software, alternative input devices, captioning for meetings.
+- Workstation changes: height-adjustable desks, ergonomic seating, specialised lighting, a quiet workspace.
+- Working arrangement changes: adjusted hours, additional breaks, a fixed shift, or fully remote work outside the hybrid norm in HRP-030.
+- Adjustments to the recruitment process: extra time, an alternative assessment format, an interpreter.
+- Accessible transport and parking.
+
+Requests are made to the HR Business Partner or through an AskHR ticket in the Accommodation category. A request is assessed within **10 working days**, in consultation with the employee. Medical information provided in support is held separately from the personnel file and is accessible only to the assessing HR Business Partner and the occupational health adviser. A refusal must be in writing, must give reasons, and may be appealed to the Head of HR.
+
+## 6. Gender transition at work
+An employee transitioning at work is supported with a plan agreed with the employee: the timing and manner of any communication to the team, updates to records and systems, a new access card and email address, and access to facilities consistent with the employee's gender identity. Medical documentation is **not** required for a change of name, pronoun or presentation in the workplace, though it is required for a legal change of name in the statutory payroll records. Disclosing an employee's transgender status without consent is a breach of this policy and of HRP-032.
+
+## 7. Inclusive hiring
+- Interview panels for roles at G5 and above must include at least one member of a different gender from the hiring manager.
+- Job descriptions are reviewed for language that discourages applicants from any group, and state the essential requirements separately from the desirable ones.
+- Meridian runs returnship programmes for people re-entering the workforce after a career break of 12 months or more, and hiring targets for candidates with disabilities are set annually and reported to the Board.
+- Educational institution, the name of the school, and the candidate's home town are removed from the profile seen by the interview panel at the screening stage.
+
+## 8. Raising a concern
+- Speak to the reporting manager, the HR Business Partner or the liaison officer.
+- Where the concern involves the manager, go directly to the HR Business Partner or the Head of HR.
+- A complaint of sexual harassment goes to the Internal Committee under HRP-024.
+- Anonymous reports may be made through the channels in HRP-026.
+
+Concerns are acknowledged within 3 working days and investigated within 30 days. Substantiated discrimination or harassment is misconduct under HRP-028 and may result in termination.
+
+## 9. Measurement and accountability
+HR Operations reports representation, hiring, promotion, attrition and pay-gap data by gender to the Board twice a year. Business unit heads are accountable for the trend in their unit. Aggregate data is published in the annual report; no individual is identifiable in any published figure.
+
+## 10. Related documents
+- HRP-004 Bereavement, Marriage and Special Leave Policy
+- HRP-024 Prevention of Sexual Harassment at the Workplace Policy
+- HRP-028 Disciplinary Action and Misconduct Policy
+- HRP-030 Remote and Hybrid Work Policy
+- HRP-035 Recruitment, Internal Job Posting and Background Verification Policy

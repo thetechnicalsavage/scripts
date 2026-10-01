@@ -1,0 +1,247 @@
+{
+ "inputs": [
+  {
+   "config": "6",
+   "file": "retrieval_RAG_M0_C1024_O0_COS_20260930T014000Z.jsonl",
+   "index": "RAG_M0_C1024_O0_COS",
+   "kind": "retrieval",
+   "sha256": "f5e78f3d29d2bedfba05f4e6eb66e170d01f46aa96433ca254c58ad8fb6f7348"
+  },
+  {
+   "config": "1",
+   "file": "retrieval_RAG_M0_C1024_O128_COS_20260930T002614Z.jsonl",
+   "index": "RAG_M0_C1024_O128_COS",
+   "kind": "retrieval",
+   "sha256": "f89e3ec65e6031213c3415a4157b960f8f3f5bba259f3116101a2be34d4b5129"
+  },
+  {
+   "config": "7",
+   "file": "retrieval_RAG_M0_C1024_O205_COS_20260930T014252Z.jsonl",
+   "index": "RAG_M0_C1024_O205_COS",
+   "kind": "retrieval",
+   "sha256": "e78d5fff768915cb6077132d89915f3f827433666632af641d3201356332e400"
+  },
+  {
+   "config": "4",
+   "file": "retrieval_RAG_M0_C1536_O128_COS_20260930T003027Z.jsonl",
+   "index": "RAG_M0_C1536_O128_COS",
+   "kind": "retrieval",
+   "sha256": "871557209df5d1a568ca63b5199dce5f26636b7a3b680d92f3ac20062af9d9a4"
+  },
+  {
+   "config": "5",
+   "file": "retrieval_RAG_M0_C2000_O128_COS_20260930T003154Z.jsonl",
+   "index": "RAG_M0_C2000_O128_COS",
+   "kind": "retrieval",
+   "sha256": "a4e6767f212711a9b390ddddfbfc1616e4ef25d07c50e2a97b1732fe05e95d61"
+  },
+  {
+   "config": "2",
+   "file": "retrieval_RAG_M0_C2000_O300_COS_20260930T002737Z.jsonl",
+   "index": "RAG_M0_C2000_O300_COS",
+   "kind": "retrieval",
+   "sha256": "90c18369a91db64b61813635aba6886f33fb52038d4d0c92a8f3b372be95ce54"
+  },
+  {
+   "config": "3",
+   "file": "retrieval_RAG_M0_C640_O128_COS_20260930T002859Z.jsonl",
+   "index": "RAG_M0_C640_O128_COS",
+   "kind": "retrieval",
+   "sha256": "4bbeb0916c4718b614ec052210e565b4ca7e4f6d23695e0fc740d26182ebcaec"
+  },
+  {
+   "config": "18",
+   "file": "retrieval_RAG_M1Q_C1024_O128_COS_20260930T005108Z.jsonl",
+   "index": "RAG_M1Q_C1024_O128_COS",
+   "kind": "retrieval",
+   "sha256": "1354ee1453932fca2542837765987d4ebfefea43a5e9550a52463f962fdc749d"
+  },
+  {
+   "config": "8",
+   "file": "retrieval_RAG_M1_C1024_O128_COS_20260930T003318Z.jsonl",
+   "index": "RAG_M1_C1024_O128_COS",
+   "kind": "retrieval",
+   "sha256": "52788d0e49b6c11df77e40c715ea3e5aaca2fce199740b012caa326a34d4fb3f"
+  },
+  {
+   "config": "9",
+   "file": "retrieval_RAG_M2_C1024_O128_COS_20260930T003405Z.jsonl",
+   "index": "RAG_M2_C1024_O128_COS",
+   "kind": "retrieval",
+   "sha256": "a76b3796e5437c4b5f012b01d64921881135822252a35b135bf4496453f755ad"
+  },
+  {
+   "config": "10",
+   "file": "retrieval_RAG_M3_C1024_O128_COS_20260930T003603Z.jsonl",
+   "index": "RAG_M3_C1024_O128_COS",
+   "kind": "retrieval",
+   "sha256": "53a2c85bccb44c3e66ad35f576ff00be494b51feef7fd705f740b81fb32ee188"
+  },
+  {
+   "config": "11",
+   "file": "retrieval_RAG_M4_C1024_O128_COS_20260930T004057Z.jsonl",
+   "index": "RAG_M4_C1024_O128_COS",
+   "kind": "retrieval",
+   "sha256": "8e605153696f9fb577e5a274802443cd899dae14f42ef1248d5fb2edceec003d"
+  },
+  {
+   "config": "16",
+   "file": "retrieval_RAG_M4_C1536_O128_COS_20260930T021812Z.jsonl",
+   "index": "RAG_M4_C1536_O128_COS",
+   "kind": "retrieval",
+   "sha256": "fb67af7af7eb8e3c827927b61bc25bd10d7272f483f896a7d86ecc3af8b9d236"
+  },
+  {
+   "config": "17",
+   "file": "retrieval_RAG_M4_C2000_O128_COS_20260930T023042Z.jsonl",
+   "index": "RAG_M4_C2000_O128_COS",
+   "kind": "retrieval",
+   "sha256": "a8a6b5024a71f3ac05c91a285ad41317fe91567220b324bae4e694369fc531e9"
+  },
+  {
+   "config": "12",
+   "file": "retrieval_RAG_M5_C1024_O128_COS_20260930T004446Z.jsonl",
+   "index": "RAG_M5_C1024_O128_COS",
+   "kind": "retrieval",
+   "sha256": "c5b5f701bb10278c0f2d0e5a922e28462819d47bb77ba90050a0bdcd6bc2fefc"
+  },
+  {
+   "config": "14",
+   "file": "retrieval_RAG_M5_C1536_O128_COS_20260930T015252Z.jsonl",
+   "index": "RAG_M5_C1536_O128_COS",
+   "kind": "retrieval",
+   "sha256": "e71d64afc965c503a3e087ad1fab05176d065ea966b339f24206d5a7cfff073a"
+  },
+  {
+   "config": "15",
+   "file": "retrieval_RAG_M5_C2000_O128_COS_20260930T020513Z.jsonl",
+   "index": "RAG_M5_C2000_O128_COS",
+   "kind": "retrieval",
+   "sha256": "3a67581ac42a4cf14f3544ec6e6969c349ebb3f68239a97f17b7427b0787ff2f"
+  },
+  {
+   "config": "13",
+   "file": "retrieval_RAG_M6_C1024_O128_COS_20260930T004831Z.jsonl",
+   "index": "RAG_M6_C1024_O128_COS",
+   "kind": "retrieval",
+   "sha256": "b04142c62768b6ed39c2ccc20a8b40986d39320a4f757d41199faa534942ac18"
+  },
+  {
+   "file": "coverage_RAG_M0_C1024_O0_COS_20260930T034051Z.jsonl",
+   "kind": "coverage",
+   "sha256": "150b539ef68bc88e8123862bed1f14c28d08ebf0a93f81ef0a518e6b8d199d78"
+  },
+  {
+   "file": "coverage_RAG_M0_C1024_O128_COS_20260930T011807Z.jsonl",
+   "kind": "coverage",
+   "sha256": "305812046b131109b861d9add971d587401a738148d6221f5f2069af2585de92"
+  },
+  {
+   "file": "coverage_RAG_M0_C1024_O205_COS_20260930T035357Z.jsonl",
+   "kind": "coverage",
+   "sha256": "b13f07e0bf5bce4499707624ec9548a75b52eb22275d754d4258799f5baab9d0"
+  },
+  {
+   "file": "coverage_RAG_M0_C1536_O128_COS_20260930T031620Z.jsonl",
+   "kind": "coverage",
+   "sha256": "c4a3970bd3c20dcc73ac4a2db78910aa95088b3787252afd565d04da4f4919ed"
+  },
+  {
+   "file": "coverage_RAG_M0_C2000_O128_COS_20260930T032950Z.jsonl",
+   "kind": "coverage",
+   "sha256": "b867c46cf0991edf5e8c42deb54e382fbbc5b9b45144b75efae9c06d873a2be7"
+  },
+  {
+   "file": "coverage_RAG_M0_C2000_O300_COS_20260930T024807Z.jsonl",
+   "kind": "coverage",
+   "sha256": "27072f25e3527e9098fc961230257a117b1be74676d0590a0a84c547622d73b4"
+  },
+  {
+   "file": "coverage_RAG_M0_C640_O128_COS_20260930T025936Z.jsonl",
+   "kind": "coverage",
+   "sha256": "8522462ac8abcf99b764b7902f27f9cfbad317ddcc52e4a7c5c2ea2e01f38651"
+  },
+  {
+   "file": "coverage_RAG_M1_C1024_O128_COS_20260930T041047Z.jsonl",
+   "kind": "coverage",
+   "sha256": "cc5dfc186fa88fa962c5d9f0a4e4afc47a81ce99e9e6115b7015b4a1c013f618"
+  },
+  {
+   "file": "coverage_RAG_M2_C1024_O128_COS_20260930T041318Z.jsonl",
+   "kind": "coverage",
+   "sha256": "0e1b2beb657313dcd97b0d89338bbaf9c4b0adfd9cc4a89abd15a39bb9e547cf"
+  },
+  {
+   "file": "coverage_RAG_M3_C1024_O128_COS_20260930T042122Z.jsonl",
+   "kind": "coverage",
+   "sha256": "6cefa731f638ae323b6c6498d74b979b47b2449f09500aab2ab896a01c3b84c2"
+  },
+  {
+   "file": "coverage_RAG_M4_C1024_O128_COS_20260930T044705Z.jsonl",
+   "kind": "coverage",
+   "sha256": "5a27a030ffbe5e178231450f13e92810a055e9607fe7681318bb72e58b9d6087"
+  },
+  {
+   "file": "coverage_RAG_M5_C1024_O128_COS_20260930T051209Z.jsonl",
+   "kind": "coverage",
+   "sha256": "fb78ae0655bc9b62d321e77ba05ea849f02d91c30b3bdc767d56768643532ff2"
+  },
+  {
+   "file": "coverage_RAG_M5_C1536_O128_COS_20260930T055209Z.jsonl",
+   "kind": "coverage",
+   "sha256": "16032bb9259cc9e1af97fc1c2149571ee19fc4a308ce10858451203ca45bd041"
+  },
+  {
+   "file": "coverage_RAG_M6_C1024_O128_COS_20260930T053719Z.jsonl",
+   "kind": "coverage",
+   "sha256": "74e0b0786f71bf734348961df9af1b54f2d931c45b4bb16d4b620f1b88b35e20"
+  },
+  {
+   "file": "rag_20260930T023755Z_r1.jsonl",
+   "kind": "answers",
+   "sha256": "3a731a549d689f0122354599c874368bf4b4da50c497dddfae9e9c9ebcb822dd"
+  },
+  {
+   "file": "rag_20260930T023755Z_r2.jsonl",
+   "kind": "answers",
+   "sha256": "afdd1e725e9e84c1a4b1bdcaa98dc6d28761c648a8c3702d94e267049addf63e"
+  },
+  {
+   "file": "rag_20260930T023755Z_r3.jsonl",
+   "kind": "answers",
+   "sha256": "6c4519c2e96a2b5756a533fad23bc47b20fd4b4b81db1dd2dc9bbe8fccfaa769"
+  },
+  {
+   "file": "dev_decisions_20260930T023500Z.json",
+   "kind": "decisions",
+   "sha256": "af033b51e75fbb46cbf442712a482f8a61b01a5d62633fb2019b2dcc1088c7f0"
+  }
+ ],
+ "outputs": {
+  "answers.jsonl": {
+   "infra_rate_max": {
+    "1": 0.0,
+    "11": 0.0,
+    "12": 0.0,
+    "13": 0.0,
+    "2": 0.0,
+    "8": 0.0
+   },
+   "rows": 1944,
+   "stamp": "20260930T023755Z",
+   "verdicts": "scorer"
+  },
+  "chunk_coverage.jsonl": {
+   "indexes": 14,
+   "rows": 4584
+  },
+  "retrieval.jsonl": {
+   "retrieval_only_left_out": 432,
+   "rows": 3672
+  }
+ },
+ "questions_digest": "c1c89bf2d3c52e8e9481aeb06a3057803ac95d0f3ac2b21473f5d8c5f1ff60ee",
+ "questions_version": "v2.4",
+ "tool": "flatten_results.py v1.1",
+ "utc": "2026-09-30T07:04:48+00:00"
+}

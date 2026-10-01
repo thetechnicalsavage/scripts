@@ -1,0 +1,89 @@
+#META
+id: HRP-032
+title: Data Privacy and Personal Data Protection Policy
+owner: Corporate Compliance
+version: 3.0
+effective: 01-Apr-2026
+review: 31-Mar-2027
+applies: All employees of Meridian Systems India, in respect of employee personal data and client personal data
+#BODY
+## 1. Purpose and legal basis
+This policy explains how Meridian Systems India Private Limited handles personal data. It gives effect to the **Digital Personal Data Protection Act 2023** and, where Meridian processes data of individuals in other jurisdictions on behalf of clients, to the applicable law of that jurisdiction, including the EU General Data Protection Regulation.
+
+Under the DPDP Act, Meridian is a **Data Fiduciary** in respect of its own employees' data, and usually a **Data Processor** in respect of client data. An individual whose data is processed is a **Data Principal**.
+
+## 2. Employee personal data that Meridian holds
+| Category | Examples | Purpose |
+| Identity and contact | Name, date of birth, photograph, address, personal email and phone | Employment administration, statutory reporting |
+| Statutory identifiers | PAN, Aadhaar, UAN, ESIC number, passport | Payroll, provident fund, tax, immigration |
+| Employment record | Grade, role, reporting line, location, appraisal ratings, disciplinary record | Managing the employment relationship |
+| Financial | Bank account, salary, tax declarations, reimbursement claims | Payment of salary and reimbursements |
+| Family and dependants | Spouse and children's names and dates of birth, nominee details | Insurance, provident fund and gratuity nominations |
+| Health | Medical certificates, insurance claims, accommodation assessments | Leave administration, insurance, reasonable accommodation |
+| Background verification | Education, previous employment, criminal record check, address check | Pre-employment verification under HRP-035 |
+| System and access | Access card logs, network and application logs, device telemetry | Security, safety and asset protection |
+
+Health data and background verification data are held separately from the general personnel file, with access restricted to named roles.
+
+## 3. Principles applied
+- **Lawful purpose and notice.** Data is collected for a stated, lawful purpose and the employee is given a notice describing it.
+- **Purpose limitation.** Data collected for one purpose is not used for an unrelated one. Attendance data, for example, is not used to evaluate performance.
+- **Data minimisation.** Only what is necessary is collected. Meridian does not ask for marital status at recruitment, does not ask for a photograph before the offer stage, and does not collect caste or religion except where a statutory return requires it.
+- **Accuracy.** Employees can correct their own data through ESS-003.
+- **Storage limitation.** Data is deleted at the end of the retention period in section 6.
+- **Security.** Technical and organisational safeguards are applied under HRP-033.
+- **Accountability.** The Data Protection Officer maintains a record of processing activities.
+
+## 4. Rights of employees as Data Principals
+| Right | How to exercise it | Response time |
+| Access a summary of personal data processed | AskHR ticket, Privacy category | 30 days |
+| Correction, completion or updating | Self-service in MyMeridian, or AskHR ticket | 15 days |
+| Erasure, where the purpose is served and no legal obligation requires retention | AskHR ticket, Privacy category | 30 days |
+| Nominate a person to exercise rights in the event of death or incapacity | MyMeridian > My Profile > Nominations | Immediate |
+| Grievance about the handling of personal data | Data Protection Officer, then the Data Protection Board of India | 30 days |
+| Withdraw consent, where processing is based on consent | AskHR ticket | 15 days |
+
+Where a request is refused, the reason is given in writing. The most common reason is a statutory retention obligation: payroll and provident fund records, for example, cannot be erased on request.
+
+## 5. Consent and its limits
+Much of Meridian's processing of employee data does not rely on consent, because the DPDP Act permits processing for **certain legitimate uses**, including employment purposes such as preventing corporate espionage, protecting intellectual property, maintaining confidentiality of trade secrets, and providing a service or benefit to the employee. Where processing does rely on consent, for example the inclusion of a photograph in a public marketing page, the consent is specific, recorded, and can be withdrawn without any detriment.
+
+## 6. Retention
+| Record | Retention period |
+| Personnel file, contract, appraisal history | 8 years after separation |
+| Payroll and tax records | 8 years after the end of the financial year |
+| Provident fund records | As required by the EPFO, currently permanent for the member record |
+| Recruitment records for unsuccessful candidates | 12 months from the decision, unless the candidate consents to a longer talent-pool retention |
+| Background verification reports | 3 years after separation |
+| Disciplinary and investigation records | 8 years after closure |
+| Internal Committee records under HRP-024 | As prescribed by the rules |
+| System access and security logs | 12 months |
+| CCTV footage | 30 days, unless retained for an investigation |
+
+At the end of the period, records are securely deleted. Deletion is logged.
+
+## 7. Sharing personal data
+Employee data is shared only with: statutory authorities where required; the payroll processor, insurer, third-party administrator, background verification agency and benefits providers under contract; and a client where the contract requires named-personnel disclosure, limited to name, role, grade and the verification status.
+
+Every processor is bound by a written contract containing confidentiality, security and breach-notification obligations, and is assessed before engagement and annually thereafter.
+
+## 8. Cross-border transfer
+Personal data may be transferred outside India except to a country restricted by notification of the Central Government. Where a client's contract imposes stricter data residency terms, those terms apply and are recorded in the engagement's data handling note. Employees must never move client personal data to a location or a service not listed in that note.
+
+## 9. Personal data breach
+A personal data breach is any unauthorised processing, or accidental disclosure, acquisition, sharing, use, alteration, destruction or loss of access to personal data.
+
+- Report a suspected breach to the IT service desk and the Data Protection Officer **immediately, and no later than 1 hour** after becoming aware. Do not attempt to investigate or contain it alone.
+- Meridian notifies the **Data Protection Board of India and each affected Data Principal without delay**, in the form prescribed.
+- Where the breach concerns client data, the client is notified within the timeline in the contract, which is commonly 24 hours.
+- An employee who reports a breach promptly, including one they caused themselves, will not face disciplinary action for the error itself. **Concealing a breach is serious misconduct.**
+
+## 10. Data Protection Officer
+The Data Protection Officer can be contacted through an AskHR ticket in the Privacy category or at the address published in MyMeridian > My Compliance. The Data Protection Officer reports to the Board on privacy matters.
+
+## 11. Related documents
+- HRP-026 Whistleblower and Protected Disclosure Policy
+- HRP-031 IT Acceptable Use and Bring Your Own Device Policy
+- HRP-033 Information Security and Confidentiality Policy
+- HRP-035 Recruitment, Internal Job Posting and Background Verification Policy
+- ESS-003 Employee Self Service: Updating Personal, Bank and Nominee Details

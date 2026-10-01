@@ -1,0 +1,87 @@
+#META
+id: HRP-035
+title: Recruitment, Internal Job Posting and Background Verification Policy
+owner: Talent Acquisition
+version: 4.5
+effective: 01-Apr-2026
+review: 31-Mar-2027
+applies: All hiring at Meridian Systems India, and all employees applying internally
+#BODY
+## 1. Purpose
+This policy covers how roles are opened, how candidates are selected, how internal applicants are treated, and what verification is completed before a person joins Meridian Systems India Private Limited.
+
+## 2. Requisition and approval
+No offer may be made without an approved requisition in MyMeridian. The requisition records the grade, the role, the location, the budgeted salary range, the reason for the vacancy and the hiring manager.
+
+| Requisition type | Approvers |
+| Replacement within budgeted headcount | Hiring manager and function head |
+| New position within the approved plan | Hiring manager, function head and Finance Controller |
+| New position outside the approved plan | Additionally the Head of HR and the business unit head |
+| Grade G7 and above, any type | Additionally the Chief Executive Officer |
+
+## 3. Internal Job Posting
+Every requisition at G1 to G6 is posted internally for **7 calendar days** before it is released to external channels. Internal applicants are given first consideration.
+
+### Eligibility to apply internally
+- **12 months** in the current role for a move within the same business unit.
+- **18 months** in the current role for a move to a different business unit.
+- A performance rating of **Meets expectations or above** in the most recent cycle.
+- No active Performance Improvement Plan and no live disciplinary proceeding.
+- Not serving a notice period.
+
+The eligibility conditions may be waived by the Head of HR where the move is in the company's interest, for example to redeploy an employee whose project has ended.
+
+### How the internal process works
+- Apply in **MyMeridian > Careers > Internal Openings**. The application is visible to Talent Acquisition and the hiring manager only.
+- **The current manager is not informed until the candidate clears the first interview.** This is deliberate: an employee should be able to explore a move without it affecting the current role.
+- An internal candidate receives a decision within **10 working days** of the final interview.
+- A selected internal candidate is **released within 45 days** of selection. The releasing manager may request an extension of up to 15 days once, for a documented handover need; beyond that the Head of HR decides.
+- An internal move normally carries a grade or role change; where it does not, there is no salary revision at the point of the move.
+- An unsuccessful internal applicant receives specific feedback from the hiring manager within 5 working days.
+
+## 4. Selection process
+- A structured interview guide is used for each role, with the same core questions for every candidate at that stage.
+- The panel must include the hiring manager, a peer or senior member of the team, and for G5 and above, a panel member from outside the hiring function.
+- Panel composition must meet the inclusion requirement in HRP-027 section 7.
+- Every interviewer records written feedback in MyMeridian **before** seeing another interviewer's feedback, to avoid anchoring.
+- Assessment is against the defined competencies for the grade. Interviewers must not ask about marital status, family plans, pregnancy, caste, religion, or current salary. **Asking a candidate for their current salary is prohibited at Meridian**; the offer is built from the internal range and the assessed level.
+- Candidate experience standard: an acknowledgement within 2 working days, a decision within 10 working days of the final interview, and a response to every applicant.
+
+## 5. Offer and approval
+Offers are built from the salary range for the grade under HRP-010. The offer approval matrix follows the requisition approval matrix. An offer above the midpoint of the range requires Total Rewards concurrence. Offers are released through MyMeridian with a validity of 7 days.
+
+## 6. Background verification
+Every offer is **conditional on satisfactory background verification**. Verification is conducted by an empanelled agency, with the candidate's written consent, and covers:
+
+| Check | Scope |
+| Education | Highest qualification, verified with the awarding institution |
+| Employment | Last two employers: designation, dates, and reason for leaving |
+| Criminal record | Court records at the current and permanent address, for the last 7 years |
+| Address | Current and permanent address |
+| Identity | PAN and one government photo identity |
+| Database | Global sanctions, regulatory and adverse media screening |
+| Additional checks for finance or privileged-access roles | Credit record, and a directorship search |
+
+Verification is initiated on acceptance of the offer and is normally completed within 10 working days. A candidate may join while verification is in progress, on the understanding that the employment is subject to the outcome.
+
+### Discrepancies
+| Finding | Normal outcome |
+| Minor date discrepancy explained by the candidate and corroborated | Recorded and closed |
+| Undisclosed employment gap, satisfactorily explained | Recorded and closed |
+| Overstated designation or salary in the application | Reviewed case by case; may proceed with a note on file |
+| Fabricated qualification or employment | Offer withdrawn, or employment terminated if already joined |
+| Undisclosed concurrent employment | Treated under HRP-029 |
+| Criminal conviction involving moral turpitude, undisclosed | Offer withdrawn, or employment terminated |
+
+A candidate is always given the opportunity to explain an adverse finding, and the agency's report is shared with them, before any decision is taken.
+
+## 7. Rehire
+A former employee may be rehired subject to a favourable exit record. A person who was terminated for misconduct, who resigned during a disciplinary proceeding, or who was recorded as not eligible for rehire at exit, is not rehired. The rehire eligibility flag is set at the exit interview stage and reviewed by the HR Business Partner, not by the former manager alone.
+
+## 8. Related documents
+- HRP-010 Compensation Structure and Salary Review Policy
+- HRP-015 Employee Referral Programme Policy
+- HRP-027 Equal Opportunity, Diversity and Anti-Discrimination Policy
+- HRP-029 Moonlighting and Dual Employment Policy
+- HRP-032 Data Privacy and Personal Data Protection Policy
+- HRP-036 Onboarding, Probation and Confirmation Policy

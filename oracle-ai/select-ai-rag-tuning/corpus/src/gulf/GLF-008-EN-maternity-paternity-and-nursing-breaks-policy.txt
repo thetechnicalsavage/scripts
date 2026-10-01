@@ -1,0 +1,70 @@
+#META
+id: GLF-008-EN
+title: Maternity, Paternity and Nursing Breaks Policy - Gulf
+owner: HR Operations Gulf
+version: 1.3
+effective: 01-Jan-2026
+review: 31-Dec-2026
+applies: All employees of Meridian Systems Gulf FZ-LLC in the UAE, Saudi Arabia and Qatar
+#BODY
+## 1. Purpose and scope
+This policy sets out the leave and support that Meridian Systems Gulf FZ-LLC provides to employees who give birth, who become fathers, or who take a child into their care under legal guardianship (kafala). It applies at the Dubai head office and at the Riyadh and Doha branches. The entitlements are company policy and are set above the local statutory minimum in each country. If the labour law of the country of employment grants more in any respect, the law applies. India employees are covered by HRP-002 and HRP-003, not by this policy.
+
+## 2. Maternity leave
+| Country | Total maternity leave | At full pay | At half pay | Minimum to be taken after delivery |
+| UAE (Dubai) | 90 calendar days | First 60 days | Next 30 days | 45 days |
+| KSA (Riyadh) | 98 calendar days (14 weeks) | All 98 days | None | 42 days (6 weeks) |
+| Qatar (Doha) | 70 calendar days | All 70 days | None | 35 days |
+
+- Leave may start up to **28 days** before the expected date of delivery. If the baby arrives early, the unused pre-delivery days are added after the delivery.
+- Pay is based on the monthly gross salary, meaning basic salary plus housing and transport allowances, in force on the day the leave starts.
+- The enhanced entitlement in the table requires **6 months** of continuous service on the expected date of delivery. An employee with less service receives the statutory minimum of the country of employment, and HR Operations Gulf confirms the exact days in writing.
+
+## 3. Additional maternity support
+| Situation | Provision |
+| Illness arising from pregnancy or delivery | Up to 30 additional days at full pay on a medical certificate, then up to 45 days unpaid |
+| Child born with a disability or a serious illness | 30 additional days at full pay, extendable by 30 days unpaid |
+| Stillbirth after 24 weeks of pregnancy | Full maternity leave as in section 2 |
+| Miscarriage before 24 weeks of pregnancy | 21 calendar days at full pay |
+| Legal guardianship (kafala) of a child below 2 years, primary carer | 60 calendar days at full pay |
+
+Maternity leave counts as continuous service for end-of-service gratuity, annual leave accrual and the annual salary review. No employee may be served notice during maternity leave, and the employee returns to the same role or to a role of the same grade and pay.
+
+## 4. Paternity leave
+| Country | Paid paternity leave | Window to take it |
+| UAE (Dubai) | 10 working days | Within 6 months of the birth |
+| KSA (Riyadh) | 7 working days, of which at least 3 fall within 7 days of the birth | Within 60 days of the birth |
+| Qatar (Doha) | 5 working days | Within 3 months of the birth |
+
+- Paternity leave is at full pay and may be taken in up to 2 blocks. Weekly rest days and public holidays inside a block are not counted.
+- A secondary carer under legal guardianship (kafala) of a child below 2 years receives the paternity entitlement of the country of employment.
+- Unused paternity leave lapses at the end of the window. It is not carried forward or paid out.
+
+## 5. Nursing breaks
+After returning to work, a nursing mother is entitled to a paid nursing break of **1 hour (60 minutes) per working day**. She may take it as one continuous hour or as two breaks of 30 minutes. The entitlement runs until the child reaches the age shown below.
+
+| Country | Nursing break per working day | Until the child reaches |
+| UAE (Dubai) | 1 hour (60 minutes) | 18 months |
+| KSA (Riyadh) | 1 hour (60 minutes) | 24 months |
+| Qatar (Doha) | 1 hour (60 minutes) | 15 months |
+
+- Nursing breaks are working time. They are not deducted from pay or leave and do not need to be recorded in the attendance system.
+- The break may be taken at the start or the end of the working day, so that the employee arrives late or leaves early, by agreement with the manager.
+- The Dubai, Riyadh and Doha offices each have a private nursing room with a refrigerator. Access is arranged through Workplace Services.
+
+## 6. Return to work
+- For the first **20 working days** after maternity leave, the employee may work reduced hours of 6 hours per day at full pay.
+- Where the role permits, the employee may work from home for up to 2 days per week for 3 months after returning, as agreed with the manager. This is in addition to any other flexible working arrangement.
+- Annual objectives are pro-rated for the time actually worked. The performance rating is not reduced because of the leave.
+
+## 7. How to apply
+- Tell the reporting manager and HR Operations Gulf at least **10 weeks** before the planned start of maternity leave, or 4 weeks before planned paternity leave.
+- Raise the request in MyMeridian > Time and Attendance > Leave Request, with a medical certificate stating the expected date of delivery.
+- Upload the birth certificate within **15 days** of the birth. Add the newborn to the group medical policy within 30 days of the birth, as set out in GLF-007.
+
+## 8. Related documents
+- GLF-001 Annual Leave and Public Holidays
+- GLF-005 Residence Visa, Emirates ID, Iqama and QID Sponsorship and Dependants
+- GLF-007 Gulf Group Medical Insurance Policy
+
+Fictional document created for a technical demonstration. Not legal advice.

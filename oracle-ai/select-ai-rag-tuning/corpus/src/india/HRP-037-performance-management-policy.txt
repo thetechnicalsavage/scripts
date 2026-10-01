@@ -1,0 +1,85 @@
+#META
+id: HRP-037
+title: Performance Management and Improvement Policy
+owner: HR Operations
+version: 5.3
+effective: 01-Apr-2026
+review: 31-Mar-2027
+applies: All employees on the Meridian Systems India payroll
+#BODY
+## 1. Purpose
+This policy describes how performance is planned, reviewed and rated at Meridian Systems India Private Limited, and what happens when performance falls short.
+
+The performance year runs from **01 April to 31 March**, aligned with the financial year.
+
+## 2. The annual cycle
+| Stage | Timing | Owner |
+| Goal setting for the year | By 30 April | Employee, agreed with the manager |
+| Continuous feedback and check-ins | At least monthly | Manager |
+| Mid-year review | 01 to 31 October | Manager and employee |
+| Self-assessment | 01 to 10 April | Employee |
+| Manager assessment | 11 to 20 April | Manager |
+| Calibration | 21 to 30 April | Function leadership with the HR Business Partner |
+| Rating release and the appraisal conversation | By 15 May | Manager |
+| Appeal window | 15 days from rating release | Employee |
+| Increment effective | 01 July | Total Rewards |
+
+## 3. Goals
+Goals are set in MyMeridian and must be specific, measurable and time-bound. Every employee has between 4 and 7 goals, with weightages summing to 100.
+
+| Goal category | Typical weightage |
+| Delivery and business outcomes | 50 to 60 |
+| Quality, compliance and risk | 15 to 20 |
+| Capability building and learning | 10 to 15 |
+| Collaboration, mentoring and culture | 10 to 15 |
+
+Goals cascade from the business unit objectives. An employee who joins after 30 September sets goals for the remainder of the year and is rated on that period.
+
+## 4. Rating scale
+| Rating | Definition |
+| Exceptional | Consistently delivered far beyond the expectations of the grade, with impact visible outside the immediate team. Rare. |
+| Exceeds expectations | Delivered more than the role required, on the substance of the work and not only on effort |
+| Meets expectations | Delivered what the role required, to the standard of the grade. **This is a good rating.** |
+| Partially meets expectations | Delivered some of what the role required; specific, documented gaps remain |
+| Does not meet expectations | Did not deliver to the standard of the grade despite feedback and support |
+
+Meridian does not operate a forced distribution. Calibration exists to ensure a rating means the same thing across teams, not to fit ratings to a quota. Where a function's distribution is materially different from the company pattern, the function head explains the reason at calibration; the explanation may well be legitimate.
+
+## 5. Evidence and fairness
+- A rating must be supported by specific, documented evidence: deliverables, outcomes, feedback recorded during the year.
+- **No rating may be based on an event the employee was never told about.** If it was not raised during the year, it does not appear for the first time in the appraisal.
+- Periods of maternity, paternity or long-term sick leave are excluded from the assessment window. The rating reflects the period actually worked and is not reduced because of the absence.
+- Ratings are reviewed for adverse patterns by gender and by other protected characteristics under HRP-027, and any pattern is examined at calibration.
+
+## 6. Appeal
+An employee may appeal a rating within **15 days** of release, through MyMeridian > Performance > Appeal. The appeal goes to the skip-level manager and the HR Business Partner, who respond within 15 working days. The appeal reviews whether the process was followed and whether the evidence supports the rating. An appeal may result in the rating being raised, confirmed, or the case being returned to the manager for a further conversation. A rating is never lowered on appeal.
+
+## 7. Performance Improvement Plan
+A Performance Improvement Plan (PIP) applies where an employee is rated **Does not meet expectations**, or where performance falls materially short during the year and feedback has not corrected it.
+
+| Element | Requirement |
+| Duration | **60 days**, extendable once by 30 days |
+| Content | Specific gaps, measurable improvement objectives, the support Meridian will provide, and the consequence of not meeting the objectives |
+| Review frequency | Formal review every 2 weeks, recorded in MyMeridian |
+| Support | Defined coaching, training, a change in work allocation, or a mentor, as appropriate |
+| Approval | HR Business Partner before the PIP is issued |
+
+A PIP must not be issued as a response to a personality difference, as a route to a predetermined exit, or immediately following a protected disclosure or a complaint by the employee. The HR Business Partner reviews every PIP for these patterns before it is issued.
+
+### Outcomes
+- **Objectives met**: the PIP is closed, recorded as successfully completed, and the employee returns to the normal cycle. The employee becomes eligible for an increment prospectively, without arrears.
+- **Partial improvement**: a single extension of 30 days, with revised objectives.
+- **Objectives not met**: the options are redeployment to a different role where a suitable one exists, or separation under HRP-040 with the full notice period and all statutory dues.
+
+During a PIP the employee is not eligible to apply internally under HRP-035, is not considered for promotion under HRP-039, and is not granted stock under HRP-014.
+
+## 8. Manager accountability
+A manager who has not held a documented check-in in the preceding quarter cannot record a rating of Partially meets or Does not meet expectations for that employee without the HR Business Partner's review. A rating of that kind after a silent year is a failure of management, not only of performance.
+
+## 9. Related documents
+- HRP-010 Compensation Structure and Salary Review Policy
+- HRP-011 Variable Pay and Performance Bonus Policy
+- HRP-027 Equal Opportunity, Diversity and Anti-Discrimination Policy
+- HRP-038 Learning, Development and Certification Policy
+- HRP-039 Promotion and Career Progression Policy
+- MSS-002 Manager Self Service: Goal Setting, Appraisal and Rating Submission

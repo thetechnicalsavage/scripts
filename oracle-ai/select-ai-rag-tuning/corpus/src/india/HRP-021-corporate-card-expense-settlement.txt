@@ -1,0 +1,67 @@
+#META
+id: HRP-021
+title: Corporate Credit Card and Expense Settlement Policy
+owner: Finance Shared Services
+version: 2.3
+effective: 01-Apr-2026
+review: 31-Mar-2027
+applies: Employees issued a Meridian corporate credit card
+#BODY
+## 1. Purpose
+A corporate credit card removes the need for an employee to fund business expenses personally and wait for reimbursement. It is a company liability instrument issued in the employee's name, and it carries obligations that this policy sets out.
+
+## 2. Eligibility and limits
+| Grade band | Eligibility | Standard monthly limit |
+| G1 to G4 | By exception, where the role requires travel of 8 or more days a month | INR 1,00,000 |
+| G5 to G6 | On request, with function head approval | INR 2,50,000 |
+| G7 to G8 | Automatic on appointment to the grade | INR 5,00,000 |
+| G9 and above | Automatic on appointment to the grade | INR 10,00,000 |
+
+A temporary limit increase for a specific trip is requested through an AskHR ticket in the Finance category at least 5 working days in advance, and is approved by the Finance Controller.
+
+## 3. Permitted use
+The card may be used only for expenses that are reimbursable under HRP-017, HRP-018 and HRP-019: air and rail tickets booked outside the travel desk, hotel settlement, ground transport, client entertainment approved in advance, and business supplies.
+
+## 4. Prohibited use
+- **Any personal expense, of any amount, for any reason.** There is no provision for "I will settle it later".
+- Cash advances or ATM withdrawals, unless the card has been specifically enabled for a destination with limited card acceptance.
+- Expenses for another employee who holds a card of their own.
+- Purchases of capital assets, software licences or subscriptions. These go through the procurement process.
+- Gifts to government officials or to anyone in a position to influence a Meridian business decision, which is separately prohibited by HRP-025.
+- Alcohol, except within client entertainment expressly approved by the business unit head.
+
+Personal use of the corporate card is treated as a financial integrity matter under HRP-028, not as a simple expense error.
+
+## 4a. What to do if the card is used personally by mistake
+Report it immediately through an AskHR ticket, before the statement cycle closes, and repay the amount to the company bank account within 7 days. A self-reported and promptly repaid error is treated as an administrative matter. An unreported personal charge discovered during the Finance audit is treated as misconduct.
+
+## 5. Statement and settlement cycle
+| Event | Timing |
+| Statement cycle closes | 25th of each month |
+| Statement available in MyMeridian | 27th of each month |
+| Expense claim substantiating the charges due | Within **30 days** of the statement date |
+| Company pays the card issuer | By the due date, regardless of whether the employee has claimed |
+
+Because the company pays the issuer regardless, an unsubstantiated charge is an amount the company has paid out with no business record. This is why the settlement deadline is enforced.
+
+## 6. Consequences of late settlement
+| Occurrence in a rolling 12 months | Consequence |
+| First late settlement | Reminder from Finance Shared Services and a note to the reporting manager |
+| Second | Written notice; the reporting manager must acknowledge |
+| Third | Card suspended for 90 days; the employee funds business expenses personally and claims reimbursement |
+| Fourth | Card withdrawn permanently; unsubstantiated amounts recovered from payroll |
+
+Amounts unsubstantiated for more than 60 days are recovered from the next payroll after a 7-day notice to the employee, without further approval.
+
+## 7. Lost, stolen or compromised cards
+Report the loss to the card issuer's 24-hour helpline immediately, and raise an AskHR ticket in the Finance category **within 24 hours**. The employee is not liable for fraudulent transactions reported within 24 hours of the loss. Delayed reporting may make the employee liable under the issuer's terms.
+
+## 8. On separation
+The card must be surrendered to the HR Business Partner on or before the last working day, and all outstanding charges must be substantiated. The clearance checklist in HRP-040 includes card surrender, and the relieving letter is not issued until Finance Shared Services confirms a nil position.
+
+## 9. Related documents
+- HRP-017 Domestic Travel and Expense Policy
+- HRP-018 International Travel and Per Diem Policy
+- HRP-025 Anti-Bribery and Anti-Corruption Policy
+- HRP-028 Disciplinary Action and Misconduct Policy
+- HRP-040 Separation, Notice Period and Final Settlement Policy

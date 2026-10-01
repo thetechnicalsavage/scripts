@@ -1,0 +1,75 @@
+#META
+id: GLF-010-EN
+title: Overtime, Weekend and Shift Rules (Gulf)
+owner: Total Rewards Gulf
+version: 1.0
+effective: 01-Oct-2026
+review: 30-Sep-2027
+applies: All employees of Meridian Systems Gulf FZ-LLC at the Dubai head office and the Riyadh and Doha branches
+#BODY
+## 1. Purpose and scope
+This policy sets out the working week, the weekly rest days, overtime pay and the rules for shift work at Meridian Systems Gulf FZ-LLC. It applies to employees at the head office in Dubai (United Arab Emirates), the Riyadh branch (Kingdom of Saudi Arabia) and the Doha branch (State of Qatar).
+
+This is a company policy. Where the labour law of the country of employment gives an employee a more favourable entitlement than this policy, the more favourable entitlement applies and payroll is adjusted accordingly.
+
+## 2. Working week and weekly rest days
+| Location | Working days | Weekly rest days | Standard hours | Office hours |
+| Dubai, UAE | Monday to Friday | Saturday and Sunday | 8 hours a day, 40 hours a week | 09:00 to 18:00 |
+| Riyadh, KSA | Sunday to Thursday | Friday and Saturday | 8 hours a day, 40 hours a week | 08:00 to 17:00 |
+| Doha, Qatar | Sunday to Thursday | Friday and Saturday | 8 hours a day, 40 hours a week | 07:30 to 16:30 |
+
+Office hours include an unpaid meal break of 60 minutes. In Dubai, the Friday break is extended to **90 minutes**, from 12:15 to 13:45, to allow time for Friday prayer. The additional 30 minutes is made up flexibly within the same week.
+
+During the holy month of Ramadan, the working day at all three locations is reduced to **6 hours**, or 30 hours a week, with no reduction in salary. Each location head publishes the Ramadan timings at least 7 days before the month begins.
+
+## 3. Who is eligible for overtime
+- Paid overtime applies to employees in grades **G1 to G4**.
+- Employees in **G5 and above** do not receive overtime pay. When asked to work on a weekly rest day or a public holiday, they earn **Time Off in Lieu (TOIL)**: one day for a full day worked, or half a day for 4 hours or more. TOIL must be taken within **90 days** of being earned and is never paid in cash.
+- Overtime must be approved in MyMeridian by the reporting manager before it is worked. Retrospective approval is allowed only for a declared production incident, and only by the function head.
+- During Ramadan, hours worked beyond the 6-hour Ramadan working day count as overtime.
+
+## 4. Overtime rates
+Overtime is calculated on the basic hourly rate: monthly basic salary divided by 30, then divided by 8. Housing, transport and other allowances are excluded.
+
+| Overtime type | Dubai, UAE | Riyadh, KSA | Doha, Qatar |
+| Working day, before 22:00 | 125% | 150% | 125% |
+| Working day, 22:00 to 05:00 | 150% | 175% | 150% |
+| Weekly rest day | 175% | 200% | 150% plus one replacement rest day |
+| Public holiday | 200% plus one replacement day off | 250% | 200% plus one replacement day off |
+
+Worked example: a G3 engineer in Dubai with a monthly basic salary of AED 9,000 has a basic hourly rate of AED 37.50. Four hours of approved overtime on a working day before 22:00 are paid at 125%, giving a total of **AED 187.50**.
+
+## 5. Overtime limits and payment
+| Limit | Dubai, UAE | Riyadh, KSA | Doha, Qatar |
+| Maximum overtime per working day | 2 hours | 2 hours | 2 hours |
+| Maximum overtime per calendar month | 30 hours | 36 hours | 32 hours |
+| Maximum weekly rest days worked per month | 2 | 2 | 1 |
+
+- The monthly limit may be exceeded only for a declared production incident, with the written approval of both the function head and the Head of HR Gulf.
+- Approved overtime is paid with the following month's salary and appears as a separate earning line on the payslip.
+- Overtime entries not approved by the 25th of the month roll into the next payroll cycle.
+
+## 6. Shift work
+Shift rules apply to employees rostered in the 24x7 Service Operations Centre and to field support teams.
+
+- Shift rosters are published in MyMeridian at least **14 days** in advance.
+- A shift lasts 9 hours, including a 60-minute meal break.
+- There must be at least **11 hours** of rest between the end of one shift and the start of the next.
+- No employee works more than **6 consecutive night shifts**. After a run of night shifts, the employee receives at least 48 hours off.
+- Shift swaps are requested in MyMeridian at least 48 hours in advance and approved by the shift lead.
+- A rostered shift that falls on a weekly rest day is not overtime. The roster must give the employee two rest days elsewhere in the same week.
+
+| Shift allowance, per shift | Dubai, UAE | Riyadh, KSA | Doha, Qatar |
+| Night shift starting at 20:00 or later | AED 50 | SAR 55 | QAR 50 |
+| Rostered shift on a public holiday | AED 120 | SAR 130 | QAR 120 |
+
+## 7. Health, safety and fatigue
+- From **01 June to 15 September**, field engineers must not carry out outdoor work at client sites between **12:30 and 15:30** at any of the three locations. Managers plan site visits around this pause.
+- An employee called out between 00:00 and 05:00 for more than 2 hours may start **late** on the next working day by an equal number of hours, without any deduction from leave.
+- Managers review team overtime every month. An employee who reaches the monthly limit in 2 consecutive months is referred to the HR Business Partner for a workload review.
+
+## 8. Related documents
+- GLF-011 Business Travel and Per Diem within the GCC
+- GLF-012 National Talent Programme
+
+Fictional document created for a technical demonstration. Not legal advice.
