@@ -1,0 +1,16 @@
+EVENT,DETAIL,TS,TS_END,MINUTES_FROM_START
+incident,126 slow_drift LOW,2026-10-06 16:13:01,2026-10-06 19:13:05,
+first static breach,CALLS,2026-10-06 16:15:30,,2.4833
+episode STATIC,episode 11 fired=W_USERIO top=W_USERIO,2026-10-06 16:18:30,2026-10-06 16:41:31,5.4833
+graded EM,"caught=Y top3=W_USERIO,PIO_BYTES,PIO attr_p=0",2026-10-06 16:18:30,,5.4833
+graded STATIC,caught=Y top3=W_USERIO attr_p=0,2026-10-06 16:18:30,,5.4833
+episode MSET,"episode 11 fired= top=REDO,BLKCHG",2026-10-06 17:10:31,2026-10-06 19:24:30,57.5
+first mset flag,,2026-10-06 17:10:31,,57.5
+graded MSET,"caught=Y top3=REDO,BLKCHG attr_p=0",2026-10-06 17:10:31,,57.5
+episode STATIC,episode 12 fired=W_USERIO top=W_USERIO,2026-10-06 17:18:30,2026-10-06 17:28:30,65.4833
+episode STATIC,episode 13 fired=W_USERIO top=W_USERIO,2026-10-06 18:18:30,2026-10-06 18:30:30,125.4833
+graded IFOREST,caught=Y top3= attr_p=,2026-10-06 18:18:30,,125.4833
+first static breach of an expected signal,,,,
+graded PCA,caught=N top3= attr_p=,,,
+graded SEASONAL,caught=N top3= attr_p=,,,
+graded SVM,caught=N top3= attr_p=,,,

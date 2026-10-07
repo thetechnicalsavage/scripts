@@ -1,0 +1,14 @@
+scenario,intensity,MSET,SVM,EM,PCA,IFOREST,STATIC,SEASONAL,run_ids
+app_error_burst,LOW,missed,missed,4.5,missed,missed,missed,missed,123
+batch_wrong_time,LOW,1.5,1.5,1.5,1.5,1.5,1.5,missed,124
+blocking_chain,HIGH,2.5,3.5,missed,3.5,3.5,3.5,missed,121
+commit_storm,HIGH,1.5,1.5,1.5,1.5,1.5,1.5,missed,127
+conn_leak,LOW,missed,1.5,missed,1.5,missed,1.5,missed,122
+conn_leak,HIGH,"2/2: 1.5, 1.5","2/2: 1.5, 1.5","1/2: 30.5, -","2/2: 1.5, 1.5","1/2: 30.5, -","2/2: 1.5, 1.5","0/2: -, -",128 129
+cpu_hog,HIGH,1.5,1.5,1.5,1.5,1.5,1.5,missed,115
+hard_parse_storm,LOW,0.5,4.5,1.5,2.5,missed,2.5,missed,118
+io_storm,HIGH,0.5,0.5,0.5,0.5,0.5,0.5,missed,114
+logon_storm,LOW,1.5,1.5,1.5,1.5,1.5,1.5,missed,125
+plan_regression,LOW,1.5,26.5,1.5,missed,7.5,11.5,missed,117
+slow_drift,LOW,57.5,missed,5.5,missed,125.5,5.5,missed,126
+temp_spill,LOW,1.5,1.5,1.5,1.5,1.5,1.5,missed,116

@@ -1,0 +1,17 @@
+# v1.1 - app 900 (builder M, phase 4): tools/iforest.py's own venv (~/anomaly/venv-ml on the demo VM), fully pinned:
+#        the whole closure, resolved 01-Oct-2026 on Python 3.12.3 with
+#        `pip install scikit-learn==1.9.1 oracledb==3.4.2` then `pip freeze`. Separate from the load driver's
+#        venv (~/anomaly/venv), which is never modified. python-oracledb runs in thin mode.
+#        v1.0: first version, 01-Oct-2026. v1.1: public copy: host name and local-time references removed.
+cffi==2.1.1
+cloudpickle==3.1.2
+cryptography==50.0.2
+joblib==1.6.0
+narwhals==2.26.0
+numpy==2.5.3
+oracledb==3.4.2
+pycparser==3.0
+scikit-learn==1.9.1
+scipy==1.18.1
+threadpoolctl==3.7.0
+typing_extensions==4.16.0

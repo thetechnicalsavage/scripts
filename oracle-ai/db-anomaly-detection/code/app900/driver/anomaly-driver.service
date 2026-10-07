@@ -1,0 +1,25 @@
+# v1.1 - user-level systemd unit for the app 900 load driver on the demo VM (linger is on, so it runs without a login).
+#        Installed by install.sh to ~/.config/systemd/user/anomaly-driver.service; install.sh does NOT start or
+#        enable it. Start/stop/status: systemctl --user start|stop|status anomaly-driver (README.md).
+#        Exit 2 = configuration or secrets error: not restarted (fix the file, then start again).
+#        v1.0: first version, 01-Oct-2026. v1.1: public copy: host name and local-time references removed.
+[Unit]
+Description=App 900 load driver (SHOP_APP workload on oradb1/FREEPDB1, APP_MINUTE feed to ORCLPDB1)
+# keep restarting through long outages (the soak must recover on its own); the 10 s back-off bounds the rate
+StartLimitIntervalSec=0
+
+[Service]
+Type=simple
+WorkingDirectory=%h/anomaly
+Environment=TZ=UTC PYTHONUNBUFFERED=1 PYTHONDONTWRITEBYTECODE=1
+ExecStart=%h/anomaly/venv/bin/python %h/anomaly/anomaly_driver.py --config %h/anomaly/driver.ini
+Restart=on-failure
+RestartSec=10
+RestartPreventExitStatus=2
+KillSignal=SIGTERM
+TimeoutStopSec=60
+UMask=0077
+NoNewPrivileges=yes
+
+[Install]
+WantedBy=default.target

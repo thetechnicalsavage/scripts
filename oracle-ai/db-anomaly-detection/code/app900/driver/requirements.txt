@@ -1,0 +1,9 @@
+# v1.0 - app 900 load driver runtime dependencies, fully pinned (the whole closure, resolved 01-Oct-2026 on
+#        Python 3.12.3 with `pip install oracledb==3.4.2` then `pip freeze`). python-oracledb runs in thin mode:
+#        no Oracle Client libraries are needed.
+#        v1.0: first version, 01-Oct-2026.
+oracledb==3.4.2
+cryptography==50.0.2
+cffi==2.1.1
+pycparser==3.0
+typing_extensions==4.16.0

@@ -1,0 +1,19 @@
+ITEM,VALUE
+plan rows of the test day,14
+plan rows of the test day by status,STARTED 14
+runs starting in the test day by source / status,SCHEDULE DONE 14
+STARTED plan rows without a SCHEDULE run,0
+SCHEDULE runs without a STARTED plan row,0
+runs not DONE/restored or gone (evaluation),0
+other runs (UI/TEST or earlier) reaching into the test day,0
+Control Center actions during the evaluation,0
+METRIC_MINUTE rows / back-filled / gaps over 90 s (test day),1440 / 0 / 0 (largest step 62 s)
+APP_MINUTE rows / minutes with no transaction (test day),1440 / 7
+FEATURE_MINUTE rows (test day),1440
+"unscored (null-signal) minutes per model, EVAL_TEST","EM 8, IFOREST 8, MSET 8, PCA 8, SEASONAL 8, STATIC 8, SVM 8"
+unscored minutes inside run 121 (blocking_chain HIGH),8
+models created after FINAL_AT that are not dev-tuning CANDIDATEs,0
+models created during the evaluation,0
+"ACTIVE models (all FINAL, activated at FINAL_AT)","ANOM_EM_FINAL_202610050007 10-05 00:07:10, ANOM_MSET_FINAL_202610050007 10-05 00:07:07, ANOM_PCA_FINAL_202610050007 10-05 00:07:14, ANOM_SEASONAL_FINAL_202610050007 10-05 00:07:17, ANOM_STATIC_FINAL_202610050007 10-05 00:07:15, ANOM_SVM_FINAL_202610050007 10-05 00:07:09"
+COLLECT_LOG rows in the test day (any severity),0
+INCIDENT_TRUTH last refresh / last evaluation run end,2026-10-07 01:15:20 / 2026-10-06 23:31:02
