@@ -1,0 +1,39 @@
+# v1.0 2026-10-10  Brief 14 POC dependency set for the demo VM venv (~/b14-poc/.venv): python-oracledb (thin mode) for
+#                  db_register.py, requests and cryptography for the signed OCI REST calls, and their dependencies.
+#                  v1.0: first version. Every pin and sha256 is copied unchanged from brief 12's code/requirements.txt
+#                  v0.1.1 (resolved 09-Oct-2026 under its 5-day cool-off rule, wheels only, pip check clean there), so
+#                  the two POCs on the same VM use the same versions. Python 3.12, Linux x86_64.
+#
+# Install, in a fresh venv on the demo VM (nothing system-wide):
+#   python3.12 -m venv ~/b14-poc/.venv
+#   ~/b14-poc/.venv/bin/pip install --require-hashes --no-deps --only-binary=:all: -r requirements.txt
+#   ~/b14-poc/.venv/bin/pip check
+# A hash mismatch means the host needs another wheel tag: stop, do not loosen the pins (brief 12's rule).
+
+oracledb==4.0.2 \
+    --hash=sha256:579f2c568433523a990cde5bea73c980d144754dc54d3ab2cd37efd670dc31d6
+cryptography==50.0.2 \
+    --hash=sha256:630ebfea3bf689d075f82316324ff7433dc447fe6bc1bfc76524b74b4a9567d2 \
+    --hash=sha256:4061c0079120205fb760c58acab6443e217307dcf05e3702cf970e0689972856 \
+    --hash=sha256:9dab55f57c74c3cad24c323bacbbd04be4705ba6eb0d92e920b1fc4837ed5079 \
+    --hash=sha256:ee247f5c245c9a2fe7c8e2214e295918838e44e00a45a6718451e4004219e767 \
+    --hash=sha256:f21e8a22c8605750c7af886bab299a363721264061b4ac0a30efb73cfd58efc5 \
+    --hash=sha256:1981f1db4630889b9ef7803fadef12b056f428cb6b85c27ba57b774793b6093c
+cffi==2.1.1 \
+    --hash=sha256:c1453022f490d2459a11819d83ad1d586e9ff65a12ac3e705ffebd46d3685dcf
+pycparser==3.0 \
+    --hash=sha256:b727414169a36b7d524c1c3e31839a521725078d7b2ff038656844266160a992
+typing_extensions==4.16.0 \
+    --hash=sha256:481caa481374e813c1b176ada14e97f1f67a4539ce9cfeb3f350d78d6370c2e8
+requests==2.34.2 \
+    --hash=sha256:2a0d60c172f83ac6ab31e4554906c0f3b3588d37b5cb939b1c061f4907e278e0
+urllib3==2.7.0 \
+    --hash=sha256:9fb4c81ebbb1ce9531cce37674bbc6f1360472bc18ca9a553ede278ef7276897
+certifi==2026.7.22 \
+    --hash=sha256:62f22742b58a1a33014a2b6b706588a8d7e2a88ae7bd1a6ebe8c992928483775
+charset-normalizer==3.5.2 \
+    --hash=sha256:3d31298449090ab8d47b7b1b2a555ff73cac7ed438a08b7ac160980c7ebed649 \
+    --hash=sha256:1c50fe28bbc2ced33386f298650d91218076c05420e6cbd790b913adc41659e7 \
+    --hash=sha256:b6b751274acb69d77b3323d6b7dbaa3c7fdfc1eb829b7eb61d262f32e1af9685
+idna==3.20 \
+    --hash=sha256:ab7ae7122974553370f0bdb919e1a960b2cd1bc1ef0276416d896db81c14582c

@@ -1,0 +1,59 @@
+call 13: RL_SAI_DIRECT prompt 0
+call 14: RL_SAI_DIRECT prompt 1
+call 15: RL_SAI_DIRECT prompt 2
+call 16: RL_SAI_P1 prompt 0
+call 17: RL_SAI_P1 prompt 1
+call 18: RL_SAI_P1 prompt 2
+call 19: RL_SAI_P3 prompt 0
+call 20: RL_SAI_P3 prompt 1
+call 21: RL_SAI_P3 prompt 2
+Calls of this part (no OCID is stored in RL_CALL):
+
+   CALL_ID ALIAS KIND	  MODEL_ID			  PROMPT_NO HTTP_STATUS A LATENCY_MS MODEL_ID_SHAPE		  COMPLETION_TOKENS REASONING_TOKENS ERR_CODE
+---------- ----- -------- ------------------------------ ---------- ----------- - ---------- ---------------------------- ----------------- ---------------- ------------------------
+ERR_TEXT					   ANSWER_SNIP
+-------------------------------------------------- --------------------
+	13 P1	 DIRECT   xai.grok-4.3				  0	    200 Y	7834
+						   ALPHA
+
+	14 P1	 DIRECT   xai.grok-4.3				  1	    200 Y	6469
+						   BRAVO
+
+	15 P1	 DIRECT   xai.grok-4.3				  2	    200 Y	7537
+						   CHARLIE
+
+	16 P1	 PROFILE  xai.grok-4.3				  0	    200 Y      12930
+						   ALPHA
+
+	17 P1	 PROFILE  xai.grok-4.3				  1	    200 Y	7043
+						   BRAVO
+
+	18 P1	 PROFILE  xai.grok-4.3				  2	    200 Y	6321
+						   CHARLIE
+
+	19 P3	 PROFILE  google.gemini-2.5-flash		  0	      0 N	 654
+ORA-20400: Request failed with status HTTP 400 - h
+ttps://inference.generativeai.us-phoenix-1.oci.ora
+clecloud.com/20231130/actions/chat
+Error response - { "code": "400", "message": "Inva
+lid 'topK': Value is less than minimum: 1.0" }
+
+	20 P3	 PROFILE  google.gemini-2.5-flash		  1	      0 N	 633
+ORA-20400: Request failed with status HTTP 400 - h
+ttps://inference.generativeai.us-phoenix-1.oci.ora
+clecloud.com/20231130/actions/chat
+Error response - { "code": "400", "message": "Inva
+lid 'topK': Value is less than minimum: 1.0" }
+
+	21 P3	 PROFILE  google.gemini-2.5-flash		  2	      0 N	 646
+ORA-20400: Request failed with status HTTP 400 - h
+ttps://inference.generativeai.us-phoenix-1.oci.ora
+clecloud.com/20231130/actions/chat
+Error response - { "code": "400", "message": "Inva
+lid 'topK': Value is less than minimum: 1.0" }
+
+
+STEP			       CALLS_ALLOTTED CALLS_USED USD_ALLOTTED USD_USED_EST
+------------------------------ -------------- ---------- ------------ ------------
+s6_plsql				   16	      12	  .15	     .0037
+s7_select_ai				   12	       9	  .15	     .0629

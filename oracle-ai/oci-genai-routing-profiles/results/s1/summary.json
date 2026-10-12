@@ -1,0 +1,200 @@
+{
+ "md_all": {
+  "http_status": [
+   200
+  ],
+  "pages": 1,
+  "item_count": 87,
+  "latency_ms": [
+   989
+  ],
+  "error": null
+ },
+ "md_region_chat_ondemand": {
+  "http_status": [
+   200
+  ],
+  "pages": 1,
+  "item_count": 63,
+  "latency_ms": [
+   186
+  ],
+  "error": null
+ },
+ "md_region_dedicated": {
+  "http_status": [
+   200
+  ],
+  "pages": 1,
+  "item_count": 6,
+  "latency_ms": [
+   191
+  ],
+  "error": null
+ },
+ "md_grok420_nonreasoning": {
+  "http_status": [
+   200
+  ],
+  "pages": 1,
+  "item_count": 0,
+  "latency_ms": [
+   178
+  ],
+  "error": null
+ },
+ "md_grok420_0309_nonreasoning": {
+  "http_status": [
+   200
+  ],
+  "pages": 1,
+  "item_count": 0,
+  "latency_ms": [
+   179
+  ],
+  "error": null
+ },
+ "md_proxy": {
+  "http_status": [
+   200
+  ],
+  "pages": 1,
+  "item_count": 74,
+  "latency_ms": [
+   185
+  ],
+  "error": null
+ },
+ "md_api_responses": {
+  "http_status": [
+   200
+  ],
+  "pages": 1,
+  "item_count": 16,
+  "latency_ms": [
+   182
+  ],
+  "error": null
+ },
+ "md_realm_oc1": {
+  "http_status": [
+   200
+  ],
+  "pages": 1,
+  "item_count": 87,
+  "latency_ms": [
+   189
+  ],
+  "error": null
+ },
+ "md_region_od_not_retired": {
+  "http_status": [
+   200
+  ],
+  "pages": 1,
+  "item_count": 74,
+  "latency_ms": [
+   188
+  ],
+  "error": null
+ },
+ "md_deprecated": {
+  "http_status": [
+   200
+  ],
+  "pages": 1,
+  "item_count": 19,
+  "latency_ms": [
+   180
+  ],
+  "error": null
+ },
+ "lm_chat": {
+  "http_status": [
+   200
+  ],
+  "pages": 1,
+  "item_count": 47,
+  "latency_ms": [
+   499
+  ],
+  "error": null
+ },
+ "rp_list_home": {
+  "http_status": [
+   200
+  ],
+  "pages": 1,
+  "item_count": 0,
+  "latency_ms": [
+   182
+  ],
+  "error": null
+ },
+ "md_model_google_gemini-2_5-flash": {
+  "http_status": [
+   200
+  ],
+  "pages": 1,
+  "item_count": 1,
+  "latency_ms": [
+   188
+  ],
+  "error": null
+ },
+ "md_model_google_gemini-2_5-pro": {
+  "http_status": [
+   200
+  ],
+  "pages": 1,
+  "item_count": 1,
+  "latency_ms": [
+   182
+  ],
+  "error": null
+ },
+ "md_model_xai_grok-4_20-0309-reasoning": {
+  "http_status": [
+   200
+  ],
+  "pages": 1,
+  "item_count": 1,
+  "latency_ms": [
+   179
+  ],
+  "error": null
+ },
+ "md_model_xai_grok-4_3": {
+  "http_status": [
+   200
+  ],
+  "pages": 1,
+  "item_count": 1,
+  "latency_ms": [
+   180
+  ],
+  "error": null
+ },
+ "md_model_xai_grok-4_6": {
+  "http_status": [
+   200
+  ],
+  "pages": 1,
+  "item_count": 1,
+  "latency_ms": [
+   400
+  ],
+  "error": null
+ },
+ "md_model_xai_grok-4_7": {
+  "http_status": [
+   200
+  ],
+  "pages": 1,
+  "item_count": 1,
+  "latency_ms": [
+   182
+  ],
+  "error": null
+ }
+}

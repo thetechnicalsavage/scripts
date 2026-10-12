@@ -1,0 +1,216 @@
+{
+ "project": {
+  "alias": "PROJ",
+  "http_status": 201,
+  "latency_ms": 956,
+  "outcome": "CREATED",
+  "state": "ACTIVE",
+  "seconds_to_state": 12.2
+ },
+ "calls": [
+  {
+   "step": "s9_responses",
+   "alias": "M:xai.grok-4.3",
+   "kind": "direct",
+   "model": "xai.grok-4.3",
+   "prompt_no": 0,
+   "word": "ALPHA",
+   "attempts": 1,
+   "final": {
+    "ticket": 51,
+    "status": 400,
+    "latency_ms": 657,
+    "error": null,
+    "code": null,
+    "message": null,
+    "model_id_shape": null,
+    "model_id_is_name": null,
+    "model_version": null,
+    "finish_reason": null,
+    "text": null,
+    "prompt_tokens": null,
+    "completion_tokens": null,
+    "reasoning_tokens": null,
+    "answer_ok": false,
+    "header_names": [
+     "connection",
+     "content-encoding",
+     "content-length",
+     "content-type",
+     "date"
+    ]
+   },
+   "utc": "2026-10-10T08:57:42Z"
+  },
+  {
+   "step": "s9_responses",
+   "alias": "P1",
+   "kind": "profile",
+   "model": "xai.grok-4.3",
+   "prompt_no": 0,
+   "word": "ALPHA",
+   "attempts": 1,
+   "final": {
+    "ticket": 52,
+    "status": 400,
+    "latency_ms": 153,
+    "error": null,
+    "code": null,
+    "message": null,
+    "model_id_shape": null,
+    "model_id_is_name": null,
+    "model_version": null,
+    "finish_reason": null,
+    "text": null,
+    "prompt_tokens": null,
+    "completion_tokens": null,
+    "reasoning_tokens": null,
+    "answer_ok": false,
+    "header_names": [
+     "connection",
+     "content-encoding",
+     "content-length",
+     "content-type",
+     "date"
+    ]
+   },
+   "utc": "2026-10-10T08:57:43Z"
+  },
+  {
+   "step": "s9_responses",
+   "alias": "P1",
+   "kind": "profile",
+   "model": "xai.grok-4.3",
+   "prompt_no": 1,
+   "word": "BRAVO",
+   "attempts": 1,
+   "final": {
+    "ticket": 53,
+    "status": 400,
+    "latency_ms": 153,
+    "error": null,
+    "code": null,
+    "message": null,
+    "model_id_shape": null,
+    "model_id_is_name": null,
+    "model_version": null,
+    "finish_reason": null,
+    "text": null,
+    "prompt_tokens": null,
+    "completion_tokens": null,
+    "reasoning_tokens": null,
+    "answer_ok": false,
+    "header_names": [
+     "connection",
+     "content-encoding",
+     "content-length",
+     "content-type",
+     "date"
+    ]
+   },
+   "utc": "2026-10-10T08:57:45Z"
+  },
+  {
+   "step": "s9_responses",
+   "alias": "M:xai.grok-4.3",
+   "kind": "direct",
+   "model": "xai.grok-4.3",
+   "prompt_no": 1,
+   "word": "BRAVO",
+   "attempts": 1,
+   "final": {
+    "ticket": 54,
+    "status": 200,
+    "latency_ms": 1925,
+    "error": null,
+    "code": null,
+    "message": null,
+    "model_id_shape": "grok-4.3",
+    "model_id_is_name": true,
+    "model_version": null,
+    "finish_reason": "completed",
+    "text": "BRAVO",
+    "prompt_tokens": 200,
+    "completion_tokens": 120,
+    "reasoning_tokens": 118,
+    "answer_ok": true,
+    "header_names": [
+     "connection",
+     "content-encoding",
+     "content-length",
+     "content-type",
+     "date"
+    ]
+   },
+   "utc": "2026-10-10T08:57:48Z"
+  },
+  {
+   "step": "s9_responses",
+   "alias": "M:xai.grok-4.3",
+   "kind": "direct",
+   "model": "xai.grok-4.3",
+   "prompt_no": 2,
+   "word": "CHARLIE",
+   "attempts": 1,
+   "final": {
+    "ticket": 55,
+    "status": 200,
+    "latency_ms": 1874,
+    "error": null,
+    "code": null,
+    "message": null,
+    "model_id_shape": "grok-4.3",
+    "model_id_is_name": true,
+    "model_version": null,
+    "finish_reason": "completed",
+    "text": "CHARLIE",
+    "prompt_tokens": 201,
+    "completion_tokens": 154,
+    "reasoning_tokens": 151,
+    "answer_ok": true,
+    "header_names": [
+     "connection",
+     "content-encoding",
+     "content-length",
+     "content-type",
+     "date"
+    ]
+   },
+   "utc": "2026-10-10T08:57:50Z"
+  },
+  {
+   "step": "s9_responses",
+   "alias": "P1",
+   "kind": "profile",
+   "model": "xai.grok-4.3",
+   "prompt_no": 2,
+   "word": "CHARLIE",
+   "attempts": 1,
+   "final": {
+    "ticket": 56,
+    "status": 400,
+    "latency_ms": 164,
+    "error": null,
+    "code": null,
+    "message": null,
+    "model_id_shape": null,
+    "model_id_is_name": null,
+    "model_version": null,
+    "finish_reason": null,
+    "text": null,
+    "prompt_tokens": null,
+    "completion_tokens": null,
+    "reasoning_tokens": null,
+    "answer_ok": false,
+    "header_names": [
+     "connection",
+     "content-encoding",
+     "content-length",
+     "content-type",
+     "date"
+    ]
+   },
+   "utc": "2026-10-10T08:57:52Z"
+  }
+ ]
+}

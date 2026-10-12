@@ -1,0 +1,178 @@
+[
+ {
+  "alias": "P1",
+  "kind": "profile",
+  "models": [
+   "xai.grok-4.3"
+  ],
+  "http_status": 201,
+  "latency_ms": 1004,
+  "attempts": 1,
+  "outcome": "CREATED",
+  "state": "ACTIVE",
+  "seconds_to_state": 0.8,
+  "stored_models": [
+   "xai.grok-4.3"
+  ],
+  "stored_regions": [
+   "us-phoenix-1"
+  ],
+  "has_previous_state": false,
+  "tags_ok": true
+ },
+ {
+  "alias": "P2",
+  "kind": "profile",
+  "models": [
+   "xai.grok-4.20-0309-reasoning"
+  ],
+  "http_status": 201,
+  "latency_ms": 1028,
+  "attempts": 1,
+  "outcome": "CREATED",
+  "state": "ACTIVE",
+  "seconds_to_state": 0.8,
+  "stored_models": [
+   "xai.grok-4.20-0309-reasoning"
+  ],
+  "stored_regions": [
+   "us-phoenix-1"
+  ],
+  "has_previous_state": false,
+  "tags_ok": true
+ },
+ {
+  "alias": "P3",
+  "kind": "profile",
+  "models": [
+   "google.gemini-2.5-flash"
+  ],
+  "http_status": 201,
+  "latency_ms": 999,
+  "attempts": 1,
+  "outcome": "CREATED",
+  "state": "ACTIVE",
+  "seconds_to_state": 0.8,
+  "stored_models": [
+   "google.gemini-2.5-flash"
+  ],
+  "stored_regions": [
+   "us-phoenix-1"
+  ],
+  "has_previous_state": false,
+  "tags_ok": true
+ },
+ {
+  "alias": "N1",
+  "kind": "invalid",
+  "models": [
+   "xai.grok-4.20-non-reasoning"
+  ],
+  "http_status": 400,
+  "latency_ms": 789,
+  "attempts": 1,
+  "outcome": "REFUSED",
+  "code": "InvalidParameter",
+  "message": "Invalid parameter: allowedModels. None of the allowed models is available in any allowed region.",
+  "profiles_before": 3,
+  "profiles_after": 3
+ },
+ {
+  "alias": "N2",
+  "kind": "invalid",
+  "models": [
+   "xai.grok-4.3",
+   "google.gemini-2.5-flash"
+  ],
+  "http_status": 400,
+  "latency_ms": 787,
+  "attempts": 1,
+  "outcome": "REFUSED",
+  "code": "InvalidParameter",
+  "message": "Invalid parameter: allowedModels. The list must contain exactly one non-blank model ID.",
+  "profiles_before": 3,
+  "profiles_after": 3
+ },
+ {
+  "alias": "N3",
+  "kind": "invalid",
+  "models": [
+   "openai.gpt-oss-120b"
+  ],
+  "http_status": 201,
+  "latency_ms": 973,
+  "attempts": 1,
+  "outcome": "CREATED",
+  "state": "ACTIVE",
+  "seconds_to_state": 0.7,
+  "stored_models": [
+   "openai.gpt-oss-120b"
+  ],
+  "stored_regions": [
+   "us-phoenix-1"
+  ],
+  "has_previous_state": false,
+  "tags_ok": true,
+  "deleted_at_once": {
+   "delete_status": 202,
+   "gone": true,
+   "seconds_to_gone": 0.2
+  },
+  "profiles_before": 3,
+  "profiles_after": 3
+ },
+ {
+  "alias": "N4",
+  "kind": "invalid",
+  "models": [
+   "meta.llama-3.3-70b-instruct"
+  ],
+  "http_status": 400,
+  "latency_ms": 284,
+  "attempts": 1,
+  "outcome": "REFUSED",
+  "code": "InvalidParameter",
+  "message": "Invalid parameter: allowedModels. None of the allowed models is available in any allowed region.",
+  "profiles_before": 3,
+  "profiles_after": 3
+ },
+ {
+  "alias": "N5",
+  "kind": "invalid",
+  "models": null,
+  "http_status": 400,
+  "latency_ms": 267,
+  "attempts": 1,
+  "outcome": "REFUSED",
+  "code": "InvalidParameter",
+  "message": "Invalid parameter: allowedModels. The list must be provided and non-empty.",
+  "profiles_before": 3,
+  "profiles_after": 3
+ },
+ {
+  "alias": "P4",
+  "kind": "profile",
+  "models": [
+   "google.gemini-2.5-pro"
+  ],
+  "http_status": 201,
+  "latency_ms": 351,
+  "attempts": 1,
+  "outcome": "CREATED",
+  "state": "ACTIVE",
+  "seconds_to_state": 0.2,
+  "stored_models": [
+   "google.gemini-2.5-pro"
+  ],
+  "stored_regions": [
+   "us-phoenix-1"
+  ],
+  "has_previous_state": false,
+  "tags_ok": true
+ },
+ {
+  "alias": "P5",
+  "outcome": "SKIPPED",
+  "reason": "the model failed the S3 direct call"
+ }
+]

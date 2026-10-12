@@ -1,0 +1,215 @@
+{
+ "project": {
+  "alias": "PROJ",
+  "outcome": "REUSED",
+  "state": "ACTIVE",
+  "http_status": 200
+ },
+ "use_reserve": "S9 re-run: error text of the first run not captured (OpenAI error shape)",
+ "calls": [
+  {
+   "step": "s9_responses",
+   "alias": "M:xai.grok-4.3",
+   "kind": "direct",
+   "model": "xai.grok-4.3",
+   "prompt_no": 0,
+   "word": "ALPHA",
+   "attempts": 1,
+   "final": {
+    "ticket": 57,
+    "status": 200,
+    "latency_ms": 5633,
+    "error": null,
+    "code": null,
+    "message": null,
+    "model_id_shape": "grok-4.3",
+    "model_id_is_name": true,
+    "model_version": null,
+    "finish_reason": "completed",
+    "text": "ALPHA",
+    "prompt_tokens": 200,
+    "completion_tokens": 143,
+    "reasoning_tokens": 141,
+    "answer_ok": true,
+    "header_names": [
+     "connection",
+     "content-encoding",
+     "content-length",
+     "content-type",
+     "date"
+    ]
+   },
+   "utc": "2026-10-10T09:02:11Z"
+  },
+  {
+   "step": "s9_responses",
+   "alias": "P1",
+   "kind": "profile",
+   "model": "xai.grok-4.3",
+   "prompt_no": 0,
+   "word": "ALPHA",
+   "attempts": 1,
+   "final": {
+    "ticket": 58,
+    "status": 400,
+    "latency_ms": 175,
+    "error": null,
+    "code": "invalid_request_error",
+    "message": "Entity with key <generativeairoutingprofile:phx> not found",
+    "model_id_shape": null,
+    "model_id_is_name": null,
+    "model_version": null,
+    "finish_reason": null,
+    "text": null,
+    "prompt_tokens": null,
+    "completion_tokens": null,
+    "reasoning_tokens": null,
+    "answer_ok": false,
+    "header_names": [
+     "connection",
+     "content-encoding",
+     "content-length",
+     "content-type",
+     "date"
+    ]
+   },
+   "utc": "2026-10-10T09:02:13Z"
+  },
+  {
+   "step": "s9_responses",
+   "alias": "P1",
+   "kind": "profile",
+   "model": "xai.grok-4.3",
+   "prompt_no": 1,
+   "word": "BRAVO",
+   "attempts": 1,
+   "final": {
+    "ticket": 59,
+    "status": 400,
+    "latency_ms": 154,
+    "error": null,
+    "code": "invalid_request_error",
+    "message": "Entity with key <generativeairoutingprofile:phx> not found",
+    "model_id_shape": null,
+    "model_id_is_name": null,
+    "model_version": null,
+    "finish_reason": null,
+    "text": null,
+    "prompt_tokens": null,
+    "completion_tokens": null,
+    "reasoning_tokens": null,
+    "answer_ok": false,
+    "header_names": [
+     "connection",
+     "content-encoding",
+     "content-length",
+     "content-type",
+     "date"
+    ]
+   },
+   "utc": "2026-10-10T09:02:14Z"
+  },
+  {
+   "step": "s9_responses",
+   "alias": "M:xai.grok-4.3",
+   "kind": "direct",
+   "model": "xai.grok-4.3",
+   "prompt_no": 1,
+   "word": "BRAVO",
+   "attempts": 1,
+   "final": {
+    "ticket": 60,
+    "status": 200,
+    "latency_ms": 3980,
+    "error": null,
+    "code": null,
+    "message": null,
+    "model_id_shape": "grok-4.3",
+    "model_id_is_name": true,
+    "model_version": null,
+    "finish_reason": "completed",
+    "text": "BRAVO",
+    "prompt_tokens": 200,
+    "completion_tokens": 93,
+    "reasoning_tokens": 91,
+    "answer_ok": true,
+    "header_names": [
+     "connection",
+     "content-encoding",
+     "content-length",
+     "content-type",
+     "date"
+    ]
+   },
+   "utc": "2026-10-10T09:02:19Z"
+  },
+  {
+   "step": "s9_responses",
+   "alias": "M:xai.grok-4.3",
+   "kind": "direct",
+   "model": "xai.grok-4.3",
+   "prompt_no": 2,
+   "word": "CHARLIE",
+   "attempts": 1,
+   "final": {
+    "ticket": 61,
+    "status": 200,
+    "latency_ms": 4840,
+    "error": null,
+    "code": null,
+    "message": null,
+    "model_id_shape": "grok-4.3",
+    "model_id_is_name": true,
+    "model_version": null,
+    "finish_reason": "completed",
+    "text": "CHARLIE",
+    "prompt_tokens": 201,
+    "completion_tokens": 131,
+    "reasoning_tokens": 128,
+    "answer_ok": true,
+    "header_names": [
+     "connection",
+     "content-encoding",
+     "content-length",
+     "content-type",
+     "date"
+    ]
+   },
+   "utc": "2026-10-10T09:02:25Z"
+  },
+  {
+   "step": "s9_responses",
+   "alias": "P1",
+   "kind": "profile",
+   "model": "xai.grok-4.3",
+   "prompt_no": 2,
+   "word": "CHARLIE",
+   "attempts": 1,
+   "final": {
+    "ticket": 62,
+    "status": 400,
+    "latency_ms": 154,
+    "error": null,
+    "code": "invalid_request_error",
+    "message": "Entity with key <generativeairoutingprofile:phx> not found",
+    "model_id_shape": null,
+    "model_id_is_name": null,
+    "model_version": null,
+    "finish_reason": null,
+    "text": null,
+    "prompt_tokens": null,
+    "completion_tokens": null,
+    "reasoning_tokens": null,
+    "answer_ok": false,
+    "header_names": [
+     "connection",
+     "content-encoding",
+     "content-length",
+     "content-type",
+     "date"
+    ]
+   },
+   "utc": "2026-10-10T09:02:26Z"
+  }
+ ]
+}
