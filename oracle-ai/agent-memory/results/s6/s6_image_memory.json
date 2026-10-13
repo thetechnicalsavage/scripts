@@ -1,0 +1,633 @@
+{
+ "added": [
+  {
+   "bytes": 54195,
+   "image_id": "cust1001_img_bill_sep",
+   "returned": "cust1001_img_bill_sep",
+   "sha256": "28260d34c80ab4c93a5c8b21feabb98372390cb7809c28f9cc70fc9976753b6f"
+  },
+  {
+   "bytes": 41678,
+   "image_id": "cust1001_img_activation",
+   "returned": "cust1001_img_activation",
+   "sha256": "e32225d3d40bcc48e78a76a3e9e8da877559bd2ba348a516ed1614de1dc1d886"
+  },
+  {
+   "bytes": 37536,
+   "image_id": "cust1001_img_credit_note",
+   "returned": "cust1001_img_credit_note",
+   "sha256": "83922a13d990fc4ead2d025ade1afe16f026a4c1b56b6fa0c43fb5394f8c89f5"
+  },
+  {
+   "bytes": 41286,
+   "image_id": "cust1001_img_quote_family",
+   "returned": "cust1001_img_quote_family",
+   "sha256": "df2c2eb33aa2d45d8afea0e66088016efa3d326af8c656d3d68a3c78b2098f92"
+  }
+ ],
+ "caption": {
+  "attempts": [
+   {
+    "attempt": 0,
+    "ok": true,
+    "returned": "cust1001_img_bill_sep_llmcap",
+    "reused_from_earlier_attempt": "2026-10-10T18:51:45Z"
+   }
+  ],
+  "caption_image_id": "cust1001_img_bill_sep_llmcap",
+  "generated_description": "A synthetic mobile operator bill for customer CUST_1001, line 1, dated 15 Sep 2026 for September 2026. It shows a plan monthly fee of QAR 180.00 and two identical \"Roaming add-on RMG-GCC-7D (03 Sep)\" line items each for QAR 35.00 (one highlighted with a red box), resulting in a total due of QAR 250.00. Red text at the bottom notes \"Duplicate charge under review: ticket TKT-48213\". The document is labeled as fictional/synthetic sample data.",
+  "llm_calls_for_caption": 0,
+  "llm_failures": 0,
+  "our_description": "Synthetic September 2026 bill for CUST_1001 showing the roaming add-on RMG-GCC-7D charged twice; the duplicate is under review in ticket TKT-48213.",
+  "outcome": "caption generated (by the earlier attempt, re-added as given)",
+  "source_image_id": "cust1001_img_bill_sep",
+  "stored": true,
+  "wait": {
+   "embedded_chunks": 1,
+   "row": true,
+   "seconds_waited": 0.0
+  }
+ },
+ "caption_gate": {
+  "allowed": true,
+  "model": "oci/xai.grok-4.20-non-reasoning",
+  "reason": "step 0 vision check passed"
+ },
+ "deleted_own_leftovers": {
+  "cust1001_img_activation": 1,
+  "cust1001_img_bill_sep": 1,
+  "cust1001_img_bill_sep_llmcap": 1,
+  "cust1001_img_credit_note": 1,
+  "cust1001_img_quote_family": 1
+ },
+ "demo_open": {
+  "policy": "REQUIRE_EXISTING",
+  "purge_jobs": [
+   {
+    "enabled": "FALSE",
+    "job_name": "DEMO_PURGE_EXPIRED_RECORDS_J",
+    "run_count": 1,
+    "state": "DISABLED"
+   },
+   {
+    "enabled": "FALSE",
+    "job_name": "DEMO_PURGE_ORPHANED_CHUNKS_J",
+    "run_count": 1,
+    "state": "DISABLED"
+   }
+  ],
+  "store_id": "DEMO"
+ },
+ "documents_after_add": [
+  {
+   "bytes": 41678,
+   "created_at_utc": "2026-10-10T18:55:46Z",
+   "description": "Synthetic activation record for CUST_1001: the roaming add-on RMG-GCC-7D was activated by SMS on 03 Sep 2026.",
+   "document_metadata": "{\"mime_type\":\"image/png\"}",
+   "document_type": "image",
+   "record_id": "cust1001_img_activation",
+   "status": "valid",
+   "user_id": "CUST_1001"
+  },
+  {
+   "bytes": 54195,
+   "created_at_utc": "2026-10-10T18:55:45Z",
+   "description": "Synthetic September 2026 bill for CUST_1001 showing the roaming add-on RMG-GCC-7D charged twice; the duplicate is under review in ticket TKT-48213.",
+   "document_metadata": "{\"mime_type\":\"image/png\"}",
+   "document_type": "image",
+   "record_id": "cust1001_img_bill_sep",
+   "status": "valid",
+   "user_id": "CUST_1001"
+  },
+  {
+   "bytes": 37536,
+   "created_at_utc": "2026-10-10T18:55:46Z",
+   "description": "Synthetic credit note for CUST_1001 refunding one duplicate RMG-GCC-7D charge after ticket TKT-48213.",
+   "document_metadata": "{\"mime_type\":\"image/png\"}",
+   "document_type": "image",
+   "record_id": "cust1001_img_credit_note",
+   "status": "valid",
+   "user_id": "CUST_1001"
+  },
+  {
+   "bytes": 41286,
+   "created_at_utc": "2026-10-10T18:55:46Z",
+   "description": "Synthetic price quote for CUST_1001's move to the family plan PLN-FAM-4 with four lines.",
+   "document_metadata": "{\"mime_type\":\"image/png\"}",
+   "document_type": "image",
+   "record_id": "cust1001_img_quote_family",
+   "status": "valid",
+   "user_id": "CUST_1001"
+  }
+ ],
+ "documents_final": [
+  {
+   "bytes": 41678,
+   "document_type": "image",
+   "record_id": "cust1001_img_activation",
+   "status": "valid"
+  },
+  {
+   "bytes": 54195,
+   "document_type": "image",
+   "record_id": "cust1001_img_bill_sep",
+   "status": "valid"
+  },
+  {
+   "bytes": 54195,
+   "document_type": "image",
+   "record_id": "cust1001_img_bill_sep_llmcap",
+   "status": "valid"
+  },
+  {
+   "bytes": 37536,
+   "document_type": "image",
+   "record_id": "cust1001_img_credit_note",
+   "status": "valid"
+  },
+  {
+   "bytes": 41286,
+   "document_type": "image",
+   "record_id": "cust1001_img_quote_family",
+   "status": "valid"
+  }
+ ],
+ "frozen_inputs_match": {
+  "data/frozen/bill_images.json": true,
+  "data/frozen/images/activation_rmg_gcc_7d.png": true,
+  "data/frozen/images/bill_tkt48213.png": true,
+  "data/frozen/images/credit_note_tkt48213.png": true,
+  "data/frozen/images/quote_pln_fam_4.png": true
+ },
+ "hero_after": {
+  "links": [
+   [
+    "cust1001_m02",
+    "cust1001_m01",
+    "supersedes"
+   ],
+   [
+    "cust1001_m04",
+    "cust1001_m03",
+    "supports"
+   ],
+   [
+    "cust1001_m06",
+    "cust1001_m05",
+    "contradicts"
+   ],
+   [
+    "cust1001_m08",
+    "cust1001_m07",
+    "refines"
+   ],
+   [
+    "cust1001_m09",
+    "cust1001_m03",
+    "duplicates"
+   ],
+   [
+    "cust1001_m10",
+    "cust1001_m02",
+    "supersedes"
+   ]
+  ],
+  "memories": [
+   [
+    "cust1001_m01",
+    "invalid"
+   ],
+   [
+    "cust1001_m02",
+    "invalid"
+   ],
+   [
+    "cust1001_m03",
+    "invalid"
+   ],
+   [
+    "cust1001_m04",
+    "valid"
+   ],
+   [
+    "cust1001_m05",
+    "valid"
+   ],
+   [
+    "cust1001_m06",
+    "valid"
+   ],
+   [
+    "cust1001_m07",
+    "invalid"
+   ],
+   [
+    "cust1001_m08",
+    "valid"
+   ],
+   [
+    "cust1001_m09",
+    "valid"
+   ],
+   [
+    "cust1001_m10",
+    "valid"
+   ]
+  ]
+ },
+ "hero_before": {
+  "links": [
+   [
+    "cust1001_m02",
+    "cust1001_m01",
+    "supersedes"
+   ],
+   [
+    "cust1001_m04",
+    "cust1001_m03",
+    "supports"
+   ],
+   [
+    "cust1001_m06",
+    "cust1001_m05",
+    "contradicts"
+   ],
+   [
+    "cust1001_m08",
+    "cust1001_m07",
+    "refines"
+   ],
+   [
+    "cust1001_m09",
+    "cust1001_m03",
+    "duplicates"
+   ],
+   [
+    "cust1001_m10",
+    "cust1001_m02",
+    "supersedes"
+   ]
+  ],
+  "memories": [
+   [
+    "cust1001_m01",
+    "invalid"
+   ],
+   [
+    "cust1001_m02",
+    "invalid"
+   ],
+   [
+    "cust1001_m03",
+    "invalid"
+   ],
+   [
+    "cust1001_m04",
+    "valid"
+   ],
+   [
+    "cust1001_m05",
+    "valid"
+   ],
+   [
+    "cust1001_m06",
+    "valid"
+   ],
+   [
+    "cust1001_m07",
+    "invalid"
+   ],
+   [
+    "cust1001_m08",
+    "valid"
+   ],
+   [
+    "cust1001_m09",
+    "valid"
+   ],
+   [
+    "cust1001_m10",
+    "valid"
+   ]
+  ]
+ },
+ "hero_unchanged": true,
+ "image_chunks": [
+  [
+   "cust1001_img_activation",
+   "image",
+   1,
+   1
+  ],
+  [
+   "cust1001_img_bill_sep",
+   "image",
+   1,
+   1
+  ],
+  [
+   "cust1001_img_credit_note",
+   "image",
+   1,
+   1
+  ],
+  [
+   "cust1001_img_quote_family",
+   "image",
+   1,
+   1
+  ]
+ ],
+ "image_chunks_after_caption": [
+  [
+   "cust1001_img_activation",
+   "image",
+   1,
+   1
+  ],
+  [
+   "cust1001_img_bill_sep",
+   "image",
+   1,
+   1
+  ],
+  [
+   "cust1001_img_bill_sep_llmcap",
+   "image",
+   1,
+   1
+  ],
+  [
+   "cust1001_img_credit_note",
+   "image",
+   1,
+   1
+  ],
+  [
+   "cust1001_img_quote_family",
+   "image",
+   1,
+   1
+  ]
+ ],
+ "images_before": [
+  "cust1001_img_bill_sep",
+  "cust1001_img_activation",
+  "cust1001_img_credit_note",
+  "cust1001_img_quote_family",
+  "cust1001_img_bill_sep_llmcap"
+ ],
+ "ledger_total_after": 16739,
+ "list_images_no_bytes": [
+  {
+   "bytes_loaded": false,
+   "description": "Synthetic September 2026 bill for CUST_1001 showing the roaming add-on RMG-GCC-7D charged twice; the duplicate is under review in ticket TKT-48213.",
+   "id": "cust1001_img_bill_sep",
+   "mime_type": "ImageMimeType.PNG"
+  },
+  {
+   "bytes_loaded": false,
+   "description": "Synthetic activation record for CUST_1001: the roaming add-on RMG-GCC-7D was activated by SMS on 03 Sep 2026.",
+   "id": "cust1001_img_activation",
+   "mime_type": "ImageMimeType.PNG"
+  },
+  {
+   "bytes_loaded": false,
+   "description": "Synthetic credit note for CUST_1001 refunding one duplicate RMG-GCC-7D charge after ticket TKT-48213.",
+   "id": "cust1001_img_credit_note",
+   "mime_type": "ImageMimeType.PNG"
+  },
+  {
+   "bytes_loaded": false,
+   "description": "Synthetic price quote for CUST_1001's move to the family plan PLN-FAM-4 with four lines.",
+   "id": "cust1001_img_quote_family",
+   "mime_type": "ImageMimeType.PNG"
+  }
+ ],
+ "list_images_with_bytes": [
+  {
+   "bytes": 54195,
+   "id": "cust1001_img_bill_sep",
+   "mime_type": "ImageMimeType.PNG",
+   "sha256_equals_file": true
+  }
+ ],
+ "litellm_counter": {
+  "blocked_by_budget": 0,
+  "calls": {},
+  "errors": {},
+  "failed_call_estimate_tokens": 0,
+  "failed_calls": 0,
+  "tokens": {}
+ },
+ "llm_calls_after_described_images": 0,
+ "meter": {
+  "by_model": {},
+  "embedder_events_by_class": {
+   "EmbedderCompletedEvent:OracleDBEmbedder": 13,
+   "EmbedderStartedEvent:OracleDBEmbedder": 13
+  },
+  "embedder_inputs": 13,
+  "events": {
+   "AgentMemoryCompletedEvent": 21,
+   "AgentMemoryStartedEvent": 21,
+   "EmbedderCompletedEvent": 13,
+   "EmbedderStartedEvent": 13,
+   "MemoryStoreCompletedEvent": 26,
+   "MemoryStoreStartedEvent": 26
+  },
+  "llm_calls": 0,
+  "llm_error_types": {},
+  "llm_failures": 0,
+  "tokens": {}
+ },
+ "mime_detected_as_frozen": {
+  "cust1001_img_activation": true,
+  "cust1001_img_bill_sep": true,
+  "cust1001_img_credit_note": true,
+  "cust1001_img_quote_family": true
+ },
+ "prior_caption": {
+  "created_at_utc": "2026-10-10T18:51:45Z",
+  "description": "A synthetic mobile operator bill for customer CUST_1001, line 1, dated 15 Sep 2026 for September 2026. It shows a plan monthly fee of QAR 180.00 and two identical \"Roaming add-on RMG-GCC-7D (03 Sep)\" line items each for QAR 35.00 (one highlighted with a red box), resulting in a total due of QAR 250.00. Red text at the bottom notes \"Duplicate charge under review: ticket TKT-48213\". The document is labeled as fictional/synthetic sample data."
+ },
+ "prior_caption_row_without_text": false,
+ "search_call": {
+  "max_results": 10,
+  "record_types": [
+   "image"
+  ],
+  "user_id": "CUST_1001"
+ },
+ "search_ranks": [
+  {
+   "distances": [
+    0.32430242998734127,
+    0.5874280465581971,
+    0.670977256826117,
+    0.7461403995869396
+   ],
+   "gold_image_id": "cust1001_img_bill_sep",
+   "latency_ms": 47.7,
+   "qid": "IMG-1",
+   "question": "Show me the bill where the roaming add-on was charged twice.",
+   "rank_gold": 1,
+   "returned_ids": [
+    "cust1001_img_bill_sep",
+    "cust1001_img_activation",
+    "cust1001_img_credit_note",
+    "cust1001_img_quote_family"
+   ]
+  },
+  {
+   "distances": [
+    0.47829194418820575,
+    0.625196240431656,
+    0.9293384485417385,
+    0.9420390861766967
+   ],
+   "gold_image_id": "cust1001_img_activation",
+   "latency_ms": 50.3,
+   "qid": "IMG-2",
+   "question": "Is there a record of how the roaming add-on was switched on?",
+   "rank_gold": 1,
+   "returned_ids": [
+    "cust1001_img_activation",
+    "cust1001_img_bill_sep",
+    "cust1001_img_credit_note",
+    "cust1001_img_quote_family"
+   ]
+  },
+  {
+   "distances": [
+    0.3802956117040005,
+    0.5009935797206517,
+    0.6691935135277969,
+    0.7621605119830195
+   ],
+   "gold_image_id": "cust1001_img_credit_note",
+   "latency_ms": 36.8,
+   "qid": "IMG-3",
+   "question": "Which document refunded the duplicate roaming charge?",
+   "rank_gold": 2,
+   "returned_ids": [
+    "cust1001_img_bill_sep",
+    "cust1001_img_credit_note",
+    "cust1001_img_activation",
+    "cust1001_img_quote_family"
+   ]
+  },
+  {
+   "distances": [
+    0.30360332885941743,
+    0.7752988642220494,
+    0.8354566236592799,
+    0.9450265909769117
+   ],
+   "gold_image_id": "cust1001_img_quote_family",
+   "latency_ms": 33.9,
+   "qid": "IMG-4",
+   "question": "Show the price quote for the family plan.",
+   "rank_gold": 1,
+   "returned_ids": [
+    "cust1001_img_quote_family",
+    "cust1001_img_bill_sep",
+    "cust1001_img_credit_note",
+    "cust1001_img_activation"
+   ]
+  }
+ ],
+ "search_ranks_after_caption": [
+  {
+   "distances": [
+    0.32430242998734127,
+    0.3450242542298485,
+    0.5874280465581971,
+    0.670977256826117,
+    0.7461403995869396
+   ],
+   "gold_image_id": "cust1001_img_bill_sep",
+   "latency_ms": 49.6,
+   "qid": "IMG-1",
+   "question": "Show me the bill where the roaming add-on was charged twice.",
+   "rank_caption_copy": 2,
+   "rank_gold": 1,
+   "returned_ids": [
+    "cust1001_img_bill_sep",
+    "cust1001_img_bill_sep_llmcap",
+    "cust1001_img_activation",
+    "cust1001_img_credit_note",
+    "cust1001_img_quote_family"
+   ]
+  },
+  {
+   "distances": [
+    0.47829194418820575,
+    0.625196240431656,
+    0.662698074854581,
+    0.9293384485417385,
+    0.9420390861766967
+   ],
+   "gold_image_id": "cust1001_img_activation",
+   "latency_ms": 59.2,
+   "qid": "IMG-2",
+   "question": "Is there a record of how the roaming add-on was switched on?",
+   "rank_caption_copy": 3,
+   "rank_gold": 1,
+   "returned_ids": [
+    "cust1001_img_activation",
+    "cust1001_img_bill_sep",
+    "cust1001_img_bill_sep_llmcap",
+    "cust1001_img_credit_note",
+    "cust1001_img_quote_family"
+   ]
+  },
+  {
+   "distances": [
+    0.3802956117040005,
+    0.4050995317888161,
+    0.5009935797206517,
+    0.6691935135277969,
+    0.7621605119830195
+   ],
+   "gold_image_id": "cust1001_img_credit_note",
+   "latency_ms": 76.5,
+   "qid": "IMG-3",
+   "question": "Which document refunded the duplicate roaming charge?",
+   "rank_caption_copy": 2,
+   "rank_gold": 3,
+   "returned_ids": [
+    "cust1001_img_bill_sep",
+    "cust1001_img_bill_sep_llmcap",
+    "cust1001_img_credit_note",
+    "cust1001_img_activation",
+    "cust1001_img_quote_family"
+   ]
+  },
+  {
+   "distances": [
+    0.30360332885941743,
+    0.6539844386553184,
+    0.7752988642220494,
+    0.8354566236592799,
+    0.9450265909769117
+   ],
+   "gold_image_id": "cust1001_img_quote_family",
+   "latency_ms": 75.4,
+   "qid": "IMG-4",
+   "question": "Show the price quote for the family plan.",
+   "rank_caption_copy": 2,
+   "rank_gold": 1,
+   "returned_ids": [
+    "cust1001_img_quote_family",
+    "cust1001_img_bill_sep_llmcap",
+    "cust1001_img_bill_sep",
+    "cust1001_img_credit_note",
+    "cust1001_img_activation"
+   ]
+  }
+ ],
+ "store": "DEMO",
+ "unlisted_objects_now": [],
+ "user_id": "CUST_1001"
+}

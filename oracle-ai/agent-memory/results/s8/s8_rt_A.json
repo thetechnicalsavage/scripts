@@ -1,0 +1,195 @@
+{
+ "failed_operations": [
+  "OracleAgentMemory(connection=AGENTMEM_RT pool, schema_owner='AGENTMEM', memory_store_id='OPS', REQUIRE_EXISTING)",
+  "search",
+  "search num_hops=1",
+  "add_memory",
+  "link_records",
+  "delete_record_link",
+  "add_image",
+  "list_images",
+  "get_thread",
+  "get_summary"
+ ],
+ "ledger_total_after": 3849782,
+ "list": "A",
+ "litellm_counter": {
+  "blocked_by_budget": 0,
+  "calls": {},
+  "errors": {},
+  "failed_call_estimate_tokens": 0,
+  "failed_calls": 0,
+  "tokens": {}
+ },
+ "llm_calls_total": 0,
+ "meter": {
+  "by_model": {},
+  "embedder_events_by_class": {},
+  "embedder_inputs": 0,
+  "events": {},
+  "llm_calls": 0,
+  "llm_error_types": {},
+  "llm_failures": 0,
+  "tokens": {}
+ },
+ "operations": [
+  {
+   "error_chain": [
+    {
+     "message": "Managed DB schema is missing required objects. Ask a DBA to create/update the schema, or use schema_policy='create_if_necessary' or schema_policy='recreate' with a privileged account.",
+     "type": "ValueError"
+    }
+   ],
+   "llm_calls": 0,
+   "ok": false,
+   "op": "OracleAgentMemory(connection=AGENTMEM_RT pool, schema_owner='AGENTMEM', memory_store_id='OPS', REQUIRE_EXISTING)",
+   "oracle_codes": [],
+   "seconds": 2.572
+  },
+  {
+   "ok": false,
+   "op": "search",
+   "skipped": "the client did not open"
+  },
+  {
+   "ok": false,
+   "op": "search num_hops=1",
+   "skipped": "the client did not open"
+  },
+  {
+   "ok": false,
+   "op": "add_memory",
+   "skipped": "the client did not open"
+  },
+  {
+   "ok": false,
+   "op": "link_records",
+   "skipped": "the client did not open"
+  },
+  {
+   "ok": false,
+   "op": "delete_record_link",
+   "skipped": "the client did not open"
+  },
+  {
+   "ok": false,
+   "op": "add_image",
+   "skipped": "the client did not open"
+  },
+  {
+   "ok": false,
+   "op": "list_images",
+   "skipped": "the client did not open"
+  },
+  {
+   "ok": false,
+   "op": "get_thread",
+   "skipped": "the client did not open"
+  },
+  {
+   "ok": false,
+   "op": "get_summary",
+   "skipped": "the client did not open"
+  }
+ ],
+ "phase": "rt",
+ "privileges": {
+  "expected_rows": 22,
+  "extra": [],
+  "held_from_agentmem": [
+   [
+    "SELECT",
+    "AGENT_MEMORY_STORES"
+   ],
+   [
+    "EXECUTE",
+    "DBMS_AGENT_MEMORY_STORE"
+   ],
+   [
+    "DELETE",
+    "OPS_ACTOR_PROFILE"
+   ],
+   [
+    "INSERT",
+    "OPS_ACTOR_PROFILE"
+   ],
+   [
+    "SELECT",
+    "OPS_ACTOR_PROFILE"
+   ],
+   [
+    "UPDATE",
+    "OPS_ACTOR_PROFILE"
+   ],
+   [
+    "DELETE",
+    "OPS_MEMORY"
+   ],
+   [
+    "INSERT",
+    "OPS_MEMORY"
+   ],
+   [
+    "SELECT",
+    "OPS_MEMORY"
+   ],
+   [
+    "UPDATE",
+    "OPS_MEMORY"
+   ],
+   [
+    "DELETE",
+    "OPS_MESSAGE"
+   ],
+   [
+    "INSERT",
+    "OPS_MESSAGE"
+   ],
+   [
+    "SELECT",
+    "OPS_MESSAGE"
+   ],
+   [
+    "UPDATE",
+    "OPS_MESSAGE"
+   ],
+   [
+    "DELETE",
+    "OPS_RECORD_CHUNKS"
+   ],
+   [
+    "INSERT",
+    "OPS_RECORD_CHUNKS"
+   ],
+   [
+    "SELECT",
+    "OPS_RECORD_CHUNKS"
+   ],
+   [
+    "UPDATE",
+    "OPS_RECORD_CHUNKS"
+   ],
+   [
+    "DELETE",
+    "OPS_THREAD"
+   ],
+   [
+    "INSERT",
+    "OPS_THREAD"
+   ],
+   [
+    "SELECT",
+    "OPS_THREAD"
+   ],
+   [
+    "UPDATE",
+    "OPS_THREAD"
+   ]
+  ],
+  "list": "A",
+  "missing": []
+ },
+ "store": "OPS",
+ "thread_id": "ops_thread_01",
+ "user_id": "OPS_CUST_01"
+}

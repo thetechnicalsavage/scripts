@@ -1,0 +1,56 @@
+{
+ "images": [
+  {
+   "description": "Synthetic September 2026 bill for CUST_1001 showing the roaming add-on RMG-GCC-7D charged twice; the duplicate is under review in ticket TKT-48213.",
+   "file": "images/bill_tkt48213.png",
+   "image_id": "cust1001_img_bill_sep",
+   "mime_type": "image/png"
+  },
+  {
+   "description": "Synthetic activation record for CUST_1001: the roaming add-on RMG-GCC-7D was activated by SMS on 03 Sep 2026.",
+   "file": "images/activation_rmg_gcc_7d.png",
+   "image_id": "cust1001_img_activation",
+   "mime_type": "image/png"
+  },
+  {
+   "description": "Synthetic credit note for CUST_1001 refunding one duplicate RMG-GCC-7D charge after ticket TKT-48213.",
+   "file": "images/credit_note_tkt48213.png",
+   "image_id": "cust1001_img_credit_note",
+   "mime_type": "image/png"
+  },
+  {
+   "description": "Synthetic price quote for CUST_1001's move to the family plan PLN-FAM-4 with four lines.",
+   "file": "images/quote_pln_fam_4.png",
+   "image_id": "cust1001_img_quote_family",
+   "mime_type": "image/png"
+  }
+ ],
+ "questions": [
+  {
+   "gold_image_id": "cust1001_img_bill_sep",
+   "qid": "IMG-1",
+   "text": "Show me the bill where the roaming add-on was charged twice."
+  },
+  {
+   "gold_image_id": "cust1001_img_activation",
+   "qid": "IMG-2",
+   "text": "Is there a record of how the roaming add-on was switched on?"
+  },
+  {
+   "gold_image_id": "cust1001_img_credit_note",
+   "qid": "IMG-3",
+   "text": "Which document refunded the duplicate roaming charge?"
+  },
+  {
+   "gold_image_id": "cust1001_img_quote_family",
+   "qid": "IMG-4",
+   "text": "Show the price quote for the family plan."
+  }
+ ],
+ "user_id": "CUST_1001",
+ "vision_check": {
+  "expected": "a white circle on a blue background (any wording that says so passes)",
+  "file": "images/vision_check_64.png",
+  "mime_type": "image/png"
+ }
+}

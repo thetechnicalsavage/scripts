@@ -1,0 +1,914 @@
+{
+ "confirmatory": {
+  "disabled_note": "DISABLED creates no links by design: the cost baseline and the harmful-invalidation floor (0), not a contender (PLAN 7.2).",
+  "during_counts_per_thread": [
+   [
+    0,
+    0,
+    9
+   ],
+   [
+    0,
+    1,
+    9
+   ],
+   [
+    0,
+    0,
+    9
+   ],
+   [
+    0,
+    2,
+    9
+   ],
+   [
+    0,
+    0,
+    9
+   ],
+   [
+    0,
+    0,
+    9
+   ],
+   [
+    0,
+    0,
+    9
+   ],
+   [
+    0,
+    0,
+    9
+   ],
+   [
+    0,
+    0,
+    9
+   ],
+   [
+    0,
+    0,
+    9
+   ],
+   [
+    0,
+    0,
+    9
+   ],
+   [
+    0,
+    0,
+    9
+   ]
+  ],
+  "harmful_during_runs": [
+   0,
+   1,
+   1
+  ],
+  "harmful_post_runs": [
+   0,
+   0,
+   0
+  ],
+  "micro_f1_during": 0.0,
+  "micro_f1_post": 0.0,
+  "n_assignments": 4096,
+  "n_extreme": 4096,
+  "p": 1.0,
+  "post_counts_per_thread": [
+   [
+    0,
+    0,
+    9
+   ],
+   [
+    0,
+    0,
+    9
+   ],
+   [
+    0,
+    0,
+    9
+   ],
+   [
+    0,
+    0,
+    9
+   ],
+   [
+    0,
+    0,
+    9
+   ],
+   [
+    0,
+    0,
+    9
+   ],
+   [
+    0,
+    0,
+    9
+   ],
+   [
+    0,
+    0,
+    9
+   ],
+   [
+    0,
+    0,
+    9
+   ],
+   [
+    0,
+    0,
+    9
+   ],
+   [
+    0,
+    0,
+    9
+   ],
+   [
+    0,
+    0,
+    9
+   ]
+  ],
+  "t_observed": 0.0,
+  "verdict": "neither better: harmful invalidations POST 0, DURING 2 over 3 runs (micro-F1 POST 0.000, DURING 0.000, p 1.0000)"
+ },
+ "costs": {
+  "linking_cost_vs_disabled": {
+   "DURING_EXTRACTION": {
+    "exchange_seconds_mean": -0.011333333333333417,
+    "input_tokens": 14930.333333333328,
+    "llm_calls": 0.0,
+    "output_tokens": -10.666666666666515,
+    "total_tokens": 14919.666666666664,
+    "wall_seconds": -0.6616666666666617
+   },
+   "POST_EXTRACTION": {
+    "exchange_seconds_mean": 0.2736666666666667,
+    "input_tokens": 15839.0,
+    "llm_calls": 10.0,
+    "output_tokens": 698.0,
+    "total_tokens": 16536.999999999993,
+    "wall_seconds": 16.414666666666662
+   }
+  },
+  "per_mode": {
+   "DISABLED": {
+    "exchange_seconds_mean": {
+     "max": 1.448,
+     "mean": 1.409,
+     "min": 1.383,
+     "runs": [
+      1.448,
+      1.396,
+      1.383
+     ]
+    },
+    "input_tokens": {
+     "max": 45830.0,
+     "mean": 45822.333333333336,
+     "min": 45815.0,
+     "runs": [
+      45830.0,
+      45822.0,
+      45815.0
+     ]
+    },
+    "llm_calls": {
+     "max": 24.0,
+     "mean": 24.0,
+     "min": 24.0,
+     "runs": [
+      24.0,
+      24.0,
+      24.0
+     ]
+    },
+    "output_tokens": {
+     "max": 4267.0,
+     "mean": 4088.0,
+     "min": 3995.0,
+     "runs": [
+      4267.0,
+      4002.0,
+      3995.0
+     ]
+    },
+    "total_tokens": {
+     "max": 50097.0,
+     "mean": 49910.333333333336,
+     "min": 49810.0,
+     "runs": [
+      50097.0,
+      49824.0,
+      49810.0
+     ]
+    },
+    "wall_seconds": {
+     "max": 86.865,
+     "mean": 84.53166666666667,
+     "min": 82.968,
+     "runs": [
+      86.865,
+      83.762,
+      82.968
+     ]
+    }
+   },
+   "DURING_EXTRACTION": {
+    "exchange_seconds_mean": {
+     "max": 1.472,
+     "mean": 1.3976666666666666,
+     "min": 1.358,
+     "runs": [
+      1.358,
+      1.472,
+      1.363
+     ]
+    },
+    "input_tokens": {
+     "max": 60801.0,
+     "mean": 60752.666666666664,
+     "min": 60722.0,
+     "runs": [
+      60801.0,
+      60722.0,
+      60735.0
+     ]
+    },
+    "llm_calls": {
+     "max": 24.0,
+     "mean": 24.0,
+     "min": 24.0,
+     "runs": [
+      24.0,
+      24.0,
+      24.0
+     ]
+    },
+    "output_tokens": {
+     "max": 4310.0,
+     "mean": 4077.3333333333335,
+     "min": 3757.0,
+     "runs": [
+      4310.0,
+      4165.0,
+      3757.0
+     ]
+    },
+    "total_tokens": {
+     "max": 65111.0,
+     "mean": 64830.0,
+     "min": 64492.0,
+     "runs": [
+      65111.0,
+      64887.0,
+      64492.0
+     ]
+    },
+    "wall_seconds": {
+     "max": 88.321,
+     "mean": 83.87,
+     "min": 81.488,
+     "runs": [
+      81.488,
+      88.321,
+      81.801
+     ]
+    }
+   },
+   "POST_EXTRACTION": {
+    "exchange_seconds_mean": {
+     "max": 1.79,
+     "mean": 1.6826666666666668,
+     "min": 1.595,
+     "runs": [
+      1.663,
+      1.79,
+      1.595
+     ]
+    },
+    "input_tokens": {
+     "max": 61982.0,
+     "mean": 61661.333333333336,
+     "min": 61216.0,
+     "runs": [
+      61982.0,
+      61216.0,
+      61786.0
+     ]
+    },
+    "llm_calls": {
+     "max": 34.0,
+     "mean": 34.0,
+     "min": 34.0,
+     "runs": [
+      34.0,
+      34.0,
+      34.0
+     ]
+    },
+    "output_tokens": {
+     "max": 4894.0,
+     "mean": 4786.0,
+     "min": 4697.0,
+     "runs": [
+      4767.0,
+      4894.0,
+      4697.0
+     ]
+    },
+    "total_tokens": {
+     "max": 66749.0,
+     "mean": 66447.33333333333,
+     "min": 66110.0,
+     "runs": [
+      66749.0,
+      66110.0,
+      66483.0
+     ]
+    },
+    "wall_seconds": {
+     "max": 107.383,
+     "mean": 100.94633333333333,
+     "min": 95.675,
+     "runs": [
+      99.781,
+      107.383,
+      95.675
+     ]
+    }
+   }
+  }
+ },
+ "design": {
+  "agent_id": "c2_agent",
+  "config": {
+   "enable_context_summary": false,
+   "extraction_mode": "INLINE",
+   "memory_extraction_frequency": 2,
+   "memory_link_extraction_mode": "<mode>",
+   "not_passed": [
+    "memory_extraction_token_limit",
+    "memory_extraction_window",
+    "memory_link_extraction_token_limit"
+   ]
+  },
+  "distractor_pairs": 9,
+  "gold_links": 36,
+  "llm": {
+   "max_concurrent_requests": 2,
+   "model": "oci/xai.grok-4.20-non-reasoning",
+   "structured_reminder": false,
+   "supports_vision": false,
+   "temperature": 0
+  },
+  "messages": 120,
+  "plan": "PLAN v0.3.6 section 7.2 (frozen, unchanged)",
+  "resolved_offline": {
+   "DISABLED": {
+    "background_extraction_queue_full_behavior": "DROP",
+    "background_extraction_queue_put_timeout_seconds": 300.0,
+    "context_summary_update_frequency": -1,
+    "enable_context_summary": false,
+    "extract_memories": true,
+    "extraction_mode": "INLINE",
+    "memory_extraction_custom_instructions": null,
+    "memory_extraction_frequency": 2,
+    "memory_extraction_image_context": "disabled",
+    "memory_extraction_inherit_message_metadata": true,
+    "memory_extraction_token_limit": 100000,
+    "memory_extraction_window": -1,
+    "memory_link_extraction_custom_instructions": null,
+    "memory_link_extraction_mode": "DISABLED",
+    "memory_link_extraction_token_limit": 100000
+   },
+   "DURING_EXTRACTION": {
+    "background_extraction_queue_full_behavior": "DROP",
+    "background_extraction_queue_put_timeout_seconds": 300.0,
+    "context_summary_update_frequency": -1,
+    "enable_context_summary": false,
+    "extract_memories": true,
+    "extraction_mode": "INLINE",
+    "memory_extraction_custom_instructions": null,
+    "memory_extraction_frequency": 2,
+    "memory_extraction_image_context": "disabled",
+    "memory_extraction_inherit_message_metadata": true,
+    "memory_extraction_token_limit": 100000,
+    "memory_extraction_window": -1,
+    "memory_link_extraction_custom_instructions": null,
+    "memory_link_extraction_mode": "DURING_EXTRACTION",
+    "memory_link_extraction_token_limit": 100000
+   },
+   "POST_EXTRACTION": {
+    "background_extraction_queue_full_behavior": "DROP",
+    "background_extraction_queue_put_timeout_seconds": 300.0,
+    "context_summary_update_frequency": -1,
+    "enable_context_summary": false,
+    "extract_memories": true,
+    "extraction_mode": "INLINE",
+    "memory_extraction_custom_instructions": null,
+    "memory_extraction_frequency": 2,
+    "memory_extraction_image_context": "disabled",
+    "memory_extraction_inherit_message_metadata": true,
+    "memory_extraction_token_limit": 100000,
+    "memory_extraction_window": -1,
+    "memory_link_extraction_custom_instructions": null,
+    "memory_link_extraction_mode": "POST_EXTRACTION",
+    "memory_link_extraction_token_limit": 100000
+   }
+  },
+  "retries": {
+   "attempt_timeout_s": 180.0,
+   "delays_s": [
+    5.0,
+    20.0
+   ],
+   "where": "litellm entry point (lib/llmretry.py), under the SDK's Llm; reading of PLAN 10.5 for calls the SDK makes inside add_messages, decided before the run"
+  },
+  "run_order": [
+   [
+    1,
+    [
+     "POST_EXTRACTION",
+     "DURING_EXTRACTION",
+     "DISABLED"
+    ]
+   ],
+   [
+    2,
+    [
+     "DURING_EXTRACTION",
+     "DISABLED",
+     "POST_EXTRACTION"
+    ]
+   ],
+   [
+    3,
+    [
+     "DISABLED",
+     "POST_EXTRACTION",
+     "DURING_EXTRACTION"
+    ]
+   ]
+  ],
+  "stores": {
+   "DISABLED": "AL_OFF",
+   "DURING_EXTRACTION": "AL_DUR",
+   "POST_EXTRACTION": "AL_POST"
+  },
+  "threads": 12,
+  "unlisted_objects_now": [],
+  "void_rule": "PLAN 7.0: > 5% of a run's LLM calls failed after the retries, a database error, or a 7.2 sanity check (DISABLED made a link; memory count not read back after an exchange); a void run is repeated once, both reported, the repeat counted"
+ },
+ "per_run": {
+  "DISABLED_r1": {
+   "cost": {
+    "attempts": 24,
+    "exchange_seconds_mean": 1.448,
+    "failed_after_retries": 0,
+    "failed_exchanges": 0,
+    "input_tokens": 45830,
+    "llm_calls": 24,
+    "output_tokens": 4267,
+    "retried_calls": 0,
+    "swallowed": {
+     "extraction_response_invalid": 0,
+     "link_persistence_failed": 0,
+     "link_response_invalid": 0,
+     "summary_prep_deferred": 0,
+     "summary_refresh_deferred": 0
+    },
+    "total_tokens": 50097,
+    "wall_seconds": 86.865
+   },
+   "distractor_links": 0,
+   "f1": 0.0,
+   "fn": 36,
+   "fp": 0,
+   "gold_links": 36,
+   "harmful_invalidations": 0,
+   "invalidations_unmapped_target": 0,
+   "label": "disabled_r1",
+   "memories_ambiguous": 1,
+   "memories_matched": 38,
+   "memories_unmatched": 1,
+   "pair_hits": 0,
+   "pair_recall": 0.0,
+   "precision": 0.0,
+   "predicted_links": 0,
+   "recall": 0.0,
+   "slot_coverage": 0.4222222222222222,
+   "slots_covered": 38,
+   "slots_total": 90,
+   "tp": 0
+  },
+  "DISABLED_r2": {
+   "cost": {
+    "attempts": 24,
+    "exchange_seconds_mean": 1.396,
+    "failed_after_retries": 0,
+    "failed_exchanges": 0,
+    "input_tokens": 45822,
+    "llm_calls": 24,
+    "output_tokens": 4002,
+    "retried_calls": 0,
+    "swallowed": {
+     "extraction_response_invalid": 0,
+     "link_persistence_failed": 0,
+     "link_response_invalid": 0,
+     "summary_prep_deferred": 0,
+     "summary_refresh_deferred": 0
+    },
+    "total_tokens": 49824,
+    "wall_seconds": 83.762
+   },
+   "distractor_links": 0,
+   "f1": 0.0,
+   "fn": 36,
+   "fp": 0,
+   "gold_links": 36,
+   "harmful_invalidations": 0,
+   "invalidations_unmapped_target": 0,
+   "label": "disabled_r2",
+   "memories_ambiguous": 2,
+   "memories_matched": 33,
+   "memories_unmatched": 1,
+   "pair_hits": 0,
+   "pair_recall": 0.0,
+   "precision": 0.0,
+   "predicted_links": 0,
+   "recall": 0.0,
+   "slot_coverage": 0.36666666666666664,
+   "slots_covered": 33,
+   "slots_total": 90,
+   "tp": 0
+  },
+  "DISABLED_r3": {
+   "cost": {
+    "attempts": 24,
+    "exchange_seconds_mean": 1.383,
+    "failed_after_retries": 0,
+    "failed_exchanges": 0,
+    "input_tokens": 45815,
+    "llm_calls": 24,
+    "output_tokens": 3995,
+    "retried_calls": 0,
+    "swallowed": {
+     "extraction_response_invalid": 0,
+     "link_persistence_failed": 0,
+     "link_response_invalid": 0,
+     "summary_prep_deferred": 0,
+     "summary_refresh_deferred": 0
+    },
+    "total_tokens": 49810,
+    "wall_seconds": 82.968
+   },
+   "distractor_links": 0,
+   "f1": 0.0,
+   "fn": 36,
+   "fp": 0,
+   "gold_links": 36,
+   "harmful_invalidations": 0,
+   "invalidations_unmapped_target": 0,
+   "label": "disabled_r3",
+   "memories_ambiguous": 0,
+   "memories_matched": 38,
+   "memories_unmatched": 0,
+   "pair_hits": 0,
+   "pair_recall": 0.0,
+   "precision": 0.0,
+   "predicted_links": 0,
+   "recall": 0.0,
+   "slot_coverage": 0.4222222222222222,
+   "slots_covered": 38,
+   "slots_total": 90,
+   "tp": 0
+  },
+  "DURING_EXTRACTION_r1": {
+   "cost": {
+    "attempts": 24,
+    "exchange_seconds_mean": 1.358,
+    "failed_after_retries": 0,
+    "failed_exchanges": 0,
+    "input_tokens": 60801,
+    "llm_calls": 24,
+    "output_tokens": 4310,
+    "retried_calls": 0,
+    "swallowed": {
+     "extraction_response_invalid": 0,
+     "link_persistence_failed": 0,
+     "link_response_invalid": 0,
+     "summary_prep_deferred": 0,
+     "summary_refresh_deferred": 0
+    },
+    "total_tokens": 65111,
+    "wall_seconds": 81.488
+   },
+   "distractor_links": 1,
+   "f1": 0.0,
+   "fn": 36,
+   "fp": 1,
+   "gold_links": 36,
+   "harmful_invalidations": 0,
+   "invalidations_unmapped_target": 0,
+   "label": "during_extraction_r1",
+   "memories_ambiguous": 1,
+   "memories_matched": 39,
+   "memories_unmatched": 1,
+   "pair_hits": 0,
+   "pair_recall": 0.0,
+   "precision": 0.0,
+   "predicted_links": 1,
+   "recall": 0.0,
+   "slot_coverage": 0.43333333333333335,
+   "slots_covered": 39,
+   "slots_total": 90,
+   "tp": 0
+  },
+  "DURING_EXTRACTION_r2": {
+   "cost": {
+    "attempts": 24,
+    "exchange_seconds_mean": 1.472,
+    "failed_after_retries": 0,
+    "failed_exchanges": 0,
+    "input_tokens": 60722,
+    "llm_calls": 24,
+    "output_tokens": 4165,
+    "retried_calls": 0,
+    "swallowed": {
+     "extraction_response_invalid": 0,
+     "link_persistence_failed": 0,
+     "link_response_invalid": 0,
+     "summary_prep_deferred": 0,
+     "summary_refresh_deferred": 0
+    },
+    "total_tokens": 64887,
+    "wall_seconds": 88.321
+   },
+   "distractor_links": 1,
+   "f1": 0.0,
+   "fn": 36,
+   "fp": 1,
+   "gold_links": 36,
+   "harmful_invalidations": 1,
+   "invalidations_unmapped_target": 0,
+   "label": "during_extraction_r2",
+   "memories_ambiguous": 1,
+   "memories_matched": 37,
+   "memories_unmatched": 1,
+   "pair_hits": 0,
+   "pair_recall": 0.0,
+   "precision": 0.0,
+   "predicted_links": 1,
+   "recall": 0.0,
+   "slot_coverage": 0.4111111111111111,
+   "slots_covered": 37,
+   "slots_total": 90,
+   "tp": 0
+  },
+  "DURING_EXTRACTION_r3": {
+   "cost": {
+    "attempts": 24,
+    "exchange_seconds_mean": 1.363,
+    "failed_after_retries": 0,
+    "failed_exchanges": 0,
+    "input_tokens": 60735,
+    "llm_calls": 24,
+    "output_tokens": 3757,
+    "retried_calls": 0,
+    "swallowed": {
+     "extraction_response_invalid": 0,
+     "link_persistence_failed": 0,
+     "link_response_invalid": 0,
+     "summary_prep_deferred": 0,
+     "summary_refresh_deferred": 0
+    },
+    "total_tokens": 64492,
+    "wall_seconds": 81.801
+   },
+   "distractor_links": 1,
+   "f1": 0.0,
+   "fn": 36,
+   "fp": 1,
+   "gold_links": 36,
+   "harmful_invalidations": 1,
+   "invalidations_unmapped_target": 0,
+   "label": "during_extraction_r3",
+   "memories_ambiguous": 1,
+   "memories_matched": 39,
+   "memories_unmatched": 1,
+   "pair_hits": 0,
+   "pair_recall": 0.0,
+   "precision": 0.0,
+   "predicted_links": 1,
+   "recall": 0.0,
+   "slot_coverage": 0.43333333333333335,
+   "slots_covered": 39,
+   "slots_total": 90,
+   "tp": 0
+  },
+  "POST_EXTRACTION_r1": {
+   "cost": {
+    "attempts": 34,
+    "exchange_seconds_mean": 1.663,
+    "failed_after_retries": 0,
+    "failed_exchanges": 0,
+    "input_tokens": 61982,
+    "llm_calls": 34,
+    "output_tokens": 4767,
+    "retried_calls": 0,
+    "swallowed": {
+     "extraction_response_invalid": 0,
+     "link_persistence_failed": 0,
+     "link_response_invalid": 0,
+     "summary_prep_deferred": 0,
+     "summary_refresh_deferred": 0
+    },
+    "total_tokens": 66749,
+    "wall_seconds": 99.781
+   },
+   "distractor_links": 0,
+   "f1": 0.0,
+   "fn": 36,
+   "fp": 0,
+   "gold_links": 36,
+   "harmful_invalidations": 0,
+   "invalidations_unmapped_target": 0,
+   "label": "post_extraction_r1",
+   "memories_ambiguous": 1,
+   "memories_matched": 36,
+   "memories_unmatched": 1,
+   "pair_hits": 0,
+   "pair_recall": 0.0,
+   "precision": 0.0,
+   "predicted_links": 0,
+   "recall": 0.0,
+   "slot_coverage": 0.4,
+   "slots_covered": 36,
+   "slots_total": 90,
+   "tp": 0
+  },
+  "POST_EXTRACTION_r2": {
+   "cost": {
+    "attempts": 34,
+    "exchange_seconds_mean": 1.79,
+    "failed_after_retries": 0,
+    "failed_exchanges": 0,
+    "input_tokens": 61216,
+    "llm_calls": 34,
+    "output_tokens": 4894,
+    "retried_calls": 0,
+    "swallowed": {
+     "extraction_response_invalid": 0,
+     "link_persistence_failed": 0,
+     "link_response_invalid": 0,
+     "summary_prep_deferred": 0,
+     "summary_refresh_deferred": 0
+    },
+    "total_tokens": 66110,
+    "wall_seconds": 107.383
+   },
+   "distractor_links": 0,
+   "f1": 0.0,
+   "fn": 36,
+   "fp": 0,
+   "gold_links": 36,
+   "harmful_invalidations": 0,
+   "invalidations_unmapped_target": 0,
+   "label": "post_extraction_r2",
+   "memories_ambiguous": 0,
+   "memories_matched": 37,
+   "memories_unmatched": 1,
+   "pair_hits": 0,
+   "pair_recall": 0.0,
+   "precision": 0.0,
+   "predicted_links": 0,
+   "recall": 0.0,
+   "slot_coverage": 0.4111111111111111,
+   "slots_covered": 37,
+   "slots_total": 90,
+   "tp": 0
+  },
+  "POST_EXTRACTION_r3": {
+   "cost": {
+    "attempts": 34,
+    "exchange_seconds_mean": 1.595,
+    "failed_after_retries": 0,
+    "failed_exchanges": 0,
+    "input_tokens": 61786,
+    "llm_calls": 34,
+    "output_tokens": 4697,
+    "retried_calls": 0,
+    "swallowed": {
+     "extraction_response_invalid": 0,
+     "link_persistence_failed": 0,
+     "link_response_invalid": 0,
+     "summary_prep_deferred": 0,
+     "summary_refresh_deferred": 0
+    },
+    "total_tokens": 66483,
+    "wall_seconds": 95.675
+   },
+   "distractor_links": 0,
+   "f1": 0.0,
+   "fn": 36,
+   "fp": 0,
+   "gold_links": 36,
+   "harmful_invalidations": 0,
+   "invalidations_unmapped_target": 0,
+   "label": "post_extraction_r3",
+   "memories_ambiguous": 0,
+   "memories_matched": 38,
+   "memories_unmatched": 0,
+   "pair_hits": 0,
+   "pair_recall": 0.0,
+   "precision": 0.0,
+   "predicted_links": 0,
+   "recall": 0.0,
+   "slot_coverage": 0.4222222222222222,
+   "slots_covered": 38,
+   "slots_total": 90,
+   "tp": 0
+  }
+ },
+ "per_type_described": {
+  "DISABLED": {
+   "contradicts": {
+    "credited_over_runs": 0,
+    "gold_per_run": 5
+   },
+   "duplicates": {
+    "credited_over_runs": 0,
+    "gold_per_run": 5
+   },
+   "refines": {
+    "credited_over_runs": 0,
+    "gold_per_run": 8
+   },
+   "supersedes": {
+    "credited_over_runs": 0,
+    "gold_per_run": 12
+   },
+   "supports": {
+    "credited_over_runs": 0,
+    "gold_per_run": 6
+   }
+  },
+  "DURING_EXTRACTION": {
+   "contradicts": {
+    "credited_over_runs": 0,
+    "gold_per_run": 5
+   },
+   "duplicates": {
+    "credited_over_runs": 0,
+    "gold_per_run": 5
+   },
+   "refines": {
+    "credited_over_runs": 0,
+    "gold_per_run": 8
+   },
+   "supersedes": {
+    "credited_over_runs": 0,
+    "gold_per_run": 12
+   },
+   "supports": {
+    "credited_over_runs": 0,
+    "gold_per_run": 6
+   }
+  },
+  "POST_EXTRACTION": {
+   "contradicts": {
+    "credited_over_runs": 0,
+    "gold_per_run": 5
+   },
+   "duplicates": {
+    "credited_over_runs": 0,
+    "gold_per_run": 5
+   },
+   "refines": {
+    "credited_over_runs": 0,
+    "gold_per_run": 8
+   },
+   "supersedes": {
+    "credited_over_runs": 0,
+    "gold_per_run": 12
+   },
+   "supports": {
+    "credited_over_runs": 0,
+    "gold_per_run": 6
+   }
+  }
+ },
+ "void_attempts": []
+}

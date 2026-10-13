@@ -1,0 +1,670 @@
+{
+ "links_after_seeding": [
+  {
+   "opposite": "is_superseded_by",
+   "relation_type": "supersedes",
+   "source": "M2",
+   "target": "M1"
+  },
+  {
+   "opposite": "is_supported_by",
+   "relation_type": "supports",
+   "source": "M4",
+   "target": "M3"
+  },
+  {
+   "opposite": "contradicts",
+   "relation_type": "contradicts",
+   "source": "M6",
+   "target": "M5"
+  },
+  {
+   "opposite": "is_refined_by",
+   "relation_type": "refines",
+   "source": "M8",
+   "target": "M7"
+  },
+  {
+   "opposite": "duplicates",
+   "relation_type": "duplicates",
+   "source": "M9",
+   "target": "M3"
+  },
+  {
+   "opposite": "is_superseded_by",
+   "relation_type": "supersedes",
+   "source": "M10",
+   "target": "M2"
+  }
+ ],
+ "litellm_counter": {
+  "blocked_by_budget": 0,
+  "calls": {},
+  "errors": {},
+  "failed_call_estimate_tokens": 0,
+  "failed_calls": 0,
+  "tokens": {}
+ },
+ "memory_ids_as_returned": {
+  "M1": "cust1001_m01",
+  "M10": "cust1001_m10",
+  "M2": "cust1001_m02",
+  "M3": "cust1001_m03",
+  "M4": "cust1001_m04",
+  "M5": "cust1001_m05",
+  "M6": "cust1001_m06",
+  "M7": "cust1001_m07",
+  "M8": "cust1001_m08",
+  "M9": "cust1001_m09"
+ },
+ "memory_ids_match_ours": true,
+ "meter": {
+  "by_model": {},
+  "embedder_events_by_class": {
+   "EmbedderCompletedEvent:OracleDBEmbedder": 15,
+   "EmbedderStartedEvent:OracleDBEmbedder": 15
+  },
+  "embedder_inputs": 15,
+  "events": {
+   "AgentMemoryCompletedEvent": 21,
+   "AgentMemoryStartedEvent": 21,
+   "EmbedderCompletedEvent": 15,
+   "EmbedderStartedEvent": 15,
+   "MemoryStoreCompletedEvent": 33,
+   "MemoryStoreStartedEvent": 33
+  },
+  "llm_calls": 0,
+  "llm_error_types": {},
+  "llm_failures": 0,
+  "tokens": {}
+ },
+ "prediction_in_db_embedding": {
+  "embedder_classes_started": [
+   "OracleDBEmbedder"
+  ],
+  "litellm_completion_calls": 0,
+  "litellm_embedding_calls": 0,
+  "llm_calls": 0,
+  "only_OracleDBEmbedder": true
+ },
+ "prediction_no_llm": {
+  "confirmed": true
+ },
+ "prediction_plan_now": {
+  "M10_ranks_first_hops0": true,
+  "format_content_includes_linked_hops1": false,
+  "old_preferences_as_linked_context_hops1": [
+   "M2"
+  ]
+ },
+ "prediction_statuses": {
+  "confirmed": true,
+  "expected_invalid": [
+   "M1",
+   "M2",
+   "M3",
+   "M7"
+  ],
+  "mismatches": {}
+ },
+ "relation_ids": {
+  "M10->M2": "549a8bf4-5ddd-43a5-ad0e-2fd456e8d4c6",
+  "M2->M1": "16e6f595-a2c0-40d3-a383-60b81426b625",
+  "M4->M3": "0a5c6ec7-49ab-4df8-a3c5-91fb9fc71411",
+  "M6->M5": "cca70ac1-a747-49ce-9980-d3b1c4cbc62e",
+  "M8->M7": "38e59254-31a5-4b10-973a-ea9c76111b15",
+  "M9->M3": "a9cae2cd-5d39-4965-9a0b-6429017849c3"
+ },
+ "search_ever_unlimited": {
+  "include_invalid_False": {
+   "rank_M1": null,
+   "results": [
+    {
+     "content": "The customer says she never activated the roaming add-on RMG-GCC-7D.",
+     "distance": 0.5528746180193105,
+     "key": "M5",
+     "rank": 1,
+     "status": "RecordStatus.VALID"
+    },
+    {
+     "content": "The customer is moving to the family plan PLN-FAM-4.",
+     "distance": 0.6287954936064419,
+     "key": "M10",
+     "rank": 2,
+     "status": "RecordStatus.VALID"
+    },
+    {
+     "content": "The customer wants contact by WhatsApp only, never phone calls, and only after 18:00.",
+     "distance": 0.6446086762585529,
+     "key": "M8",
+     "rank": 3,
+     "status": "RecordStatus.VALID"
+    },
+    {
+     "content": "The customer reported the same double charge for RMG-GCC-7D again through the app.",
+     "distance": 0.7527211658664346,
+     "key": "M9",
+     "rank": 4,
+     "status": "RecordStatus.VALID"
+    },
+    {
+     "content": "Billing confirmed a refund of one RMG-GCC-7D charge for ticket TKT-48213.",
+     "distance": 0.7554605518897972,
+     "key": "M4",
+     "rank": 5,
+     "status": "RecordStatus.VALID"
+    },
+    {
+     "content": "The activation log shows that RMG-GCC-7D was activated by SMS from the customer's line on 03-Sep-2026.",
+     "distance": 0.771495442870455,
+     "key": "M6",
+     "rank": 6,
+     "status": "RecordStatus.VALID"
+    }
+   ]
+  },
+  "include_invalid_True": {
+   "rank_M1": 2,
+   "results": [
+    {
+     "content": "The customer now needs only 20 GB of data a month, but with GCC roaming.",
+     "distance": 0.343093185350123,
+     "key": "M2",
+     "rank": 1,
+     "status": "RecordStatus.INVALID"
+    },
+    {
+     "content": "The customer wants the unlimited plan PLN-UNL-50.",
+     "distance": 0.3972916169295462,
+     "key": "M1",
+     "rank": 2,
+     "status": "RecordStatus.INVALID"
+    },
+    {
+     "content": "The customer says she never activated the roaming add-on RMG-GCC-7D.",
+     "distance": 0.5528746180193105,
+     "key": "M5",
+     "rank": 3,
+     "status": "RecordStatus.VALID"
+    },
+    {
+     "content": "The customer prefers WhatsApp messages rather than phone calls.",
+     "distance": 0.5928660890459747,
+     "key": "M7",
+     "rank": 4,
+     "status": "RecordStatus.INVALID"
+    },
+    {
+     "content": "The customer is moving to the family plan PLN-FAM-4.",
+     "distance": 0.6287954936064419,
+     "key": "M10",
+     "rank": 5,
+     "status": "RecordStatus.VALID"
+    },
+    {
+     "content": "The customer wants contact by WhatsApp only, never phone calls, and only after 18:00.",
+     "distance": 0.6446086762585529,
+     "key": "M8",
+     "rank": 6,
+     "status": "RecordStatus.VALID"
+    },
+    {
+     "content": "The roaming add-on RMG-GCC-7D was charged twice on the customer's September bill; ticket TKT-48213 was opened.",
+     "distance": 0.656622226526077,
+     "key": "M3",
+     "rank": 7,
+     "status": "RecordStatus.INVALID"
+    },
+    {
+     "content": "The customer reported the same double charge for RMG-GCC-7D again through the app.",
+     "distance": 0.7527211658664346,
+     "key": "M9",
+     "rank": 8,
+     "status": "RecordStatus.VALID"
+    },
+    {
+     "content": "Billing confirmed a refund of one RMG-GCC-7D charge for ticket TKT-48213.",
+     "distance": 0.7554605518897972,
+     "key": "M4",
+     "rank": 9,
+     "status": "RecordStatus.VALID"
+    },
+    {
+     "content": "The activation log shows that RMG-GCC-7D was activated by SMS from the customer's line on 03-Sep-2026.",
+     "distance": 0.771495442870455,
+     "key": "M6",
+     "rank": 10,
+     "status": "RecordStatus.VALID"
+    }
+   ]
+  }
+ },
+ "search_plan_now": {
+  "hops0": {
+   "call": {
+    "include_invalid_results": false,
+    "max_results": 10,
+    "num_hops": 0,
+    "user_id": "CUST_1001"
+   },
+   "latency_ms": 137.7,
+   "rank_M1": null,
+   "rank_M10": 1,
+   "rank_M2": null,
+   "results": [
+    {
+     "content": "The customer is moving to the family plan PLN-FAM-4.",
+     "distance": 0.3856923377453525,
+     "format_content": "<preference>\n  <record_id>cust1001_m10</record_id>\n  <timestamp>2026-10-02T10:00:00+00:00</timestamp>\n  <status>valid</status>\n  <content>The customer is moving to the family plan PLN-FAM-4.</content>\n</preference>",
+     "format_content_includes_linked_text": null,
+     "key": "M10",
+     "linked": [],
+     "rank": 1,
+     "status": "RecordStatus.VALID"
+    },
+    {
+     "content": "The customer wants contact by WhatsApp only, never phone calls, and only after 18:00.",
+     "distance": 0.6457319895223588,
+     "format_content": "<preference>\n  <record_id>cust1001_m08</record_id>\n  <timestamp>2026-09-21T16:20:00+00:00</timestamp>\n  <status>valid</status>\n  <content>The customer wants contact by WhatsApp only, never phone calls, and only after 18:00.</content>\n</preference>",
+     "format_content_includes_linked_text": null,
+     "key": "M8",
+     "linked": [],
+     "rank": 2,
+     "status": "RecordStatus.VALID"
+    },
+    {
+     "content": "The customer says she never activated the roaming add-on RMG-GCC-7D.",
+     "distance": 0.7519848600932895,
+     "format_content": "<fact>\n  <record_id>cust1001_m05</record_id>\n  <timestamp>2026-09-16T08:46:00+00:00</timestamp>\n  <status>valid</status>\n  <content>The customer says she never activated the roaming add-on RMG-GCC-7D.</content>\n</fact>",
+     "format_content_includes_linked_text": null,
+     "key": "M5",
+     "linked": [],
+     "rank": 3,
+     "status": "RecordStatus.VALID"
+    },
+    {
+     "content": "Billing confirmed a refund of one RMG-GCC-7D charge for ticket TKT-48213.",
+     "distance": 0.7791868204336074,
+     "format_content": "<fact>\n  <record_id>cust1001_m04</record_id>\n  <timestamp>2026-09-23T13:30:00+00:00</timestamp>\n  <status>valid</status>\n  <content>Billing confirmed a refund of one RMG-GCC-7D charge for ticket TKT-48213.</content>\n</fact>",
+     "format_content_includes_linked_text": null,
+     "key": "M4",
+     "linked": [],
+     "rank": 4,
+     "status": "RecordStatus.VALID"
+    },
+    {
+     "content": "The activation log shows that RMG-GCC-7D was activated by SMS from the customer's line on 03-Sep-2026.",
+     "distance": 0.8058951945546347,
+     "format_content": "<fact>\n  <record_id>cust1001_m06</record_id>\n  <timestamp>2026-09-18T11:02:00+00:00</timestamp>\n  <status>valid</status>\n  <content>The activation log shows that RMG-GCC-7D was activated by SMS from the customer's line on 03-Sep-2026.</content>\n</fact>",
+     "format_content_includes_linked_text": null,
+     "key": "M6",
+     "linked": [],
+     "rank": 5,
+     "status": "RecordStatus.VALID"
+    },
+    {
+     "content": "The customer reported the same double charge for RMG-GCC-7D again through the app.",
+     "distance": 0.8086841519059507,
+     "format_content": "<fact>\n  <record_id>cust1001_m09</record_id>\n  <timestamp>2026-09-20T19:15:00+00:00</timestamp>\n  <status>valid</status>\n  <content>The customer reported the same double charge for RMG-GCC-7D again through the app.</content>\n</fact>",
+     "format_content_includes_linked_text": null,
+     "key": "M9",
+     "linked": [],
+     "rank": 6,
+     "status": "RecordStatus.VALID"
+    }
+   ]
+  },
+  "hops1_max3": {
+   "call": {
+    "include_invalid_results": false,
+    "max_linked_results": 3,
+    "max_results": 10,
+    "num_hops": 1,
+    "user_id": "CUST_1001"
+   },
+   "latency_ms": 169.6,
+   "rank_M1": null,
+   "rank_M10": 1,
+   "rank_M2": null,
+   "results": [
+    {
+     "content": "The customer is moving to the family plan PLN-FAM-4.",
+     "distance": 0.3856923377453525,
+     "format_content": "<preference>\n  <record_id>cust1001_m10</record_id>\n  <timestamp>2026-10-02T10:00:00+00:00</timestamp>\n  <status>valid</status>\n  <content>The customer is moving to the family plan PLN-FAM-4.</content>\n</preference>",
+     "format_content_includes_linked_text": false,
+     "key": "M10",
+     "linked": [
+      {
+       "child": "M2",
+       "child_content": "The customer now needs only 20 GB of data a month, but with GCC roaming.",
+       "child_status": "RecordStatus.INVALID",
+       "relation_type": "supersedes",
+       "source": "M10",
+       "target": "M2"
+      }
+     ],
+     "rank": 1,
+     "status": "RecordStatus.VALID"
+    },
+    {
+     "content": "The customer wants contact by WhatsApp only, never phone calls, and only after 18:00.",
+     "distance": 0.6457319895223588,
+     "format_content": "<preference>\n  <record_id>cust1001_m08</record_id>\n  <timestamp>2026-09-21T16:20:00+00:00</timestamp>\n  <status>valid</status>\n  <content>The customer wants contact by WhatsApp only, never phone calls, and only after 18:00.</content>\n</preference>",
+     "format_content_includes_linked_text": false,
+     "key": "M8",
+     "linked": [
+      {
+       "child": "M7",
+       "child_content": "The customer prefers WhatsApp messages rather than phone calls.",
+       "child_status": "RecordStatus.INVALID",
+       "relation_type": "refines",
+       "source": "M8",
+       "target": "M7"
+      }
+     ],
+     "rank": 2,
+     "status": "RecordStatus.VALID"
+    },
+    {
+     "content": "The customer says she never activated the roaming add-on RMG-GCC-7D.",
+     "distance": 0.7519848600932895,
+     "format_content": "<fact>\n  <record_id>cust1001_m05</record_id>\n  <timestamp>2026-09-16T08:46:00+00:00</timestamp>\n  <status>valid</status>\n  <content>The customer says she never activated the roaming add-on RMG-GCC-7D.</content>\n  <linked_records>\n    <linked_record>\n      <relation_type>contradicts</relation_type>\n      <fact>\n        <record_id>cust1001_m06</record_id>\n        <timestamp>2026-09-18T11:02:00+00:00</timestamp>\n        <status>valid</status>\n        <content>The activation log shows that RMG-GCC-7D was activated by SMS from the customer's line on 03-Sep-2026.</content>\n      </fact>\n    </linked_record>\n  </linked_records>\n</fact>",
+     "format_content_includes_linked_text": true,
+     "key": "M5",
+     "linked": [
+      {
+       "child": "M6",
+       "child_content": "The activation log shows that RMG-GCC-7D was activated by SMS from the customer's line on 03-Sep-2026.",
+       "child_status": "RecordStatus.VALID",
+       "relation_type": "contradicts",
+       "source": "M6",
+       "target": "M5"
+      }
+     ],
+     "rank": 3,
+     "status": "RecordStatus.VALID"
+    },
+    {
+     "content": "Billing confirmed a refund of one RMG-GCC-7D charge for ticket TKT-48213.",
+     "distance": 0.7791868204336074,
+     "format_content": "<fact>\n  <record_id>cust1001_m04</record_id>\n  <timestamp>2026-09-23T13:30:00+00:00</timestamp>\n  <status>valid</status>\n  <content>Billing confirmed a refund of one RMG-GCC-7D charge for ticket TKT-48213.</content>\n</fact>",
+     "format_content_includes_linked_text": false,
+     "key": "M4",
+     "linked": [
+      {
+       "child": "M3",
+       "child_content": "The roaming add-on RMG-GCC-7D was charged twice on the customer's September bill; ticket TKT-48213 was opened.",
+       "child_status": "RecordStatus.INVALID",
+       "relation_type": "supports",
+       "source": "M4",
+       "target": "M3"
+      }
+     ],
+     "rank": 4,
+     "status": "RecordStatus.VALID"
+    },
+    {
+     "content": "The activation log shows that RMG-GCC-7D was activated by SMS from the customer's line on 03-Sep-2026.",
+     "distance": 0.8058951945546347,
+     "format_content": "<fact>\n  <record_id>cust1001_m06</record_id>\n  <timestamp>2026-09-18T11:02:00+00:00</timestamp>\n  <status>valid</status>\n  <content>The activation log shows that RMG-GCC-7D was activated by SMS from the customer's line on 03-Sep-2026.</content>\n  <linked_records>\n    <linked_record>\n      <relation_type>contradicts</relation_type>\n      <fact>\n        <record_id>cust1001_m05</record_id>\n        <timestamp>2026-09-16T08:46:00+00:00</timestamp>\n        <status>valid</status>\n        <content>The customer says she never activated the roaming add-on RMG-GCC-7D.</content>\n      </fact>\n    </linked_record>\n  </linked_records>\n</fact>",
+     "format_content_includes_linked_text": true,
+     "key": "M6",
+     "linked": [
+      {
+       "child": "M5",
+       "child_content": "The customer says she never activated the roaming add-on RMG-GCC-7D.",
+       "child_status": "RecordStatus.VALID",
+       "relation_type": "contradicts",
+       "source": "M6",
+       "target": "M5"
+      }
+     ],
+     "rank": 5,
+     "status": "RecordStatus.VALID"
+    },
+    {
+     "content": "The customer reported the same double charge for RMG-GCC-7D again through the app.",
+     "distance": 0.8086841519059507,
+     "format_content": "<fact>\n  <record_id>cust1001_m09</record_id>\n  <timestamp>2026-09-20T19:15:00+00:00</timestamp>\n  <status>valid</status>\n  <content>The customer reported the same double charge for RMG-GCC-7D again through the app.</content>\n</fact>",
+     "format_content_includes_linked_text": false,
+     "key": "M9",
+     "linked": [
+      {
+       "child": "M3",
+       "child_content": "The roaming add-on RMG-GCC-7D was charged twice on the customer's September bill; ticket TKT-48213 was opened.",
+       "child_status": "RecordStatus.INVALID",
+       "relation_type": "duplicates",
+       "source": "M9",
+       "target": "M3"
+      }
+     ],
+     "rank": 6,
+     "status": "RecordStatus.VALID"
+    }
+   ]
+  },
+  "hops2_max3": {
+   "call": {
+    "include_invalid_results": false,
+    "max_linked_results": 3,
+    "max_results": 10,
+    "num_hops": 2,
+    "user_id": "CUST_1001"
+   },
+   "latency_ms": 175.2,
+   "rank_M1": null,
+   "rank_M10": 1,
+   "rank_M2": null,
+   "results": [
+    {
+     "content": "The customer is moving to the family plan PLN-FAM-4.",
+     "distance": 0.3856923377453525,
+     "format_content": "<preference>\n  <record_id>cust1001_m10</record_id>\n  <timestamp>2026-10-02T10:00:00+00:00</timestamp>\n  <status>valid</status>\n  <content>The customer is moving to the family plan PLN-FAM-4.</content>\n</preference>",
+     "format_content_includes_linked_text": false,
+     "key": "M10",
+     "linked": [
+      {
+       "child": "M2",
+       "child_content": "The customer now needs only 20 GB of data a month, but with GCC roaming.",
+       "child_status": "RecordStatus.INVALID",
+       "relation_type": "supersedes",
+       "source": "M10",
+       "target": "M2"
+      }
+     ],
+     "rank": 1,
+     "status": "RecordStatus.VALID"
+    },
+    {
+     "content": "The customer wants contact by WhatsApp only, never phone calls, and only after 18:00.",
+     "distance": 0.6457319895223588,
+     "format_content": "<preference>\n  <record_id>cust1001_m08</record_id>\n  <timestamp>2026-09-21T16:20:00+00:00</timestamp>\n  <status>valid</status>\n  <content>The customer wants contact by WhatsApp only, never phone calls, and only after 18:00.</content>\n</preference>",
+     "format_content_includes_linked_text": false,
+     "key": "M8",
+     "linked": [
+      {
+       "child": "M7",
+       "child_content": "The customer prefers WhatsApp messages rather than phone calls.",
+       "child_status": "RecordStatus.INVALID",
+       "relation_type": "refines",
+       "source": "M8",
+       "target": "M7"
+      }
+     ],
+     "rank": 2,
+     "status": "RecordStatus.VALID"
+    },
+    {
+     "content": "The customer says she never activated the roaming add-on RMG-GCC-7D.",
+     "distance": 0.7519848600932895,
+     "format_content": "<fact>\n  <record_id>cust1001_m05</record_id>\n  <timestamp>2026-09-16T08:46:00+00:00</timestamp>\n  <status>valid</status>\n  <content>The customer says she never activated the roaming add-on RMG-GCC-7D.</content>\n  <linked_records>\n    <linked_record>\n      <relation_type>contradicts</relation_type>\n      <fact>\n        <record_id>cust1001_m06</record_id>\n        <timestamp>2026-09-18T11:02:00+00:00</timestamp>\n        <status>valid</status>\n        <content>The activation log shows that RMG-GCC-7D was activated by SMS from the customer's line on 03-Sep-2026.</content>\n      </fact>\n    </linked_record>\n  </linked_records>\n</fact>",
+     "format_content_includes_linked_text": true,
+     "key": "M5",
+     "linked": [
+      {
+       "child": "M6",
+       "child_content": "The activation log shows that RMG-GCC-7D was activated by SMS from the customer's line on 03-Sep-2026.",
+       "child_status": "RecordStatus.VALID",
+       "relation_type": "contradicts",
+       "source": "M6",
+       "target": "M5"
+      }
+     ],
+     "rank": 3,
+     "status": "RecordStatus.VALID"
+    },
+    {
+     "content": "Billing confirmed a refund of one RMG-GCC-7D charge for ticket TKT-48213.",
+     "distance": 0.7791868204336074,
+     "format_content": "<fact>\n  <record_id>cust1001_m04</record_id>\n  <timestamp>2026-09-23T13:30:00+00:00</timestamp>\n  <status>valid</status>\n  <content>Billing confirmed a refund of one RMG-GCC-7D charge for ticket TKT-48213.</content>\n  <linked_records>\n    <linked_record>\n      <relation_type>supports</relation_type>\n      <fact>\n        <record_id>cust1001_m03</record_id>\n        <timestamp>2026-09-16T08:40:00+00:00</timestamp>\n        <status>invalid</status>\n        <linked_records>\n          <linked_record>\n            <relation_type>duplicates</relation_type>\n            <fact>\n              <record_id>cust1001_m09</record_id>\n              <timestamp>2026-09-20T19:15:00+00:00</timestamp>\n              <status>valid</status>\n              <content>The customer reported the same double charge for RMG-GCC-7D again through the app.</content>\n            </fact>\n          </linked_record>\n        </linked_records>\n      </fact>\n    </linked_record>\n  </linked_records>\n</fact>",
+     "format_content_includes_linked_text": false,
+     "key": "M4",
+     "linked": [
+      {
+       "child": "M3",
+       "child_content": "The roaming add-on RMG-GCC-7D was charged twice on the customer's September bill; ticket TKT-48213 was opened.",
+       "child_status": "RecordStatus.INVALID",
+       "relation_type": "supports",
+       "source": "M4",
+       "target": "M3"
+      }
+     ],
+     "rank": 4,
+     "status": "RecordStatus.VALID"
+    },
+    {
+     "content": "The activation log shows that RMG-GCC-7D was activated by SMS from the customer's line on 03-Sep-2026.",
+     "distance": 0.8058951945546347,
+     "format_content": "<fact>\n  <record_id>cust1001_m06</record_id>\n  <timestamp>2026-09-18T11:02:00+00:00</timestamp>\n  <status>valid</status>\n  <content>The activation log shows that RMG-GCC-7D was activated by SMS from the customer's line on 03-Sep-2026.</content>\n  <linked_records>\n    <linked_record>\n      <relation_type>contradicts</relation_type>\n      <fact>\n        <record_id>cust1001_m05</record_id>\n        <timestamp>2026-09-16T08:46:00+00:00</timestamp>\n        <status>valid</status>\n        <content>The customer says she never activated the roaming add-on RMG-GCC-7D.</content>\n      </fact>\n    </linked_record>\n  </linked_records>\n</fact>",
+     "format_content_includes_linked_text": true,
+     "key": "M6",
+     "linked": [
+      {
+       "child": "M5",
+       "child_content": "The customer says she never activated the roaming add-on RMG-GCC-7D.",
+       "child_status": "RecordStatus.VALID",
+       "relation_type": "contradicts",
+       "source": "M6",
+       "target": "M5"
+      }
+     ],
+     "rank": 5,
+     "status": "RecordStatus.VALID"
+    },
+    {
+     "content": "The customer reported the same double charge for RMG-GCC-7D again through the app.",
+     "distance": 0.8086841519059507,
+     "format_content": "<fact>\n  <record_id>cust1001_m09</record_id>\n  <timestamp>2026-09-20T19:15:00+00:00</timestamp>\n  <status>valid</status>\n  <content>The customer reported the same double charge for RMG-GCC-7D again through the app.</content>\n  <linked_records>\n    <linked_record>\n      <relation_type>duplicates</relation_type>\n      <fact>\n        <record_id>cust1001_m03</record_id>\n        <timestamp>2026-09-16T08:40:00+00:00</timestamp>\n        <status>invalid</status>\n        <linked_records>\n          <linked_record>\n            <relation_type>is_supported_by</relation_type>\n            <fact>\n              <record_id>cust1001_m04</record_id>\n              <timestamp>2026-09-23T13:30:00+00:00</timestamp>\n              <status>valid</status>\n              <content>Billing confirmed a refund of one RMG-GCC-7D charge for ticket TKT-48213.</content>\n            </fact>\n          </linked_record>\n        </linked_records>\n      </fact>\n    </linked_record>\n  </linked_records>\n</fact>",
+     "format_content_includes_linked_text": false,
+     "key": "M9",
+     "linked": [
+      {
+       "child": "M3",
+       "child_content": "The roaming add-on RMG-GCC-7D was charged twice on the customer's September bill; ticket TKT-48213 was opened.",
+       "child_status": "RecordStatus.INVALID",
+       "relation_type": "duplicates",
+       "source": "M9",
+       "target": "M3"
+      }
+     ],
+     "rank": 6,
+     "status": "RecordStatus.VALID"
+    }
+   ]
+  }
+ },
+ "statuses_after_seeding": {
+  "M1": {
+   "invalidation_reason": "Superseded by another memory.",
+   "memory_type": "preference",
+   "status": "invalid"
+  },
+  "M10": {
+   "invalidation_reason": null,
+   "memory_type": "preference",
+   "status": "valid"
+  },
+  "M2": {
+   "invalidation_reason": "Superseded by another memory.",
+   "memory_type": "preference",
+   "status": "invalid"
+  },
+  "M3": {
+   "invalidation_reason": "Duplicated by another memory.",
+   "memory_type": "fact",
+   "status": "invalid"
+  },
+  "M4": {
+   "invalidation_reason": null,
+   "memory_type": "fact",
+   "status": "valid"
+  },
+  "M5": {
+   "invalidation_reason": null,
+   "memory_type": "fact",
+   "status": "valid"
+  },
+  "M6": {
+   "invalidation_reason": null,
+   "memory_type": "fact",
+   "status": "valid"
+  },
+  "M7": {
+   "invalidation_reason": "Refined by another memory.",
+   "memory_type": "preference",
+   "status": "invalid"
+  },
+  "M8": {
+   "invalidation_reason": null,
+   "memory_type": "preference",
+   "status": "valid"
+  },
+  "M9": {
+   "invalidation_reason": null,
+   "memory_type": "fact",
+   "status": "valid"
+  }
+ },
+ "store": "DEMO",
+ "store_open": {
+  "manifest": {
+   "by_store": {
+    "DEMO": 79
+   },
+   "conflicts": [],
+   "recorded": 79,
+   "unlisted": [],
+   "window_start_db": "2026-10-10 09:09:05"
+  },
+  "policy": "RECREATE",
+  "purge_job_runs_since_open": [
+   {
+    "error": 0,
+    "job_name": "DEMO_PURGE_ORPHANED_CHUNKS_J",
+    "start": "2026-10-10 09:09:11 UTC",
+    "status": "SUCCEEDED"
+   },
+   {
+    "error": 0,
+    "job_name": "DEMO_PURGE_EXPIRED_RECORDS_J",
+    "start": "2026-10-10 09:09:11 UTC",
+    "status": "SUCCEEDED"
+   }
+  ],
+  "purge_jobs": [
+   {
+    "enabled_after": "FALSE",
+    "enabled_before": "TRUE",
+    "job_name": "DEMO_PURGE_EXPIRED_RECORDS_J"
+   },
+   {
+    "enabled_after": "FALSE",
+    "enabled_before": "TRUE",
+    "job_name": "DEMO_PURGE_ORPHANED_CHUNKS_J"
+   }
+  ],
+  "store_id": "DEMO"
+ },
+ "unlisted_objects_now": [],
+ "user_id": "CUST_1001"
+}

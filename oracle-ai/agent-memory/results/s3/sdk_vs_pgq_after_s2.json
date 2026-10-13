@@ -1,0 +1,201 @@
+{
+ "common_arguments": {
+  "agent_id": null,
+  "exact_agent_match": false,
+  "exact_thread_match": false,
+  "exact_user_match": true,
+  "max_linked_results": 100,
+  "metadata_filter": null,
+  "record_types": null,
+  "thread_id": null,
+  "user_id": "CUST_1001"
+ },
+ "label": "after_s2",
+ "pairs": [
+  {
+   "binds_equal": true,
+   "columns_equal": true,
+   "hops": 1,
+   "linked_records": [
+    "M2"
+   ],
+   "median_ms_pgq": 1.49,
+   "median_ms_relational": 1.32,
+   "multiset_equal": true,
+   "only_pgq": [],
+   "only_relational": [],
+   "ordered_equal": true,
+   "pgq_ok": true,
+   "relational_ok": true,
+   "root": "M10",
+   "rows_pgq": 1,
+   "rows_relational": 1
+  },
+  {
+   "binds_equal": true,
+   "columns_equal": true,
+   "hops": 2,
+   "linked_records": [
+    "M2",
+    "M1"
+   ],
+   "median_ms_pgq": 3.05,
+   "median_ms_relational": 8.87,
+   "multiset_equal": true,
+   "only_pgq": [],
+   "only_relational": [],
+   "ordered_equal": true,
+   "pgq_ok": true,
+   "relational_ok": true,
+   "root": "M10",
+   "rows_pgq": 2,
+   "rows_relational": 2
+  },
+  {
+   "binds_equal": true,
+   "columns_equal": true,
+   "hops": 3,
+   "linked_records": [
+    "M2",
+    "M1"
+   ],
+   "median_ms_pgq": 5.99,
+   "median_ms_relational": 14.88,
+   "multiset_equal": true,
+   "only_pgq": [],
+   "only_relational": [],
+   "ordered_equal": true,
+   "pgq_ok": true,
+   "relational_ok": true,
+   "root": "M10",
+   "rows_pgq": 2,
+   "rows_relational": 2
+  },
+  {
+   "binds_equal": true,
+   "columns_equal": true,
+   "hops": 1,
+   "linked_records": [
+    "M4",
+    "M9"
+   ],
+   "median_ms_pgq": 1.09,
+   "median_ms_relational": 2.23,
+   "multiset_equal": true,
+   "only_pgq": [],
+   "only_relational": [],
+   "ordered_equal": true,
+   "pgq_ok": true,
+   "relational_ok": true,
+   "root": "M3",
+   "rows_pgq": 2,
+   "rows_relational": 2
+  },
+  {
+   "binds_equal": true,
+   "columns_equal": true,
+   "hops": 2,
+   "linked_records": [
+    "M4",
+    "M9"
+   ],
+   "median_ms_pgq": 2.58,
+   "median_ms_relational": 9.4,
+   "multiset_equal": true,
+   "only_pgq": [],
+   "only_relational": [],
+   "ordered_equal": true,
+   "pgq_ok": true,
+   "relational_ok": true,
+   "root": "M3",
+   "rows_pgq": 2,
+   "rows_relational": 2
+  },
+  {
+   "binds_equal": true,
+   "columns_equal": true,
+   "hops": 3,
+   "linked_records": [
+    "M4",
+    "M9"
+   ],
+   "median_ms_pgq": 6.32,
+   "median_ms_relational": 13.08,
+   "multiset_equal": true,
+   "only_pgq": [],
+   "only_relational": [],
+   "ordered_equal": true,
+   "pgq_ok": true,
+   "relational_ok": true,
+   "root": "M3",
+   "rows_pgq": 2,
+   "rows_relational": 2
+  },
+  {
+   "binds_equal": true,
+   "columns_equal": true,
+   "hops": 1,
+   "linked_records": [
+    "M7"
+   ],
+   "median_ms_pgq": 2.93,
+   "median_ms_relational": 1.74,
+   "multiset_equal": true,
+   "only_pgq": [],
+   "only_relational": [],
+   "ordered_equal": true,
+   "pgq_ok": true,
+   "relational_ok": true,
+   "root": "M8",
+   "rows_pgq": 1,
+   "rows_relational": 1
+  },
+  {
+   "binds_equal": true,
+   "columns_equal": true,
+   "hops": 2,
+   "linked_records": [
+    "M7"
+   ],
+   "median_ms_pgq": 3.59,
+   "median_ms_relational": 10.1,
+   "multiset_equal": true,
+   "only_pgq": [],
+   "only_relational": [],
+   "ordered_equal": true,
+   "pgq_ok": true,
+   "relational_ok": true,
+   "root": "M8",
+   "rows_pgq": 1,
+   "rows_relational": 1
+  },
+  {
+   "binds_equal": true,
+   "columns_equal": true,
+   "hops": 3,
+   "linked_records": [
+    "M7"
+   ],
+   "median_ms_pgq": 5.04,
+   "median_ms_relational": 13.29,
+   "multiset_equal": true,
+   "only_pgq": [],
+   "only_relational": [],
+   "ordered_equal": true,
+   "pgq_ok": true,
+   "relational_ok": true,
+   "root": "M8",
+   "rows_pgq": 1,
+   "rows_relational": 1
+  }
+ ],
+ "summary": {
+  "all_multiset_equal": true,
+  "all_ordered_equal": true,
+  "comparable_pairs": 9,
+  "pairs": 9,
+  "pairs_not_comparable": [],
+  "pgq_runs_on_23_26_1": true,
+  "timing_note": "median of 20 executions each; illustrative only (ten nodes), PLAN 9"
+ }
+}

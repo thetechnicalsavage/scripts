@@ -1,0 +1,363 @@
+{
+ "Q1": {
+  "columns": [
+   "mem_id",
+   "mem_type",
+   "mem_status",
+   "created_at",
+   "mem_text",
+   "invalidation_reason"
+  ],
+  "ms": 8.7,
+  "ok": true,
+  "rows": [
+   [
+    "M1",
+    "preference",
+    "invalid",
+    "2026-10-10 09:09:19.874212",
+    "The customer wants the unlimited plan PLN-UNL-50.",
+    "Superseded by another memory."
+   ],
+   [
+    "M2",
+    "preference",
+    "invalid",
+    "2026-10-10 09:09:20.075381",
+    "The customer now needs only 20 GB of data a month, but with GCC roaming.",
+    "Superseded by another memory."
+   ],
+   [
+    "M3",
+    "fact",
+    "invalid",
+    "2026-10-10 09:09:20.172191",
+    "The roaming add-on RMG-GCC-7D was charged twice on the customer's September bill; ticket TKT-48213 was opened.",
+    "Duplicated by another memory."
+   ],
+   [
+    "M4",
+    "fact",
+    "valid",
+    "2026-10-10 09:09:20.257390",
+    "Billing confirmed a refund of one RMG-GCC-7D charge for ticket TKT-48213.",
+    null
+   ],
+   [
+    "M5",
+    "fact",
+    "valid",
+    "2026-10-10 09:09:20.379263",
+    "The customer says she never activated the roaming add-on RMG-GCC-7D.",
+    null
+   ],
+   [
+    "M6",
+    "fact",
+    "valid",
+    "2026-10-10 09:09:20.462198",
+    "The activation log shows that RMG-GCC-7D was activated by SMS from the customer's line on 03-Sep-2026.",
+    null
+   ],
+   [
+    "M7",
+    "preference",
+    "invalid",
+    "2026-10-10 09:09:20.545616",
+    "The customer prefers WhatsApp messages rather than phone calls.",
+    "Refined by another memory."
+   ],
+   [
+    "M8",
+    "preference",
+    "valid",
+    "2026-10-10 09:09:20.618300",
+    "The customer wants contact by WhatsApp only, never phone calls, and only after 18:00.",
+    null
+   ],
+   [
+    "M9",
+    "fact",
+    "valid",
+    "2026-10-10 09:09:20.682076",
+    "The customer reported the same double charge for RMG-GCC-7D again through the app.",
+    null
+   ],
+   [
+    "M10",
+    "preference",
+    "valid",
+    "2026-10-10 09:09:20.750786",
+    "The customer is moving to the family plan PLN-FAM-4.",
+    null
+   ]
+  ]
+ },
+ "Q2": {
+  "columns": [
+   "src_id",
+   "rel_type",
+   "rel_created",
+   "dst_id",
+   "dst_status",
+   "src_text",
+   "dst_text"
+  ],
+  "ms": 7.1,
+  "ok": true,
+  "rows": [
+   [
+    "M4",
+    "supports",
+    "2026-10-10 09:09:21.142386",
+    "M3",
+    "invalid",
+    "Billing confirmed a refund of one RMG-GCC-7D charge for ticket TKT-48213.",
+    "The roaming add-on RMG-GCC-7D was charged twice on the customer's September bill; ticket TKT-48213 was opened."
+   ],
+   [
+    "M6",
+    "contradicts",
+    "2026-10-10 09:09:21.178926",
+    "M5",
+    "valid",
+    "The activation log shows that RMG-GCC-7D was activated by SMS from the customer's line on 03-Sep-2026.",
+    "The customer says she never activated the roaming add-on RMG-GCC-7D."
+   ],
+   [
+    "M8",
+    "refines",
+    "2026-10-10 09:09:21.215115",
+    "M7",
+    "invalid",
+    "The customer wants contact by WhatsApp only, never phone calls, and only after 18:00.",
+    "The customer prefers WhatsApp messages rather than phone calls."
+   ],
+   [
+    "M9",
+    "duplicates",
+    "2026-10-10 09:09:21.265264",
+    "M3",
+    "invalid",
+    "The customer reported the same double charge for RMG-GCC-7D again through the app.",
+    "The roaming add-on RMG-GCC-7D was charged twice on the customer's September bill; ticket TKT-48213 was opened."
+   ],
+   [
+    "M10",
+    "supersedes",
+    "2026-10-10 09:09:21.306740",
+    "M2",
+    "invalid",
+    "The customer is moving to the family plan PLN-FAM-4.",
+    "The customer now needs only 20 GB of data a month, but with GCC roaming."
+   ],
+   [
+    "M2",
+    "supersedes",
+    "2026-10-10 09:25:01.331236",
+    "M1",
+    "invalid",
+    "The customer now needs only 20 GB of data a month, but with GCC roaming.",
+    "The customer wants the unlimited plan PLN-UNL-50."
+   ]
+  ]
+ },
+ "Q3": {
+  "M10": {
+   "columns": [
+    "dst_id",
+    "hops",
+    "path_types"
+   ],
+   "ms": 6.3,
+   "ok": true,
+   "rows": [
+    [
+     "M2",
+     1,
+     "supersedes"
+    ],
+    [
+     "M1",
+     2,
+     "supersedes > supersedes"
+    ]
+   ]
+  },
+  "M3": {
+   "columns": [
+    "dst_id",
+    "hops",
+    "path_types"
+   ],
+   "ms": 1.7,
+   "ok": true,
+   "rows": []
+  },
+  "M8": {
+   "columns": [
+    "dst_id",
+    "hops",
+    "path_types"
+   ],
+   "ms": 1.3,
+   "ok": true,
+   "rows": [
+    [
+     "M7",
+     1,
+     "refines"
+    ]
+   ]
+  }
+ },
+ "Q3H": {
+  "M10": {
+   "columns": [
+    "hops",
+    "dst_id",
+    "path_types",
+    "hop1_id",
+    "hop2_id",
+    "hop3_id"
+   ],
+   "ms": 3.6,
+   "ok": true,
+   "rows": [
+    [
+     1,
+     "M2",
+     "supersedes",
+     "M2",
+     null,
+     null
+    ],
+    [
+     2,
+     "M1",
+     "supersedes > supersedes",
+     "M2",
+     "M1",
+     null
+    ]
+   ]
+  },
+  "M3": {
+   "columns": [
+    "hops",
+    "dst_id",
+    "path_types",
+    "hop1_id",
+    "hop2_id",
+    "hop3_id"
+   ],
+   "ms": 1.6,
+   "ok": true,
+   "rows": []
+  },
+  "M8": {
+   "columns": [
+    "hops",
+    "dst_id",
+    "path_types",
+    "hop1_id",
+    "hop2_id",
+    "hop3_id"
+   ],
+   "ms": 0.9,
+   "ok": true,
+   "rows": [
+    [
+     1,
+     "M7",
+     "refines",
+     "M7",
+     null,
+     null
+    ]
+   ]
+  }
+ },
+ "Q3H_fixed_ok": true,
+ "Q3_quantified_ok": true,
+ "checks": {
+  "Q1_statuses": {
+   "M1": "invalid",
+   "M10": "valid",
+   "M2": "invalid",
+   "M3": "invalid",
+   "M4": "valid",
+   "M5": "valid",
+   "M6": "valid",
+   "M7": "invalid",
+   "M8": "valid",
+   "M9": "valid"
+  },
+  "Q1_ten_memories_with_section3_statuses": true,
+  "Q2_links": [
+   [
+    "M10",
+    "supersedes",
+    "M2"
+   ],
+   [
+    "M2",
+    "supersedes",
+    "M1"
+   ],
+   [
+    "M4",
+    "supports",
+    "M3"
+   ],
+   [
+    "M6",
+    "contradicts",
+    "M5"
+   ],
+   [
+    "M8",
+    "refines",
+    "M7"
+   ],
+   [
+    "M9",
+    "duplicates",
+    "M3"
+   ]
+  ],
+  "Q2_six_links_equal_hero": true,
+  "Q3H_fixed_M10_gives_M2_then_M1": true,
+  "Q3H_from_M10": {
+   "M1": [
+    2,
+    "supersedes > supersedes"
+   ],
+   "M2": [
+    1,
+    "supersedes"
+   ]
+  },
+  "Q3_M10_gives_M2_then_M1": true,
+  "Q3_from_M10": {
+   "M1": [
+    2,
+    "supersedes > supersedes"
+   ],
+   "M2": [
+    1,
+    "supersedes"
+   ]
+  },
+  "Q3_quantified_M10_gives_M2_then_M1": true
+ },
+ "forms": {
+  "Q1": "Q1",
+  "Q2": "Q2",
+  "Q3": "Q3",
+  "Q3H": "Q3H"
+ },
+ "label": "after_s2",
+ "store": "DEMO",
+ "user": "CUST_1001"
+}

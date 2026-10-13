@@ -1,0 +1,403 @@
+{
+ "checks": {
+  "S1_as_written": {
+   "error_chain": [
+    {
+     "message": "No module named 'oracleagentmemory.stores'",
+     "type": "ModuleNotFoundError"
+    }
+   ],
+   "ok": false,
+   "op": "import oracleagentmemory.stores.oracledb",
+   "oracle_codes": [],
+   "seconds": 0.0
+  },
+  "S1_corrected": {
+   "import": "from oracleagentmemory.core import OracleDBMemoryStore, SchemaPolicy",
+   "ok": true
+  },
+  "S2_as_written": {
+   "error_chain": [
+    {
+     "message": "OracleAgentMemory.add_memory() missing 1 required positional argument: 'content'",
+     "type": "TypeError"
+    }
+   ],
+   "ok": false,
+   "op": "add_memory(user_id=, agent_id=, text=, metadata=)",
+   "oracle_codes": [],
+   "seconds": 0.0
+  },
+  "S2_corrected": {
+   "ids": [
+    "c77a7bcb-bd6b-4d7a-ae09-087fc616a3bd",
+    "7ce1f448-a284-4d3d-82ef-bc554f4bb4a7"
+   ],
+   "ok": true,
+   "stored_types": [
+    "preference",
+    "preference"
+   ]
+  },
+  "S2_minimally_fixed": {
+   "form": "add_memory(user_id=, agent_id=, content=item['text'], metadata=)",
+   "ids": [
+    "d15d19d1-e6d6-4acb-8ffa-e5548c56a184",
+    "68a30840-bedb-4b06-8767-5232c89b983d"
+   ],
+   "ok": true,
+   "stored_types": [
+    "memory",
+    "memory"
+   ]
+  },
+  "S3_as_written": {
+   "error_chain": [
+    {
+     "message": "OracleAgentMemory client searches require explicit user scoping. Pass user_id=..., user_id=None, or scope=SearchScope(user_id=...).",
+     "type": "ValueError"
+    }
+   ],
+   "ok": false,
+   "op": "await memory.search(query=, num_hops=0)",
+   "oracle_codes": [],
+   "seconds": 0.001
+  },
+  "S3_corrected": {
+   "direct_num_hops_0": [
+    {
+     "content": "Prefers e-mail for billing updates.",
+     "distance": 0.43281149357215687,
+     "id": "c77a7bcb-bd6b-4d7a-ae09-087fc616a3bd",
+     "linked": [],
+     "rank": 1,
+     "status": "RecordStatus.INVALID"
+    },
+    {
+     "content": "Now prefers WhatsApp for billing updates, never e-mail.",
+     "distance": 0.5612497392447735,
+     "id": "7ce1f448-a284-4d3d-82ef-bc554f4bb4a7",
+     "linked": [],
+     "rank": 2,
+     "status": "RecordStatus.VALID"
+    }
+   ],
+   "graph_num_hops_1": [
+    {
+     "content": "Prefers e-mail for billing updates.",
+     "distance": 0.43281149357215687,
+     "id": "c77a7bcb-bd6b-4d7a-ae09-087fc616a3bd",
+     "linked": [
+      {
+       "child": "7ce1f448-a284-4d3d-82ef-bc554f4bb4a7",
+       "child_status": "RecordStatus.VALID",
+       "relation_type": "supersedes"
+      }
+     ],
+     "rank": 1,
+     "status": "RecordStatus.INVALID"
+    },
+    {
+     "content": "Now prefers WhatsApp for billing updates, never e-mail.",
+     "distance": 0.5612497392447735,
+     "id": "7ce1f448-a284-4d3d-82ef-bc554f4bb4a7",
+     "linked": [
+      {
+       "child": "c77a7bcb-bd6b-4d7a-ae09-087fc616a3bd",
+       "child_status": "RecordStatus.INVALID",
+       "relation_type": "supersedes"
+      }
+     ],
+     "rank": 2,
+     "status": "RecordStatus.VALID"
+    }
+   ],
+   "ok": true,
+   "search_async_same_ids": true
+  },
+  "S3_user_id_added_still_awaited": {
+   "error_chain": [
+    {
+     "message": "object list can't be used in 'await' expression",
+     "type": "TypeError"
+    }
+   ],
+   "ok": false,
+   "op": "await memory.search(query=, user_id=, num_hops=0)",
+   "oracle_codes": [],
+   "seconds": 0.143
+  },
+  "S4_as_written_helper": {
+   "error_chain": [
+    {
+     "message": "name 'linked_results' is not defined",
+     "type": "NameError"
+    }
+   ],
+   "ok": false,
+   "op": "linked_results(result)",
+   "oracle_codes": [],
+   "seconds": 0.0
+  },
+  "S4_as_written_label": {
+   "expression": "getattr(linked, \"link_type\", getattr(linked, \"relationship\", \"linked\"))",
+   "labels": [
+    "linked"
+   ],
+   "ok": false
+  },
+  "S4_corrected": {
+   "linked": [
+    {
+     "child": "7ce1f448-a284-4d3d-82ef-bc554f4bb4a7",
+     "child_content": "Now prefers WhatsApp for billing updates, never e-mail.",
+     "relation_type": "supersedes"
+    }
+   ],
+   "loop": "for rel, child in result.linked_results",
+   "ok": true
+  },
+  "S5_as_written": {
+   "format_content": "<preference>\n  <record_id>c77a7bcb-bd6b-4d7a-ae09-087fc616a3bd</record_id>\n  <timestamp>2026-10-12T18:26:09.699473</timestamp>\n  <status>invalid</status>\n  <content>Prefers e-mail for billing updates.</content>\n  <linked_records>\n    <linked_record>\n      <relation_type>is_superseded_by</relation_type>\n      <preference>\n        <record_id>7ce1f448-a284-4d3d-82ef-bc554f4bb4a7</record_id>\n        <timestamp>2026-10-12T18:26:09.902698</timestamp>\n        <status>valid</status>\n        <content>Now prefers WhatsApp for billing updates, never e-mail.</content>\n      </preference>\n    </linked_record>\n  </linked_records>\n</preference>",
+   "includes_linked_text": true,
+   "ok": true,
+   "top_id": "c77a7bcb-bd6b-4d7a-ae09-087fc616a3bd"
+  },
+  "S6_as_written": {
+   "note": "constructed only: no LLM is attached, so nothing is extracted here",
+   "ok": true,
+   "op": "MemoryExtractionConfig(memory_extraction_frequency=1, POST_EXTRACTION)",
+   "result": {
+    "memory_extraction_frequency": 1,
+    "memory_link_extraction_mode": "MemoryLinkExtractionMode.POST_EXTRACTION"
+   },
+   "seconds": 0.0
+  },
+  "S7_as_written_on_corrected_S2": {
+   "ok": true,
+   "op": "link_records(new, 'preference', old, 'preference', 'supersedes', metadata)",
+   "result": "380d0601-9523-4848-9a89-6cda5d67a832",
+   "seconds": 0.299
+  },
+  "S7_as_written_on_minimally_fixed_S2": {
+   "error_chain": [
+    {
+     "message": "'No record found with the given ID and type.'",
+     "type": "KeyError"
+    }
+   ],
+   "ok": false,
+   "op": "link_records(new, 'preference', old, 'preference', 'supersedes', metadata)",
+   "oracle_codes": [],
+   "s2_form": "minimally fixed",
+   "seconds": 0.01,
+   "stored_types": [
+    "memory",
+    "memory"
+   ]
+  },
+  "S7_stored_type_on_minimally_fixed_S2": {
+   "ok": true,
+   "op": "link_records(new, 'memory', old, 'memory', 'supersedes', metadata)",
+   "result": "44a37a71-6afd-45cb-ad97-54cd89988c00",
+   "seconds": 0.078
+  },
+  "S8_as_written": {
+   "db_client_program_name": "agentmem-poc-s10",
+   "defaults_program": "agentmem-poc-s10",
+   "ok": true
+  },
+  "S9_as_written": {
+   "manifest_window": {
+    "by_store": {},
+    "conflicts": [],
+    "poc_checked": 0,
+    "recorded": 0,
+    "unlisted": [],
+    "window_start_db": "2026-10-12 18:26:06"
+   },
+   "ok": true,
+   "purge_jobs_after": [
+    {
+     "enabled": "FALSE",
+     "job_name": "SNIP_PURGE_EXPIRED_RECORDS_J",
+     "run_count": 1,
+     "state": "DISABLED"
+    },
+    {
+     "enabled": "FALSE",
+     "job_name": "SNIP_PURGE_ORPHANED_CHUNKS_J",
+     "run_count": 1,
+     "state": "DISABLED"
+    }
+   ]
+  }
+ },
+ "count": {
+  "failing": [
+   "S1",
+   "S2",
+   "S3a",
+   "S3b",
+   "S4",
+   "S7"
+  ],
+  "n_fail": 6,
+  "of": 10,
+  "reason": "S7 failed live against memories stored as 'memory' by the minimally fixed S2 (KeyError: 'No record found with the given ID and type.'; B17's predicted message: False)",
+  "rule": "PLAN v0.3.8 6 row 10 (counting rule v0.2)",
+  "s7_counted": true,
+  "s7_error_is_b17": false
+ },
+ "items": [
+  {
+   "metadata": {
+    "order": 1,
+    "source": "snippet_check"
+   },
+   "text": "Prefers e-mail for billing updates."
+  },
+  {
+   "metadata": {
+    "order": 2,
+    "source": "snippet_check"
+   },
+   "text": "Now prefers WhatsApp for billing updates, never e-mail."
+  }
+ ],
+ "ledger_total_after": 3848599,
+ "links_after_s7": [
+  {
+   "metadata": "{\"reason\":\"the customer changed the billing channel\"}",
+   "relation_id": "380d0601-9523-4848-9a89-6cda5d67a832",
+   "relation_type": "supersedes",
+   "source": "7ce1f448-a284-4d3d-82ef-bc554f4bb4a7",
+   "target": "c77a7bcb-bd6b-4d7a-ae09-087fc616a3bd"
+  },
+  {
+   "metadata": "{\"reason\":\"the customer changed the billing channel\"}",
+   "relation_id": "44a37a71-6afd-45cb-ad97-54cd89988c00",
+   "relation_type": "supersedes",
+   "source": "68a30840-bedb-4b06-8767-5232c89b983d",
+   "target": "d15d19d1-e6d6-4acb-8ffa-e5548c56a184"
+  }
+ ],
+ "litellm_counter": {
+  "blocked_by_budget": 0,
+  "calls": {},
+  "errors": {},
+  "failed_call_estimate_tokens": 0,
+  "failed_calls": 0,
+  "tokens": {}
+ },
+ "memories_after_s7": [
+  {
+   "content": "Prefers e-mail for billing updates.",
+   "memory_type": "preference",
+   "record_id": "c77a7bcb-bd6b-4d7a-ae09-087fc616a3bd",
+   "status": "invalid",
+   "user_id": "SNIP_CUST_01"
+  },
+  {
+   "content": "Now prefers WhatsApp for billing updates, never e-mail.",
+   "memory_type": "preference",
+   "record_id": "7ce1f448-a284-4d3d-82ef-bc554f4bb4a7",
+   "status": "valid",
+   "user_id": "SNIP_CUST_01"
+  },
+  {
+   "content": "Prefers e-mail for billing updates.",
+   "memory_type": "memory",
+   "record_id": "d15d19d1-e6d6-4acb-8ffa-e5548c56a184",
+   "status": "invalid",
+   "user_id": "SNIP_CUST_02"
+  },
+  {
+   "content": "Now prefers WhatsApp for billing updates, never e-mail.",
+   "memory_type": "memory",
+   "record_id": "68a30840-bedb-4b06-8767-5232c89b983d",
+   "status": "valid",
+   "user_id": "SNIP_CUST_02"
+  }
+ ],
+ "meter": {
+  "by_model": {},
+  "embedder_events_by_class": {
+   "EmbedderCompletedEvent:OracleDBEmbedder": 7,
+   "EmbedderStartedEvent:OracleDBEmbedder": 7
+  },
+  "embedder_inputs": 7,
+  "events": {
+   "AgentMemoryCompletedEvent": 9,
+   "AgentMemoryStartedEvent": 9,
+   "EmbedderCompletedEvent": 7,
+   "EmbedderStartedEvent": 7,
+   "MemoryStoreCompletedEvent": 14,
+   "MemoryStoreStartedEvent": 14
+  },
+  "llm_calls": 0,
+  "llm_error_types": {},
+  "llm_failures": 0,
+  "tokens": {}
+ },
+ "program_set": "agentmem-poc-s10",
+ "purge_jobs_end": [
+  {
+   "enabled": "FALSE",
+   "job_name": "SNIP_PURGE_EXPIRED_RECORDS_J",
+   "run_count": 1,
+   "state": "DISABLED"
+  },
+  {
+   "enabled": "FALSE",
+   "job_name": "SNIP_PURGE_ORPHANED_CHUNKS_J",
+   "run_count": 1,
+   "state": "DISABLED"
+  }
+ ],
+ "query": "How does the customer want to hear about billing?",
+ "snip_recreate": {
+  "manifest": {
+   "by_store": {
+    "SNIP": 79
+   },
+   "conflicts": [],
+   "poc_checked": 0,
+   "recorded": 79,
+   "unlisted": [],
+   "window_start_db": "2026-10-12 18:25:59"
+  },
+  "policy": "RECREATE",
+  "purge_job_runs_since_open": [
+   {
+    "error": 0,
+    "job_name": "SNIP_PURGE_ORPHANED_CHUNKS_J",
+    "start": "2026-10-12 18:26:04 UTC",
+    "status": "SUCCEEDED"
+   },
+   {
+    "error": 0,
+    "job_name": "SNIP_PURGE_EXPIRED_RECORDS_J",
+    "start": "2026-10-12 18:26:04 UTC",
+    "status": "SUCCEEDED"
+   }
+  ],
+  "purge_jobs": [
+   {
+    "enabled_after": "FALSE",
+    "enabled_before": "TRUE",
+    "job_name": "SNIP_PURGE_EXPIRED_RECORDS_J",
+    "seconds_waited_for_running_job": 2.0
+   },
+   {
+    "enabled_after": "FALSE",
+    "enabled_before": "TRUE",
+    "job_name": "SNIP_PURGE_ORPHANED_CHUNKS_J",
+    "seconds_waited_for_running_job": 0.0
+   }
+  ],
+  "store_id": "SNIP"
+ },
+ "store": "SNIP",
+ "unlisted_objects_now": []
+}

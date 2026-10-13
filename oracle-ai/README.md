@@ -11,6 +11,7 @@ Database 26ai Enterprise Edition in a container, September 2026.
 | [`select-ai-nl2sql/`](select-ai-nl2sql/) | The profile, and the row-level security underneath |
 | [`select-ai-nl2sql-accuracy/`](select-ai-nl2sql-accuracy/) | Oracle's NL2SQL best practices, measured one at a time: 24% to 97% |
 | [`select-ai-rag-tuning/`](select-ai-rag-tuning/) | Select AI RAG tuned one setting at a time, in English and Arabic: 40% to 75% |
+| [`agent-memory/`](agent-memory/) | Oracle AI Agent Memory 26.8 on an on-premises 26ai: search, linking and pruning measured |
 | [`db-anomaly-detection/`](db-anomaly-detection/) | Predictive anomaly detection with OML MSET-SPRT, tested on 14 injected faults |
 | [`oci-genai-routing-profiles/`](oci-genai-routing-profiles/) | OCI Generative AI routing profiles and model discovery, from REST, PL/SQL and Select AI |
 | [`oci-speech-from-plsql/`](oci-speech-from-plsql/) | Driving an OCI AI service with `SEND_REQUEST` |

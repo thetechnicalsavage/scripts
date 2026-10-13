@@ -1,0 +1,9 @@
+{"family": "data", "pair_id": "T01-D", "scenario": "DX_DATA", "slot_a": "T01-DA", "slot_b": "T01-DB", "thread_id": "c2_t01", "user_id": "CUST_2001"}
+{"family": "contact", "pair_id": "T02-D", "scenario": "DX_CONTACTS", "slot_a": "T02-DA", "slot_b": "T02-DB", "thread_id": "c2_t02", "user_id": "CUST_2002"}
+{"family": "numbers", "pair_id": "T03-D", "scenario": "DX_NUMBERS", "slot_a": "T03-DA", "slot_b": "T03-DB", "thread_id": "c2_t03", "user_id": "CUST_2003"}
+{"family": "home", "pair_id": "T04-D", "scenario": "DX_HOME", "slot_a": "T04-DA", "slot_b": "T04-DB", "thread_id": "c2_t04", "user_id": "CUST_2004"}
+{"family": "bill", "pair_id": "T05-D", "scenario": "DX_BILLITEMS", "slot_a": "T05-DA", "slot_b": "T05-DB", "thread_id": "c2_t05", "user_id": "CUST_2005"}
+{"family": "roaming", "pair_id": "T06-D", "scenario": "DX_ROAM", "slot_a": "T06-DA", "slot_b": "T06-DB", "thread_id": "c2_t06", "user_id": "CUST_2006"}
+{"family": "device", "pair_id": "T08-D", "scenario": "DX_DEVICES", "slot_a": "T08-DA", "slot_b": "T08-DB", "thread_id": "c2_t08", "user_id": "CUST_2008"}
+{"family": "travel", "pair_id": "T11-D", "scenario": "DX_TRAVEL", "slot_a": "T11-DA", "slot_b": "T11-DB", "thread_id": "c2_t11", "user_id": "CUST_2011"}
+{"family": "intl", "pair_id": "T12-D", "scenario": "DX_INTL", "slot_a": "T12-DA", "slot_b": "T12-DB", "thread_id": "c2_t12", "user_id": "CUST_2012"}

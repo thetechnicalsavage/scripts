@@ -1,0 +1,555 @@
+-- oracleagentmemory 26.8.0 core/deepsec, rendered offline by code/offline/dds_ddl_render.py v1.0 (recording connection: no database)
+-- Every query below returned no row to the SDK, so it took its create path. Not run anywhere.
+-- Artifact of the recording: the OCI group's mapped data role is looked up once per policy and, since the
+-- lookup returns no row here, CREATE DATA ROLE ... MAPPED TO appears twice; a real database would find the
+-- role the first statement created and issue it once.
+
+-- ===== add_deep_data_security_policies(conn, owner_schema='AGENTMEM', memory_store_id='OPS', policies=[UserOwnRows, GlobalMemories])
+CREATE OR REPLACE DATA ROLE AGENTMEM_OPS_OAM_OWN_USER_ROWS_CRUD_ROLE;
+
+CREATE OR REPLACE DATA GRANT AGENTMEM.AGENTMEM_OPS_OAM_LOCAL_OWN_ROWS_REGISTRY_SELECT_DG
+AS SELECT
+ON AGENTMEM.AGENT_MEMORY_STORES
+TO AGENTMEM_OPS_OAM_OWN_USER_ROWS_CRUD_ROLE;
+
+CREATE OR REPLACE DATA GRANT AGENTMEM.AGENTMEM_OPS_OAM_LOCAL_THREAD_OWN_ROWS_DG
+AS
+    SELECT,
+    INSERT (
+        record_id,
+        user_id,
+        agent_id,
+        metadata,
+        runtime_config,
+        runtime_state
+    ),
+    UPDATE (
+        metadata,
+        runtime_config,
+        runtime_state
+    ),
+    DELETE
+ON AGENTMEM.OPS_THREAD
+WHERE user_id = ORA_END_USER_CONTEXT.username
+TO AGENTMEM_OPS_OAM_OWN_USER_ROWS_CRUD_ROLE;
+
+CREATE OR REPLACE DATA GRANT AGENTMEM.AGENTMEM_OPS_OAM_LOCAL_THREAD_SUMMARY_OWN_ROWS_DG
+AS
+    SELECT,
+    INSERT (
+        record_id,
+        thread_id,
+        user_id,
+        agent_id,
+        space_id,
+        content,
+        metadata,
+        status
+    ),
+    UPDATE (
+        content,
+        metadata,
+        status
+    ),
+    DELETE
+ON AGENTMEM.OPS_THREAD_SUMMARY
+WHERE user_id = ORA_END_USER_CONTEXT.username
+TO AGENTMEM_OPS_OAM_OWN_USER_ROWS_CRUD_ROLE;
+
+CREATE OR REPLACE DATA GRANT AGENTMEM.AGENTMEM_OPS_OAM_LOCAL_MESSAGE_OWN_ROWS_DG
+AS
+    SELECT,
+    INSERT (
+        record_id,
+        thread_id,
+        user_id,
+        agent_id,
+        message_role,
+        content,
+        timestamp,
+        metadata,
+        expires_at,
+        status
+    ),
+    UPDATE (
+        content,
+        timestamp,
+        metadata,
+        expires_at
+    ),
+    DELETE
+ON AGENTMEM.OPS_MESSAGE
+WHERE user_id = ORA_END_USER_CONTEXT.username
+TO AGENTMEM_OPS_OAM_OWN_USER_ROWS_CRUD_ROLE;
+
+CREATE OR REPLACE DATA GRANT AGENTMEM.AGENTMEM_OPS_OAM_LOCAL_DOCUMENT_OWN_ROWS_DG
+AS
+    SELECT,
+    INSERT (
+        record_id,
+        message_id,
+        thread_id,
+        user_id,
+        agent_id,
+        space_id,
+        document_type,
+        description,
+        blob,
+        timestamp,
+        metadata,
+        document_metadata,
+        expires_at,
+        status
+    ),
+    UPDATE (
+        description,
+        blob,
+        timestamp,
+        metadata,
+        document_metadata,
+        expires_at
+    ),
+    DELETE
+ON AGENTMEM.OPS_DOCUMENT
+WHERE user_id = ORA_END_USER_CONTEXT.username
+TO AGENTMEM_OPS_OAM_OWN_USER_ROWS_CRUD_ROLE;
+
+CREATE OR REPLACE DATA GRANT AGENTMEM.AGENTMEM_OPS_OAM_LOCAL_MEMORY_OWN_ROWS_DG
+AS
+    SELECT,
+    INSERT (
+        record_id,
+        thread_id,
+        user_id,
+        agent_id,
+        memory_type,
+        content,
+        timestamp,
+        metadata,
+        expires_at,
+        status
+    ),
+    UPDATE (
+        content,
+        timestamp,
+        metadata,
+        expires_at,
+        status
+    ),
+    DELETE
+ON AGENTMEM.OPS_MEMORY
+WHERE user_id = ORA_END_USER_CONTEXT.username
+TO AGENTMEM_OPS_OAM_OWN_USER_ROWS_CRUD_ROLE;
+
+CREATE OR REPLACE DATA GRANT AGENTMEM.AGENTMEM_OPS_OAM_LOCAL_MEMORY_LINK_OWN_ROWS_SELECT_DG
+AS SELECT
+ON AGENTMEM.OPS_MEMORY_LINK
+WHERE EXISTS (
+    SELECT 1
+    FROM AGENTMEM.OPS_MEMORY
+    WHERE AGENTMEM.OPS_MEMORY.record_id = source_memory_id
+)
+  AND EXISTS (
+    SELECT 1
+    FROM AGENTMEM.OPS_MEMORY
+    WHERE AGENTMEM.OPS_MEMORY.record_id = target_memory_id
+)
+TO AGENTMEM_OPS_OAM_OWN_USER_ROWS_CRUD_ROLE;
+
+CREATE OR REPLACE DATA GRANT AGENTMEM.AGENTMEM_OPS_OAM_LOCAL_MEMORY_LINK_OWN_ROWS_DG
+AS
+    INSERT (
+        relation_id,
+        source_memory_id,
+        source_memory_user_id,
+        target_memory_id,
+        target_memory_user_id,
+        relation_type,
+        opposite_relation_type,
+        timestamp,
+        metadata
+    ),
+    UPDATE (
+        relation_type,
+        opposite_relation_type,
+        timestamp,
+        metadata
+    ),
+    DELETE
+ON AGENTMEM.OPS_MEMORY_LINK
+WHERE source_memory_user_id = ORA_END_USER_CONTEXT.username
+  AND target_memory_user_id = ORA_END_USER_CONTEXT.username
+TO AGENTMEM_OPS_OAM_OWN_USER_ROWS_CRUD_ROLE;
+
+CREATE OR REPLACE DATA GRANT AGENTMEM.AGENTMEM_OPS_OAM_LOCAL_RECORD_CHUNKS_OWN_ROWS_DG
+AS
+    SELECT,
+    INSERT (
+        source_id,
+        source_record_type,
+        source_emb_column,
+        chunk_seq,
+        chunk_text,
+        thread_id,
+        user_id,
+        agent_id,
+        status,
+        embedding
+    ),
+    UPDATE (
+        status
+    ),
+    DELETE
+ON AGENTMEM.OPS_RECORD_CHUNKS
+WHERE user_id = ORA_END_USER_CONTEXT.username
+   OR (
+       source_record_type = 'user_profile'
+       AND source_id = ORA_END_USER_CONTEXT.username
+   )
+TO AGENTMEM_OPS_OAM_OWN_USER_ROWS_CRUD_ROLE;
+
+CREATE OR REPLACE DATA GRANT AGENTMEM.AGENTMEM_OPS_OAM_LOCAL_ACTOR_PROFILE_OWN_USER_CRUD_DG
+AS
+    SELECT,
+    INSERT (
+        actor_id,
+        actor_type,
+        information,
+        metadata,
+        status
+    ),
+    UPDATE (
+        information,
+        metadata
+    ),
+    DELETE
+ON AGENTMEM.OPS_ACTOR_PROFILE
+WHERE actor_type = 'user'
+  AND actor_id = ORA_END_USER_CONTEXT.username
+TO AGENTMEM_OPS_OAM_OWN_USER_ROWS_CRUD_ROLE;
+
+CREATE OR REPLACE DATA ROLE AGENTMEM_OPS_OAM_GLOBAL_READ_ROLE;
+
+CREATE OR REPLACE DATA GRANT AGENTMEM.AGENTMEM_OPS_OAM_LOCAL_GLOBAL_READ_REGISTRY_SELECT_DG
+AS SELECT
+ON AGENTMEM.AGENT_MEMORY_STORES
+TO AGENTMEM_OPS_OAM_GLOBAL_READ_ROLE;
+
+CREATE OR REPLACE DATA GRANT AGENTMEM.AGENTMEM_OPS_OAM_LOCAL_GLOBAL_MEMORY_SELECT_DG
+AS SELECT
+ON AGENTMEM.OPS_MEMORY
+WHERE user_id IS NULL
+TO AGENTMEM_OPS_OAM_GLOBAL_READ_ROLE;
+
+CREATE OR REPLACE DATA GRANT AGENTMEM.AGENTMEM_OPS_OAM_LOCAL_GLOBAL_MEMORY_CHUNKS_SELECT_DG
+AS SELECT
+ON AGENTMEM.OPS_RECORD_CHUNKS
+WHERE EXISTS (
+    SELECT 1
+    FROM AGENTMEM.OPS_MEMORY memory
+    WHERE memory.record_id = source_id
+      AND memory.memory_type = source_record_type
+      AND memory.user_id IS NULL
+)
+TO AGENTMEM_OPS_OAM_GLOBAL_READ_ROLE;
+
+CREATE OR REPLACE DATA GRANT AGENTMEM.AGENTMEM_OPS_OAM_LOCAL_GLOBAL_MEMORY_LINK_SELECT_DG
+AS SELECT
+ON AGENTMEM.OPS_MEMORY_LINK
+WHERE EXISTS (
+    SELECT 1
+    FROM AGENTMEM.OPS_MEMORY
+    WHERE AGENTMEM.OPS_MEMORY.record_id = source_memory_id
+)
+  AND EXISTS (
+    SELECT 1
+    FROM AGENTMEM.OPS_MEMORY
+    WHERE AGENTMEM.OPS_MEMORY.record_id = target_memory_id
+)
+TO AGENTMEM_OPS_OAM_GLOBAL_READ_ROLE;
+
+-- commit
+
+-- ===== grant_agent_memory_policies(conn, memory_store_id='OPS', owner_schema='AGENTMEM', principals=[LocalEndUserPrincipal('SUPPORT_AGENT_1'), OciGroupPrincipal('agent-memory-support')], policies=[...])
+GRANT DATA ROLE AGENTMEM_OPS_OAM_OWN_USER_ROWS_CRUD_ROLE TO SUPPORT_AGENT_1;
+
+SELECT data_role
+FROM sys.dba_data_roles
+WHERE UPPER(mapped_to) = UPPER(:mapping);
+-- binds: [] {'mapping': 'IAM_OAUTH_GROUP=agent-memory-support'}
+
+CREATE DATA ROLE AGENTMEM_OPS_ORACLEAGENTMEMORY_IAMGROUP_AGENT_MEMORY_SUPPORT_ROLE MAPPED TO 'IAM_OAUTH_GROUP=agent-memory-support';
+
+CREATE OR REPLACE DATA GRANT AGENTMEM.AGENTMEM_OPS_OAM_OCI_63F111F37C77_OWN_ROWS_REGISTRY_SELECT_DG
+AS SELECT
+ON AGENTMEM.AGENT_MEMORY_STORES
+TO AGENTMEM_OPS_ORACLEAGENTMEMORY_IAMGROUP_AGENT_MEMORY_SUPPORT_ROLE;
+
+CREATE OR REPLACE DATA GRANT AGENTMEM.AGENTMEM_OPS_OAM_OCI_63F111F37C77_THREAD_OWN_ROWS_DG
+AS
+    SELECT,
+    INSERT (
+        record_id,
+        user_id,
+        agent_id,
+        metadata,
+        runtime_config,
+        runtime_state
+    ),
+    UPDATE (
+        metadata,
+        runtime_config,
+        runtime_state
+    ),
+    DELETE
+ON AGENTMEM.OPS_THREAD
+WHERE user_id = ORA_END_USER_CONTEXT.username
+TO AGENTMEM_OPS_ORACLEAGENTMEMORY_IAMGROUP_AGENT_MEMORY_SUPPORT_ROLE;
+
+CREATE OR REPLACE DATA GRANT AGENTMEM.AGENTMEM_OPS_OAM_OCI_63F111F37C77_THREAD_SUMMARY_OWN_ROWS_DG
+AS
+    SELECT,
+    INSERT (
+        record_id,
+        thread_id,
+        user_id,
+        agent_id,
+        space_id,
+        content,
+        metadata,
+        status
+    ),
+    UPDATE (
+        content,
+        metadata,
+        status
+    ),
+    DELETE
+ON AGENTMEM.OPS_THREAD_SUMMARY
+WHERE user_id = ORA_END_USER_CONTEXT.username
+TO AGENTMEM_OPS_ORACLEAGENTMEMORY_IAMGROUP_AGENT_MEMORY_SUPPORT_ROLE;
+
+CREATE OR REPLACE DATA GRANT AGENTMEM.AGENTMEM_OPS_OAM_OCI_63F111F37C77_MESSAGE_OWN_ROWS_DG
+AS
+    SELECT,
+    INSERT (
+        record_id,
+        thread_id,
+        user_id,
+        agent_id,
+        message_role,
+        content,
+        timestamp,
+        metadata,
+        expires_at,
+        status
+    ),
+    UPDATE (
+        content,
+        timestamp,
+        metadata,
+        expires_at
+    ),
+    DELETE
+ON AGENTMEM.OPS_MESSAGE
+WHERE user_id = ORA_END_USER_CONTEXT.username
+TO AGENTMEM_OPS_ORACLEAGENTMEMORY_IAMGROUP_AGENT_MEMORY_SUPPORT_ROLE;
+
+CREATE OR REPLACE DATA GRANT AGENTMEM.AGENTMEM_OPS_OAM_OCI_63F111F37C77_DOCUMENT_OWN_ROWS_DG
+AS
+    SELECT,
+    INSERT (
+        record_id,
+        message_id,
+        thread_id,
+        user_id,
+        agent_id,
+        space_id,
+        document_type,
+        description,
+        blob,
+        timestamp,
+        metadata,
+        document_metadata,
+        expires_at,
+        status
+    ),
+    UPDATE (
+        description,
+        blob,
+        timestamp,
+        metadata,
+        document_metadata,
+        expires_at
+    ),
+    DELETE
+ON AGENTMEM.OPS_DOCUMENT
+WHERE user_id = ORA_END_USER_CONTEXT.username
+TO AGENTMEM_OPS_ORACLEAGENTMEMORY_IAMGROUP_AGENT_MEMORY_SUPPORT_ROLE;
+
+CREATE OR REPLACE DATA GRANT AGENTMEM.AGENTMEM_OPS_OAM_OCI_63F111F37C77_MEMORY_OWN_ROWS_DG
+AS
+    SELECT,
+    INSERT (
+        record_id,
+        thread_id,
+        user_id,
+        agent_id,
+        memory_type,
+        content,
+        timestamp,
+        metadata,
+        expires_at,
+        status
+    ),
+    UPDATE (
+        content,
+        timestamp,
+        metadata,
+        expires_at,
+        status
+    ),
+    DELETE
+ON AGENTMEM.OPS_MEMORY
+WHERE user_id = ORA_END_USER_CONTEXT.username
+TO AGENTMEM_OPS_ORACLEAGENTMEMORY_IAMGROUP_AGENT_MEMORY_SUPPORT_ROLE;
+
+CREATE OR REPLACE DATA GRANT AGENTMEM.AGENTMEM_OPS_OAM_OCI_63F111F37C77_MEMORY_LINK_OWN_ROWS_SELECT_DG
+AS SELECT
+ON AGENTMEM.OPS_MEMORY_LINK
+WHERE EXISTS (
+    SELECT 1
+    FROM AGENTMEM.OPS_MEMORY
+    WHERE AGENTMEM.OPS_MEMORY.record_id = source_memory_id
+)
+  AND EXISTS (
+    SELECT 1
+    FROM AGENTMEM.OPS_MEMORY
+    WHERE AGENTMEM.OPS_MEMORY.record_id = target_memory_id
+)
+TO AGENTMEM_OPS_ORACLEAGENTMEMORY_IAMGROUP_AGENT_MEMORY_SUPPORT_ROLE;
+
+CREATE OR REPLACE DATA GRANT AGENTMEM.AGENTMEM_OPS_OAM_OCI_63F111F37C77_MEMORY_LINK_OWN_ROWS_DG
+AS
+    INSERT (
+        relation_id,
+        source_memory_id,
+        source_memory_user_id,
+        target_memory_id,
+        target_memory_user_id,
+        relation_type,
+        opposite_relation_type,
+        timestamp,
+        metadata
+    ),
+    UPDATE (
+        relation_type,
+        opposite_relation_type,
+        timestamp,
+        metadata
+    ),
+    DELETE
+ON AGENTMEM.OPS_MEMORY_LINK
+WHERE source_memory_user_id = ORA_END_USER_CONTEXT.username
+  AND target_memory_user_id = ORA_END_USER_CONTEXT.username
+TO AGENTMEM_OPS_ORACLEAGENTMEMORY_IAMGROUP_AGENT_MEMORY_SUPPORT_ROLE;
+
+CREATE OR REPLACE DATA GRANT AGENTMEM.AGENTMEM_OPS_OAM_OCI_63F111F37C77_RECORD_CHUNKS_OWN_ROWS_DG
+AS
+    SELECT,
+    INSERT (
+        source_id,
+        source_record_type,
+        source_emb_column,
+        chunk_seq,
+        chunk_text,
+        thread_id,
+        user_id,
+        agent_id,
+        status,
+        embedding
+    ),
+    UPDATE (
+        status
+    ),
+    DELETE
+ON AGENTMEM.OPS_RECORD_CHUNKS
+WHERE user_id = ORA_END_USER_CONTEXT.username
+   OR (
+       source_record_type = 'user_profile'
+       AND source_id = ORA_END_USER_CONTEXT.username
+   )
+TO AGENTMEM_OPS_ORACLEAGENTMEMORY_IAMGROUP_AGENT_MEMORY_SUPPORT_ROLE;
+
+CREATE OR REPLACE DATA GRANT AGENTMEM.AGENTMEM_OPS_OAM_OCI_63F111F37C77_ACTOR_PROFILE_OWN_USER_CRUD_DG
+AS
+    SELECT,
+    INSERT (
+        actor_id,
+        actor_type,
+        information,
+        metadata,
+        status
+    ),
+    UPDATE (
+        information,
+        metadata
+    ),
+    DELETE
+ON AGENTMEM.OPS_ACTOR_PROFILE
+WHERE actor_type = 'user'
+  AND actor_id = ORA_END_USER_CONTEXT.username
+TO AGENTMEM_OPS_ORACLEAGENTMEMORY_IAMGROUP_AGENT_MEMORY_SUPPORT_ROLE;
+
+GRANT DATA ROLE AGENTMEM_OPS_OAM_GLOBAL_READ_ROLE TO SUPPORT_AGENT_1;
+
+SELECT data_role
+FROM sys.dba_data_roles
+WHERE UPPER(mapped_to) = UPPER(:mapping);
+-- binds: [] {'mapping': 'IAM_OAUTH_GROUP=agent-memory-support'}
+
+CREATE DATA ROLE AGENTMEM_OPS_ORACLEAGENTMEMORY_IAMGROUP_AGENT_MEMORY_SUPPORT_ROLE MAPPED TO 'IAM_OAUTH_GROUP=agent-memory-support';
+
+CREATE OR REPLACE DATA GRANT AGENTMEM.AGENTMEM_OPS_OAM_OCI_63F111F37C77_GLOBAL_READ_REGISTRY_SELECT_DG
+AS SELECT
+ON AGENTMEM.AGENT_MEMORY_STORES
+TO AGENTMEM_OPS_ORACLEAGENTMEMORY_IAMGROUP_AGENT_MEMORY_SUPPORT_ROLE;
+
+CREATE OR REPLACE DATA GRANT AGENTMEM.AGENTMEM_OPS_OAM_OCI_63F111F37C77_GLOBAL_MEMORY_SELECT_DG
+AS SELECT
+ON AGENTMEM.OPS_MEMORY
+WHERE user_id IS NULL
+TO AGENTMEM_OPS_ORACLEAGENTMEMORY_IAMGROUP_AGENT_MEMORY_SUPPORT_ROLE;
+
+CREATE OR REPLACE DATA GRANT AGENTMEM.AGENTMEM_OPS_OAM_OCI_63F111F37C77_GLOBAL_MEMORY_CHUNKS_SELECT_DG
+AS SELECT
+ON AGENTMEM.OPS_RECORD_CHUNKS
+WHERE EXISTS (
+    SELECT 1
+    FROM AGENTMEM.OPS_MEMORY memory
+    WHERE memory.record_id = source_id
+      AND memory.memory_type = source_record_type
+      AND memory.user_id IS NULL
+)
+TO AGENTMEM_OPS_ORACLEAGENTMEMORY_IAMGROUP_AGENT_MEMORY_SUPPORT_ROLE;
+
+CREATE OR REPLACE DATA GRANT AGENTMEM.AGENTMEM_OPS_OAM_OCI_63F111F37C77_GLOBAL_MEMORY_LINK_SELECT_DG
+AS SELECT
+ON AGENTMEM.OPS_MEMORY_LINK
+WHERE EXISTS (
+    SELECT 1
+    FROM AGENTMEM.OPS_MEMORY
+    WHERE AGENTMEM.OPS_MEMORY.record_id = source_memory_id
+)
+  AND EXISTS (
+    SELECT 1
+    FROM AGENTMEM.OPS_MEMORY
+    WHERE AGENTMEM.OPS_MEMORY.record_id = target_memory_id
+)
+TO AGENTMEM_OPS_ORACLEAGENTMEMORY_IAMGROUP_AGENT_MEMORY_SUPPORT_ROLE;
+
+-- commit
+
+-- ===== totals (statements other than SELECT, SELECT queries) per call
+-- add_deep_data_security_policies: 16 DDL/grant statement(s), 0 read quer(ies)
+-- grant_agent_memory_policies: 18 DDL/grant statement(s), 2 read quer(ies)

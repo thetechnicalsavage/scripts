@@ -1,0 +1,86 @@
+{
+ "get_summary": {
+  "content": "User reports home internet dropping evenings with router showing red light. Assistant diagnosed router issue, booked free RT-9 replacement under warranty for delivery 2 Oct 2026. User then inquired about GCC roaming next month; assistant confirmed RMG-GCC-7D add-on at QAR 35 for 7 days. User requested details via WhatsApp only (no calls), which was done and preference noted.",
+  "llm_calls": 0,
+  "ok": true,
+  "op": "client B get_summary()",
+  "result": {
+   "content_chars": 377
+  },
+  "seconds": 0.124
+ },
+ "get_thread": {
+  "llm_calls": 0,
+  "ok": true,
+  "op": "client B get_thread()",
+  "result": "loaded",
+  "seconds": 0.041
+ },
+ "ledger_total_after": 3849782,
+ "list": null,
+ "litellm_counter": {
+  "blocked_by_budget": 0,
+  "calls": {},
+  "errors": {},
+  "failed_call_estimate_tokens": 0,
+  "failed_calls": 0,
+  "tokens": {}
+ },
+ "llm_calls_in_b": 0,
+ "meter": {
+  "by_model": {},
+  "embedder_events_by_class": {},
+  "embedder_inputs": 0,
+  "events": {
+   "AgentMemoryCompletedEvent": 1,
+   "AgentMemoryStartedEvent": 1,
+   "MemoryStoreCompletedEvent": 2,
+   "MemoryStoreStartedEvent": 2,
+   "ThreadCompletedEvent": 1,
+   "ThreadStartedEvent": 1
+  },
+  "llm_calls": 0,
+  "llm_error_types": {},
+  "llm_failures": 0,
+  "tokens": {}
+ },
+ "ops_open": {
+  "policy": "REQUIRE_EXISTING",
+  "purge_jobs": [
+   {
+    "enabled": "FALSE",
+    "job_name": "OPS_PURGE_EXPIRED_RECORDS_J",
+    "run_count": 1,
+    "state": "DISABLED"
+   },
+   {
+    "enabled": "FALSE",
+    "job_name": "OPS_PURGE_ORPHANED_CHUNKS_J",
+    "run_count": 1,
+    "state": "DISABLED"
+   }
+  ],
+  "store_id": "OPS"
+ },
+ "phase": "reader",
+ "prediction_zero_llm_calls": {
+  "confirmed": true,
+  "found": 0,
+  "predicted": 0
+ },
+ "same_text_as_a": true,
+ "store": "OPS",
+ "summary_rows": [
+  {
+   "content_json": "{\"text\":\"User reports home internet dropping evenings with router showing red light. Assistant diagnosed router issue, booked free RT-9 replacement under warranty for delivery 2 Oct 2026. User then inquired about GCC roaming next month; assistant confirmed RMG-GCC-7D add-on at QAR 35 for 7 days. User requested details via WhatsApp only (no calls), which was done and preference noted.\",\"topics\":[\"router replacement\",\"rmg-gcc-7d add-on\",\"warranty\",\"gcc roaming\",\"rt-9 router\",\"whatsapp preference\",\"internet outage\"]}",
+   "created_at_utc": "2026-10-12T18:27:09.675Z",
+   "metadata_json": "{\"$agent_memory\":{\"revision\":2,\"summary_last_message_order_seq\":12,\"generation_parameters\":{\"strategy\":\"llm\",\"prompt_id\":\"thread_summary\",\"prompt_version\":1,\"input_token_limit\":100000,\"message_format\":\"<message>\\n  <timestamp>{timestamp}</timestamp>\\n  <role>{role}</role>\\n  <content>{content}</content>\\n</message>\",\"output_contract_version\":\"thread_summary_v1\"}}}",
+   "record_id": "ff7876ce-cbc8-4840-b58b-28aff6ff9b1c",
+   "status": "valid",
+   "thread_id": "ops_thread_01"
+  }
+ ],
+ "summary_rows_unchanged": true,
+ "thread_id": "ops_thread_01",
+ "user_id": "OPS_CUST_01"
+}

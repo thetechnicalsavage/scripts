@@ -1,0 +1,1109 @@
+{
+ "demo_auto_adds": [
+  {
+   "content_rewritten": {},
+   "key": "M1",
+   "links_added": [],
+   "litellm_completion_calls": 1,
+   "llm_calls": 1,
+   "ms": 3958.3,
+   "returned_id_matches": true,
+   "status_changes": {
+    "M1": {
+     "invalidation_reason": [
+      null,
+      null
+     ],
+     "status": [
+      null,
+      "valid"
+     ]
+    }
+   },
+   "stored_equals_seed": true,
+   "swallowed_link_failures": 0,
+   "tokens": 1110,
+   "tokens_listener": 1110,
+   "tokens_litellm": 1110
+  },
+  {
+   "content_rewritten": {},
+   "key": "M7",
+   "links_added": [],
+   "litellm_completion_calls": 1,
+   "llm_calls": 1,
+   "ms": 1704.3,
+   "returned_id_matches": true,
+   "status_changes": {
+    "M7": {
+     "invalidation_reason": [
+      null,
+      null
+     ],
+     "status": [
+      null,
+      "valid"
+     ]
+    }
+   },
+   "stored_equals_seed": true,
+   "swallowed_link_failures": 0,
+   "tokens": 1197,
+   "tokens_listener": 1197,
+   "tokens_litellm": 1197
+  },
+  {
+   "content_rewritten": {},
+   "key": "M2",
+   "links_added": [
+    [
+     "M2",
+     "M1",
+     "supersedes",
+     "is_superseded_by"
+    ]
+   ],
+   "litellm_completion_calls": 1,
+   "llm_calls": 1,
+   "ms": 1945.6,
+   "returned_id_matches": true,
+   "status_changes": {
+    "M1": {
+     "invalidation_reason": [
+      null,
+      "Superseded by another memory."
+     ],
+     "status": [
+      "valid",
+      "invalid"
+     ]
+    },
+    "M2": {
+     "invalidation_reason": [
+      null,
+      null
+     ],
+     "status": [
+      null,
+      "valid"
+     ]
+    }
+   },
+   "stored_equals_seed": true,
+   "swallowed_link_failures": 0,
+   "tokens": 1312,
+   "tokens_listener": 1312,
+   "tokens_litellm": 1312
+  },
+  {
+   "content_rewritten": {},
+   "key": "M3",
+   "links_added": [],
+   "litellm_completion_calls": 1,
+   "llm_calls": 1,
+   "ms": 1667.6,
+   "returned_id_matches": true,
+   "status_changes": {
+    "M3": {
+     "invalidation_reason": [
+      null,
+      null
+     ],
+     "status": [
+      null,
+      "valid"
+     ]
+    }
+   },
+   "stored_equals_seed": true,
+   "swallowed_link_failures": 0,
+   "tokens": 1312,
+   "tokens_listener": 1312,
+   "tokens_litellm": 1312
+  },
+  {
+   "content_rewritten": {},
+   "key": "M5",
+   "links_added": [
+    [
+     "M5",
+     "M3",
+     "supports",
+     "is_supported_by"
+    ]
+   ],
+   "litellm_completion_calls": 1,
+   "llm_calls": 1,
+   "ms": 1676.8,
+   "returned_id_matches": true,
+   "status_changes": {
+    "M5": {
+     "invalidation_reason": [
+      null,
+      null
+     ],
+     "status": [
+      null,
+      "valid"
+     ]
+    }
+   },
+   "stored_equals_seed": true,
+   "swallowed_link_failures": 0,
+   "tokens": 1408,
+   "tokens_listener": 1408,
+   "tokens_litellm": 1408
+  },
+  {
+   "content_rewritten": {},
+   "key": "M6",
+   "links_added": [
+    [
+     "M6",
+     "M5",
+     "contradicts",
+     "contradicts"
+    ]
+   ],
+   "litellm_completion_calls": 1,
+   "llm_calls": 1,
+   "ms": 1697.8,
+   "returned_id_matches": true,
+   "status_changes": {
+    "M6": {
+     "invalidation_reason": [
+      null,
+      null
+     ],
+     "status": [
+      null,
+      "valid"
+     ]
+    }
+   },
+   "stored_equals_seed": true,
+   "swallowed_link_failures": 0,
+   "tokens": 1510,
+   "tokens_listener": 1510,
+   "tokens_litellm": 1510
+  },
+  {
+   "content_rewritten": {},
+   "key": "M9",
+   "links_added": [
+    [
+     "M9",
+     "M3",
+     "supports",
+     "is_supported_by"
+    ]
+   ],
+   "litellm_completion_calls": 1,
+   "llm_calls": 1,
+   "ms": 3437.9,
+   "returned_id_matches": true,
+   "status_changes": {
+    "M9": {
+     "invalidation_reason": [
+      null,
+      null
+     ],
+     "status": [
+      null,
+      "valid"
+     ]
+    }
+   },
+   "stored_equals_seed": true,
+   "swallowed_link_failures": 0,
+   "tokens": 1582,
+   "tokens_listener": 1582,
+   "tokens_litellm": 1582
+  },
+  {
+   "content_rewritten": {},
+   "key": "M8",
+   "links_added": [
+    [
+     "M8",
+     "M7",
+     "supersedes",
+     "is_superseded_by"
+    ]
+   ],
+   "litellm_completion_calls": 1,
+   "llm_calls": 1,
+   "ms": 1612.4,
+   "returned_id_matches": true,
+   "status_changes": {
+    "M7": {
+     "invalidation_reason": [
+      null,
+      "Superseded by another memory."
+     ],
+     "status": [
+      "valid",
+      "invalid"
+     ]
+    },
+    "M8": {
+     "invalidation_reason": [
+      null,
+      null
+     ],
+     "status": [
+      null,
+      "valid"
+     ]
+    }
+   },
+   "stored_equals_seed": true,
+   "swallowed_link_failures": 0,
+   "tokens": 1667,
+   "tokens_listener": 1667,
+   "tokens_litellm": 1667
+  },
+  {
+   "content_rewritten": {},
+   "key": "M4",
+   "links_added": [
+    [
+     "M4",
+     "M3",
+     "supports",
+     "is_supported_by"
+    ]
+   ],
+   "litellm_completion_calls": 1,
+   "llm_calls": 1,
+   "ms": 1524.0,
+   "returned_id_matches": true,
+   "status_changes": {
+    "M4": {
+     "invalidation_reason": [
+      null,
+      null
+     ],
+     "status": [
+      null,
+      "valid"
+     ]
+    }
+   },
+   "stored_equals_seed": true,
+   "swallowed_link_failures": 0,
+   "tokens": 1653,
+   "tokens_listener": 1653,
+   "tokens_litellm": 1653
+  },
+  {
+   "content_rewritten": {},
+   "key": "M10",
+   "links_added": [],
+   "litellm_completion_calls": 1,
+   "llm_calls": 1,
+   "ms": 1555.1,
+   "returned_id_matches": true,
+   "status_changes": {
+    "M10": {
+     "invalidation_reason": [
+      null,
+      null
+     ],
+     "status": [
+      null,
+      "valid"
+     ]
+    }
+   },
+   "stored_equals_seed": true,
+   "swallowed_link_failures": 0,
+   "tokens": 1638,
+   "tokens_listener": 1638,
+   "tokens_litellm": 1638
+  }
+ ],
+ "demo_auto_final": {
+  "links": [
+   {
+    "created_at": "2026-10-10T09:25:16.176Z",
+    "opposite": "is_superseded_by",
+    "relation_id": "5e34b53f-7a24-407f-890e-8e8d13de64be",
+    "relation_type": "supersedes",
+    "source": "M2",
+    "target": "M1"
+   },
+   {
+    "created_at": "2026-10-10T09:25:19.640Z",
+    "opposite": "is_supported_by",
+    "relation_id": "9be75048-5f46-49b8-ac13-fef55afda4f7",
+    "relation_type": "supports",
+    "source": "M5",
+    "target": "M3"
+   },
+   {
+    "created_at": "2026-10-10T09:25:21.347Z",
+    "opposite": "contradicts",
+    "relation_id": "010f2d74-9c2d-4f27-87ec-ed973cb6f9f8",
+    "relation_type": "contradicts",
+    "source": "M6",
+    "target": "M5"
+   },
+   {
+    "created_at": "2026-10-10T09:25:24.803Z",
+    "opposite": "is_supported_by",
+    "relation_id": "21a8b793-4546-47a4-b2fa-840f6f3f7666",
+    "relation_type": "supports",
+    "source": "M9",
+    "target": "M3"
+   },
+   {
+    "created_at": "2026-10-10T09:25:26.389Z",
+    "opposite": "is_superseded_by",
+    "relation_id": "e31ead76-44c1-4757-b2a7-ad818842908c",
+    "relation_type": "supersedes",
+    "source": "M8",
+    "target": "M7"
+   },
+   {
+    "created_at": "2026-10-10T09:25:27.953Z",
+    "opposite": "is_supported_by",
+    "relation_id": "1f822d82-ab16-4ce5-b31d-2bde6148669d",
+    "relation_type": "supports",
+    "source": "M4",
+    "target": "M3"
+   }
+  ],
+  "memories": {
+   "M1": {
+    "content": "The customer wants the unlimited plan PLN-UNL-50.",
+    "invalidation_reason": "Superseded by another memory.",
+    "memory_type": "preference",
+    "status": "invalid"
+   },
+   "M10": {
+    "content": "The customer is moving to the family plan PLN-FAM-4.",
+    "invalidation_reason": null,
+    "memory_type": "preference",
+    "status": "valid"
+   },
+   "M2": {
+    "content": "The customer now needs only 20 GB of data a month, but with GCC roaming.",
+    "invalidation_reason": null,
+    "memory_type": "preference",
+    "status": "valid"
+   },
+   "M3": {
+    "content": "The roaming add-on RMG-GCC-7D was charged twice on the customer's September bill; ticket TKT-48213 was opened.",
+    "invalidation_reason": null,
+    "memory_type": "fact",
+    "status": "valid"
+   },
+   "M4": {
+    "content": "Billing confirmed a refund of one RMG-GCC-7D charge for ticket TKT-48213.",
+    "invalidation_reason": null,
+    "memory_type": "fact",
+    "status": "valid"
+   },
+   "M5": {
+    "content": "The customer says she never activated the roaming add-on RMG-GCC-7D.",
+    "invalidation_reason": null,
+    "memory_type": "fact",
+    "status": "valid"
+   },
+   "M6": {
+    "content": "The activation log shows that RMG-GCC-7D was activated by SMS from the customer's line on 03-Sep-2026.",
+    "invalidation_reason": null,
+    "memory_type": "fact",
+    "status": "valid"
+   },
+   "M7": {
+    "content": "The customer prefers WhatsApp messages rather than phone calls.",
+    "invalidation_reason": "Superseded by another memory.",
+    "memory_type": "preference",
+    "status": "invalid"
+   },
+   "M8": {
+    "content": "The customer wants contact by WhatsApp only, never phone calls, and only after 18:00.",
+    "invalidation_reason": null,
+    "memory_type": "preference",
+    "status": "valid"
+   },
+   "M9": {
+    "content": "The customer reported the same double charge for RMG-GCC-7D again through the app.",
+    "invalidation_reason": null,
+    "memory_type": "fact",
+    "status": "valid"
+   }
+  }
+ },
+ "demo_auto_links": [
+  {
+   "harmful_invalidation": false,
+   "invalidating": true,
+   "opposite": "is_superseded_by",
+   "relation_type": "supersedes",
+   "source": "M2",
+   "target": "M1",
+   "target_current_in_hero": false,
+   "vs_hero": "hero link (same direction and type)"
+  },
+  {
+   "harmful_invalidation": false,
+   "invalidating": false,
+   "opposite": "is_supported_by",
+   "relation_type": "supports",
+   "source": "M5",
+   "target": "M3",
+   "target_current_in_hero": false,
+   "vs_hero": "not a hero pair"
+  },
+  {
+   "harmful_invalidation": false,
+   "invalidating": false,
+   "opposite": "contradicts",
+   "relation_type": "contradicts",
+   "source": "M6",
+   "target": "M5",
+   "target_current_in_hero": true,
+   "vs_hero": "hero link (same direction and type)"
+  },
+  {
+   "harmful_invalidation": false,
+   "invalidating": false,
+   "opposite": "is_supported_by",
+   "relation_type": "supports",
+   "source": "M9",
+   "target": "M3",
+   "target_current_in_hero": false,
+   "vs_hero": "hero pair, other type (hero: duplicates)"
+  },
+  {
+   "harmful_invalidation": false,
+   "invalidating": true,
+   "opposite": "is_superseded_by",
+   "relation_type": "supersedes",
+   "source": "M8",
+   "target": "M7",
+   "target_current_in_hero": false,
+   "vs_hero": "hero pair, other type (hero: refines)"
+  },
+  {
+   "harmful_invalidation": false,
+   "invalidating": false,
+   "opposite": "is_supported_by",
+   "relation_type": "supports",
+   "source": "M4",
+   "target": "M3",
+   "target_current_in_hero": false,
+   "vs_hero": "hero link (same direction and type)"
+  }
+ ],
+ "demo_auto_model": "oci/xai.grok-4.20-non-reasoning",
+ "demo_auto_open": {
+  "manifest": {
+   "by_store": {
+    "DEMO_AUTO": 79
+   },
+   "conflicts": [],
+   "recorded": 79,
+   "unlisted": [],
+   "window_start_db": "2026-10-10 09:25:01"
+  },
+  "policy": "RECREATE",
+  "purge_job_runs_since_open": [
+   {
+    "error": 0,
+    "job_name": "DEMO_AUTO_PURGE_ORPHANED_CHUNKS_J",
+    "start": "2026-10-10 09:25:07 UTC",
+    "status": "SUCCEEDED"
+   },
+   {
+    "error": 0,
+    "job_name": "DEMO_AUTO_PURGE_EXPIRED_RECORDS_J",
+    "start": "2026-10-10 09:25:07 UTC",
+    "status": "SUCCEEDED"
+   }
+  ],
+  "purge_jobs": [
+   {
+    "enabled_after": "FALSE",
+    "enabled_before": "TRUE",
+    "job_name": "DEMO_AUTO_PURGE_EXPIRED_RECORDS_J",
+    "seconds_waited_for_running_job": 0.0
+   },
+   {
+    "enabled_after": "FALSE",
+    "enabled_before": "TRUE",
+    "job_name": "DEMO_AUTO_PURGE_ORPHANED_CHUNKS_J",
+    "seconds_waited_for_running_job": 0.0
+   }
+  ],
+  "store_id": "DEMO_AUTO"
+ },
+ "demo_auto_summary": {
+  "harmful_invalidations": 0,
+  "hero_links_found": 3,
+  "hero_links_missed": [
+   "M10 supersedes M2",
+   "M8 refines M7",
+   "M9 duplicates M3"
+  ],
+  "links_total": 6,
+  "memories_rewritten": [],
+  "memories_stored_differently_from_seed": [],
+  "note": "one demonstration run, not a measurement (PLAN 6 row 2)",
+  "statuses_final": {
+   "M1": "invalid",
+   "M10": "valid",
+   "M2": "valid",
+   "M3": "valid",
+   "M4": "valid",
+   "M5": "valid",
+   "M6": "valid",
+   "M7": "invalid",
+   "M8": "valid",
+   "M9": "valid"
+  },
+  "statuses_vs_section3": {
+   "M2": {
+    "auto": "valid",
+    "hero": "invalid"
+   },
+   "M3": {
+    "auto": "valid",
+    "hero": "invalid"
+   }
+  },
+  "swallowed_link_failures": 0
+ },
+ "demo_calls": [
+  {
+   "call": "A1 link_records M1 -> M2 supersedes (reverse of M2 -> M1)",
+   "error": "A conflicting memory relation already exists.",
+   "error_type": "ValueError",
+   "links_added": [],
+   "links_removed": [],
+   "ms": 143.5,
+   "ok": false,
+   "status_changes": {},
+   "statuses_after": {
+    "M1": "invalid",
+    "M10": "valid",
+    "M2": "invalid",
+    "M3": "invalid",
+    "M4": "valid",
+    "M5": "valid",
+    "M6": "valid",
+    "M7": "invalid",
+    "M8": "valid",
+    "M9": "valid"
+   }
+  },
+  {
+   "call": "A2 update_record_link M8 -> M7 refines to supports",
+   "links_added": [
+    [
+     "M8",
+     "M7",
+     "supports",
+     "is_supported_by"
+    ]
+   ],
+   "links_removed": [
+    [
+     "M8",
+     "M7",
+     "refines",
+     "is_refined_by"
+    ]
+   ],
+   "ms": 127.0,
+   "ok": true,
+   "returned": 1,
+   "status_changes": {
+    "M7": {
+     "invalidation_reason": [
+      "Refined by another memory.",
+      null
+     ],
+     "status": [
+      "invalid",
+      "valid"
+     ]
+    }
+   },
+   "statuses_after": {
+    "M1": "invalid",
+    "M10": "valid",
+    "M2": "invalid",
+    "M3": "invalid",
+    "M4": "valid",
+    "M5": "valid",
+    "M6": "valid",
+    "M7": "valid",
+    "M8": "valid",
+    "M9": "valid"
+   }
+  },
+  {
+   "call": "A3 delete_record_link M2 -> M1",
+   "links_added": [],
+   "links_removed": [
+    [
+     "M2",
+     "M1",
+     "supersedes",
+     "is_superseded_by"
+    ]
+   ],
+   "ms": 102.4,
+   "ok": true,
+   "returned": 1,
+   "status_changes": {
+    "M1": {
+     "invalidation_reason": [
+      "Superseded by another memory.",
+      null
+     ],
+     "status": [
+      "invalid",
+      "valid"
+     ]
+    }
+   },
+   "statuses_after": {
+    "M1": "valid",
+    "M10": "valid",
+    "M2": "invalid",
+    "M3": "invalid",
+    "M4": "valid",
+    "M5": "valid",
+    "M6": "valid",
+    "M7": "valid",
+    "M8": "valid",
+    "M9": "valid"
+   }
+  },
+  {
+   "call": "R1 update_record_link M8 -> M7 back to refines",
+   "links_added": [
+    [
+     "M8",
+     "M7",
+     "refines",
+     "is_refined_by"
+    ]
+   ],
+   "links_removed": [
+    [
+     "M8",
+     "M7",
+     "supports",
+     "is_supported_by"
+    ]
+   ],
+   "ms": 92.7,
+   "ok": true,
+   "returned": 1,
+   "status_changes": {
+    "M7": {
+     "invalidation_reason": [
+      null,
+      "Refined by another memory."
+     ],
+     "status": [
+      "valid",
+      "invalid"
+     ]
+    }
+   },
+   "statuses_after": {
+    "M1": "valid",
+    "M10": "valid",
+    "M2": "invalid",
+    "M3": "invalid",
+    "M4": "valid",
+    "M5": "valid",
+    "M6": "valid",
+    "M7": "invalid",
+    "M8": "valid",
+    "M9": "valid"
+   }
+  },
+  {
+   "call": "R2 link_records M2 -> M1 supersedes (restore)",
+   "links_added": [
+    [
+     "M2",
+     "M1",
+     "supersedes",
+     "is_superseded_by"
+    ]
+   ],
+   "links_removed": [],
+   "ms": 130.2,
+   "ok": true,
+   "returned": "49324117-b738-4112-9037-28dfa74bf110",
+   "status_changes": {
+    "M1": {
+     "invalidation_reason": [
+      null,
+      "Superseded by another memory."
+     ],
+     "status": [
+      "valid",
+      "invalid"
+     ]
+    }
+   },
+   "statuses_after": {
+    "M1": "invalid",
+    "M10": "valid",
+    "M2": "invalid",
+    "M3": "invalid",
+    "M4": "valid",
+    "M5": "valid",
+    "M6": "valid",
+    "M7": "invalid",
+    "M8": "valid",
+    "M9": "valid"
+   }
+  }
+ ],
+ "demo_open": {
+  "policy": "REQUIRE_EXISTING",
+  "purge_jobs": [
+   {
+    "enabled": "FALSE",
+    "job_name": "DEMO_PURGE_EXPIRED_RECORDS_J",
+    "run_count": 1,
+    "state": "DISABLED"
+   },
+   {
+    "enabled": "FALSE",
+    "job_name": "DEMO_PURGE_ORPHANED_CHUNKS_J",
+    "run_count": 1,
+    "state": "DISABLED"
+   }
+  ],
+  "store_id": "DEMO"
+ },
+ "demo_restored": {
+  "a1_rejected_or_undone": true,
+  "invalidation_reasons_equal": true,
+  "links_equal": true,
+  "r2_relation_id_returned": true,
+  "statuses_equal": true
+ },
+ "demo_start_matches_section3": {
+  "links": true,
+  "statuses": true
+ },
+ "demo_state_end": {
+  "links": [
+   {
+    "created_at": "2026-10-10T09:09:21.142Z",
+    "opposite": "is_supported_by",
+    "relation_id": "0a5c6ec7-49ab-4df8-a3c5-91fb9fc71411",
+    "relation_type": "supports",
+    "source": "M4",
+    "target": "M3"
+   },
+   {
+    "created_at": "2026-10-10T09:09:21.178Z",
+    "opposite": "contradicts",
+    "relation_id": "cca70ac1-a747-49ce-9980-d3b1c4cbc62e",
+    "relation_type": "contradicts",
+    "source": "M6",
+    "target": "M5"
+   },
+   {
+    "created_at": "2026-10-10T09:09:21.215Z",
+    "opposite": "is_refined_by",
+    "relation_id": "38e59254-31a5-4b10-973a-ea9c76111b15",
+    "relation_type": "refines",
+    "source": "M8",
+    "target": "M7"
+   },
+   {
+    "created_at": "2026-10-10T09:09:21.265Z",
+    "opposite": "duplicates",
+    "relation_id": "a9cae2cd-5d39-4965-9a0b-6429017849c3",
+    "relation_type": "duplicates",
+    "source": "M9",
+    "target": "M3"
+   },
+   {
+    "created_at": "2026-10-10T09:09:21.306Z",
+    "opposite": "is_superseded_by",
+    "relation_id": "549a8bf4-5ddd-43a5-ad0e-2fd456e8d4c6",
+    "relation_type": "supersedes",
+    "source": "M10",
+    "target": "M2"
+   },
+   {
+    "created_at": "2026-10-10T09:25:01.331Z",
+    "opposite": "is_superseded_by",
+    "relation_id": "49324117-b738-4112-9037-28dfa74bf110",
+    "relation_type": "supersedes",
+    "source": "M2",
+    "target": "M1"
+   }
+  ],
+  "memories": {
+   "M1": {
+    "content": "The customer wants the unlimited plan PLN-UNL-50.",
+    "invalidation_reason": "Superseded by another memory.",
+    "memory_type": "preference",
+    "status": "invalid"
+   },
+   "M10": {
+    "content": "The customer is moving to the family plan PLN-FAM-4.",
+    "invalidation_reason": null,
+    "memory_type": "preference",
+    "status": "valid"
+   },
+   "M2": {
+    "content": "The customer now needs only 20 GB of data a month, but with GCC roaming.",
+    "invalidation_reason": "Superseded by another memory.",
+    "memory_type": "preference",
+    "status": "invalid"
+   },
+   "M3": {
+    "content": "The roaming add-on RMG-GCC-7D was charged twice on the customer's September bill; ticket TKT-48213 was opened.",
+    "invalidation_reason": "Duplicated by another memory.",
+    "memory_type": "fact",
+    "status": "invalid"
+   },
+   "M4": {
+    "content": "Billing confirmed a refund of one RMG-GCC-7D charge for ticket TKT-48213.",
+    "invalidation_reason": null,
+    "memory_type": "fact",
+    "status": "valid"
+   },
+   "M5": {
+    "content": "The customer says she never activated the roaming add-on RMG-GCC-7D.",
+    "invalidation_reason": null,
+    "memory_type": "fact",
+    "status": "valid"
+   },
+   "M6": {
+    "content": "The activation log shows that RMG-GCC-7D was activated by SMS from the customer's line on 03-Sep-2026.",
+    "invalidation_reason": null,
+    "memory_type": "fact",
+    "status": "valid"
+   },
+   "M7": {
+    "content": "The customer prefers WhatsApp messages rather than phone calls.",
+    "invalidation_reason": "Refined by another memory.",
+    "memory_type": "preference",
+    "status": "invalid"
+   },
+   "M8": {
+    "content": "The customer wants contact by WhatsApp only, never phone calls, and only after 18:00.",
+    "invalidation_reason": null,
+    "memory_type": "preference",
+    "status": "valid"
+   },
+   "M9": {
+    "content": "The customer reported the same double charge for RMG-GCC-7D again through the app.",
+    "invalidation_reason": null,
+    "memory_type": "fact",
+    "status": "valid"
+   }
+  }
+ },
+ "demo_state_start": {
+  "links": [
+   {
+    "created_at": "2026-10-10T09:09:21.142Z",
+    "opposite": "is_supported_by",
+    "relation_id": "0a5c6ec7-49ab-4df8-a3c5-91fb9fc71411",
+    "relation_type": "supports",
+    "source": "M4",
+    "target": "M3"
+   },
+   {
+    "created_at": "2026-10-10T09:09:21.178Z",
+    "opposite": "contradicts",
+    "relation_id": "cca70ac1-a747-49ce-9980-d3b1c4cbc62e",
+    "relation_type": "contradicts",
+    "source": "M6",
+    "target": "M5"
+   },
+   {
+    "created_at": "2026-10-10T09:09:21.215Z",
+    "opposite": "is_refined_by",
+    "relation_id": "38e59254-31a5-4b10-973a-ea9c76111b15",
+    "relation_type": "refines",
+    "source": "M8",
+    "target": "M7"
+   },
+   {
+    "created_at": "2026-10-10T09:09:21.265Z",
+    "opposite": "duplicates",
+    "relation_id": "a9cae2cd-5d39-4965-9a0b-6429017849c3",
+    "relation_type": "duplicates",
+    "source": "M9",
+    "target": "M3"
+   },
+   {
+    "created_at": "2026-10-10T09:09:21.306Z",
+    "opposite": "is_superseded_by",
+    "relation_id": "549a8bf4-5ddd-43a5-ad0e-2fd456e8d4c6",
+    "relation_type": "supersedes",
+    "source": "M10",
+    "target": "M2"
+   },
+   {
+    "created_at": "2026-10-10T09:19:06.329Z",
+    "opposite": "is_superseded_by",
+    "relation_id": "f9a15fe6-4b4e-40a6-8e85-caed32aed60f",
+    "relation_type": "supersedes",
+    "source": "M2",
+    "target": "M1"
+   }
+  ],
+  "memories": {
+   "M1": {
+    "content": "The customer wants the unlimited plan PLN-UNL-50.",
+    "invalidation_reason": "Superseded by another memory.",
+    "memory_type": "preference",
+    "status": "invalid"
+   },
+   "M10": {
+    "content": "The customer is moving to the family plan PLN-FAM-4.",
+    "invalidation_reason": null,
+    "memory_type": "preference",
+    "status": "valid"
+   },
+   "M2": {
+    "content": "The customer now needs only 20 GB of data a month, but with GCC roaming.",
+    "invalidation_reason": "Superseded by another memory.",
+    "memory_type": "preference",
+    "status": "invalid"
+   },
+   "M3": {
+    "content": "The roaming add-on RMG-GCC-7D was charged twice on the customer's September bill; ticket TKT-48213 was opened.",
+    "invalidation_reason": "Duplicated by another memory.",
+    "memory_type": "fact",
+    "status": "invalid"
+   },
+   "M4": {
+    "content": "Billing confirmed a refund of one RMG-GCC-7D charge for ticket TKT-48213.",
+    "invalidation_reason": null,
+    "memory_type": "fact",
+    "status": "valid"
+   },
+   "M5": {
+    "content": "The customer says she never activated the roaming add-on RMG-GCC-7D.",
+    "invalidation_reason": null,
+    "memory_type": "fact",
+    "status": "valid"
+   },
+   "M6": {
+    "content": "The activation log shows that RMG-GCC-7D was activated by SMS from the customer's line on 03-Sep-2026.",
+    "invalidation_reason": null,
+    "memory_type": "fact",
+    "status": "valid"
+   },
+   "M7": {
+    "content": "The customer prefers WhatsApp messages rather than phone calls.",
+    "invalidation_reason": "Refined by another memory.",
+    "memory_type": "preference",
+    "status": "invalid"
+   },
+   "M8": {
+    "content": "The customer wants contact by WhatsApp only, never phone calls, and only after 18:00.",
+    "invalidation_reason": null,
+    "memory_type": "preference",
+    "status": "valid"
+   },
+   "M9": {
+    "content": "The customer reported the same double charge for RMG-GCC-7D again through the app.",
+    "invalidation_reason": null,
+    "memory_type": "fact",
+    "status": "valid"
+   }
+  }
+ },
+ "ledger_total_after": 15707,
+ "litellm_counter": {
+  "blocked_by_budget": 0,
+  "calls": {
+   "acompletion": 10
+  },
+  "errors": {},
+  "failed_call_estimate_tokens": 0,
+  "failed_calls": 0,
+  "tokens": {
+   "input": 13905,
+   "output": 484,
+   "total": 14389
+  }
+ },
+ "meter": {
+  "by_model": {
+   "oci/xai.grok-4.20-non-reasoning": {
+    "calls": 10,
+    "input": 13905,
+    "output": 484,
+    "total": 14389
+   }
+  },
+  "embedder_events_by_class": {
+   "EmbedderCompletedEvent:OracleDBEmbedder": 20,
+   "EmbedderStartedEvent:OracleDBEmbedder": 20
+  },
+  "embedder_inputs": 20,
+  "events": {
+   "AgentMemoryCompletedEvent": 15,
+   "AgentMemoryStartedEvent": 15,
+   "EmbedderCompletedEvent": 20,
+   "EmbedderStartedEvent": 20,
+   "LlmGenerationCompletedEvent": 10,
+   "LlmGenerationStartedEvent": 10,
+   "MemoryStoreCompletedEvent": 35,
+   "MemoryStoreStartedEvent": 35
+  },
+  "llm_calls": 10,
+  "llm_error_types": {},
+  "llm_failures": 0,
+  "tokens": {
+   "input": 13905,
+   "output": 484,
+   "thinking": 0,
+   "total": 14389
+  }
+ },
+ "predictions_demo": {
+  "A1_reverse_link_rejected_B22": {
+   "confirmed": true,
+   "error": "A conflicting memory relation already exists.",
+   "error_type": "ValueError"
+  },
+  "A2_M7_valid_after_refines_to_supports_B21": {
+   "M7_after": "valid",
+   "confirmed": true,
+   "returned": 1,
+   "reverse_label_after": "is_supported_by"
+  },
+  "A3_M1_valid_after_delete_B4": {
+   "M1_after": "valid",
+   "confirmed": true,
+   "returned": 1
+  },
+  "restored_equals_step1_state": {
+   "invalidation_reasons_equal": true,
+   "links_equal": true,
+   "relation_ids_changed": [
+    "49324117-b738-4112-9037-28dfa74bf110",
+    "f9a15fe6-4b4e-40a6-8e85-caed32aed60f"
+   ],
+   "statuses_equal": true
+  }
+ },
+ "unlisted_objects_now": [],
+ "user_id": "CUST_1001"
+}

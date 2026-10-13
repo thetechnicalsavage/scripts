@@ -1,0 +1,376 @@
+{
+ "documents_now": [
+  [
+   "ops_rt_b_img1",
+   "image",
+   288
+  ]
+ ],
+ "expired_after": null,
+ "expired_before": {
+  "chunks": 1,
+  "expired": "yes",
+  "expires_at_utc": "2026-10-10T18:27:15Z",
+  "memory_type": "fact",
+  "record_id": "ops_expired_m1",
+  "status": "valid"
+ },
+ "expired_chunks_after": 0,
+ "expired_search_after": {
+  "expired_returned": false,
+  "returned_ids": [
+   "8b32fcb2-7109-4f79-aa58-9e247a152eea",
+   "d62f70d8-1c26-49e8-a4ee-37965ef49105",
+   "d1fed0d4-fe9a-46fd-9217-5013694f0a9c",
+   "ec2ad8ce-db1f-41a4-bd0b-0d38bcdb96ca",
+   "1e56527f-7615-4b7a-8aff-8eb2efd3f463",
+   "ops_seed_m2",
+   "ops_fix_a_m1",
+   "ops_fix_b_m1",
+   "ab26f6a5-c3b0-466e-abf6-cd1434f4703f",
+   "0a0d60cc-edeb-4411-91ea-c9243b902aa7"
+  ]
+ },
+ "expired_search_before": {
+  "expired_returned": false,
+  "returned_ids": [
+   "8b32fcb2-7109-4f79-aa58-9e247a152eea",
+   "d62f70d8-1c26-49e8-a4ee-37965ef49105",
+   "d1fed0d4-fe9a-46fd-9217-5013694f0a9c",
+   "ec2ad8ce-db1f-41a4-bd0b-0d38bcdb96ca",
+   "1e56527f-7615-4b7a-8aff-8eb2efd3f463",
+   "ops_seed_m2",
+   "ops_fix_a_m1",
+   "ops_fix_b_m1",
+   "ab26f6a5-c3b0-466e-abf6-cd1434f4703f",
+   "0a0d60cc-edeb-4411-91ea-c9243b902aa7"
+  ]
+ },
+ "ledger_total_after": 3849782,
+ "links_now": [
+  [
+   "ops_fix_a_l1",
+   "supports"
+  ],
+  [
+   "ops_rt_b_l1",
+   "supports"
+  ],
+  [
+   "ops_seed_l1",
+   "supports"
+  ]
+ ],
+ "list": null,
+ "litellm_counter": {
+  "blocked_by_budget": 0,
+  "calls": {},
+  "errors": {},
+  "failed_call_estimate_tokens": 0,
+  "failed_calls": 0,
+  "tokens": {}
+ },
+ "memories_after": [
+  {
+   "chunks": 1,
+   "expired": "no",
+   "expires_at_utc": null,
+   "memory_type": "fact",
+   "record_id": "ops_fix_a_m1",
+   "status": "valid"
+  },
+  {
+   "chunks": 1,
+   "expired": "no",
+   "expires_at_utc": null,
+   "memory_type": "fact",
+   "record_id": "ops_fix_b_m1",
+   "status": "valid"
+  },
+  {
+   "chunks": 1,
+   "expired": "no",
+   "expires_at_utc": null,
+   "memory_type": "fact",
+   "record_id": "ops_rt_b_m1",
+   "status": "valid"
+  },
+  {
+   "chunks": 1,
+   "expired": "no",
+   "expires_at_utc": null,
+   "memory_type": "fact",
+   "record_id": "ops_seed_m1",
+   "status": "valid"
+  },
+  {
+   "chunks": 1,
+   "expired": "no",
+   "expires_at_utc": null,
+   "memory_type": "fact",
+   "record_id": "ops_seed_m2",
+   "status": "valid"
+  }
+ ],
+ "memories_before": [
+  {
+   "chunks": 1,
+   "expired": "yes",
+   "expires_at_utc": "2026-10-10T18:27:15Z",
+   "memory_type": "fact",
+   "record_id": "ops_expired_m1",
+   "status": "valid"
+  },
+  {
+   "chunks": 1,
+   "expired": "no",
+   "expires_at_utc": null,
+   "memory_type": "fact",
+   "record_id": "ops_fix_a_m1",
+   "status": "valid"
+  },
+  {
+   "chunks": 1,
+   "expired": "no",
+   "expires_at_utc": null,
+   "memory_type": "fact",
+   "record_id": "ops_fix_b_m1",
+   "status": "valid"
+  },
+  {
+   "chunks": 1,
+   "expired": "no",
+   "expires_at_utc": null,
+   "memory_type": "fact",
+   "record_id": "ops_rt_b_m1",
+   "status": "valid"
+  },
+  {
+   "chunks": 1,
+   "expired": "no",
+   "expires_at_utc": null,
+   "memory_type": "fact",
+   "record_id": "ops_seed_m1",
+   "status": "valid"
+  },
+  {
+   "chunks": 1,
+   "expired": "no",
+   "expires_at_utc": null,
+   "memory_type": "fact",
+   "record_id": "ops_seed_m2",
+   "status": "valid"
+  }
+ ],
+ "meter": {
+  "by_model": {},
+  "embedder_events_by_class": {
+   "EmbedderCompletedEvent:OracleDBEmbedder": 2,
+   "EmbedderStartedEvent:OracleDBEmbedder": 2
+  },
+  "embedder_inputs": 2,
+  "events": {
+   "AgentMemoryCompletedEvent": 2,
+   "AgentMemoryStartedEvent": 2,
+   "EmbedderCompletedEvent": 2,
+   "EmbedderStartedEvent": 2,
+   "MemoryStoreCompletedEvent": 2,
+   "MemoryStoreStartedEvent": 2
+  },
+  "llm_calls": 0,
+  "llm_error_types": {},
+  "llm_failures": 0,
+  "tokens": {}
+ },
+ "oam_check_plsql": {
+  "command": "oam --user AGENTMEM --dsn <alias> --password-stdin check-plsql",
+  "ok": true,
+  "returncode": 0,
+  "seconds": 1.45,
+  "stderr": "",
+  "stdout": "Checking DBMS_AGENT_MEMORY_STORE...\nPackage and catalog check passed: package version 1, schema version 13.\n"
+ },
+ "ops_open": {
+  "policy": "REQUIRE_EXISTING",
+  "purge_jobs": [
+   {
+    "enabled": "FALSE",
+    "job_name": "OPS_PURGE_EXPIRED_RECORDS_J",
+    "run_count": 1,
+    "state": "DISABLED"
+   },
+   {
+    "enabled": "FALSE",
+    "job_name": "OPS_PURGE_ORPHANED_CHUNKS_J",
+    "run_count": 1,
+    "state": "DISABLED"
+   }
+  ],
+  "store_id": "OPS"
+ },
+ "other_memories_unchanged": true,
+ "phase": "ops",
+ "purge": {
+  "disable": [
+   {
+    "enabled_after": "FALSE",
+    "enabled_before": "TRUE",
+    "job_name": "OPS_PURGE_EXPIRED_RECORDS_J",
+    "seconds_waited_for_running_job": 0.0
+   },
+   {
+    "enabled_after": "FALSE",
+    "enabled_before": "FALSE",
+    "job_name": "OPS_PURGE_ORPHANED_CHUNKS_J",
+    "seconds_waited_for_running_job": 0.0
+   }
+  ],
+  "enable_safe": true,
+  "enabled_for_the_run": true,
+  "expired_job_runs_in_window": 1,
+  "job": "OPS_PURGE_EXPIRED_RECORDS_J",
+  "jobs_after": [
+   {
+    "enabled": "FALSE",
+    "job_name": "OPS_PURGE_EXPIRED_RECORDS_J",
+    "run_count": 0,
+    "state": "DISABLED"
+   },
+   {
+    "enabled": "FALSE",
+    "job_name": "OPS_PURGE_ORPHANED_CHUNKS_J",
+    "run_count": 1,
+    "state": "DISABLED"
+   }
+  ],
+  "jobs_before": [
+   {
+    "enabled": "FALSE",
+    "job_name": "OPS_PURGE_EXPIRED_RECORDS_J",
+    "run_count": 1,
+    "state": "DISABLED"
+   },
+   {
+    "enabled": "FALSE",
+    "job_name": "OPS_PURGE_ORPHANED_CHUNKS_J",
+    "run_count": 1,
+    "state": "DISABLED"
+   }
+  ],
+  "next_run_date_utc": "2026-10-13T18:27:06Z",
+  "ok": true,
+  "orphan_job_runs_in_window": 0,
+  "run_seconds": 0.144,
+  "runs_since": [
+   {
+    "error": 0,
+    "job_name": "OPS_PURGE_EXPIRED_RECORDS_J",
+    "start": "2026-10-12 18:28:18 UTC",
+    "status": "SUCCEEDED"
+   }
+  ]
+ },
+ "registry": [
+  {
+   "created_at_utc": "2026-10-12T17:13:25Z",
+   "lifecycle_state": "CREATED",
+   "memory_store_name": "AL_DUR",
+   "owner_id": "170",
+   "schema_version": "13",
+   "store_config": "{\"embedding_dimension\":384,\"description\":null,\"memory_retention_config\":{\"default_ttl_days\":null,\"max_ttl_days\":null},\"record_chunks_indexing_mode\":\"vector\",\"search_index_sync\":null,\"vectorizer_config\":null}",
+   "updated_at_utc": "2026-10-12T17:24:55Z"
+  },
+  {
+   "created_at_utc": "2026-10-12T17:14:54Z",
+   "lifecycle_state": "CREATED",
+   "memory_store_name": "AL_OFF",
+   "owner_id": "170",
+   "schema_version": "13",
+   "store_config": "{\"embedding_dimension\":384,\"description\":null,\"memory_retention_config\":{\"default_ttl_days\":null,\"max_ttl_days\":null},\"record_chunks_indexing_mode\":\"vector\",\"search_index_sync\":null,\"vectorizer_config\":null}",
+   "updated_at_utc": "2026-10-12T17:21:38Z"
+  },
+  {
+   "created_at_utc": "2026-10-12T17:11:38Z",
+   "lifecycle_state": "CREATED",
+   "memory_store_name": "AL_POST",
+   "owner_id": "170",
+   "schema_version": "13",
+   "store_config": "{\"embedding_dimension\":384,\"description\":null,\"memory_retention_config\":{\"default_ttl_days\":null,\"max_ttl_days\":null},\"record_chunks_indexing_mode\":\"vector\",\"search_index_sync\":null,\"vectorizer_config\":null}",
+   "updated_at_utc": "2026-10-12T17:23:10Z"
+  },
+  {
+   "created_at_utc": "2026-10-10T09:09:07Z",
+   "lifecycle_state": "CREATED",
+   "memory_store_name": "DEMO",
+   "owner_id": "170",
+   "schema_version": "13",
+   "store_config": "{\"embedding_dimension\":384,\"description\":null,\"memory_retention_config\":{\"default_ttl_days\":null,\"max_ttl_days\":null},\"record_chunks_indexing_mode\":\"vector\",\"search_index_sync\":null,\"vectorizer_config\":null}",
+   "updated_at_utc": "2026-10-10T09:09:17Z"
+  },
+  {
+   "created_at_utc": "2026-10-10T09:19:07Z",
+   "lifecycle_state": "CREATED",
+   "memory_store_name": "DEMO_AUTO",
+   "owner_id": "170",
+   "schema_version": "13",
+   "store_config": "{\"embedding_dimension\":384,\"description\":null,\"memory_retention_config\":{\"default_ttl_days\":null,\"max_ttl_days\":null},\"record_chunks_indexing_mode\":\"vector\",\"search_index_sync\":null,\"vectorizer_config\":null}",
+   "updated_at_utc": "2026-10-10T09:25:07Z"
+  },
+  {
+   "created_at_utc": "2026-10-12T18:27:05Z",
+   "lifecycle_state": "CREATED",
+   "memory_store_name": "OPS",
+   "owner_id": "170",
+   "schema_version": "13",
+   "store_config": "{\"embedding_dimension\":384,\"description\":null,\"memory_retention_config\":{\"default_ttl_days\":null,\"max_ttl_days\":null},\"record_chunks_indexing_mode\":\"vector\",\"search_index_sync\":null,\"vectorizer_config\":null}",
+   "updated_at_utc": "2026-10-12T18:27:06Z"
+  },
+  {
+   "created_at_utc": "2026-10-10T18:42:28Z",
+   "lifecycle_state": "CREATED",
+   "memory_store_name": "RV_HYB",
+   "owner_id": "170",
+   "schema_version": "13",
+   "store_config": "{\"embedding_dimension\":null,\"description\":null,\"memory_retention_config\":{\"default_ttl_days\":null,\"max_ttl_days\":null},\"record_chunks_indexing_mode\":\"hybrid\",\"search_index_sync\":\"on_commit\",\"vectorizer_config\":{\"model\":\"ASKORACLE.ALL_MINILM_L12_V2\"}}",
+   "updated_at_utc": "2026-10-12T16:27:36Z"
+  },
+  {
+   "created_at_utc": "2026-10-10T19:20:18Z",
+   "lifecycle_state": "CREATED",
+   "memory_store_name": "RV_KEY",
+   "owner_id": "170",
+   "schema_version": "13",
+   "store_config": "{\"embedding_dimension\":null,\"description\":null,\"memory_retention_config\":{\"default_ttl_days\":null,\"max_ttl_days\":null},\"record_chunks_indexing_mode\":\"keyword\",\"search_index_sync\":\"on_commit\",\"vectorizer_config\":null}",
+   "updated_at_utc": "2026-10-12T16:30:01Z"
+  },
+  {
+   "created_at_utc": "2026-10-10T19:19:28Z",
+   "lifecycle_state": "CREATED",
+   "memory_store_name": "RV_VEC",
+   "owner_id": "170",
+   "schema_version": "13",
+   "store_config": "{\"embedding_dimension\":384,\"description\":null,\"memory_retention_config\":{\"default_ttl_days\":null,\"max_ttl_days\":null},\"record_chunks_indexing_mode\":\"vector\",\"search_index_sync\":null,\"vectorizer_config\":null}",
+   "updated_at_utc": "2026-10-12T16:29:08Z"
+  },
+  {
+   "created_at_utc": "2026-10-12T18:22:21Z",
+   "lifecycle_state": "CREATED",
+   "memory_store_name": "SNIP",
+   "owner_id": "170",
+   "schema_version": "13",
+   "store_config": "{\"embedding_dimension\":384,\"description\":null,\"memory_retention_config\":{\"default_ttl_days\":null,\"max_ttl_days\":null},\"record_chunks_indexing_mode\":\"vector\",\"search_index_sync\":null,\"vectorizer_config\":null}",
+   "updated_at_utc": "2026-10-12T18:26:07Z"
+  }
+ ],
+ "rt_memories": [
+  [
+   "ops_rt_b_m1",
+   "fact",
+   "valid"
+  ]
+ ],
+ "store": "OPS",
+ "thread_id": "ops_thread_01",
+ "unlisted_objects_now": [],
+ "user_id": "OPS_CUST_01"
+}

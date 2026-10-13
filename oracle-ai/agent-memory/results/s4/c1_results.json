@@ -1,0 +1,1305 @@
+{
+ "confirmatory_tests": [
+  {
+   "b": 19,
+   "c": 0,
+   "hits_x": 27,
+   "hits_y": 8,
+   "n": 40,
+   "p": 3.814697265625e-06,
+   "p_holm": 3.0517578125e-05,
+   "post_wording": "HYBRID better on class A (Holm-adjusted p 0.0000)",
+   "query_class": "A",
+   "verdict": "HYBRID better",
+   "x": "HYBRID",
+   "y": "VECTOR"
+  },
+  {
+   "b": 0,
+   "c": 13,
+   "hits_x": 27,
+   "hits_y": 40,
+   "n": 40,
+   "p": 0.000244140625,
+   "p_holm": 0.001708984375,
+   "post_wording": "KEYWORD better on class A (Holm-adjusted p 0.0017)",
+   "query_class": "A",
+   "verdict": "KEYWORD better",
+   "x": "HYBRID",
+   "y": "KEYWORD"
+  },
+  {
+   "b": 0,
+   "c": 32,
+   "hits_x": 8,
+   "hits_y": 40,
+   "n": 40,
+   "p": 4.656612873077393e-10,
+   "p_holm": 4.190951585769653e-09,
+   "post_wording": "KEYWORD better on class A (Holm-adjusted p 0.0000)",
+   "query_class": "A",
+   "verdict": "KEYWORD better",
+   "x": "VECTOR",
+   "y": "KEYWORD"
+  },
+  {
+   "b": 0,
+   "c": 0,
+   "hits_x": 12,
+   "hits_y": 12,
+   "n": 40,
+   "p": 1.0,
+   "p_holm": 1.0,
+   "post_wording": "no difference we could detect with 40 queries (b=0, c=0, adjusted p 1.0000); b = c",
+   "query_class": "B",
+   "verdict": "no difference detected",
+   "x": "HYBRID",
+   "y": "VECTOR"
+  },
+  {
+   "b": 12,
+   "c": 0,
+   "hits_x": 12,
+   "hits_y": 0,
+   "n": 40,
+   "p": 0.00048828125,
+   "p_holm": 0.0029296875,
+   "post_wording": "HYBRID better on class B (Holm-adjusted p 0.0029)",
+   "query_class": "B",
+   "verdict": "HYBRID better",
+   "x": "HYBRID",
+   "y": "KEYWORD"
+  },
+  {
+   "b": 12,
+   "c": 0,
+   "hits_x": 12,
+   "hits_y": 0,
+   "n": 40,
+   "p": 0.00048828125,
+   "p_holm": 0.0029296875,
+   "post_wording": "VECTOR better on class B (Holm-adjusted p 0.0029)",
+   "query_class": "B",
+   "verdict": "VECTOR better",
+   "x": "VECTOR",
+   "y": "KEYWORD"
+  },
+  {
+   "b": 7,
+   "c": 0,
+   "hits_x": 11,
+   "hits_y": 4,
+   "n": 40,
+   "p": 0.015625,
+   "p_holm": 0.046875,
+   "post_wording": "HYBRID better on class C (Holm-adjusted p 0.0469)",
+   "query_class": "C",
+   "verdict": "HYBRID better",
+   "x": "HYBRID",
+   "y": "VECTOR"
+  },
+  {
+   "b": 10,
+   "c": 0,
+   "hits_x": 11,
+   "hits_y": 1,
+   "n": 40,
+   "p": 0.001953125,
+   "p_holm": 0.0078125,
+   "post_wording": "HYBRID better on class C (Holm-adjusted p 0.0078)",
+   "query_class": "C",
+   "verdict": "HYBRID better",
+   "x": "HYBRID",
+   "y": "KEYWORD"
+  },
+  {
+   "b": 4,
+   "c": 1,
+   "hits_x": 4,
+   "hits_y": 1,
+   "n": 40,
+   "p": 0.375,
+   "p_holm": 0.75,
+   "post_wording": "no difference we could detect with 40 queries (b=4, c=1, adjusted p 0.7500); a split this size is not detectable with this design, not a trend",
+   "query_class": "C",
+   "verdict": "no difference detected",
+   "x": "VECTOR",
+   "y": "KEYWORD"
+  }
+ ],
+ "design": {
+  "hybrid_topN_as_sent": "Recorded deviation from 7.1's description (section 7 frozen and unchanged): 7.1's wording rule says HYBRID passes topN 10, which describes build_hybrid_search_request alone. For this call (max_results=10) the store asks DBMS_HYBRID_VECTOR.SEARCH for topN 50 (candidate limit max(k, ceil(k x chunks per record)) = 10, over-fetched to max(10 x 5, 20) because the status filter also runs in SQL; _compute_hybrid_candidate_limit, rendered offline on 10-Oct, research/rendered_sql/search_sql_render_10oct.out). The measurement is the SDK's call as it is; PLAN 8.1 (v0.3.4) records that the post reports 50 as this deviation.",
+  "interleaving": "PLAN 7.0 says the arm order is rotated per run; C1 has one run per strategy, so the order is rotated by one position per query in qid order (lib.c1run.arm_order: each strategy first, second and third 40 times). Recorded as this step's reading of 7.0, decided before the run; Hit@1, Hit@5 and MRR do not depend on the order, only the exploratory latency can.",
+  "memories": 400,
+  "plan": "PLAN v0.3.6 section 7.1 (frozen, unchanged)",
+  "queries": 120,
+  "search_call": {
+   "include_invalid_results": false,
+   "max_results": 10,
+   "num_hops": 0,
+   "user_id": "BIZ_0001"
+  },
+  "stores": {
+   "HYBRID": "RV_HYB",
+   "KEYWORD": "RV_KEY",
+   "VECTOR": "RV_VEC"
+  },
+  "user_id": "BIZ_0001"
+ },
+ "near_collision_exploratory": [
+  {
+   "n": 15,
+   "no_result": 0,
+   "query_class": "A",
+   "rank1_gold": 10,
+   "rank1_sibling": 0,
+   "strategy": "HYBRID"
+  },
+  {
+   "n": 15,
+   "no_result": 0,
+   "query_class": "C",
+   "rank1_gold": 2,
+   "rank1_sibling": 0,
+   "strategy": "HYBRID"
+  },
+  {
+   "n": 15,
+   "no_result": 0,
+   "query_class": "A",
+   "rank1_gold": 4,
+   "rank1_sibling": 2,
+   "strategy": "VECTOR"
+  },
+  {
+   "n": 15,
+   "no_result": 0,
+   "query_class": "C",
+   "rank1_gold": 1,
+   "rank1_sibling": 0,
+   "strategy": "VECTOR"
+  },
+  {
+   "n": 15,
+   "no_result": 0,
+   "query_class": "A",
+   "rank1_gold": 15,
+   "rank1_sibling": 0,
+   "strategy": "KEYWORD"
+  },
+  {
+   "n": 15,
+   "no_result": 15,
+   "query_class": "C",
+   "rank1_gold": 0,
+   "rank1_sibling": 0,
+   "strategy": "KEYWORD"
+  }
+ ],
+ "no_llm_call": true,
+ "predictions": {
+  "P1": {
+   "confirmed": true,
+   "keyword_zero_result_B": 40,
+   "statement": "KEYWORD returns no result for at least 36 of the 40 class B queries",
+   "threshold": 36
+  },
+  "P2": {
+   "confirmed": true,
+   "keyword_zero_result_C": 39,
+   "statement": "KEYWORD returns no result for at least 30 of the 40 class C queries",
+   "threshold": 30
+  }
+ },
+ "result_rows": [
+  {
+   "arm": "HYBRID",
+   "comparison": "C1",
+   "metric": "hit_at_1",
+   "n": 40,
+   "slice": "A",
+   "value": 27
+  },
+  {
+   "arm": "HYBRID",
+   "comparison": "C1",
+   "metric": "hit_at_5",
+   "n": 40,
+   "slice": "A",
+   "value": 30
+  },
+  {
+   "arm": "HYBRID",
+   "comparison": "C1",
+   "metric": "mrr_at_10",
+   "n": 40,
+   "slice": "A",
+   "value": 0.7075297619047619
+  },
+  {
+   "arm": "HYBRID",
+   "comparison": "C1",
+   "metric": "zero_results",
+   "n": 40,
+   "slice": "A",
+   "value": 0
+  },
+  {
+   "arm": "HYBRID",
+   "comparison": "C1",
+   "metric": "latency_ms_median",
+   "n": 40,
+   "slice": "A",
+   "value": 128.5215
+  },
+  {
+   "arm": "HYBRID",
+   "comparison": "C1",
+   "metric": "latency_ms_p90",
+   "n": 40,
+   "slice": "A",
+   "value": 151.9373
+  },
+  {
+   "arm": "HYBRID",
+   "comparison": "C1",
+   "metric": "hit_at_1",
+   "n": 40,
+   "slice": "B",
+   "value": 12
+  },
+  {
+   "arm": "HYBRID",
+   "comparison": "C1",
+   "metric": "hit_at_5",
+   "n": 40,
+   "slice": "B",
+   "value": 20
+  },
+  {
+   "arm": "HYBRID",
+   "comparison": "C1",
+   "metric": "mrr_at_10",
+   "n": 40,
+   "slice": "B",
+   "value": 0.3969642857142857
+  },
+  {
+   "arm": "HYBRID",
+   "comparison": "C1",
+   "metric": "zero_results",
+   "n": 40,
+   "slice": "B",
+   "value": 0
+  },
+  {
+   "arm": "HYBRID",
+   "comparison": "C1",
+   "metric": "latency_ms_median",
+   "n": 40,
+   "slice": "B",
+   "value": 148.365
+  },
+  {
+   "arm": "HYBRID",
+   "comparison": "C1",
+   "metric": "latency_ms_p90",
+   "n": 40,
+   "slice": "B",
+   "value": 235.5771
+  },
+  {
+   "arm": "HYBRID",
+   "comparison": "C1",
+   "metric": "hit_at_1",
+   "n": 40,
+   "slice": "C",
+   "value": 11
+  },
+  {
+   "arm": "HYBRID",
+   "comparison": "C1",
+   "metric": "hit_at_5",
+   "n": 40,
+   "slice": "C",
+   "value": 23
+  },
+  {
+   "arm": "HYBRID",
+   "comparison": "C1",
+   "metric": "mrr_at_10",
+   "n": 40,
+   "slice": "C",
+   "value": 0.40812499999999996
+  },
+  {
+   "arm": "HYBRID",
+   "comparison": "C1",
+   "metric": "zero_results",
+   "n": 40,
+   "slice": "C",
+   "value": 0
+  },
+  {
+   "arm": "HYBRID",
+   "comparison": "C1",
+   "metric": "latency_ms_median",
+   "n": 40,
+   "slice": "C",
+   "value": 132.6055
+  },
+  {
+   "arm": "HYBRID",
+   "comparison": "C1",
+   "metric": "latency_ms_p90",
+   "n": 40,
+   "slice": "C",
+   "value": 141.6823
+  },
+  {
+   "arm": "HYBRID",
+   "comparison": "C1",
+   "metric": "hit_at_1",
+   "n": 120,
+   "slice": "ALL",
+   "value": 50
+  },
+  {
+   "arm": "HYBRID",
+   "comparison": "C1",
+   "metric": "hit_at_5",
+   "n": 120,
+   "slice": "ALL",
+   "value": 73
+  },
+  {
+   "arm": "HYBRID",
+   "comparison": "C1",
+   "metric": "mrr_at_10",
+   "n": 120,
+   "slice": "ALL",
+   "value": 0.5042063492063492
+  },
+  {
+   "arm": "HYBRID",
+   "comparison": "C1",
+   "metric": "zero_results",
+   "n": 120,
+   "slice": "ALL",
+   "value": 0
+  },
+  {
+   "arm": "HYBRID",
+   "comparison": "C1",
+   "metric": "latency_ms_median",
+   "n": 120,
+   "slice": "ALL",
+   "value": 135.3535
+  },
+  {
+   "arm": "HYBRID",
+   "comparison": "C1",
+   "metric": "latency_ms_p90",
+   "n": 120,
+   "slice": "ALL",
+   "value": 179.2992
+  },
+  {
+   "arm": "VECTOR",
+   "comparison": "C1",
+   "metric": "hit_at_1",
+   "n": 40,
+   "slice": "A",
+   "value": 8
+  },
+  {
+   "arm": "VECTOR",
+   "comparison": "C1",
+   "metric": "hit_at_5",
+   "n": 40,
+   "slice": "A",
+   "value": 18
+  },
+  {
+   "arm": "VECTOR",
+   "comparison": "C1",
+   "metric": "mrr_at_10",
+   "n": 40,
+   "slice": "A",
+   "value": 0.2866666666666667
+  },
+  {
+   "arm": "VECTOR",
+   "comparison": "C1",
+   "metric": "zero_results",
+   "n": 40,
+   "slice": "A",
+   "value": 0
+  },
+  {
+   "arm": "VECTOR",
+   "comparison": "C1",
+   "metric": "latency_ms_median",
+   "n": 40,
+   "slice": "A",
+   "value": 60.621
+  },
+  {
+   "arm": "VECTOR",
+   "comparison": "C1",
+   "metric": "latency_ms_p90",
+   "n": 40,
+   "slice": "A",
+   "value": 79.05720000000001
+  },
+  {
+   "arm": "VECTOR",
+   "comparison": "C1",
+   "metric": "hit_at_1",
+   "n": 40,
+   "slice": "B",
+   "value": 12
+  },
+  {
+   "arm": "VECTOR",
+   "comparison": "C1",
+   "metric": "hit_at_5",
+   "n": 40,
+   "slice": "B",
+   "value": 22
+  },
+  {
+   "arm": "VECTOR",
+   "comparison": "C1",
+   "metric": "mrr_at_10",
+   "n": 40,
+   "slice": "B",
+   "value": 0.41113095238095243
+  },
+  {
+   "arm": "VECTOR",
+   "comparison": "C1",
+   "metric": "zero_results",
+   "n": 40,
+   "slice": "B",
+   "value": 0
+  },
+  {
+   "arm": "VECTOR",
+   "comparison": "C1",
+   "metric": "latency_ms_median",
+   "n": 40,
+   "slice": "B",
+   "value": 67.85249999999999
+  },
+  {
+   "arm": "VECTOR",
+   "comparison": "C1",
+   "metric": "latency_ms_p90",
+   "n": 40,
+   "slice": "B",
+   "value": 105.3893
+  },
+  {
+   "arm": "VECTOR",
+   "comparison": "C1",
+   "metric": "hit_at_1",
+   "n": 40,
+   "slice": "C",
+   "value": 4
+  },
+  {
+   "arm": "VECTOR",
+   "comparison": "C1",
+   "metric": "hit_at_5",
+   "n": 40,
+   "slice": "C",
+   "value": 13
+  },
+  {
+   "arm": "VECTOR",
+   "comparison": "C1",
+   "metric": "mrr_at_10",
+   "n": 40,
+   "slice": "C",
+   "value": 0.20145833333333335
+  },
+  {
+   "arm": "VECTOR",
+   "comparison": "C1",
+   "metric": "zero_results",
+   "n": 40,
+   "slice": "C",
+   "value": 0
+  },
+  {
+   "arm": "VECTOR",
+   "comparison": "C1",
+   "metric": "latency_ms_median",
+   "n": 40,
+   "slice": "C",
+   "value": 60.8085
+  },
+  {
+   "arm": "VECTOR",
+   "comparison": "C1",
+   "metric": "latency_ms_p90",
+   "n": 40,
+   "slice": "C",
+   "value": 81.25160000000001
+  },
+  {
+   "arm": "VECTOR",
+   "comparison": "C1",
+   "metric": "hit_at_1",
+   "n": 120,
+   "slice": "ALL",
+   "value": 24
+  },
+  {
+   "arm": "VECTOR",
+   "comparison": "C1",
+   "metric": "hit_at_5",
+   "n": 120,
+   "slice": "ALL",
+   "value": 53
+  },
+  {
+   "arm": "VECTOR",
+   "comparison": "C1",
+   "metric": "mrr_at_10",
+   "n": 120,
+   "slice": "ALL",
+   "value": 0.2997519841269841
+  },
+  {
+   "arm": "VECTOR",
+   "comparison": "C1",
+   "metric": "zero_results",
+   "n": 120,
+   "slice": "ALL",
+   "value": 0
+  },
+  {
+   "arm": "VECTOR",
+   "comparison": "C1",
+   "metric": "latency_ms_median",
+   "n": 120,
+   "slice": "ALL",
+   "value": 63.179
+  },
+  {
+   "arm": "VECTOR",
+   "comparison": "C1",
+   "metric": "latency_ms_p90",
+   "n": 120,
+   "slice": "ALL",
+   "value": 88.35480000000001
+  },
+  {
+   "arm": "KEYWORD",
+   "comparison": "C1",
+   "metric": "hit_at_1",
+   "n": 40,
+   "slice": "A",
+   "value": 40
+  },
+  {
+   "arm": "KEYWORD",
+   "comparison": "C1",
+   "metric": "hit_at_5",
+   "n": 40,
+   "slice": "A",
+   "value": 40
+  },
+  {
+   "arm": "KEYWORD",
+   "comparison": "C1",
+   "metric": "mrr_at_10",
+   "n": 40,
+   "slice": "A",
+   "value": 1.0
+  },
+  {
+   "arm": "KEYWORD",
+   "comparison": "C1",
+   "metric": "zero_results",
+   "n": 40,
+   "slice": "A",
+   "value": 0
+  },
+  {
+   "arm": "KEYWORD",
+   "comparison": "C1",
+   "metric": "latency_ms_median",
+   "n": 40,
+   "slice": "A",
+   "value": 17.405
+  },
+  {
+   "arm": "KEYWORD",
+   "comparison": "C1",
+   "metric": "latency_ms_p90",
+   "n": 40,
+   "slice": "A",
+   "value": 27.071900000000007
+  },
+  {
+   "arm": "KEYWORD",
+   "comparison": "C1",
+   "metric": "hit_at_1",
+   "n": 40,
+   "slice": "B",
+   "value": 0
+  },
+  {
+   "arm": "KEYWORD",
+   "comparison": "C1",
+   "metric": "hit_at_5",
+   "n": 40,
+   "slice": "B",
+   "value": 0
+  },
+  {
+   "arm": "KEYWORD",
+   "comparison": "C1",
+   "metric": "mrr_at_10",
+   "n": 40,
+   "slice": "B",
+   "value": 0.0
+  },
+  {
+   "arm": "KEYWORD",
+   "comparison": "C1",
+   "metric": "zero_results",
+   "n": 40,
+   "slice": "B",
+   "value": 40
+  },
+  {
+   "arm": "KEYWORD",
+   "comparison": "C1",
+   "metric": "latency_ms_median",
+   "n": 40,
+   "slice": "B",
+   "value": 18.3735
+  },
+  {
+   "arm": "KEYWORD",
+   "comparison": "C1",
+   "metric": "latency_ms_p90",
+   "n": 40,
+   "slice": "B",
+   "value": 51.833600000000025
+  },
+  {
+   "arm": "KEYWORD",
+   "comparison": "C1",
+   "metric": "hit_at_1",
+   "n": 40,
+   "slice": "C",
+   "value": 1
+  },
+  {
+   "arm": "KEYWORD",
+   "comparison": "C1",
+   "metric": "hit_at_5",
+   "n": 40,
+   "slice": "C",
+   "value": 1
+  },
+  {
+   "arm": "KEYWORD",
+   "comparison": "C1",
+   "metric": "mrr_at_10",
+   "n": 40,
+   "slice": "C",
+   "value": 0.025
+  },
+  {
+   "arm": "KEYWORD",
+   "comparison": "C1",
+   "metric": "zero_results",
+   "n": 40,
+   "slice": "C",
+   "value": 39
+  },
+  {
+   "arm": "KEYWORD",
+   "comparison": "C1",
+   "metric": "latency_ms_median",
+   "n": 40,
+   "slice": "C",
+   "value": 18.935499999999998
+  },
+  {
+   "arm": "KEYWORD",
+   "comparison": "C1",
+   "metric": "latency_ms_p90",
+   "n": 40,
+   "slice": "C",
+   "value": 28.966100000000004
+  },
+  {
+   "arm": "KEYWORD",
+   "comparison": "C1",
+   "metric": "hit_at_1",
+   "n": 120,
+   "slice": "ALL",
+   "value": 41
+  },
+  {
+   "arm": "KEYWORD",
+   "comparison": "C1",
+   "metric": "hit_at_5",
+   "n": 120,
+   "slice": "ALL",
+   "value": 41
+  },
+  {
+   "arm": "KEYWORD",
+   "comparison": "C1",
+   "metric": "mrr_at_10",
+   "n": 120,
+   "slice": "ALL",
+   "value": 0.3416666666666667
+  },
+  {
+   "arm": "KEYWORD",
+   "comparison": "C1",
+   "metric": "zero_results",
+   "n": 120,
+   "slice": "ALL",
+   "value": 79
+  },
+  {
+   "arm": "KEYWORD",
+   "comparison": "C1",
+   "metric": "latency_ms_median",
+   "n": 120,
+   "slice": "ALL",
+   "value": 18.3615
+  },
+  {
+   "arm": "KEYWORD",
+   "comparison": "C1",
+   "metric": "latency_ms_p90",
+   "n": 120,
+   "slice": "ALL",
+   "value": 31.8309
+  },
+  {
+   "arm": "HYBRID_vs_VECTOR",
+   "comparison": "C1",
+   "metric": "b",
+   "n": 40,
+   "slice": "A",
+   "value": 19
+  },
+  {
+   "arm": "HYBRID_vs_VECTOR",
+   "comparison": "C1",
+   "metric": "c",
+   "n": 40,
+   "slice": "A",
+   "value": 0
+  },
+  {
+   "arm": "HYBRID_vs_VECTOR",
+   "comparison": "C1",
+   "metric": "p",
+   "n": 40,
+   "slice": "A",
+   "value": 3.814697265625e-06
+  },
+  {
+   "arm": "HYBRID_vs_VECTOR",
+   "comparison": "C1",
+   "metric": "p_holm",
+   "n": 40,
+   "slice": "A",
+   "value": 3.0517578125e-05
+  },
+  {
+   "arm": "HYBRID_vs_KEYWORD",
+   "comparison": "C1",
+   "metric": "b",
+   "n": 40,
+   "slice": "A",
+   "value": 0
+  },
+  {
+   "arm": "HYBRID_vs_KEYWORD",
+   "comparison": "C1",
+   "metric": "c",
+   "n": 40,
+   "slice": "A",
+   "value": 13
+  },
+  {
+   "arm": "HYBRID_vs_KEYWORD",
+   "comparison": "C1",
+   "metric": "p",
+   "n": 40,
+   "slice": "A",
+   "value": 0.000244140625
+  },
+  {
+   "arm": "HYBRID_vs_KEYWORD",
+   "comparison": "C1",
+   "metric": "p_holm",
+   "n": 40,
+   "slice": "A",
+   "value": 0.001708984375
+  },
+  {
+   "arm": "VECTOR_vs_KEYWORD",
+   "comparison": "C1",
+   "metric": "b",
+   "n": 40,
+   "slice": "A",
+   "value": 0
+  },
+  {
+   "arm": "VECTOR_vs_KEYWORD",
+   "comparison": "C1",
+   "metric": "c",
+   "n": 40,
+   "slice": "A",
+   "value": 32
+  },
+  {
+   "arm": "VECTOR_vs_KEYWORD",
+   "comparison": "C1",
+   "metric": "p",
+   "n": 40,
+   "slice": "A",
+   "value": 4.656612873077393e-10
+  },
+  {
+   "arm": "VECTOR_vs_KEYWORD",
+   "comparison": "C1",
+   "metric": "p_holm",
+   "n": 40,
+   "slice": "A",
+   "value": 4.190951585769653e-09
+  },
+  {
+   "arm": "HYBRID_vs_VECTOR",
+   "comparison": "C1",
+   "metric": "b",
+   "n": 40,
+   "slice": "B",
+   "value": 0
+  },
+  {
+   "arm": "HYBRID_vs_VECTOR",
+   "comparison": "C1",
+   "metric": "c",
+   "n": 40,
+   "slice": "B",
+   "value": 0
+  },
+  {
+   "arm": "HYBRID_vs_VECTOR",
+   "comparison": "C1",
+   "metric": "p",
+   "n": 40,
+   "slice": "B",
+   "value": 1.0
+  },
+  {
+   "arm": "HYBRID_vs_VECTOR",
+   "comparison": "C1",
+   "metric": "p_holm",
+   "n": 40,
+   "slice": "B",
+   "value": 1.0
+  },
+  {
+   "arm": "HYBRID_vs_KEYWORD",
+   "comparison": "C1",
+   "metric": "b",
+   "n": 40,
+   "slice": "B",
+   "value": 12
+  },
+  {
+   "arm": "HYBRID_vs_KEYWORD",
+   "comparison": "C1",
+   "metric": "c",
+   "n": 40,
+   "slice": "B",
+   "value": 0
+  },
+  {
+   "arm": "HYBRID_vs_KEYWORD",
+   "comparison": "C1",
+   "metric": "p",
+   "n": 40,
+   "slice": "B",
+   "value": 0.00048828125
+  },
+  {
+   "arm": "HYBRID_vs_KEYWORD",
+   "comparison": "C1",
+   "metric": "p_holm",
+   "n": 40,
+   "slice": "B",
+   "value": 0.0029296875
+  },
+  {
+   "arm": "VECTOR_vs_KEYWORD",
+   "comparison": "C1",
+   "metric": "b",
+   "n": 40,
+   "slice": "B",
+   "value": 12
+  },
+  {
+   "arm": "VECTOR_vs_KEYWORD",
+   "comparison": "C1",
+   "metric": "c",
+   "n": 40,
+   "slice": "B",
+   "value": 0
+  },
+  {
+   "arm": "VECTOR_vs_KEYWORD",
+   "comparison": "C1",
+   "metric": "p",
+   "n": 40,
+   "slice": "B",
+   "value": 0.00048828125
+  },
+  {
+   "arm": "VECTOR_vs_KEYWORD",
+   "comparison": "C1",
+   "metric": "p_holm",
+   "n": 40,
+   "slice": "B",
+   "value": 0.0029296875
+  },
+  {
+   "arm": "HYBRID_vs_VECTOR",
+   "comparison": "C1",
+   "metric": "b",
+   "n": 40,
+   "slice": "C",
+   "value": 7
+  },
+  {
+   "arm": "HYBRID_vs_VECTOR",
+   "comparison": "C1",
+   "metric": "c",
+   "n": 40,
+   "slice": "C",
+   "value": 0
+  },
+  {
+   "arm": "HYBRID_vs_VECTOR",
+   "comparison": "C1",
+   "metric": "p",
+   "n": 40,
+   "slice": "C",
+   "value": 0.015625
+  },
+  {
+   "arm": "HYBRID_vs_VECTOR",
+   "comparison": "C1",
+   "metric": "p_holm",
+   "n": 40,
+   "slice": "C",
+   "value": 0.046875
+  },
+  {
+   "arm": "HYBRID_vs_KEYWORD",
+   "comparison": "C1",
+   "metric": "b",
+   "n": 40,
+   "slice": "C",
+   "value": 10
+  },
+  {
+   "arm": "HYBRID_vs_KEYWORD",
+   "comparison": "C1",
+   "metric": "c",
+   "n": 40,
+   "slice": "C",
+   "value": 0
+  },
+  {
+   "arm": "HYBRID_vs_KEYWORD",
+   "comparison": "C1",
+   "metric": "p",
+   "n": 40,
+   "slice": "C",
+   "value": 0.001953125
+  },
+  {
+   "arm": "HYBRID_vs_KEYWORD",
+   "comparison": "C1",
+   "metric": "p_holm",
+   "n": 40,
+   "slice": "C",
+   "value": 0.0078125
+  },
+  {
+   "arm": "VECTOR_vs_KEYWORD",
+   "comparison": "C1",
+   "metric": "b",
+   "n": 40,
+   "slice": "C",
+   "value": 4
+  },
+  {
+   "arm": "VECTOR_vs_KEYWORD",
+   "comparison": "C1",
+   "metric": "c",
+   "n": 40,
+   "slice": "C",
+   "value": 1
+  },
+  {
+   "arm": "VECTOR_vs_KEYWORD",
+   "comparison": "C1",
+   "metric": "p",
+   "n": 40,
+   "slice": "C",
+   "value": 0.375
+  },
+  {
+   "arm": "VECTOR_vs_KEYWORD",
+   "comparison": "C1",
+   "metric": "p_holm",
+   "n": 40,
+   "slice": "C",
+   "value": 0.75
+  }
+ ],
+ "summary": [
+  {
+   "hit_at_1": 27,
+   "hit_at_1_rate": 0.675,
+   "hit_at_5": 30,
+   "hit_at_5_rate": 0.75,
+   "kind": {
+    "hit_at_1": "confirmatory (per class only)",
+    "others": "exploratory"
+   },
+   "latency_ms_median": 128.5215,
+   "latency_ms_p90": 151.9373,
+   "mrr_at_10": 0.7075297619047619,
+   "n": 40,
+   "slice": "A",
+   "strategy": "HYBRID",
+   "zero_results": 0
+  },
+  {
+   "hit_at_1": 12,
+   "hit_at_1_rate": 0.3,
+   "hit_at_5": 20,
+   "hit_at_5_rate": 0.5,
+   "kind": {
+    "hit_at_1": "confirmatory (per class only)",
+    "others": "exploratory"
+   },
+   "latency_ms_median": 148.365,
+   "latency_ms_p90": 235.5771,
+   "mrr_at_10": 0.3969642857142857,
+   "n": 40,
+   "slice": "B",
+   "strategy": "HYBRID",
+   "zero_results": 0
+  },
+  {
+   "hit_at_1": 11,
+   "hit_at_1_rate": 0.275,
+   "hit_at_5": 23,
+   "hit_at_5_rate": 0.575,
+   "kind": {
+    "hit_at_1": "confirmatory (per class only)",
+    "others": "exploratory"
+   },
+   "latency_ms_median": 132.6055,
+   "latency_ms_p90": 141.6823,
+   "mrr_at_10": 0.40812499999999996,
+   "n": 40,
+   "slice": "C",
+   "strategy": "HYBRID",
+   "zero_results": 0
+  },
+  {
+   "hit_at_1": 50,
+   "hit_at_1_rate": 0.4166666666666667,
+   "hit_at_5": 73,
+   "hit_at_5_rate": 0.6083333333333333,
+   "kind": {
+    "hit_at_1": "confirmatory (per class only)",
+    "others": "exploratory"
+   },
+   "latency_ms_median": 135.3535,
+   "latency_ms_p90": 179.2992,
+   "mrr_at_10": 0.5042063492063492,
+   "n": 120,
+   "slice": "ALL",
+   "strategy": "HYBRID",
+   "zero_results": 0
+  },
+  {
+   "hit_at_1": 8,
+   "hit_at_1_rate": 0.2,
+   "hit_at_5": 18,
+   "hit_at_5_rate": 0.45,
+   "kind": {
+    "hit_at_1": "confirmatory (per class only)",
+    "others": "exploratory"
+   },
+   "latency_ms_median": 60.621,
+   "latency_ms_p90": 79.05720000000001,
+   "mrr_at_10": 0.2866666666666667,
+   "n": 40,
+   "slice": "A",
+   "strategy": "VECTOR",
+   "zero_results": 0
+  },
+  {
+   "hit_at_1": 12,
+   "hit_at_1_rate": 0.3,
+   "hit_at_5": 22,
+   "hit_at_5_rate": 0.55,
+   "kind": {
+    "hit_at_1": "confirmatory (per class only)",
+    "others": "exploratory"
+   },
+   "latency_ms_median": 67.85249999999999,
+   "latency_ms_p90": 105.3893,
+   "mrr_at_10": 0.41113095238095243,
+   "n": 40,
+   "slice": "B",
+   "strategy": "VECTOR",
+   "zero_results": 0
+  },
+  {
+   "hit_at_1": 4,
+   "hit_at_1_rate": 0.1,
+   "hit_at_5": 13,
+   "hit_at_5_rate": 0.325,
+   "kind": {
+    "hit_at_1": "confirmatory (per class only)",
+    "others": "exploratory"
+   },
+   "latency_ms_median": 60.8085,
+   "latency_ms_p90": 81.25160000000001,
+   "mrr_at_10": 0.20145833333333335,
+   "n": 40,
+   "slice": "C",
+   "strategy": "VECTOR",
+   "zero_results": 0
+  },
+  {
+   "hit_at_1": 24,
+   "hit_at_1_rate": 0.2,
+   "hit_at_5": 53,
+   "hit_at_5_rate": 0.44166666666666665,
+   "kind": {
+    "hit_at_1": "confirmatory (per class only)",
+    "others": "exploratory"
+   },
+   "latency_ms_median": 63.179,
+   "latency_ms_p90": 88.35480000000001,
+   "mrr_at_10": 0.2997519841269841,
+   "n": 120,
+   "slice": "ALL",
+   "strategy": "VECTOR",
+   "zero_results": 0
+  },
+  {
+   "hit_at_1": 40,
+   "hit_at_1_rate": 1.0,
+   "hit_at_5": 40,
+   "hit_at_5_rate": 1.0,
+   "kind": {
+    "hit_at_1": "confirmatory (per class only)",
+    "others": "exploratory"
+   },
+   "latency_ms_median": 17.405,
+   "latency_ms_p90": 27.071900000000007,
+   "mrr_at_10": 1.0,
+   "n": 40,
+   "slice": "A",
+   "strategy": "KEYWORD",
+   "zero_results": 0
+  },
+  {
+   "hit_at_1": 0,
+   "hit_at_1_rate": 0.0,
+   "hit_at_5": 0,
+   "hit_at_5_rate": 0.0,
+   "kind": {
+    "hit_at_1": "confirmatory (per class only)",
+    "others": "exploratory"
+   },
+   "latency_ms_median": 18.3735,
+   "latency_ms_p90": 51.833600000000025,
+   "mrr_at_10": 0.0,
+   "n": 40,
+   "slice": "B",
+   "strategy": "KEYWORD",
+   "zero_results": 40
+  },
+  {
+   "hit_at_1": 1,
+   "hit_at_1_rate": 0.025,
+   "hit_at_5": 1,
+   "hit_at_5_rate": 0.025,
+   "kind": {
+    "hit_at_1": "confirmatory (per class only)",
+    "others": "exploratory"
+   },
+   "latency_ms_median": 18.935499999999998,
+   "latency_ms_p90": 28.966100000000004,
+   "mrr_at_10": 0.025,
+   "n": 40,
+   "slice": "C",
+   "strategy": "KEYWORD",
+   "zero_results": 39
+  },
+  {
+   "hit_at_1": 41,
+   "hit_at_1_rate": 0.3416666666666667,
+   "hit_at_5": 41,
+   "hit_at_5_rate": 0.3416666666666667,
+   "kind": {
+    "hit_at_1": "confirmatory (per class only)",
+    "others": "exploratory"
+   },
+   "latency_ms_median": 18.3615,
+   "latency_ms_p90": 31.8309,
+   "mrr_at_10": 0.3416666666666667,
+   "n": 120,
+   "slice": "ALL",
+   "strategy": "KEYWORD",
+   "zero_results": 79
+  }
+ ],
+ "wording": {
+  "confirmed_better_statements": [
+   "HYBRID over VECTOR on class A",
+   "KEYWORD over HYBRID on class A",
+   "KEYWORD over VECTOR on class A",
+   "HYBRID over KEYWORD on class B",
+   "VECTOR over KEYWORD on class B",
+   "HYBRID over VECTOR on class C",
+   "HYBRID over KEYWORD on class C"
+  ],
+  "headline_vector_beats_hybrid": false,
+  "rules": [
+   "'Exact identifiers' claims come from class A only; class C is 'questions that contain an identifier'.",
+   "If VECTOR beats HYBRID anywhere, that is the headline of this section.",
+   "The comparison is of the three strategies as Agent Memory 26.8.0 implements them, not a verdict on Oracle Text or hybrid indexes in general.",
+   "Only these nine tests can support the word 'better'; Hit@5, MRR@10, zero results and latency are exploratory."
+  ],
+  "vector_beats_hybrid_classes": []
+ }
+}

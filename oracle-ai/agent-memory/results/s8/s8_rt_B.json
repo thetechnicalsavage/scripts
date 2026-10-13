@@ -1,0 +1,311 @@
+{
+ "failed_operations": [],
+ "ledger_total_after": 3849782,
+ "list": "B",
+ "litellm_counter": {
+  "blocked_by_budget": 0,
+  "calls": {},
+  "errors": {},
+  "failed_call_estimate_tokens": 0,
+  "failed_calls": 0,
+  "tokens": {}
+ },
+ "llm_calls_total": 0,
+ "meter": {
+  "by_model": {},
+  "embedder_events_by_class": {
+   "EmbedderCompletedEvent:OracleDBEmbedder": 4,
+   "EmbedderStartedEvent:OracleDBEmbedder": 4
+  },
+  "embedder_inputs": 4,
+  "events": {
+   "AgentMemoryCompletedEvent": 8,
+   "AgentMemoryStartedEvent": 8,
+   "EmbedderCompletedEvent": 4,
+   "EmbedderStartedEvent": 4,
+   "MemoryStoreCompletedEvent": 11,
+   "MemoryStoreStartedEvent": 11,
+   "ThreadCompletedEvent": 1,
+   "ThreadStartedEvent": 1
+  },
+  "llm_calls": 0,
+  "llm_error_types": {},
+  "llm_failures": 0,
+  "tokens": {}
+ },
+ "operations": [
+  {
+   "llm_calls": 0,
+   "ok": true,
+   "op": "OracleAgentMemory(connection=AGENTMEM_RT pool, schema_owner='AGENTMEM', memory_store_id='OPS', REQUIRE_EXISTING)",
+   "result": "opened",
+   "seconds": 3.813
+  },
+  {
+   "llm_calls": 0,
+   "ok": true,
+   "op": "search",
+   "result": [
+    "ops_seed_m1",
+    "1ec15e1e-213b-44e0-ba08-b9f9282b2cd9",
+    "ops_fix_b_m1",
+    "ops_fix_a_m1",
+    "ops_seed_m2",
+    "1e56527f-7615-4b7a-8aff-8eb2efd3f463",
+    "e6734a5f-3812-461a-9482-dbd8dab36bc4",
+    "0a0d60cc-edeb-4411-91ea-c9243b902aa7",
+    "8b32fcb2-7109-4f79-aa58-9e247a152eea",
+    "dfd9cb41-17fa-43d0-ab6f-252955abb276"
+   ],
+   "seconds": 1.871
+  },
+  {
+   "llm_calls": 0,
+   "ok": true,
+   "op": "search num_hops=1",
+   "result": {
+    "ids": [
+     "ops_seed_m1",
+     "1ec15e1e-213b-44e0-ba08-b9f9282b2cd9",
+     "ops_fix_b_m1",
+     "ops_fix_a_m1",
+     "ops_seed_m2",
+     "1e56527f-7615-4b7a-8aff-8eb2efd3f463",
+     "e6734a5f-3812-461a-9482-dbd8dab36bc4",
+     "0a0d60cc-edeb-4411-91ea-c9243b902aa7",
+     "8b32fcb2-7109-4f79-aa58-9e247a152eea",
+     "dfd9cb41-17fa-43d0-ab6f-252955abb276"
+    ],
+    "linked": {
+     "0a0d60cc-edeb-4411-91ea-c9243b902aa7": [],
+     "1e56527f-7615-4b7a-8aff-8eb2efd3f463": [],
+     "1ec15e1e-213b-44e0-ba08-b9f9282b2cd9": [],
+     "8b32fcb2-7109-4f79-aa58-9e247a152eea": [],
+     "dfd9cb41-17fa-43d0-ab6f-252955abb276": [],
+     "e6734a5f-3812-461a-9482-dbd8dab36bc4": [],
+     "ops_fix_a_m1": [
+      "supports"
+     ],
+     "ops_fix_b_m1": [
+      "supports"
+     ],
+     "ops_seed_m1": [
+      "supports",
+      "supports",
+      "supports"
+     ],
+     "ops_seed_m2": [
+      "supports"
+     ]
+    }
+   },
+   "seconds": 0.252
+  },
+  {
+   "llm_calls": 0,
+   "ok": true,
+   "op": "add_memory",
+   "result": "ops_rt_b_m1",
+   "seconds": 0.124
+  },
+  {
+   "llm_calls": 0,
+   "ok": true,
+   "op": "link_records",
+   "result": "ops_rt_b_l1",
+   "seconds": 0.081
+  },
+  {
+   "llm_calls": 0,
+   "ok": true,
+   "op": "delete_record_link",
+   "result": "1",
+   "seconds": 0.203
+  },
+  {
+   "llm_calls": 0,
+   "ok": true,
+   "op": "add_image",
+   "result": "ops_rt_b_img1",
+   "seconds": 0.681
+  },
+  {
+   "llm_calls": 0,
+   "ok": true,
+   "op": "list_images",
+   "result": [
+    "ops_rt_b_img1"
+   ],
+   "seconds": 0.049
+  },
+  {
+   "llm_calls": 0,
+   "ok": true,
+   "op": "get_thread",
+   "result": "loaded",
+   "seconds": 0.024
+  },
+  {
+   "llm_calls": 0,
+   "ok": true,
+   "op": "get_summary",
+   "result": {
+    "content_chars": 377,
+    "same_text_as_a": true
+   },
+   "seconds": 0.035
+  }
+ ],
+ "phase": "rt",
+ "privileges": {
+  "expected_rows": 35,
+  "extra": [],
+  "held_from_agentmem": [
+   [
+    "SELECT",
+    "AGENT_MEMORY_STORES"
+   ],
+   [
+    "EXECUTE",
+    "DBMS_AGENT_MEMORY_STORE"
+   ],
+   [
+    "DELETE",
+    "OPS_ACTOR_PROFILE"
+   ],
+   [
+    "INSERT",
+    "OPS_ACTOR_PROFILE"
+   ],
+   [
+    "SELECT",
+    "OPS_ACTOR_PROFILE"
+   ],
+   [
+    "UPDATE",
+    "OPS_ACTOR_PROFILE"
+   ],
+   [
+    "DELETE",
+    "OPS_DOCUMENT"
+   ],
+   [
+    "INSERT",
+    "OPS_DOCUMENT"
+   ],
+   [
+    "SELECT",
+    "OPS_DOCUMENT"
+   ],
+   [
+    "UPDATE",
+    "OPS_DOCUMENT"
+   ],
+   [
+    "DELETE",
+    "OPS_MEMORY"
+   ],
+   [
+    "INSERT",
+    "OPS_MEMORY"
+   ],
+   [
+    "SELECT",
+    "OPS_MEMORY"
+   ],
+   [
+    "UPDATE",
+    "OPS_MEMORY"
+   ],
+   [
+    "SELECT",
+    "OPS_MEMORY_GRAPH"
+   ],
+   [
+    "DELETE",
+    "OPS_MEMORY_LINK"
+   ],
+   [
+    "INSERT",
+    "OPS_MEMORY_LINK"
+   ],
+   [
+    "SELECT",
+    "OPS_MEMORY_LINK"
+   ],
+   [
+    "UPDATE",
+    "OPS_MEMORY_LINK"
+   ],
+   [
+    "DELETE",
+    "OPS_MESSAGE"
+   ],
+   [
+    "INSERT",
+    "OPS_MESSAGE"
+   ],
+   [
+    "SELECT",
+    "OPS_MESSAGE"
+   ],
+   [
+    "UPDATE",
+    "OPS_MESSAGE"
+   ],
+   [
+    "DELETE",
+    "OPS_RECORD_CHUNKS"
+   ],
+   [
+    "INSERT",
+    "OPS_RECORD_CHUNKS"
+   ],
+   [
+    "SELECT",
+    "OPS_RECORD_CHUNKS"
+   ],
+   [
+    "UPDATE",
+    "OPS_RECORD_CHUNKS"
+   ],
+   [
+    "DELETE",
+    "OPS_THREAD"
+   ],
+   [
+    "INSERT",
+    "OPS_THREAD"
+   ],
+   [
+    "SELECT",
+    "OPS_THREAD"
+   ],
+   [
+    "UPDATE",
+    "OPS_THREAD"
+   ],
+   [
+    "DELETE",
+    "OPS_THREAD_SUMMARY"
+   ],
+   [
+    "INSERT",
+    "OPS_THREAD_SUMMARY"
+   ],
+   [
+    "SELECT",
+    "OPS_THREAD_SUMMARY"
+   ],
+   [
+    "UPDATE",
+    "OPS_THREAD_SUMMARY"
+   ]
+  ],
+  "list": "B",
+  "missing": []
+ },
+ "store": "OPS",
+ "thread_id": "ops_thread_01",
+ "user_id": "OPS_CUST_01"
+}
