@@ -12,6 +12,7 @@ so you can take it, change it, and ship it.
 | [`wlst/`](wlst/) | WebLogic Scripting Tool, online and offline |
 | [`shell/`](shell/) | Shell helpers for the same jobs |
 | [`oracle-ai/`](oracle-ai/) | Select AI, DBMS_CLOUD, AI Vector Search and OML on 26ai |
+| [`labs/`](labs/) | Small labs that reproduce a post's failure on your own machine |
 
 ## Before you run anything
 
