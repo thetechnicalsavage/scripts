@@ -1,0 +1,10 @@
+# v1.1 2026-10-15 - t3s:// in the example (WLST then needs the trust keystore settings for SSL).
+# v1.1 2026-11-11 - blog copy (Codex r1): credential-file placeholders under /u01.
+# v1.0 2026-10-15 - other domains that run from the common Oracle home, per node. Same file, same path, on every node.
+# The hook on a node uses only the rows whose first field is that node's host name (short or full).
+# servers = this domain's servers on that node, ';'-separated; include its Administration Server if it runs there.
+# Credentials are storeUserConfig file pairs (Administration Server and Node Manager), never passwords.
+# node,domain,domain_home,admin_url,admin_server,user_config,user_key,nm_port,nm_user_config,nm_user_key,nm_type,servers
+node1.example.com,domainB,/u01/app/oracle/config/domains/domainB,t3s://node1.example.com:7102,AdminServer,/u01/app/oracle/zdt-keys/domainB_config.secure,/u01/app/oracle/zdt-keys/domainB_key.secure,5557,/u01/app/oracle/zdt-keys/domainB_nm_config.secure,/u01/app/oracle/zdt-keys/domainB_nm_key.secure,ssl,AdminServer;domainB_ms1
+node2.example.com,domainB,/u01/app/oracle/config/domains/domainB,t3s://node1.example.com:7102,AdminServer,/u01/app/oracle/zdt-keys/domainB_config.secure,/u01/app/oracle/zdt-keys/domainB_key.secure,5557,/u01/app/oracle/zdt-keys/domainB_nm_config.secure,/u01/app/oracle/zdt-keys/domainB_nm_key.secure,ssl,domainB_ms2
+node3.example.com,domainB,/u01/app/oracle/config/domains/domainB,t3s://node1.example.com:7102,AdminServer,/u01/app/oracle/zdt-keys/domainB_config.secure,/u01/app/oracle/zdt-keys/domainB_key.secure,5557,/u01/app/oracle/zdt-keys/domainB_nm_config.secure,/u01/app/oracle/zdt-keys/domainB_nm_key.secure,ssl,domainB_ms3

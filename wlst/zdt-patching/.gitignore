@@ -1,0 +1,8 @@
+# v1.0 (2026-11-11) never commit a real domain's settings or the scripts' run output
+*.env
+!00_zdt.env.example
+inventory_*/
+verify_*/
+*.jar
+__pycache__/
+.pytest_cache/

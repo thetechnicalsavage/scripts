@@ -1,0 +1,12 @@
+{"extensions":[
+{
+"extensionPoint":"ep_OfflineBeforeUpdate",
+"extensionClass":"weblogic.management.patching.extensions.ScriptExecutorExtension",
+"extensionParameters":{"scriptName":"zdt_stop_other_domains.sh"}
+},
+{
+"extensionPoint":"ep_OfflineAfterUpdate",
+"extensionClass":"weblogic.management.patching.extensions.ScriptExecutorExtension",
+"extensionParameters":{"scriptName":"zdt_start_other_domains.sh"}
+}
+]}

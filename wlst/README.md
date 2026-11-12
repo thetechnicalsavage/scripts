@@ -1,12 +1,16 @@
+<!-- v1.1 | 2026-11-11 | zdt-patching/ added: the one package here that changes state. -->
 # WLST scripts
 
-All read-only unless the header says otherwise. None of them change state.
+All read-only unless the header says otherwise. The scripts in this folder change no state. The
+[`zdt-patching/`](zdt-patching/) package does: its rollout and rollback run only with `--execute`, and every script
+header says what it touches.
 
 | Script | What it tells you |
 |---|---|
 | [`server-health.py`](server-health.py) | State and health per server, plus which subsystem is unhappy |
 | [`heap-report.py`](heap-report.py) | Heap used, free and max per server, as a percentage |
 | [`app-status.py`](app-status.py) | Deployment state per application **per target** |
+| [`zdt-patching/`](zdt-patching/) | Zero Downtime Patching: build, stage, roll out (dry run first), verify and roll back a patched Oracle home and JDK |
 
 ## Credentials
 

@@ -1,0 +1,6 @@
+{"extensionProperties":[
+{
+"extensionJar":"/u01/zdt/hooks/zdt_shared_home_hooks.jar",
+"extensionParameters":{"configFile":"/u01/zdt/hooks/other_domains.csv","shutdownTimeout":"1800"}
+}
+]}
