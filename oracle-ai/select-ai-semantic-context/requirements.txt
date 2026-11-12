@@ -1,0 +1,2 @@
+# v1.0 (2026-11-11) python-oracledb as used in the lab (thick mode needs an Oracle Instant Client)
+oracledb==3.4.2
